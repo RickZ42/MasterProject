@@ -1,0 +1,21 @@
+After you write this script, you can submit it with:
+
+qsub {your script}
+
+After submission, you will get a job id
+
+Then you can trace your job progress with the job id provided:
+
+qstat -fx {job_id}
+
+If you forget your job id
+
+qstat -u zz3507 -sw
+
+If you want to delete job:
+
+qdel {job_id}
+
+You can check space already used by your project:
+
+nci_account -P xf3
