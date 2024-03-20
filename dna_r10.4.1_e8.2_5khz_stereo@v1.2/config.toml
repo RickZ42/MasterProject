@@ -1,0 +1,42 @@
+[model]
+package = "bonito.crf"
+
+[labels]
+labels = [ "N", "A", "C", "G", "T",]
+
+[input]
+features = 13
+feature_list = [ "padded_template_signal", "padded_complement_signal", "padded_template_sequence_onehot", "padded_complement_sequence_onehot", "padded_template_movetable", "padded_template_quality", "padded_complement_quality",]
+
+[global_norm]
+state_len = 4
+
+[encoder]
+activation = "swish"
+first_conv_size = 16
+stride = 5
+rnn_type = "lstm"
+features = 384
+scale = 5.0
+winlen = 19
+blank_score = 2.0
+
+[basecaller]
+batchsize = 512
+chunksize = 10000
+overlap = 500
+
+[run_info]
+sample_rate = 5000
+
+[qscore]
+scale = 0.78
+bias = 1.65
+
+[scaling]
+strategy = "pa"
+
+[standardisation]
+standardise = 1
+mean = 93.38
+stdev = 23.42

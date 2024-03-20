@@ -29,7 +29,7 @@ OUTPUT_FILE="/g/data/xf3/rick/Output/DoradoSup278Duplex.bam"
 # Iterate over each path
 for DIRS in "${INPUT_DIRS[@]}"; do
 
-"${DORADO_PATH}" duplex sup "${DIRS}" >> "${OUTPUT_FILE}"
+"${DORADO_PATH}" duplex /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 "${DIRS}" >> "${OUTPUT_FILE}"
 
 done
 
