@@ -14,24 +14,16 @@ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/nanoplot
 
 # Set the path to the input BAM file
-INPUT_file=("/g/data/xf3/rick/Output/chopper_output/DoradoSup765simplex.fq_30K.fq.gz")
+INPUT_file=("/g/data/xf3/rick/Output/MergedONT/mergedONT30Kcat.fq.gz")
 
-# Set the output directory for NanoPlot results
-OUTPUT_DIR="/scratch/xf3/zz3507/result/nanoplot"
-
-
-
-# Create the output directory if it doesn't exist
-mkdir -p "$OUTPUT_DIR"
+# the output directory for NanoPlot results will be in the same path with input
 
 # Run NanoPlot
 for file in "${INPUT_file[@]}"
 do
     NanoPlot -t 24 \
          --fastq "$file" \
-         -o "$OUTPUT_DIR" \
          --plots dot  \
-         --maxlength 50000 \
          --N50 \
          --prefix "${file%.*}"
 

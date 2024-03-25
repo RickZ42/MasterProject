@@ -1,0 +1,122 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH='/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate /g/data/xf3/miniconda/envs/nanoplot
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/nanoplot
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/nanoplot
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/nanoplot
++ ask_conda='PS1='\''(nanoplot) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/nanoplot'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''nanoplot'\''
+export CONDA_PROMPT_MODIFIER='\''(nanoplot) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval 'PS1='\''(nanoplot) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/nanoplot'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''nanoplot'\''
+export CONDA_PROMPT_MODIFIER='\''(nanoplot) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ PS1='(nanoplot) '
+++ export 'PATH=/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ PATH='/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/nanoplot
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/nanoplot
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=nanoplot
+++ CONDA_DEFAULT_ENV=nanoplot
+++ export 'CONDA_PROMPT_MODIFIER=(nanoplot) '
+++ CONDA_PROMPT_MODIFIER='(nanoplot) '
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ INPUT_file=("/g/data/xf3/rick/Output/chopper_output/DoradoSup765simplex.fq_30K.fq.gz")
++ OUTPUT_DIR=/scratch/xf3/zz3507/result/nanoplot
++ mkdir -p /scratch/xf3/zz3507/result/nanoplot
++ for file in "${INPUT_file[@]}"
++ NanoPlot -t 24 --fastq /g/data/xf3/rick/Output/chopper_output/DoradoSup765simplex.fq_30K.fq.gz -o /scratch/xf3/zz3507/result/nanoplot --plots dot --maxlength 50000 --N50 --prefix /g/data/xf3/rick/Output/chopper_output/DoradoSup765simplex.fq_30K.fq
+/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/nanoplotter/nanoplotter_main.py:283: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  alpha=0.8))
+/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/nanoplotter/nanoplotter_main.py:308: UserWarning: 
+
+`distplot` is a deprecated function and will be removed in seaborn v0.14.0.
+
+Please adapt your code to use either `displot` (a figure-level function with
+similar flexibility) or `histplot` (an axes-level function for histograms).
+
+For a guide to updating your code to use the new functions, please see
+https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751
+
+  alpha=0.8))
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/nanoplot/bin/NanoPlot", line 10, in <module>
+    sys.exit(main())
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/nanoplot/NanoPlot.py", line 101, in main
+    plots = make_plots(datadf, settings)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/nanoplot/NanoPlot.py", line 169, in make_plots
+    plot_settings=plot_settings)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/nanoplotter/nanoplotter_main.py", line 169, in scatter
+    joint_kws={"s": 1})
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/seaborn/axisgrid.py", line 2255, in jointplot
+    grid.plot_joint(scatterplot, **joint_kws)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/seaborn/axisgrid.py", line 1826, in plot_joint
+    func(x=self.x, y=self.y, **kwargs)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/seaborn/relational.py", line 761, in scatterplot
+    p.plot(ax, kwargs)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/seaborn/relational.py", line 573, in plot
+    points = ax.scatter(x=x, y=y, **kws)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/matplotlib/__init__.py", line 1414, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/matplotlib/axes/_axes.py", line 4467, in scatter
+    collection.update(kwargs)
+  File "/g/data/xf3/miniconda/envs/nanoplot/lib/python3.7/site-packages/matplotlib/artist.py", line 1067, in update
+    raise AttributeError(f"{type(self).__name__!r} object "
+AttributeError: 'PathCollection' object has no property 'stat_func'

@@ -16,4 +16,4 @@ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/hifiasm
 
 # HiFiasm
-hifiasm -o Ctrap_HiFI_HiC_ONT30KB -t144 --ul  --h1 /g/data/xf3/rick/Output/TrimedHiC/40769_R1_001_val_1.fq.gz --h2 /g/data/xf3/rick/Output/TrimedHiC/40769_R2_001_val_2.fq.gz /g/data/xf3/rick/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz
+hifiasm -o /scratch/xf3/zz3507/result/HiFisam/Ctrap_HiFI_HiC_ONT30KB -t144 --ul /g/data/xf3/rick/Output/MergedONT/mergedONT30Kcat.fq.gz --h1 /g/data/xf3/rick/Output/TrimedHiC/40769_R1_001_val_1.fq.gz --h2 /g/data/xf3/rick/Output/TrimedHiC/40769_R2_001_val_2.fq.gz /g/data/xf3/rick/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz
