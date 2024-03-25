@@ -1,0 +1,34 @@
+After you write this script, you can submit it with:
+
+qsub {your script}
+
+After submission, you will get a job id
+
+Then you can trace your job progress with the job id provided:
+
+qstat -fx {job_id}
+
+If you forget your job id
+
+qstat -u zz3507 -sw
+
+If you want to delete job:
+
+qdel {job_id}
+
+You can check space already used by your project:
+
+nci_account -P xf3
+
+
+qsub -I -q express -P xf3 -lwalltime=00:05:00,ncpus=4,mem=16GB,jobfs=200GB,storage=gdata/xf3+scratch/xf3,wd
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+
+conda create -p /g/data/xf3/rick/envs/<package_name>
+
+conda activate /g/data/xf3/rick/envs/<package_name>
+
+conda install -c bioconda <package_name>
+
+A way to install the new package? conda install -c conda-forge -c bioconda samtools=1.12

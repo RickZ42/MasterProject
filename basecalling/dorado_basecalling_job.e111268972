@@ -1,0 +1,23 @@
++ DORADO_PATH=/g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado
++ INPUT_DIRS=("/g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231017_1728_1F_PAQ09278_af45b1bf/pod5_pass/" "/g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231023_1117_1F_PAQ09278_674d2cfd/pod5_pass/")
++ OUTPUT_FILE=/g/data/xf3/rick/Output/DoradoSup278.bam
++ for DIRS in "${INPUT_DIRS[@]}"
++ /g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado basecaller /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 /g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231017_1728_1F_PAQ09278_af45b1bf/pod5_pass/
+[2024-03-19 23:44:44.417] [info] > Creating basecall pipeline
+[2024-03-19 23:49:11.519] [info]  - set batch size for cuda:0 to 640
+[2024-03-19 23:49:11.538] [info]  - set batch size for cuda:1 to 640
+[2024-03-21 12:17:18.736] [info] > Simplex reads basecalled: 3718623
+[2024-03-21 12:17:18.740] [info] > Simplex reads filtered: 1084
+[2024-03-21 12:17:18.741] [info] > Basecalled @ Samples/s: 9.871185e+06
+[2024-03-21 12:17:20.735] [info] > Finished
++ for DIRS in "${INPUT_DIRS[@]}"
++ /g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado basecaller /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 /g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231023_1117_1F_PAQ09278_674d2cfd/pod5_pass/
+[2024-03-21 12:17:33.372] [info] > Creating basecall pipeline
+[2024-03-21 12:18:06.724] [info]  - set batch size for cuda:0 to 640
+[2024-03-21 12:18:06.744] [info]  - set batch size for cuda:1 to 640
+[2024-03-21 15:46:18.698] [info] > Simplex reads basecalled: 526853
+[2024-03-21 15:46:18.698] [info] > Simplex reads filtered: 213
+[2024-03-21 15:46:18.698] [info] > Basecalled @ Samples/s: 9.811420e+06
+[2024-03-21 15:46:19.131] [info] > Finished
++ sleep infinity
+=>> PBS: job killed: walltime 172879 exceeded limit 172800

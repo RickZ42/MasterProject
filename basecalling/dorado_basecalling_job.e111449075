@@ -1,0 +1,43 @@
++ DORADO_PATH=/g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado
++ INPUT_DIRS=("/g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231017_1600_1C_PAQ11765_257f28d4/pod5_pass/" "/g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231023_1117_1G_PAQ11765_bed6eab9/pod5_pass/")
++ OUTPUT_FILE=/g/data/xf3/rick/Output/DoradoSup765Duplex.bam
++ for DIRS in "${INPUT_DIRS[@]}"
++ /g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado duplex /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 /g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231017_1600_1C_PAQ11765_257f28d4/pod5_pass/
+[2024-03-22 12:08:32.269] [info] > No duplex pairs file provided, pairing will be performed automatically
+[2024-03-22 12:09:36.999] [info]  - set batch size for cuda:0 to 640
+[2024-03-22 12:09:37.033] [info]  - set batch size for cuda:1 to 640
+[2024-03-22 12:09:37.076] [info]  - set batch size for cuda:2 to 640
+[2024-03-22 12:09:37.113] [info]  - set batch size for cuda:3 to 640
+[2024-03-22 12:09:44.770] [info]  - set batch size for cuda:0 to 1664
+[2024-03-22 12:09:45.203] [info]  - set batch size for cuda:1 to 1600
+[2024-03-22 12:09:45.634] [info]  - set batch size for cuda:2 to 1664
+[2024-03-22 12:09:46.057] [info]  - set batch size for cuda:3 to 1664
+[2024-03-22 12:09:46.058] [info] > Starting Stereo Duplex pipeline
+[2024-03-22 12:09:46.101] [info] > Reading read channel info
+[2024-03-22 12:10:13.746] [info] > Processed read channel info
+[2024-03-23 17:30:18.583] [info] > Simplex reads basecalled: 4044692
+[2024-03-23 17:30:18.585] [info] > Simplex reads filtered: 561
+[2024-03-23 17:30:18.585] [info] > Duplex reads basecalled: 250993
+[2024-03-23 17:30:18.587] [info] > Duplex rate: 15.369079%
+[2024-03-23 17:30:18.587] [info] > Basecalled @ Bases/s: 1.060765e+06
++ for DIRS in "${INPUT_DIRS[@]}"
++ /g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado duplex /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 /g/data/xe2/datasets/uploads_public/ctrap_ont_pod5/20231023_1117_1G_PAQ11765_bed6eab9/pod5_pass/
+[2024-03-23 17:30:36.845] [info] > No duplex pairs file provided, pairing will be performed automatically
+[2024-03-23 17:30:56.983] [info]  - set batch size for cuda:0 to 640
+[2024-03-23 17:30:57.011] [info]  - set batch size for cuda:1 to 640
+[2024-03-23 17:30:57.045] [info]  - set batch size for cuda:2 to 640
+[2024-03-23 17:30:57.065] [info]  - set batch size for cuda:3 to 640
+[2024-03-23 17:31:04.181] [info]  - set batch size for cuda:0 to 1664
+[2024-03-23 17:31:04.648] [info]  - set batch size for cuda:1 to 1664
+[2024-03-23 17:31:05.068] [info]  - set batch size for cuda:2 to 1600
+[2024-03-23 17:31:05.483] [info]  - set batch size for cuda:3 to 1600
+[2024-03-23 17:31:05.484] [info] > Starting Stereo Duplex pipeline
+[2024-03-23 17:31:05.522] [info] > Reading read channel info
+[2024-03-23 17:31:08.573] [info] > Processed read channel info
+[2024-03-23 18:38:37.788] [info] > Simplex reads basecalled: 260836
+[2024-03-23 18:38:37.790] [info] > Simplex reads filtered: 99
+[2024-03-23 18:38:37.790] [info] > Duplex reads basecalled: 12396
+[2024-03-23 18:38:37.793] [info] > Duplex rate: 15.35314%
+[2024-03-23 18:38:37.793] [info] > Basecalled @ Bases/s: 1.429449e+06
++ sleep infinity
+=>> PBS: job killed: walltime 172827 exceeded limit 172800

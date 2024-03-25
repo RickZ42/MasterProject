@@ -1,0 +1,15 @@
+
+======================================================================================
+                  Resource Usage on 2024-03-21 23:45:58:
+   Job Id:             111268972.gadi-pbs
+   Project:            xf3
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      3457.58
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 96:15:37        
+   Memory Requested:   96.0GB                Memory Used: 96.0GB          
+   NGPUs Requested:    2                 GPU Utilisation: 0%              
+                                         GPU Memory Used: 57.37GB         
+   Walltime requested: 48:00:00            Walltime Used: 48:01:19        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================
