@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#PBS -N dorado_basecalling_job
+#PBS -N dorado_basecalling_278
 #PBS -P xf3
 #PBS -q gpuvolta
 #PBS -l walltime=48:00:00
@@ -13,7 +13,7 @@
 
 set -xue
 # path to dorado binary file
-DORADO_PATH="/g/data/xf3/rick/envs/dorado-0.5.3-linux-x64/bin/dorado"
+DORADO_PATH="/g/data/xf3/zz3507/envs/dorado-0.5.3-linux-x64/bin/dorado"
 
 
 # Set the input directories
@@ -23,15 +23,15 @@ INPUT_DIRS=(
 )
 
 # Set the output file
-OUTPUT_FILE="/g/data/xf3/rick/Output/DoradoSup278Duplex.bam"
+OUTPUT_FILE="/g/data/xf3/zz3507/Output/DoradoSup278DuplexMar28.bam"
 
 
 # Iterate over each path
 for DIRS in "${INPUT_DIRS[@]}"; do
 
-"${DORADO_PATH}" duplex /g/data/xf3/rick/script/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 "${DIRS}" >> "${OUTPUT_FILE}"
+"${DORADO_PATH}" duplex /g/data/xf3/zz3507/script/basecalling/DoradoModel/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 "${DIRS}" >> "${OUTPUT_FILE}"
 
 done
 
 # Keep the job running indefinitely (optional)
-sleep infinity
+# sleep infinity

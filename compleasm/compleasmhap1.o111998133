@@ -1,0 +1,36 @@
+Searching for miniprot in the path where compleasm.py is located
+Searching for miniprot in the current execution path
+Searching for miniprot in $PATH
+Searching for hmmsearch in the path where compleasm.py is located
+Searching for hmmsearch in the current execution path
+Searching for hmmsearch in $PATH
+miniprot execute command:
+ /g/data/xf3/miniconda/envs/compleasm/bin/miniprot
+lineage: embryophyta_odb10
+hmmsearch execute command:
+ /g/data/xf3/miniconda/envs/compleasm/bin/hmmsearch
+
+S:89.34%, 1442
+D:5.76%, 93
+F:0.31%, 5
+I:0.00%, 0
+M:4.58%, 74
+N:1614
+
+## Download lineage: 0.00(s)
+## Run miniprot: 456.71(s)
+## Analyze miniprot: 426.39(s)
+## Total runtime: 883.10(s)
+
+======================================================================================
+                  Resource Usage on 2024-03-28 15:09:29:
+   Job Id:             111998133.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      35.48
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 03:19:08        
+   Memory Requested:   96.0GB                Memory Used: 20.43GB         
+   Walltime requested: 24:00:00            Walltime Used: 00:14:47        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

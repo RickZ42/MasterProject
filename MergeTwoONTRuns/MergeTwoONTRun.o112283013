@@ -1,0 +1,14 @@
+Merging completed. Merged file: /g/data/xf3/zz3507/Output/chopper_output/Q710K/MergedONT/mergedONTQ710Kcat.fq.gz
+
+======================================================================================
+                  Resource Usage on 2024-03-30 21:21:21:
+   Job Id:             112283013.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      3.00
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:03:14        
+   Memory Requested:   96.0GB                Memory Used: 94.5GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:03:45        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

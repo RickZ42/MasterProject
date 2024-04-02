@@ -1,0 +1,79 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/samtools
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/samtools
++ ask_conda='PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval 'PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ PS1='(samtools) '
+++ export PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=samtools
+++ CONDA_DEFAULT_ENV=samtools
+++ export 'CONDA_PROMPT_MODIFIER=(samtools) '
+++ CONDA_PROMPT_MODIFIER='(samtools) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ INPUT_DIR=/scratch/xf3/zz3507/rawadata
++ OUTPUT_DIR=/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex
++ BAM_FILES=("DoradoSup278Duplex.bam" "DoradoSup765Duplex.bam")
++ mkdir -p /scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex
++ for BAM_FILE in "${BAM_FILES[@]}"
++ OUTPUT_FILE_DX0=/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex/DoradoSup278Duplex_dx0.bam
++ OUTPUT_FILE_DX_MINUS1=/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex/DoradoSup278Duplex_dx-1.bam
++ COMBINED_OUTPUT_FILE=/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex/DoradoSup278Duplex_simplex.bam
++ samtools view -d dx:0 -o /scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex/DoradoSup278Duplex_dx0.bam /scratch/xf3/zz3507/rawadata/DoradoSup278Duplex.bam
+samtools: /g/data/xf3/miniconda/envs/samtools/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /g/data/xf3/miniconda/envs/samtools/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /g/data/xf3/miniconda/envs/samtools/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools view: error reading file "/scratch/xf3/zz3507/rawadata/DoradoSup278Duplex.bam"

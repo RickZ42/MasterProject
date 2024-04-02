@@ -1,0 +1,702 @@
++ export JAVA_HOME=/home/106/zz3507/softwere/trimgalore
++ JAVA_HOME=/home/106/zz3507/softwere/trimgalore
++ export JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib
++ JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH='/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate /home/106/zz3507/softwere/trimgalore
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /home/106/zz3507/softwere/trimgalore
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /home/106/zz3507/softwere/trimgalore
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /home/106/zz3507/softwere/trimgalore
++ ask_conda='PS1='\''(/home/106/zz3507/softwere/trimgalore) '\''
+export PATH='\''/home/106/zz3507/softwere/trimgalore/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/home/106/zz3507/softwere/trimgalore'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''/home/106/zz3507/softwere/trimgalore'\''
+export CONDA_PROMPT_MODIFIER='\''(/home/106/zz3507/softwere/trimgalore) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/libglib_activate.sh"
+. "/home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/openjdk_activate.sh"'
++ eval 'PS1='\''(/home/106/zz3507/softwere/trimgalore) '\''
+export PATH='\''/home/106/zz3507/softwere/trimgalore/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/home/106/zz3507/softwere/trimgalore'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''/home/106/zz3507/softwere/trimgalore'\''
+export CONDA_PROMPT_MODIFIER='\''(/home/106/zz3507/softwere/trimgalore) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/libglib_activate.sh"
+. "/home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/openjdk_activate.sh"'
+++ PS1='(/home/106/zz3507/softwere/trimgalore) '
+++ export 'PATH=/home/106/zz3507/softwere/trimgalore/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ PATH='/home/106/zz3507/softwere/trimgalore/bin:/g/data/xf3/miniconda/condabin:/g/data/{xf3}/miniconda/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'
+++ export CONDA_PREFIX=/home/106/zz3507/softwere/trimgalore
+++ CONDA_PREFIX=/home/106/zz3507/softwere/trimgalore
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=/home/106/zz3507/softwere/trimgalore
+++ CONDA_DEFAULT_ENV=/home/106/zz3507/softwere/trimgalore
+++ export 'CONDA_PROMPT_MODIFIER=(/home/106/zz3507/softwere/trimgalore) '
+++ CONDA_PROMPT_MODIFIER='(/home/106/zz3507/softwere/trimgalore) '
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/home/106/zz3507/softwere/trimgalore/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/home/106/zz3507/softwere/trimgalore/share/glib-2.0/schemas
+++ . /home/106/zz3507/softwere/trimgalore/etc/conda/activate.d/openjdk_activate.sh
++++ export CONDA_BACKUP_JAVA_HOME=/home/106/zz3507/softwere/trimgalore:-
++++ CONDA_BACKUP_JAVA_HOME=/home/106/zz3507/softwere/trimgalore:-
++++ export JAVA_HOME=/home/106/zz3507/softwere/trimgalore
++++ JAVA_HOME=/home/106/zz3507/softwere/trimgalore
++++ export CONDA_BACKUP_JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib:-
++++ CONDA_BACKUP_JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib:-
++++ export JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib/server
++++ JAVA_LD_LIBRARY_PATH=/home/106/zz3507/softwere/trimgalore/lib/server
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ in_r1=/g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz
++ in_r2=/g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz
++ out=/g/data/xf3/rick/Output/TrimedHiC
++ trim_galore --cores 24 --quality 30 --length 100 --paired --fastqc --output_dir /g/data/xf3/rick/Output/TrimedHiC /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 24 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.6
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 24 cores
+
+Proceeding with 'pigz -p 4' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /g/data/xf3/rick/Output/TrimedHiC/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	20360	CTGTCTCTTATA	1000000	2.04
+smallRNA	15	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 20360). Second best hit was smallRNA (count: 15)
+
+Writing report to '/g/data/xf3/rick/Output/TrimedHiC/40769_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 2.6
+Python version: could not detect
+Number of cores used for trimming: 24
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 100 bp
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.6). Setting -j 24
+Writing final adapter and quality trimmed output to 40769_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+80000000 sequences processed
+90000000 sequences processed
+100000000 sequences processed
+110000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+190000000 sequences processed
+200000000 sequences processed
+210000000 sequences processed
+220000000 sequences processed
+230000000 sequences processed
+240000000 sequences processed
+250000000 sequences processed
+260000000 sequences processed
+270000000 sequences processed
+280000000 sequences processed
+290000000 sequences processed
+300000000 sequences processed
+310000000 sequences processed
+320000000 sequences processed
+330000000 sequences processed
+340000000 sequences processed
+350000000 sequences processed
+360000000 sequences processed
+370000000 sequences processed
+380000000 sequences processed
+390000000 sequences processed
+400000000 sequences processed
+410000000 sequences processed
+420000000 sequences processed
+430000000 sequences processed
+440000000 sequences processed
+450000000 sequences processed
+460000000 sequences processed
+470000000 sequences processed
+This is cutadapt 2.6 with Python 3.7.16
+Command line parameters: -j 24 -e 0.1 -q 30 -O 1 -a CTGTCTCTTATA /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz
+Processing reads on 24 cores in single-end mode ...
+Finished in 1674.03 s (4 us/read; 16.86 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             470,451,835
+Reads with adapters:               133,768,322 (28.4%)
+Reads written (passing filters):   470,451,835 (100.0%)
+
+Total basepairs processed: 70,567,775,250 bp
+Quality-trimmed:             591,642,062 bp (0.8%)
+Total written (filtered):  69,482,411,735 bp (98.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 133768322 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 31.2%
+  C: 21.4%
+  G: 16.9%
+  T: 30.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	86089942	117612958.8	0	86089942
+2	27913774	29403239.7	0	27913774
+3	5276848	7350809.9	0	5276848
+4	1515808	1837702.5	0	1515808
+5	685250	459425.6	0	685250
+6	511910	114856.4	0	511910
+7	465830	28714.1	0	465830
+8	441877	7178.5	0	441877
+9	401720	1794.6	0	386377 15343
+10	411934	448.7	1	383434 28500
+11	401605	112.2	1	379763 21842
+12	446633	28.0	1	425535 21098
+13	329298	28.0	1	314004 15294
+14	390905	28.0	1	371451 19454
+15	350997	28.0	1	334243 16754
+16	432931	28.0	1	414433 18498
+17	271515	28.0	1	258645 12870
+18	296228	28.0	1	282841 13387
+19	312983	28.0	1	299020 13963
+20	312987	28.0	1	300408 12579
+21	256107	28.0	1	244146 11961
+22	251647	28.0	1	240462 11185
+23	288941	28.0	1	275564 13377
+24	251015	28.0	1	240793 10222
+25	229580	28.0	1	218857 10723
+26	235510	28.0	1	224832 10678
+27	232111	28.0	1	221265 10846
+28	215843	28.0	1	205016 10827
+29	229897	28.0	1	219420 10477
+30	186105	28.0	1	177790 8315
+31	203803	28.0	1	194007 9796
+32	176609	28.0	1	168631 7978
+33	185149	28.0	1	175608 9541
+34	183973	28.0	1	174403 9570
+35	220983	28.0	1	211694 9289
+36	163839	28.0	1	155373 8466
+37	130715	28.0	1	124453 6262
+38	152491	28.0	1	145374 7117
+39	149990	28.0	1	142776 7214
+40	123470	28.0	1	117272 6198
+41	144246	28.0	1	137160 7086
+42	150332	28.0	1	142440 7892
+43	211819	28.0	1	203290 8529
+44	182007	28.0	1	165520 16487
+45	606513	28.0	1	600495 6018
+46	39803	28.0	1	36029 3774
+47	47143	28.0	1	41705 5438
+48	144106	28.0	1	140180 3926
+49	54069	28.0	1	51531 2538
+50	20716	28.0	1	17157 3559
+51	81971	28.0	1	79063 2908
+52	32470	28.0	1	30399 2071
+53	14196	28.0	1	11491 2705
+54	48532	28.0	1	45515 3017
+55	51884	28.0	1	49556 2328
+56	21375	28.0	1	19404 1971
+57	18193	28.0	1	16371 1822
+58	11153	28.0	1	9139 2014
+59	22544	28.0	1	20805 1739
+60	4279	28.0	1	2512 1767
+61	7545	28.0	1	5418 2127
+62	30337	28.0	1	28552 1785
+63	6009	28.0	1	4224 1785
+64	4827	28.0	1	2938 1889
+65	12435	28.0	1	10414 2021
+66	20724	28.0	1	18951 1773
+67	3052	28.0	1	1411 1641
+68	6890	28.0	1	5316 1574
+69	3610	28.0	1	2089 1521
+70	2717	28.0	1	1234 1483
+71	1619	28.0	1	188 1431
+72	2708	28.0	1	1189 1519
+73	7238	28.0	1	5522 1716
+74	12590	28.0	1	10661 1929
+75	15923	28.0	1	13937 1986
+76	17241	28.0	1	15049 2192
+77	17520	28.0	1	15388 2132
+78	17133	28.0	1	14826 2307
+79	16645	28.0	1	14320 2325
+80	16296	28.0	1	13876 2420
+81	15195	28.0	1	13144 2051
+82	14391	28.0	1	12449 1942
+83	13655	28.0	1	11754 1901
+84	12871	28.0	1	10926 1945
+85	12097	28.0	1	10288 1809
+86	11182	28.0	1	9518 1664
+87	10816	28.0	1	8934 1882
+88	10093	28.0	1	8121 1972
+89	9750	28.0	1	7773 1977
+90	9385	28.0	1	7365 2020
+91	8924	28.0	1	7073 1851
+92	8280	28.0	1	6528 1752
+93	7782	28.0	1	6030 1752
+94	7614	28.0	1	5652 1962
+95	6593	28.0	1	4902 1691
+96	6132	28.0	1	4583 1549
+97	5582	28.0	1	4095 1487
+98	5431	28.0	1	3875 1556
+99	4797	28.0	1	3478 1319
+100	4821	28.0	1	3254 1567
+101	4496	28.0	1	2941 1555
+102	4153	28.0	1	2688 1465
+103	3930	28.0	1	2398 1532
+104	3809	28.0	1	2208 1601
+105	3899	28.0	1	1878 2021
+106	3702	28.0	1	1780 1922
+107	3094	28.0	1	1487 1607
+108	2928	28.0	1	1282 1646
+109	2583	28.0	1	1165 1418
+110	2461	28.0	1	1059 1402
+111	2485	28.0	1	896 1589
+112	2869	28.0	1	960 1909
+113	2404	28.0	1	851 1553
+114	2305	28.0	1	856 1449
+115	2590	28.0	1	781 1809
+116	2358	28.0	1	730 1628
+117	2436	28.0	1	648 1788
+118	2065	28.0	1	524 1541
+119	1837	28.0	1	397 1440
+120	1892	28.0	1	350 1542
+121	1774	28.0	1	273 1501
+122	2021	28.0	1	221 1800
+123	1621	28.0	1	150 1471
+124	1621	28.0	1	141 1480
+125	1489	28.0	1	117 1372
+126	1592	28.0	1	117 1475
+127	1588	28.0	1	73 1515
+128	1512	28.0	1	70 1442
+129	1438	28.0	1	73 1365
+130	1570	28.0	1	117 1453
+131	1689	28.0	1	68 1621
+132	1669	28.0	1	90 1579
+133	1548	28.0	1	100 1448
+134	1716	28.0	1	50 1666
+135	1505	28.0	1	25 1480
+136	1494	28.0	1	28 1466
+137	2008	28.0	1	14 1994
+138	1789	28.0	1	21 1768
+139	2138	28.0	1	14 2124
+140	1384	28.0	1	13 1371
+141	1778	28.0	1	12 1766
+142	1554	28.0	1	9 1545
+143	1377	28.0	1	13 1364
+144	1723	28.0	1	24 1699
+145	1299	28.0	1	20 1279
+146	1259	28.0	1	16 1243
+147	1073	28.0	1	24 1049
+148	1879	28.0	1	191 1688
+149	17011	28.0	1	14062 2949
+150	3353	28.0	1	975 2378
+
+RUN STATISTICS FOR INPUT FILE: /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R1_001.fastq.gz
+=============================================
+470451835 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/g/data/xf3/rick/Output/TrimedHiC/40769_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 2.6
+Python version: could not detect
+Number of cores used for trimming: 24
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 100 bp
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.6). Setting -j -j 24
+Writing final adapter and quality trimmed output to 40769_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+80000000 sequences processed
+90000000 sequences processed
+100000000 sequences processed
+110000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+190000000 sequences processed
+200000000 sequences processed
+210000000 sequences processed
+220000000 sequences processed
+230000000 sequences processed
+240000000 sequences processed
+250000000 sequences processed
+260000000 sequences processed
+270000000 sequences processed
+280000000 sequences processed
+290000000 sequences processed
+300000000 sequences processed
+310000000 sequences processed
+320000000 sequences processed
+330000000 sequences processed
+340000000 sequences processed
+350000000 sequences processed
+360000000 sequences processed
+370000000 sequences processed
+380000000 sequences processed
+390000000 sequences processed
+400000000 sequences processed
+410000000 sequences processed
+420000000 sequences processed
+430000000 sequences processed
+440000000 sequences processed
+450000000 sequences processed
+460000000 sequences processed
+470000000 sequences processed
+This is cutadapt 2.6 with Python 3.7.16
+Command line parameters: -j 24 -e 0.1 -q 30 -O 1 -a CTGTCTCTTATA /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz
+Processing reads on 24 cores in single-end mode ...
+Finished in 1684.81 s (4 us/read; 16.75 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             470,451,835
+Reads with adapters:               133,010,927 (28.3%)
+Reads written (passing filters):   470,451,835 (100.0%)
+
+Total basepairs processed: 70,567,775,250 bp
+Quality-trimmed:           1,163,376,827 bp (1.6%)
+Total written (filtered):  68,895,336,073 bp (97.6%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 133010927 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 31.2%
+  C: 21.0%
+  G: 16.8%
+  T: 31.0%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	84628679	117612958.8	0	84628679
+2	28300770	29403239.7	0	28300770
+3	5422730	7350809.9	0	5422730
+4	1547176	1837702.5	0	1547176
+5	718801	459425.6	0	718801
+6	513124	114856.4	0	513124
+7	481590	28714.1	0	481590
+8	440395	7178.5	0	440395
+9	404190	1794.6	0	391741 12449
+10	430289	448.7	1	406874 23415
+11	399608	112.2	1	382785 16823
+12	433897	28.0	1	419226 14671
+13	339030	28.0	1	328819 10211
+14	379197	28.0	1	366293 12904
+15	344942	28.0	1	334308 10634
+16	361565	28.0	1	348898 12667
+17	332687	28.0	1	322312 10375
+18	300753	28.0	1	291127 9626
+19	314029	28.0	1	304111 9918
+20	292279	28.0	1	283654 8625
+21	294567	28.0	1	283985 10582
+22	297693	28.0	1	289280 8413
+23	239860	28.0	1	232117 7743
+24	245833	28.0	1	237559 8274
+25	255893	28.0	1	247208 8685
+26	288539	28.0	1	281751 6788
+27	174416	28.0	1	167673 6743
+28	209703	28.0	1	202770 6933
+29	210197	28.0	1	203555 6642
+30	204288	28.0	1	197259 7029
+31	201999	28.0	1	195272 6727
+32	191729	28.0	1	185444 6285
+33	203525	28.0	1	196999 6526
+34	173619	28.0	1	168135 5484
+35	139060	28.0	1	133994 5066
+36	158075	28.0	1	152619 5456
+37	158268	28.0	1	153267 5001
+38	135590	28.0	1	130404 5186
+39	160522	28.0	1	155583 4939
+40	125109	28.0	1	120881 4228
+41	113164	28.0	1	108678 4486
+42	124002	28.0	1	119871 4131
+43	111921	28.0	1	107698 4223
+44	112965	28.0	1	108757 4208
+45	110409	28.0	1	106250 4159
+46	118227	28.0	1	114235 3992
+47	87223	28.0	1	83652 3571
+48	87114	28.0	1	83285 3829
+49	95231	28.0	1	91779 3452
+50	73590	28.0	1	70388 3202
+51	83198	28.0	1	79729 3469
+52	75052	28.0	1	71849 3203
+53	67190	28.0	1	64202 2988
+54	77278	28.0	1	74410 2868
+55	57274	28.0	1	54457 2817
+56	63117	28.0	1	59928 3189
+57	85874	28.0	1	83200 2674
+58	49136	28.0	1	46663 2473
+59	45209	28.0	1	42539 2670
+60	66627	28.0	1	63979 2648
+61	43397	28.0	1	41020 2377
+62	37492	28.0	1	34579 2913
+63	88340	28.0	1	85865 2475
+64	29251	28.0	1	27159 2092
+65	24297	28.0	1	22242 2055
+66	28299	28.0	1	26070 2229
+67	34280	28.0	1	32169 2111
+68	33467	28.0	1	31204 2263
+69	26298	28.0	1	24242 2056
+70	30193	28.0	1	28240 1953
+71	28033	28.0	1	26063 1970
+72	25266	28.0	1	23288 1978
+73	38063	28.0	1	36050 2013
+74	24602	28.0	1	22563 2039
+75	23121	28.0	1	21291 1830
+76	9520	28.0	1	7515 2005
+77	6720	28.0	1	4730 1990
+78	10339	28.0	1	8424 1915
+79	12052	28.0	1	9987 2065
+80	12689	28.0	1	10517 2172
+81	12267	28.0	1	10220 2047
+82	11823	28.0	1	10048 1775
+83	11579	28.0	1	9790 1789
+84	10938	28.0	1	9096 1842
+85	10369	28.0	1	8654 1715
+86	9824	28.0	1	8213 1611
+87	9554	28.0	1	7665 1889
+88	8886	28.0	1	6960 1926
+89	8887	28.0	1	6969 1918
+90	8751	28.0	1	6869 1882
+91	8184	28.0	1	6269 1915
+92	7866	28.0	1	6032 1834
+93	7364	28.0	1	5632 1732
+94	6908	28.0	1	5022 1886
+95	6241	28.0	1	4513 1728
+96	5879	28.0	1	4225 1654
+97	5354	28.0	1	3837 1517
+98	5301	28.0	1	3736 1565
+99	4921	28.0	1	3443 1478
+100	4847	28.0	1	3258 1589
+101	4360	28.0	1	2762 1598
+102	3968	28.0	1	2516 1452
+103	3885	28.0	1	2242 1643
+104	3653	28.0	1	2031 1622
+105	3859	28.0	1	1872 1987
+106	3569	28.0	1	1727 1842
+107	3058	28.0	1	1419 1639
+108	2988	28.0	1	1273 1715
+109	2560	28.0	1	1151 1409
+110	2466	28.0	1	1040 1426
+111	2567	28.0	1	926 1641
+112	3050	28.0	1	978 2072
+113	2370	28.0	1	841 1529
+114	2417	28.0	1	881 1536
+115	2631	28.0	1	784 1847
+116	2328	28.0	1	729 1599
+117	2428	28.0	1	674 1754
+118	2217	28.0	1	529 1688
+119	1816	28.0	1	410 1406
+120	1864	28.0	1	382 1482
+121	1936	28.0	1	310 1626
+122	2001	28.0	1	235 1766
+123	1648	28.0	1	166 1482
+124	1637	28.0	1	166 1471
+125	1503	28.0	1	132 1371
+126	1513	28.0	1	119 1394
+127	1663	28.0	1	75 1588
+128	1494	28.0	1	87 1407
+129	1445	28.0	1	83 1362
+130	1497	28.0	1	125 1372
+131	1785	28.0	1	79 1706
+132	1699	28.0	1	78 1621
+133	1513	28.0	1	89 1424
+134	1720	28.0	1	51 1669
+135	1450	28.0	1	26 1424
+136	1689	28.0	1	30 1659
+137	1827	28.0	1	17 1810
+138	1703	28.0	1	20 1683
+139	1841	28.0	1	25 1816
+140	1336	28.0	1	19 1317
+141	1732	28.0	1	16 1716
+142	1491	28.0	1	17 1474
+143	1281	28.0	1	15 1266
+144	1586	28.0	1	12 1574
+145	1204	28.0	1	17 1187
+146	1222	28.0	1	22 1200
+147	1145	28.0	1	31 1114
+148	1844	28.0	1	240 1604
+149	16392	28.0	1	13987 2405
+150	2597	28.0	1	930 1667
+
+RUN STATISTICS FOR INPUT FILE: /g/data/xf3/rick/RawData/ctrapeziformis_hic/original/40769_R2_001.fastq.gz
+=============================================
+470451835 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 40769_R1_001_trimmed.fq.gz and 40769_R2_001_trimmed.fq.gz
+file_1: 40769_R1_001_trimmed.fq.gz, file_2: 40769_R2_001_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 40769_R1_001_trimmed.fq.gz and 40769_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 40769_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 40769_R2_001_val_2.fq.gz
+
+Total number of sequences analysed: 470451835
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (100 bp): 12989149 (2.76%)
+
+
+  >>> Now running FastQC on the validated data 40769_R1_001_val_1.fq.gz<<<
+
+Started analysis of 40769_R1_001_val_1.fq.gz
+Approx 5% complete for 40769_R1_001_val_1.fq.gz
+Approx 10% complete for 40769_R1_001_val_1.fq.gz
+Approx 15% complete for 40769_R1_001_val_1.fq.gz
+Approx 20% complete for 40769_R1_001_val_1.fq.gz
+Approx 25% complete for 40769_R1_001_val_1.fq.gz
+Approx 30% complete for 40769_R1_001_val_1.fq.gz
+Approx 35% complete for 40769_R1_001_val_1.fq.gz
+Approx 40% complete for 40769_R1_001_val_1.fq.gz
+Approx 45% complete for 40769_R1_001_val_1.fq.gz
+Approx 50% complete for 40769_R1_001_val_1.fq.gz
+Approx 55% complete for 40769_R1_001_val_1.fq.gz
+Approx 60% complete for 40769_R1_001_val_1.fq.gz
+Approx 65% complete for 40769_R1_001_val_1.fq.gz
+Approx 70% complete for 40769_R1_001_val_1.fq.gz
+Approx 75% complete for 40769_R1_001_val_1.fq.gz
+Approx 80% complete for 40769_R1_001_val_1.fq.gz
+Approx 85% complete for 40769_R1_001_val_1.fq.gz
+Approx 90% complete for 40769_R1_001_val_1.fq.gz
+Approx 95% complete for 40769_R1_001_val_1.fq.gz
+
+  >>> Now running FastQC on the validated data 40769_R2_001_val_2.fq.gz<<<
+
+Started analysis of 40769_R2_001_val_2.fq.gz
+Approx 5% complete for 40769_R2_001_val_2.fq.gz
+Approx 10% complete for 40769_R2_001_val_2.fq.gz
+Approx 15% complete for 40769_R2_001_val_2.fq.gz
+Approx 20% complete for 40769_R2_001_val_2.fq.gz
+Approx 25% complete for 40769_R2_001_val_2.fq.gz
+Approx 30% complete for 40769_R2_001_val_2.fq.gz
+Approx 35% complete for 40769_R2_001_val_2.fq.gz
+Approx 40% complete for 40769_R2_001_val_2.fq.gz
+Approx 45% complete for 40769_R2_001_val_2.fq.gz
+Approx 50% complete for 40769_R2_001_val_2.fq.gz
+Approx 55% complete for 40769_R2_001_val_2.fq.gz
+Approx 60% complete for 40769_R2_001_val_2.fq.gz
+Approx 65% complete for 40769_R2_001_val_2.fq.gz
+Approx 70% complete for 40769_R2_001_val_2.fq.gz
+Approx 75% complete for 40769_R2_001_val_2.fq.gz
+Approx 80% complete for 40769_R2_001_val_2.fq.gz
+Approx 85% complete for 40769_R2_001_val_2.fq.gz
+Approx 90% complete for 40769_R2_001_val_2.fq.gz
+Approx 95% complete for 40769_R2_001_val_2.fq.gz
+Deleting both intermediate output files 40769_R1_001_trimmed.fq.gz and 40769_R2_001_trimmed.fq.gz
+
+====================================================================================================
+

@@ -20,8 +20,11 @@ You can check space already used by your project:
 
 nci_account -P xf3
 
+## Interactive mode
 
 qsub -I -q express -P xf3 -lwalltime=00:05:00,ncpus=4,mem=16GB,jobfs=200GB,storage=gdata/xf3+scratch/xf3,wd
+
+# Conda environment
 
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 
@@ -31,4 +34,16 @@ conda activate /g/data/xf3/rick/envs/<package_name>
 
 conda install -c bioconda <package_name>
 
-A way to install the new package? conda install -c conda-forge -c bioconda samtools=1.12
+A way to install the new package for specific version? conda install -c conda-forge -c bioconda samtools=1.12
+
+conda create -n <your_env_name> -c conda-forge -c bioconda <package_name>
+
+conda env export
+
+nci-files-report -f scratch -g xf3
+
+## When you want internet access, use this code: 
+qsub -I -q copyq -P xf3 -lwalltime=00:05:00,ncpus=1,mem=4GB,jobfs=200GB,storage=gdata/xf3+scratch/xf3,wd
+
+## If you want to copy things into local computer:
+use this zz3507@gadi-dm.nci.org.au
