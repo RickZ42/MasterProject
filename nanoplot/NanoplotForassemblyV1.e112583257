@@ -137,6 +137,6 @@ export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
 + hash -r
 + INPUT_file=("/g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta" "/g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg.fasta")
 + for file in "${INPUT_file[@]}"
-+ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta --plots dot --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg
++ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg -o /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/NanoplotResultAssV1Apr2
 + for file in "${INPUT_file[@]}"
-+ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg.fasta --plots dot --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg
++ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg.fasta --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg -o /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/NanoplotResultAssV1Apr2

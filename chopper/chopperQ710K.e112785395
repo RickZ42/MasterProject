@@ -1,0 +1,122 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /scratch/xf3/share/chopper
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /scratch/xf3/share/chopper
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /scratch/xf3/share/chopper
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /scratch/xf3/share/chopper
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(/scratch/xf3/share/chopper) '\''
+export PATH='\''/scratch/xf3/share/chopper/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/scratch/xf3/share/chopper'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''/scratch/xf3/share/chopper'\''
+export CONDA_PROMPT_MODIFIER='\''(/scratch/xf3/share/chopper) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/scratch/xf3/share/chopper/etc/conda/activate.d/libxml2_activate.sh"'
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(/scratch/xf3/share/chopper) '\''
+export PATH='\''/scratch/xf3/share/chopper/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/scratch/xf3/share/chopper'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''/scratch/xf3/share/chopper'\''
+export CONDA_PROMPT_MODIFIER='\''(/scratch/xf3/share/chopper) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/scratch/xf3/share/chopper/etc/conda/activate.d/libxml2_activate.sh"'
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(/scratch/xf3/share/chopper) '
+++ export PATH=/scratch/xf3/share/chopper/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/scratch/xf3/share/chopper/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/scratch/xf3/share/chopper
+++ CONDA_PREFIX=/scratch/xf3/share/chopper
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=/scratch/xf3/share/chopper
+++ CONDA_DEFAULT_ENV=/scratch/xf3/share/chopper
+++ export 'CONDA_PROMPT_MODIFIER=(/scratch/xf3/share/chopper) '
+++ CONDA_PROMPT_MODIFIER='(/scratch/xf3/share/chopper) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /scratch/xf3/share/chopper/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/scratch/xf3/share/chopper
++++ for pre in ${rem}
++++ test '' = /scratch/xf3/share/chopper
++++ conda_catalog_files=/scratch/xf3/share/chopper
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///scratch/xf3/share/chopper/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///scratch/xf3/share/chopper/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///scratch/xf3/share/chopper/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ input_files=("/g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup278simplex.fq.gz" "/g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup765simplex.fq.gz")
++ output_dir=/g/data/xf3/zz3507/Output/chopper_output/Q710K
++ min_length=20000
++ headcrop=200
++ tailcrop=200
++ mkdir -p /g/data/xf3/zz3507/Output/chopper_output/Q710K
++ for file in "${input_files[@]}"
+++ basename /g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup278simplex.fq.gz
++ file_name=DoradoSup278simplex.fq.gz
++ output_file=/g/data/xf3/zz3507/Output/chopper_output/Q710K/DoradoSup278simplex.fq_30K.fq.gz
++ gunzip -c /g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup278simplex.fq.gz
++ chopper --headcrop 200 --tailcrop 200 -l 20000
++ gzip
+Kept 1774148 reads out of 3729768 reads
++ for file in "${input_files[@]}"
+++ basename /g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup765simplex.fq.gz
++ file_name=DoradoSup765simplex.fq.gz
++ output_file=/g/data/xf3/zz3507/Output/chopper_output/Q710K/DoradoSup765simplex.fq_30K.fq.gz
++ gunzip -c /g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup765simplex.fq.gz
++ chopper --headcrop 200 --tailcrop 200 -l 20000
++ gzip
+Kept 2008156 reads out of 4050942 reads

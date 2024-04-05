@@ -23,8 +23,9 @@ for file in "${INPUT_file[@]}"
 do
     NanoPlot -t 24 \
          --fasta "$file" \
-         --plots dot  \
+         --color yellow \
          --N50 \
-         --prefix "${file%.*}"
+         --prefix "${file%.*}" \
+         -o /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/NanoplotResultAssV1Apr2
 
 done

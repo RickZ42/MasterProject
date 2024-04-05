@@ -1,0 +1,4 @@
+
+EnvironmentLocationNotFound: Not a conda environment: /scratch/xf3/zz3507/envs
+
+/local/spool/pbs/mom_priv/jobs/112778149.gadi-pbs.SC: line 32: busco: command not found

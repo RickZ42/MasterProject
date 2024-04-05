@@ -1,0 +1,31 @@
+running histogram estimation
+Setting maximum kmer length to: 22343 bp
+computing histograms (from k=21 to k=121): 31 81 101 51 41 21 111 61 91 71 121 estimation of the best k so far: 121
+could not fit histograms-k111.histo
+
+ntCard wall-clock time over all k values: 1701 seconds 
+fitting model to histograms to estimate best k
+refining estimation around [115; 121], with a step of 2
+running histogram estimation
+Setting maximum kmer length to: 22343 bp
+computing histograms (from k=117 to k=121): 121 117 119 table of predicted num. of genomic k-mers: histograms.dat
+recommended coverage cut-off for best k: 1
+best k: 121
+could not fit histograms-k117.histo
+could not fit histograms-k111.histo
+
+ntCard wall-clock time over all k values: 1137 seconds 
+fitting model to histograms to estimate best k
+
+======================================================================================
+                  Resource Usage on 2024-04-03 12:51:53:
+   Job Id:             112683396.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      25.54
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 08:20:20        
+   Memory Requested:   64.0GB                Memory Used: 48.97GB         
+   Walltime requested: 02:00:00            Walltime Used: 00:47:53        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

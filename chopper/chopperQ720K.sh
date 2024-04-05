@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N chopperQ710K
+#PBS -N chopperQ720K
 #PBS -P xf3
 #PBS -q normal
 #PBS -l walltime=24:00:00
@@ -17,10 +17,10 @@ conda activate /scratch/xf3/share/chopper
 input_files=("/g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup278simplex.fq.gz" "/g/data/xf3/zz3507/Output/fastqsimplex/DoradoSup765simplex.fq.gz")
 
 # Set the output directory
-output_dir="/g/data/xf3/zz3507/Output/chopper_output/Q710K"
+output_dir="/g/data/xf3/zz3507/Output/chopper_output/Q720K"
 
 # Set the minimum read length (in bases)
-min_length=10000
+min_length=20000
 headcrop=200 
 tailcrop=200 
 
@@ -32,6 +32,6 @@ for file in "${input_files[@]}"
 do
 # Extract the file name from the path
     file_name=$(basename "$file")
-    output_file="${output_dir}/${file_name%.*}_30K.fq.gz"
+    output_file="${output_dir}/${file_name%.*}_20K.fq.gz"
     gunzip -c "$file" | chopper  --headcrop "$headcrop" --tailcrop "$tailcrop" -l "$min_length"| gzip > "$output_file" #when you use gunzip, remember to use -c to keep the origional file
 done

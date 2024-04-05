@@ -1,0 +1,2 @@
++ kmergenie_PATH=/g/data/xf3/zz3507/envs/kmergenie-1.7051/kmergenie
++ /g/data/xf3/zz3507/envs/kmergenie-1.7051/kmergenie /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz --diploid -o /g/data/xf3/zz3507/script/kmergenie

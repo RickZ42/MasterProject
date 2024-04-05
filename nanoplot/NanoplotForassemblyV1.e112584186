@@ -1,0 +1,142 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/nanoplot
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/nanoplot
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/nanoplot
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/nanoplot
++ ask_conda='PS1='\''(nanoplot) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/nanoplot'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''nanoplot'\''
+export CONDA_PROMPT_MODIFIER='\''(nanoplot) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libarrow_activate.sh"
+. "/g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'PS1='\''(nanoplot) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/nanoplot'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''nanoplot'\''
+export CONDA_PROMPT_MODIFIER='\''(nanoplot) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libarrow_activate.sh"
+. "/g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libxml2_activate.sh"'
+++ PS1='(nanoplot) '
+++ export PATH=/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/nanoplot/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/nanoplot
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/nanoplot
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=nanoplot
+++ CONDA_DEFAULT_ENV=nanoplot
+++ export 'CONDA_PROMPT_MODIFIER=(nanoplot) '
+++ CONDA_PROMPT_MODIFIER='(nanoplot) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libarrow_activate.sh
++++ _la_log 'Beginning libarrow activation.'
++++ '[' '' = 1 ']'
++++ _la_gdb_prefix=/g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load
++++ '[' '!' -w /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load ']'
++++ _la_placeholder=replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX
++++ _la_symlink_dir=/g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib
++++ _la_orig_install_dir=/g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
++++ _la_log '          _la_gdb_prefix: /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_placeholder: replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX'
++++ '[' '' = 1 ']'
++++ _la_log '         _la_symlink_dir: /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib'
++++ '[' '' = 1 ']'
++++ _la_log '    _la_orig_install_dir: /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib'
++++ '[' '' = 1 ']'
++++ _la_log '  content of that folder:'
++++ '[' '' = 1 ']'
+++++ ls -al /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib
+++++ sed 's/^/      /'
++++ _la_log '      total 93
+      drwxrws---+ 2 zz3507 xf3 33280 Apr  2 11:01 .
+      drwxrws---+ 3 zz3507 xf3 33280 Apr  2 11:01 ..
+      -rw-rw-r--+ 1 zz3507 xf3   978 Apr  2 11:00 libarrow.so.1500.2.0-gdb.py'
++++ '[' '' = 1 ']'
++++ for _la_target in "$_la_orig_install_dir/"*.py
++++ '[' '!' -e /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.1500.2.0-gdb.py ']'
+++++ basename /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.1500.2.0-gdb.py
++++ _la_symlink=/g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib/libarrow.so.1500.2.0-gdb.py
++++ _la_log '   _la_target: /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.1500.2.0-gdb.py'
++++ '[' '' = 1 ']'
++++ _la_log '  _la_symlink: /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib/libarrow.so.1500.2.0-gdb.py'
++++ '[' '' = 1 ']'
++++ '[' -L /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib/libarrow.so.1500.2.0-gdb.py ']'
+++++ readlink /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load//g/data/xf3/miniconda/envs/nanoplot/lib/libarrow.so.1500.2.0-gdb.py
++++ '[' /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.1500.2.0-gdb.py = /g/data/xf3/miniconda/envs/nanoplot/share/gdb/auto-load/replace_this_section_with_absolute_slashed_path_to_CONDA_PREFIX/lib/libarrow.so.1500.2.0-gdb.py ']'
++++ _la_log 'symlink $_la_symlink already exists and points to $_la_target, skipping.'
++++ '[' '' = 1 ']'
++++ continue
++++ _la_log 'Libarrow activation complete.'
++++ '[' '' = 1 ']'
++++ unset _la_gdb_prefix
++++ unset _la_log
++++ unset _la_orig_install_dir
++++ unset _la_placeholder
++++ unset _la_symlink
++++ unset _la_symlink_dir
++++ unset _la_target
+++ . /g/data/xf3/miniconda/envs/nanoplot/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/g/data/xf3/miniconda/envs/nanoplot
++++ for pre in ${rem}
++++ test '' = /g/data/xf3/miniconda/envs/nanoplot
++++ conda_catalog_files=/g/data/xf3/miniconda/envs/nanoplot
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///g/data/xf3/miniconda/envs/nanoplot/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///g/data/xf3/miniconda/envs/nanoplot/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///g/data/xf3/miniconda/envs/nanoplot/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ INPUT_file=("/g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta" "/g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg.fasta")
++ for file in "${INPUT_file[@]}"
++ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta --color yellow --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg -o /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/NanoplotResultAssV1Apr2
++ for file in "${INPUT_file[@]}"
++ NanoPlot -t 24 --fasta /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg.fasta --color yellow --N50 --prefix /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap2.p_ctg -o /g/data/xf3/zz3507/Output/assembly30KOntHifiHicV1/AssembleResultV1fasta/NanoplotResultAssV1Apr2

@@ -20,14 +20,13 @@ conda activate /g/data/xf3/miniconda/envs/samtools
 
 # Input files directory
 
-INPUT_DIR="/scratch/xf3/zz3507/rawadata"
+INPUT_DIR="/g/data/xf3/zz3507/Output"
 
 
 
 # Output files directory
 
-OUTPUT_DIR="/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/simplex"
-
+OUTPUT_DIR="/g/data/xf3/zz3507/Output/ExtractedONT/simplex"
 
 
 # Define an array of BAM files

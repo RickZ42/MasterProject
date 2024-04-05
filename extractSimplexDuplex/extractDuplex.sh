@@ -14,24 +14,24 @@
 
 set -xue
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
-conda activate /g/data/xf3/miniconda/envs/samtools
+conda activate /g/data/xf3/miniconda/envs/Samtools
 
 # Input files directory
 
-INPUT_DIR="/scratch/xf3/zz3507/rawadata"
+INPUT_DIR="/g/data/xf3/zz3507/Output"
 
 
 # Output files directory
 
-OUTPUT_DIR="/scratch/xf3/zz3507/result/HiFisam/ExtractedONT/duplex"
+OUTPUT_DIR="/g/data/xf3/zz3507/Output/ExtractedONT/duplex"
 
 
 
 # Define an array of your BAM files
 
-BAM_FILES=("DoradoSup278Duplex.bam"
+BAM_FILES=("DoradoSup278DuplexMar28.bam"
 
-           "DoradoSup765Duplex.bam")
+           "DoradoSup765DuplexMar28.bam")
 
 
 
