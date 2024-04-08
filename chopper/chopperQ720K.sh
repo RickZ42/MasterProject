@@ -32,6 +32,6 @@ for file in "${input_files[@]}"
 do
 # Extract the file name from the path
     file_name=$(basename "$file")
-    output_file="${output_dir}/${file_name%.*}_20K.fq.gz"
-    gunzip -c "$file" | chopper  --headcrop "$headcrop" --tailcrop "$tailcrop" -l "$min_length"| gzip > "$output_file" #when you use gunzip, remember to use -c to keep the origional file
+    output_file="${output_dir}/${file_name%.*}_Q720K.fq.gz"
+    gunzip -c "$file" | chopper  --headcrop "$headcrop" --tailcrop "$tailcrop" -l "$min_length"  --quality 7| gzip > "$output_file" #when you use gunzip, remember to use -c to keep the origional file
 done

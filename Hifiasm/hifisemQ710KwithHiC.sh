@@ -2,7 +2,7 @@
 
 #PBS -N HifisemQ710KwithHiC
 #PBS -P xf3
-#PBS -q normal
+#PBS -q hugemem
 #PBS -l walltime=48:00:00
 #PBS -l ncpus=96
 #PBS -l mem=384GB

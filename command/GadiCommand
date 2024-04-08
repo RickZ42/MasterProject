@@ -78,3 +78,9 @@ tar -xzvf myfiles.tar.gz
 # Find the jobfs files folder 
 
 qls <jobid>
+
+# The Queue limits
+
+normal 2SU express 6SU 48CPU 190GBRAM 400GB JobFS
+hugemem 3SU 48CPU 1470GBRAM 1400GB JobFS
+normalsr 2SU 104CPU 500GBRAM 400GB JobFS 

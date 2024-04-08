@@ -53,6 +53,6 @@ do
 
    # Execute samtools command
 
-   samtools view -d dx:1 -o "${OUTPUT_FILE}" "${INPUT_DIR}/${BAM_FILE}"
+   samtools view -h -d dx:1 -o "${OUTPUT_FILE}" "${INPUT_DIR}/${BAM_FILE}"
 
 done

@@ -1,0 +1,162 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/hifiasm
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/hifiasm
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/hifiasm
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/hifiasm
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(hifiasm) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/hifiasm/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/hifiasm'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''hifiasm'\''
+export CONDA_PROMPT_MODIFIER='\''(hifiasm) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(hifiasm) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/hifiasm/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/hifiasm'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''hifiasm'\''
+export CONDA_PROMPT_MODIFIER='\''(hifiasm) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(hifiasm) '
+++ export PATH=/g/data/xf3/miniconda/envs/hifiasm/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/hifiasm/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/hifiasm
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/hifiasm
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=hifiasm
+++ CONDA_DEFAULT_ENV=hifiasm
+++ export 'CONDA_PROMPT_MODIFIER=(hifiasm) '
+++ CONDA_PROMPT_MODIFIER='(hifiasm) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ hifiasm --hom-cov 48 -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC -t240 --ul /g/data/xf3/zz3507/Output/chopper_output/Q720K/MergedONTQ720K/mergedONTQ720K.fq.gz --h1 /g/data/xf3/zz3507/Output/TrimedHiC/40769_R1_001_val_1.fq.gz --h2 /g/data/xf3/zz3507/Output/TrimedHiC/40769_R2_001_val_2.fq.gz /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz
+Reads has been loaded.
+Loading ma_hit_ts from disk... 
+ma_hit_ts has been read.
+Loading ma_hit_ts from disk... 
+ma_hit_ts has been read.
+[M::ha_assemble::110.171*0.76] ==> loaded corrected reads and overlaps from disk
+[M::ha_opt_update_cov_min] updated max_n_chain to 115
+[M::ul_load::] ==> UL
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::append_inexact_edges] # inserted inexact edges: 1508406
+[M::gen_cov_track::] # bases: 14601778779
+[M::dedup_HiFis::] # unitigs: 578019, # edges: 3149718, # cc_num: 2964374
+[M::uidx_load::0.351] ==> Loaded flt table
+[M::uidx_load::2.312(index)/17.478(pos)] ==> Loaded pos table
+[M::uidx_load] Index has been loaded.
+[M::scall_ul_pipeline::99172.039] ==> Qualification
+[M::scall_ul_pipeline::] ==> # reads: 3420745, # bases: 0
+[M::scall_ul_pipeline::] ==> # fully covered reads: 3020223
+[M::write_all_ul_t] Index has been written.
+[M::print_ovlp_src_bl_stat::] ==> # HiFi reads:4549184, # covered HiFi reads:2019088, # chained HiFi reads:1774812
+[M::print_ovlp_src_bl_stat::] ==> # passed UL reads:3420745, # fully corrected UL reads:2996455, # almost fully corrected UL reads:37140, # UL reads have primary chains:271199
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:630002, # done:506358
+[M::clean_contain_g0::] # discard cread::130938
+[M::update_sg_uo::] ==> # gfa reads:1346562, # covered gfa reads:1320196
+[M::ul_refine_alignment::] ==> UL refinement...
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::gen_cov_track::] # bases: 5501155852
+[M::work_ul_gchains::] # try:387622, # done:303793
+[M::update_sg_uo::] ==> # gfa reads:1317186, # covered gfa reads:1310929
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:8047, # done:1746
+[M::clean_contain_g0::] # discard cread::216
+[M::update_sg_uo::] ==> # gfa reads:1316970, # covered gfa reads:1310738
+[M::ul_refine_alignment::] ==> UL refinement...
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::gen_cov_track::] # bases: 5430282505
+[M::work_ul_gchains::] # try:24884, # done:10136
+[M::update_sg_uo::] ==> # gfa reads:1316743, # covered gfa reads:1310611
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:6086, # done:72
+[M::clean_contain_g0::] # discard cread::7
+[M::update_sg_uo::] ==> # gfa reads:1316736, # covered gfa reads:1310593
+[M::ul_refine_alignment::] ==> UL refinement...
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::gen_cov_track::] # bases: 5405842872
+[M::work_ul_gchains::] # try:18848, # done:4820
+[M::update_sg_uo::] ==> # gfa reads:1316624, # covered gfa reads:1310551
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:6028, # done:60
+[M::clean_contain_g0::] # discard cread::2
+[M::update_sg_uo::] ==> # gfa reads:1316622, # covered gfa reads:1310542
+[M::ul_refine_alignment::] ==> UL refinement...
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::gen_cov_track::] # bases: 5389432364
+[M::work_ul_gchains::] # try:18652, # done:4833
+[M::update_sg_uo::] ==> # gfa reads:1316457, # covered gfa reads:1310489
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:5995, # done:64
+[M::clean_contain_g0::] # discard cread::1
+[M::update_sg_uo::] ==> # gfa reads:1316456, # covered gfa reads:1310482
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::work_ul_gchains_consensus::] # try:5903, # done:0
+[M::clean_contain_g0::] # discard cread::0
+[M::update_sg_uo::] ==> # gfa reads:1316451, # covered gfa reads:1310477
+[M::ug_ext_gfa::] # tips::196
+Writing raw unitig GFA to disk... 
+[M::update_sg_uo::] ==> # gfa reads:1275880, # covered gfa reads:1271488
+[M::ul_realignment::] ==> starting UL
+[M::ha_opt_update_cov] updated max_n_chain to 115
+[M::gen_cov_track::] # bases: 4307224814
+[M::ha_ct_shrink::100182.360*43.72] ==> counted 7273849 distinct minimizer k-mers
+[M::ha_ft_ul_gen::100183.657*43.72@106.728GB] ==> filtered out 7273849 k-mers occurring 32 or more times
+[M::yak_count] collected 230534891 minimizers
+[M::ha_pt_ul_gen::100292.882*43.67] ==> counted 54889695 distinct minimizer k-mers
+[M::ha_ct_shrink::100292.980*43.67] ==> counted 54889695 distinct minimizer k-mers
+[M::yak_count] collected 230534891 minimizers
+[M::ha_pt_ul_gen::100407.523*43.63] ==> indexed 230534891 positions
+[M::uidx_l_build] Index has been built.
+[M::uidx_write] Index has been written.
+[M::ha_opt_update_cov] updated max_n_chain to 115
+/local/spool/pbs/mom_priv/jobs/113034414.gadi-pbs.SC: line 19: 2183940 Killed                  hifiasm --hom-cov 48 -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC -t240 --ul /g/data/xf3/zz3507/Output/chopper_output/Q720K/MergedONTQ720K/mergedONTQ720K.fq.gz --h1 /g/data/xf3/zz3507/Output/TrimedHiC/40769_R1_001_val_1.fq.gz --h2 /g/data/xf3/zz3507/Output/TrimedHiC/40769_R2_001_val_2.fq.gz /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz
