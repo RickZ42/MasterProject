@@ -20,7 +20,7 @@ conda activate /g/data/xf3/miniconda/envs/samtools
 
 # Input files directory
 
-INPUT_DIR="/g/data/xf3/zz3507/Output"
+INPUT_DIR="/scratch/xf3/zz3507/rawadata"
 
 
 
@@ -31,9 +31,9 @@ OUTPUT_DIR="/g/data/xf3/zz3507/Output/ExtractedONT/simplex"
 
 # Define an array of BAM files
 
-BAM_FILES=("DoradoSup278DuplexMar28.bam"
+BAM_FILES=("DoradoSup278Duplex.bam"
 
-           "DoradoSup765DuplexMar28.bam")
+           "DoradoSup765Duplex.bam")
 
 
 # Create the output directory if it doesn't exist
@@ -62,7 +62,7 @@ do
 
    # for dx:i:0
 
-   samtools view -h -d "dx:0" -o "${OUTPUT_FILE_DX0}" "${INPUT_DIR}/${BAM_FILE}"
+   # samtools view -h -d "dx:0" -o "${OUTPUT_FILE_DX0}" "${INPUT_DIR}/${BAM_FILE}"
 
    #  for dx:i:-1
 
@@ -70,7 +70,7 @@ do
 
    # Combine the results
 
-   samtools merge "${COMBINED_OUTPUT_FILE}" "${OUTPUT_FILE_DX0}" "${OUTPUT_FILE_DX_MINUS1}"
+   # samtools merge "${COMBINED_OUTPUT_FILE}" "${OUTPUT_FILE_DX0}" "${OUTPUT_FILE_DX_MINUS1}"
 
 
 
