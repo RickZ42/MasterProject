@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 1350, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 976, in send
+    self.connect()
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 1443, in connect
+    super().connect()
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/http/client.py", line 948, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/compleasm/bin/compleasm", line 10, in <module>
+    sys.exit(main())
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/site-packages/compleasm.py", line 2744, in main
+    args.func(args)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/site-packages/compleasm.py", line 2623, in run
+    mode=mode)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/site-packages/compleasm.py", line 2121, in __init__
+    self.downloader = Downloader(library_path)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/site-packages/compleasm.py", line 86, in __init__
+    self.lineage_description, self.placement_description = self.download_file_version_document()
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/site-packages/compleasm.py", line 128, in download_file_version_document
+    urllib.request.urlretrieve(hash_url, hash_download_path)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 1393, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/g/data/xf3/miniconda/envs/compleasm/lib/python3.7/urllib/request.py", line 1352, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>

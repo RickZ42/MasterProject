@@ -20,3 +20,6 @@ git branch -m main
 git remote add origin https://github.com/rickz42/<repositoryname.git>
 
 git push -u origin main
+
+#If you want to remove large file:
+git filter-branch -f --index-filter 'git rm -r --cached --ignore-unmatch <filename>' HEAD

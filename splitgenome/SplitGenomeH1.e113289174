@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/g/data/xf3/zz3507/script/splitgenome/SplitGenome.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

@@ -1,0 +1,23 @@
++ gfatools_PATH=/g/data/xf3/zz3507/envs/gfatools/gfatools
++ input_dir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC
++ output_dir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta
++ input_files=("assemblyQ720KOntHifiHiC.hic.hap1.p_ctg.gfa" "assemblyQ720KOntHifiHiC.hic.hap2.p_ctg.gfa" "assemblyQ720KOntHifiHiC.hic.p_ctg.gfa")
++ mkdir -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta
++ for input_file in "${input_files[@]}"
++ output_file=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta/assemblyQ720KOntHifiHiC.hic.hap1.p_ctg.fasta
++ /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.hap1.p_ctg.gfa
+[M::main] Version: 0.5-r292-dirty
+[M::main] CMD: /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.hap1.p_ctg.gfa
+[M::main] Real time: 8.816 sec; CPU: 7.351 sec
++ for input_file in "${input_files[@]}"
++ output_file=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta/assemblyQ720KOntHifiHiC.hic.hap2.p_ctg.fasta
++ /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.hap2.p_ctg.gfa
+[M::main] Version: 0.5-r292-dirty
+[M::main] CMD: /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.hap2.p_ctg.gfa
+[M::main] Real time: 18.174 sec; CPU: 13.144 sec
++ for input_file in "${input_files[@]}"
++ output_file=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta/assemblyQ720KOntHifiHiC.hic.p_ctg.fasta
++ /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.p_ctg.gfa
+[M::main] Version: 0.5-r292-dirty
+[M::main] CMD: /g/data/xf3/zz3507/envs/gfatools/gfatools gfa2fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiC.hic.p_ctg.gfa
+[M::main] Real time: 9.667 sec; CPU: 8.695 sec

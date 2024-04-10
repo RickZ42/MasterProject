@@ -1,0 +1,4 @@
++ gfatools_PATH=/g/data/xf3/zz3507/envs/gfatools/gfatools
++ input_dir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC
++ output_dir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta
+/local/spool/pbs/mom_priv/jobs/113275744.gadi-pbs.SC: line 34: unexpected EOF while looking for matching `"'
