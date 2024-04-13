@@ -1,0 +1,1265 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate snakemake
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate snakemake
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate snakemake
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate snakemake
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(snakemake) '
+++ export PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=snakemake
+++ CONDA_DEFAULT_ENV=snakemake
+++ export 'CONDA_PROMPT_MODIFIER=(snakemake) '
+++ CONDA_PROMPT_MODIFIER='(snakemake) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/envs/snake
++ snakemake --use-conda -c50 --keep-going
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+blast     2039              1              1
+total     2040              1              1
+
+Select jobs to execute...
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_26.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_26.blast
+    jobid: 195
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_26.blast
+    wildcards: file=h1tg000033l_26
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000009l_7.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000009l_7.blast
+    jobid: 475
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000009l_7.blast
+    wildcards: file=h1tg000009l_7
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000108l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000108l_0.blast
+    jobid: 867
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000108l_0.blast
+    wildcards: file=h1tg000108l_0
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000074l_3.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000074l_3.blast
+    jobid: 329
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000074l_3.blast
+    wildcards: file=h1tg000074l_3
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000030l_27.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000030l_27.blast
+    jobid: 385
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000030l_27.blast
+    wildcards: file=h1tg000030l_27
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_22.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_22.blast
+    jobid: 322
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_22.blast
+    wildcards: file=h1tg000028l_22
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000107l_2.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000107l_2.blast
+    jobid: 378
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000107l_2.blast
+    wildcards: file=h1tg000107l_2
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_0.blast
+    jobid: 1050
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_0.blast
+    wildcards: file=h1tg000050l_0
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_6.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_6.blast
+    jobid: 1274
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_6.blast
+    wildcards: file=h1tg000013l_6
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000072l_1.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000072l_1.blast
+    jobid: 196
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000072l_1.blast
+    wildcards: file=h1tg000072l_1
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000015l_32.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000015l_32.blast
+    jobid: 476
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000015l_32.blast
+    wildcards: file=h1tg000015l_32
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_16.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_16.blast
+    jobid: 1666
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_16.blast
+    wildcards: file=h1tg000042l_16
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_23.blast
+    jobid: 1057
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_23.blast
+    wildcards: file=h1tg000034l_23
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000041l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000041l_23.blast
+    jobid: 1282
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000041l_23.blast
+    wildcards: file=h1tg000041l_23
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000032l_20.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000032l_20.blast
+    jobid: 1674
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000032l_20.blast
+    wildcards: file=h1tg000032l_20
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:58 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_28.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_28.blast
+    jobid: 50
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_28.blast
+    wildcards: file=h1tg000011l_28
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_5.blast
+    jobid: 330
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_5.blast
+    wildcards: file=h1tg000050l_5
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_21.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_21.blast
+    jobid: 43
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_21.blast
+    wildcards: file=h1tg000021l_21
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_29.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_29.blast
+    jobid: 323
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_29.blast
+    wildcards: file=h1tg000011l_29
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000169l_1.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000169l_1.blast
+    jobid: 379
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000169l_1.blast
+    wildcards: file=h1tg000169l_1
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000352l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000352l.blast
+    jobid: 1051
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000352l.blast
+    wildcards: file=h1tg000352l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_18.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_18.blast
+    jobid: 1275
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_18.blast
+    wildcards: file=h1tg000034l_18
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000022l_27.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000022l_27.blast
+    jobid: 1667
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000022l_27.blast
+    wildcards: file=h1tg000022l_27
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_0.blast
+    jobid: 386
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_0.blast
+    wildcards: file=h1tg000042l_0
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000002l_4.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000002l_4.blast
+    jobid: 1058
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000002l_4.blast
+    wildcards: file=h1tg000002l_4
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_23.blast
+    jobid: 51
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_23.blast
+    wildcards: file=h1tg000028l_23
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_9.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_9.blast
+    jobid: 331
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_9.blast
+    wildcards: file=h1tg000018l_9
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000006l_15.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000006l_15.blast
+    jobid: 44
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000006l_15.blast
+    wildcards: file=h1tg000006l_15
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_5.blast
+    jobid: 324
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_5.blast
+    wildcards: file=h1tg000017l_5
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_13.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_13.blast
+    jobid: 380
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_13.blast
+    wildcards: file=h1tg000017l_13
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_22.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_22.blast
+    jobid: 1052
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_22.blast
+    wildcards: file=h1tg000018l_22
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000216l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000216l.blast
+    jobid: 1276
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000216l.blast
+    wildcards: file=h1tg000216l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000044l_8.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000044l_8.blast
+    jobid: 1668
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000044l_8.blast
+    wildcards: file=h1tg000044l_8
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_16.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_16.blast
+    jobid: 387
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_16.blast
+    wildcards: file=h1tg000050l_16
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000312l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000312l.blast
+    jobid: 1059
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000312l.blast
+    wildcards: file=h1tg000312l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_12.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_12.blast
+    jobid: 1281
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_12.blast
+    wildcards: file=h1tg000021l_12
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000029c.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000029c.blast
+    jobid: 1673
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000029c.blast
+    wildcards: file=h1tg000029c
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_60.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_60.blast
+    jobid: 45
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_60.blast
+    wildcards: file=h1tg000005l_60
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_3.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_3.blast
+    jobid: 325
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_3.blast
+    wildcards: file=h1tg000033l_3
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000008l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000008l_5.blast
+    jobid: 381
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000008l_5.blast
+    wildcards: file=h1tg000008l_5
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_17.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_17.blast
+    jobid: 1053
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_17.blast
+    wildcards: file=h1tg000013l_17
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000431l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000431l.blast
+    jobid: 1277
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000431l.blast
+    wildcards: file=h1tg000431l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_13.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_13.blast
+    jobid: 1669
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_13.blast
+    wildcards: file=h1tg000005l_13
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000058l_15.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000058l_15.blast
+    jobid: 46
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000058l_15.blast
+    wildcards: file=h1tg000058l_15
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:09:59 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_61.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_61.blast
+    jobid: 326
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_61.blast
+    wildcards: file=h1tg000005l_61
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:10:00 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000184l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000184l.blast
+    jobid: 382
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000184l.blast
+    wildcards: file=h1tg000184l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:10:00 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000043l_40.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000043l_40.blast
+    jobid: 1054
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000043l_40.blast
+    wildcards: file=h1tg000043l_40
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:10:00 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000051l_24.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000051l_24.blast
+    jobid: 1278
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000051l_24.blast
+    wildcards: file=h1tg000051l_24
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:10:00 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000361l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000361l.blast
+    jobid: 1670
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000361l.blast
+    wildcards: file=h1tg000361l
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Thu Apr 11 16:10:00 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_2.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_2.blast
+    jobid: 47
+    reason: Missing output files: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_2.blast
+    wildcards: file=h1tg000033l_2
+    resources: tmpdir=/jobfs/113518736.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+Will exit after finishing currently running jobs (scheduler).
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 386
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_0.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_0.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_0.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 379
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000169l_1.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000169l_1.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000169l_1.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000169l_1.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_0.blast
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1059
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000312l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000312l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000312l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000312l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1281
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_12.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_12.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_12.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_12.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1057
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_23.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_23.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_23.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 330
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_5.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_5.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_5.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1276
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000216l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000216l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000216l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000216l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1669
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_13.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_13.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_13.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_13.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 43
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_21.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_21.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000021l_21.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_21.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 196
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000072l_1.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000072l_1.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000072l_1.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000072l_1.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Will exit after finishing currently running jobs (scheduler).
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 378
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000107l_2.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000107l_2.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000107l_2.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000107l_2.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 326
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_61.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_61.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_61.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_61.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 47
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_2.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_2.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_2.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_2.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1674
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000032l_20.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000032l_20.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000032l_20.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000032l_20.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 195
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_26.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_26.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_26.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_26.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 381
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000008l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000008l_5.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000008l_5.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000008l_5.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1277
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000431l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000431l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000431l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000431l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 325
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_3.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_3.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000033l_3.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_3.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 323
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_29.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_29.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_29.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_29.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1058
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000002l_4.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000002l_4.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000002l_4.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000002l_4.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1274
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_6.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_6.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_6.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_6.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 331
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_9.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_9.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_9.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_9.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 380
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_13.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_13.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_13.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_13.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 44
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000006l_15.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000006l_15.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000006l_15.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000006l_15.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1670
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000361l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000361l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000361l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000361l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1282
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000041l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000041l_23.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000041l_23.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000041l_23.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 867
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000108l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000108l_0.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000108l_0.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000108l_0.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 475
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000009l_7.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000009l_7.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000009l_7.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000009l_7.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 322
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_22.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_22.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_22.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_22.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1673
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000029c.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000029c.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000029c.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000029c.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 329
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000074l_3.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000074l_3.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000074l_3.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000074l_3.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 385
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000030l_27.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000030l_27.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000030l_27.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000030l_27.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1053
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_17.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_17.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000013l_17.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_17.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1050
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_0.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_0.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_0.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_0.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1278
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000051l_24.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000051l_24.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000051l_24.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000051l_24.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1668
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000044l_8.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000044l_8.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000044l_8.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000044l_8.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 51
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_23.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_23.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000028l_23.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_23.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1275
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_18.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_18.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000034l_18.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_18.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 50
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_28.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_28.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000011l_28.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_28.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000169l_1.blast
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 476
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000015l_32.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000015l_32.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000015l_32.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000015l_32.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1051
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000352l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000352l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000352l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000352l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1052
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_22.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_22.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000018l_22.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_22.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 45
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_60.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_60.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000005l_60.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_60.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu Apr 11 16:19:07 2024]
+Error in rule blast:
+    jobid: 1667
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000022l_27.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000022l_27.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000022l_27.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000022l_27.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 46
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000058l_15.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000058l_15.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000058l_15.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000058l_15.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 382
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000184l.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000184l.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000184l.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000184l.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 324
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_5.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_5.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000017l_5.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_5.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1666
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_16.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_16.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000042l_16.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_16.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 387
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_16.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_16.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000050l_16.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_16.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1054
+    input: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000043l_40.fasta
+    output: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000043l_40.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/SplitGenome/splitedGenomeh1/h1tg000043l_40.fasta -out /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000043l_40.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000312l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_12.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_23.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_5.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000216l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000107l_2.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_13.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000021l_21.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000072l_1.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_26.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_2.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000032l_20.blast
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000431l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_61.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000002l_4.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_29.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000033l_3.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_13.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000006l_15.blast
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000029c.blast
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000030l_27.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000051l_24.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000044l_8.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_23.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000034l_18.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_0.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000352l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000011l_28.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000022l_27.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000015l_32.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000058l_15.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000184l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000005l_60.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000017l_5.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000042l_16.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000050l_16.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000043l_40.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000008l_5.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_6.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_9.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000361l.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000009l_7.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000041l_23.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000108l_0.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000028l_22.blast
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000074l_3.blast
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Will exit after finishing currently running jobs (scheduler).
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000018l_22.blast
+Will exit after finishing currently running jobs (scheduler).
+Removing output files of failed job blast since they might be corrupted:
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/BlastOutcome/haplotype1/h1tg000013l_17.blast
+Will exit after finishing currently running jobs (scheduler).
+Shutting down, this might take some time.
+Complete log: .snakemake/log/2024-04-11T160850.820319.snakemake.log

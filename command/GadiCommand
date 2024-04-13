@@ -37,6 +37,7 @@ conda install -c bioconda <package_name>
 conda install -c conda-forge -c bioconda samtools=1.12
 
 conda create -n <your_env_name> -c conda-forge -c bioconda <package_name>
+conda create -p <your_path_to_environment> -c conda-forge -c bioconda <package_name>
 
 # find what you installed in this env
 
@@ -55,7 +56,7 @@ use this zz3507@gadi-dm.nci.org.au
 scp -r zz3507@gadi-dm.nci.org.au:/g/data/xf3/zz3507/envs /Users/rick/Downloads/kmergenie-1.7051 
 ## or from local computer to NCI, you should run this on your computer
 scp -r /Users/rick/Downloads/kmergenie-1.7051 zz3507@gadi-dm.nci.org.au:/g/data/xf3/zz3507/envs 
-
+scp -r /Users/rick/Downloads/fasta/KeepLess1MbpAndKeepFirst100KbpForBigger1MbpContigH* zz3507@gadi-dm.nci.org.au:/g/data/xf3/zz3507/RawData/Blastdata 
 # Job folders 
 /jobfs/ (seems there is not way to find the log file when the program is running)
 
@@ -84,3 +85,4 @@ qls <jobid>
 normal 2SU express 6SU 48CPU 190GBRAM 400GB JobFS
 hugemem 3SU 48CPU 1470GBRAM 1400GB JobFS
 normalsr 2SU 104CPU 500GBRAM 400GB JobFS 
+copyq
