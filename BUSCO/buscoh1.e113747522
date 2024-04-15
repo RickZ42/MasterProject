@@ -1,0 +1,4 @@
+2024-04-14 10:36:28 ERROR:	Cannot reach https://busco-data2.ezlab.org/v5/data/file_versions.tsv
+2024-04-14 10:36:28 ERROR:	BUSCO analysis failed!
+2024-04-14 10:36:28 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

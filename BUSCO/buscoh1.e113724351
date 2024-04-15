@@ -1,0 +1,5 @@
+2024-04-13 19:37:25 ERROR:	A run with the name /home/106/zz3507/ already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2024-04-13 19:37:25 ERROR:	BUSCO analysis failed!
+2024-04-13 19:37:25 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

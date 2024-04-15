@@ -1,0 +1,4 @@
+
+h1tg000001l_first100k	gi|2096161387|emb|OU696511.1|	Malus sylvestris genome assembly, chromosome: 9	75.062	405	89	11	18595	18993	21540063	21540461	Malus sylvestris	3752	3.21e-37
+h1tg000001l_first100k	gi|2700491681|gb|CP147812.1|	Malus domestica cultivar Red Fuji chromosome 11	89.655	58	6	0	18936	18993	21013892	21013835	Malus domestica	3750	4.34e-06
+h1tg000001l_first100k	gi|2700491681|gb|CP147812.1|	Malus domestica cultivar Red Fuji chromosome 11	89.655	58	6	0	18936	18993	21013892	21013835	Malus domestica	3750	4.34e-06

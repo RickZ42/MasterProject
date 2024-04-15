@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/g/data/xf3/zz3507/envs/busco/bin/busco", line 54, in <module>
+    run_BUSCO.main()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/run_BUSCO.py", line 502, in main
+    busco_run.run()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/run_BUSCO.py", line 68, in run
+    self.load_config()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/run_BUSCO.py", line 60, in load_config
+    self.config_manager.load_busco_config_main()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/ConfigManager.py", line 63, in load_busco_config_main
+    self.config_main.validate()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/BuscoConfig.py", line 634, in validate
+    self._check_no_previous_run()
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/BuscoConfig.py", line 838, in _check_no_previous_run
+    self._force_remove_existing_output_dir(self.main_out)
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/site-packages/busco/BuscoConfig.py", line 905, in _force_remove_existing_output_dir
+    shutil.rmtree(dirpath)
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/shutil.py", line 498, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/g/data/xf3/zz3507/envs/busco/lib/python3.7/shutil.py", line 496, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/home/106/zz3507/'

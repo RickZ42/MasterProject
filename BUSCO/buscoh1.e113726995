@@ -1,0 +1,2 @@
+usage: busco -i [SEQUENCE_FILE] -l [LINEAGE] -o [OUTPUT_NAME] -m [MODE] [OTHER OPTIONS]
+busco: error: argument -o/--out: expected one argument

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#PBS -N blasthap1
+#PBS -N blasthap2
 #PBS -P xf3
 #PBS -q normalsr
-#PBS -l walltime=48:00:00
+#PBS -l walltime=6:00:00
 #PBS -l ncpus=50
-#PBS -l mem=500GB
+#PBS -l mem=400GB
 #PBS -l jobfs=400GB
 #PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
 #PBS -l wd

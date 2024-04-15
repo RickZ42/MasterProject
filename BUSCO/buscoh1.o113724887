@@ -1,0 +1,16 @@
+2024-04-13 19:47:30 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 04/13/2024 19:47:30 *****
+2024-04-13 19:47:30 INFO:	Configuring BUSCO with local environment
+2024-04-13 19:47:30 INFO:	Running genome mode
+
+======================================================================================
+                  Resource Usage on 2024-04-13 19:47:33:
+   Job Id:             113724887.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.07
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:04        
+   Memory Requested:   48.0GB                Memory Used: 65.58MB         
+   Walltime requested: 24:00:00            Walltime Used: 00:00:05        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================
