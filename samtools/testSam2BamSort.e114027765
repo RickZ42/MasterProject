@@ -1,0 +1,6 @@
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 22: $/g/data/xf3/zz3507/Output/minimap/{SAM_FILE1%.sam}.bam: No such file or directory
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 23: $/g/data/xf3/zz3507/Output/minimap/{SAM_FILE2%.sam}.bam: No such file or directory
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 26: samtools: command not found
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 27: samtools: command not found
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 30: samtools: command not found
+/local/spool/pbs/mom_priv/jobs/114027765.gadi-pbs.SC: line 31: samtools: command not found

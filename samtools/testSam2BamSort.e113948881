@@ -1,0 +1,2 @@
++ source /g/data/ /miniconda/etc/profile.d/conda.sh
+/local/spool/pbs/mom_priv/jobs/113948881.gadi-pbs.SC: line 14: source: /g/data/: is a directory

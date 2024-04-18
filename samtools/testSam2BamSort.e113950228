@@ -1,0 +1,77 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH=/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate /g/data/xf3/miniconda/envs/samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/samtools
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/samtools
++ ask_conda='PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval 'PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ PS1='(samtools) '
+++ export PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=samtools
+++ CONDA_DEFAULT_ENV=samtools
+++ export 'CONDA_PROMPT_MODIFIER=(samtools) '
+++ CONDA_PROMPT_MODIFIER='(samtools) '
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ INPUT_READS=/g/data/xf3/zz3507/Output/minimap/notsurewhathaplotypeHiFialn.sam
++ OUTPUT_PREFIX=/g/data/xf3/zz3507/Output/minimap
++ samtools view -b -@ 32 /g/data/xf3/zz3507/Output/minimap/notsurewhathaplotypeHiFialn.sam
+[W::sam_hdr_create] Ignored @SQ SN:h2tg000280l : bad or missing LN tag
+[E::sam_hrecs_error] Malformed key:value pair at line 281: "@SQ	SN:h2tg000280l	:97236"
+samtools view: failed to add PG line to the header

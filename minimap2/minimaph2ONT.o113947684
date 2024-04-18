@@ -1,0 +1,14 @@
+
+======================================================================================
+                  Resource Usage on 2024-04-16 20:48:33:
+   Job Id:             113947684.gadi-pbs
+   Project:            xf3
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      362.13
+   NCPUs Requested:    30                     NCPUs Used: 30              
+                                           CPU Time Used: 170:48:50       
+   Memory Requested:   120.0GB               Memory Used: 45.66GB         
+   Walltime requested: 06:00:00            Walltime Used: 06:02:08        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================
+scp -r zz3507@gadi-dm.nci.org.au:/g/data/xf3/zz3507/Output/minimap/completeHiFi /Users/rick/Downloads
