@@ -1,0 +1,12 @@
++ /g/data/xf3/zz3507/envs/BWAMEM2/bwa-mem2-2.2.1_x64-linux/bwa-mem2 index /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+Looking to launch executable "/g/data/xf3/zz3507/envs/BWAMEM2/bwa-mem2-2.2.1_x64-linux/bwa-mem2.avx512bw", simd = .avx512bw
+Launching executable "/g/data/xf3/zz3507/envs/BWAMEM2/bwa-mem2-2.2.1_x64-linux/bwa-mem2.avx512bw"
+[bwa_index] Pack FASTA... 6.75 sec
+* Entering FMI_search
+init ticks = 144141178620
+ref seq len = 3366224778
+binary seq ticks = 89989420906
+build suffix-array ticks = 1741573333492
+pos: 420778098, ref_seq_len__: 420778097
+build fm-index ticks = 313979959916
+Total time taken: 726.9347

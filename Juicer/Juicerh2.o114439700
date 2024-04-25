@@ -1,0 +1,22 @@
+Using /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt as site file
+(-: Looking for fastq files...fastq files exist
+---  Using already created files in /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits
+
+(-: Aligning files matching /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/fastq/*_R*.fastq*
+ to genome /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta with no fragment delimited maps.
+Running command bwa mem -SP5M -t 72 -R @RG\tID:40769\tSM:HiC_sample\tPL:ILM\tLB:HiC_library /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/40769_R1.fastq.gz /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/40769_R2.fastq.gz > /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/40769.fastq.gz.sam
+(-:  Align of /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/40769.fastq.gz.sam done successfully
+***! Failure during chimera handling of /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/40769.fastq.gz
+
+======================================================================================
+                  Resource Usage on 2024-04-24 21:02:43:
+   Job Id:             114439700.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      908.36
+   NCPUs Requested:    72                     NCPUs Used: 72              
+                                           CPU Time Used: 441:45:07       
+   Memory Requested:   288.0GB               Memory Used: 288.0GB         
+   Walltime requested: 36:00:00            Walltime Used: 06:18:29        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

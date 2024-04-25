@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N H1GenerateSitePositionChiloglottis
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=1
+#PBS -l mem=4GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+python3 /g/data/xf3/zz3507/script/Juicer/generate_site_positions.py Chiloglottis draft /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta

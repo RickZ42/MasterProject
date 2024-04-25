@@ -1,0 +1,192 @@
++ module load bwa/0.7.17
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load bwa/0.7.17
++ eval 'CPATH=/apps/bwa/0.7.17/include;' export 'CPATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+LD_LIBRARY_PATH=/apps/bwa/0.7.17/lib;' export 'LD_LIBRARY_PATH;
+LD_RUN_PATH=/apps/bwa/0.7.17/lib;' export 'LD_RUN_PATH;
+MANPATH=/apps/bwa/0.7.17/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LIBRARY_PATH=/apps/bwa/0.7.17/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/bwa/0.7.17;' export '_LMFILES_;
+LOADEDMODULES=bwa/0.7.17;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+MANPATH_modshare=:1:/apps/bwa/0.7.17/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1;' export 'LIBRARY_PATH_modshare;
+BWA_BASE=/apps/bwa/0.7.17;' export 'BWA_BASE;
+C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+CPLUS_INCLUDE_PATH=/apps/bwa/0.7.17/include;' export 'CPLUS_INCLUDE_PATH;
+BWA_VERSION=0.7.17;' export 'BWA_VERSION;
+CPATH_modshare=/apps/bwa/0.7.17/include:1;' export 'CPATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1;' export 'LD_RUN_PATH_modshare;
+C_INCLUDE_PATH=/apps/bwa/0.7.17/include;' export 'C_INCLUDE_PATH;
+_LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=bwa/0.7.17:1;' export 'LOADEDMODULES_modshare;
+BWA_ROOT=/apps/bwa/0.7.17;' export 'BWA_ROOT;
+PATH=/apps/bwa/0.7.17/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/bwa/0.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ CPATH=/apps/bwa/0.7.17/include
+++ export CPATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ LD_LIBRARY_PATH=/apps/bwa/0.7.17/lib
+++ export LD_LIBRARY_PATH
+++ LD_RUN_PATH=/apps/bwa/0.7.17/lib
+++ export LD_RUN_PATH
+++ MANPATH=/apps/bwa/0.7.17/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LIBRARY_PATH=/apps/bwa/0.7.17/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/bwa/0.7.17
+++ export _LMFILES_
+++ LOADEDMODULES=bwa/0.7.17
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ MANPATH_modshare=:1:/apps/bwa/0.7.17/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1
+++ export LIBRARY_PATH_modshare
+++ BWA_BASE=/apps/bwa/0.7.17
+++ export BWA_BASE
+++ C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ CPLUS_INCLUDE_PATH=/apps/bwa/0.7.17/include
+++ export CPLUS_INCLUDE_PATH
+++ BWA_VERSION=0.7.17
+++ export BWA_VERSION
+++ CPATH_modshare=/apps/bwa/0.7.17/include:1
+++ export CPATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1
+++ export LD_RUN_PATH_modshare
+++ C_INCLUDE_PATH=/apps/bwa/0.7.17/include
+++ export C_INCLUDE_PATH
+++ _LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=bwa/0.7.17:1
+++ export LOADEDMODULES_modshare
+++ BWA_ROOT=/apps/bwa/0.7.17
+++ export BWA_ROOT
+++ PATH=/apps/bwa/0.7.17/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/bwa/0.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load java/jdk-8.40
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load java/jdk-8.40
++ eval 'LD_RUN_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib;' export 'LD_RUN_PATH;
+LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib;' export 'LD_LIBRARY_PATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+CPATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include;' export 'CPATH;
+LIBRARY_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/bwa/0.7.17:/apps/Modules/modulefiles/java/jdk-8.40;' export '_LMFILES_;
+LOADEDMODULES=bwa/0.7.17:java/jdk-8.40;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions;' export 'FPATH;
+LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+JAVA_BASE=/apps/java/jdk-8.40;' export 'JAVA_BASE;
+C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1;' export 'FPATH_modshare;
+CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include;' export 'CPLUS_INCLUDE_PATH;
+JAVA_VERSION=jdk-8.40;' export 'JAVA_VERSION;
+LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+C_INCLUDE_PATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include;' export 'C_INCLUDE_PATH;
+CPATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=bwa/0.7.17:1:java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+JAVA_ROOT=/apps/java/jdk-8.40;' export 'JAVA_ROOT;
+PATH=/apps/java/jdk-8.40/bin:/apps/bwa/0.7.17/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/bwa/0.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_RUN_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib
+++ export LD_RUN_PATH
+++ LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib
+++ export LD_LIBRARY_PATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ CPATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include
+++ export CPATH
+++ LIBRARY_PATH=/apps/java/jdk-8.40/lib:/apps/bwa/0.7.17/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/bwa/0.7.17:/apps/Modules/modulefiles/java/jdk-8.40
+++ export _LMFILES_
+++ LOADEDMODULES=bwa/0.7.17:java/jdk-8.40
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions
+++ export FPATH
+++ LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ JAVA_BASE=/apps/java/jdk-8.40
+++ export JAVA_BASE
+++ C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1
+++ export FPATH_modshare
+++ CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include
+++ export CPLUS_INCLUDE_PATH
+++ JAVA_VERSION=jdk-8.40
+++ export JAVA_VERSION
+++ LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH=/apps/java/jdk-8.40/include:/apps/bwa/0.7.17/include
+++ export C_INCLUDE_PATH
+++ CPATH_modshare=/apps/bwa/0.7.17/include:1:/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=bwa/0.7.17:1:java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ JAVA_ROOT=/apps/java/jdk-8.40
+++ export JAVA_ROOT
+++ PATH=/apps/java/jdk-8.40/bin:/apps/bwa/0.7.17/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/bwa/0.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer
++ /g/data/xf3/zz3507/envs/JuicerAddChiloglottisRestrictionEnzyme/juicer/CPU/juicer.sh -g draft -s Chiloglottis -z /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta -y /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt -p assembly -t 72

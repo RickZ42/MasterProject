@@ -21,6 +21,7 @@ nci_account -P xf3
 ## Interactive mode
 
 qsub -I -q express -P xf3 -lwalltime=00:05:00,ncpus=4,mem=16GB,jobfs=200GB,storage=gdata/xf3+scratch/xf3,wd
+qsub -I -q normalsr -P xf3 -lwalltime=00:05:00,ncpus=4,mem=16GB,jobfs=200GB,storage=gdata/xf3+scratch/xf3,wd
 
 # Conda environment
 
@@ -86,3 +87,11 @@ normal 2SU express 6SU 48CPU 190GBRAM 400GB JobFS
 hugemem 3SU 48CPU 1470GBRAM 1400GB JobFS
 normalsr 2SU 104CPU 500GBRAM 400GB JobFS 
 copyq
+
+#check md5 file
+md5sum -c checksum_file.md5
+
+#load environment
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools

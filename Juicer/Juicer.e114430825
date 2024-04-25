@@ -1,0 +1,33 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH=/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate /g/data/xf3/zz3507/envs/BWA/bwa
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/zz3507/envs/BWA/bwa
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/zz3507/envs/BWA/bwa
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/zz3507/envs/BWA/bwa
+
+EnvironmentLocationNotFound: Not a conda environment: /g/data/xf3/zz3507/envs/BWA/bwa
+
++ ask_conda=
++ return
