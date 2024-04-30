@@ -20,4 +20,4 @@ conda activate juicer
 # change working directiory
 cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer
 
-/g/data/xf3/zz3507/envs/JuicerAddChiloglottisRestrictionEnzyme/juicer/CPU/juicer.sh -g draft -s Chiloglottis -z /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta -y /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt -p assembly -t 72 -D /g/data/xf3/zz3507/envs/JuicerAddChiloglottisRestrictionEnzyme/juicer
+/g/data/xf3/zz3507/script/Juicer/juicer.sh -g draft -S early -s Chiloglottis -z /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta -y /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt -p /g/data/xf3/zz3507/script/HiC-Pro/contignumberBigger50KH2 -t 72 -D /g/data/xf3/zz3507/envs/JuicerAddChiloglottisRestrictionEnzyme/juicer

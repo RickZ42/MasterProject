@@ -1,0 +1,7 @@
+java.lang.RuntimeException: No reads in Hi-C contact matrices. This could be because the MAPQ filter is set too high (-q) or because all reads map to the same fragment.
+	at juicebox.tools.utils.original.MatrixZoomDataPP.mergeAndWriteBlocks(MatrixZoomDataPP.java:276)
+	at juicebox.tools.utils.original.Preprocessor.writeMatrix(Preprocessor.java:970)
+	at juicebox.tools.utils.original.Preprocessor.writeBody(Preprocessor.java:659)
+	at juicebox.tools.utils.original.Preprocessor.preprocess(Preprocessor.java:425)
+	at juicebox.tools.clt.old.PreProcessing.run(PreProcessing.java:139)
+	at juicebox.tools.HiCTools.main(HiCTools.java:94)

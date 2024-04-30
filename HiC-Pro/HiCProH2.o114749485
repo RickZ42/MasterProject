@@ -1,0 +1,50 @@
+
+Run HiC-Pro 3.1.0
+--------------------------------------------
+Mon Apr 29 14:09:49 AEST 2024
+Bowtie2 alignment step1 ...
+Logs: logs/sample1/mapping_step1.log
+
+--------------------------------------------
+Tue Apr 30 02:36:30 AEST 2024
+Bowtie2 alignment step2 ...
+Logs: logs/sample1/mapping_step2.log
+
+--------------------------------------------
+Tue Apr 30 08:21:02 AEST 2024
+Combine R1/R2 alignment files ...
+Logs: logs/sample1/mapping_combine.log
+/g/data/xf3/zz3507/envs/HiC-Pro//HiC-Pro_3.1.0/scripts/bowtie_combine.sh: line 49: 128G: value too great for base (error token is "128G")
+/g/data/xf3/zz3507/envs/HiC-Pro//HiC-Pro_3.1.0/scripts/bowtie_combine.sh: line 49: 128G: value too great for base (error token is "128G")
+
+--------------------------------------------
+Tue Apr 30 08:21:08 AEST 2024
+Mapping statistics for R1 and R2 tags ...
+Logs: logs/sample1/mapping_stats.log
+
+--------------------------------------------
+Tue Apr 30 08:21:09 AEST 2024
+Pairing of R1 and R2 tags ...
+
+--------------------------------------------
+Tue Apr 30 08:21:10 AEST 2024
+Assign alignments to restriction fragments ...
+
+--------------------------------------------
+Tue Apr 30 08:21:10 AEST 2024
+Merge chunks from the same sample ...
+find: 'hic_results/data/': No such file or directory 
+make: *** [/g/data/xf3/zz3507/envs/HiC-Pro/HiC-Pro_3.1.0/bin/../scripts//Makefile:160: merge_valid_interactions] Error 1
+
+======================================================================================
+                  Resource Usage on 2024-04-30 08:21:16:
+   Job Id:             114749485.gadi-pbs
+   Project:            xf3
+   Exit Status:        2
+   Service Units:      1164.23
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 510:33:38       
+   Memory Requested:   128.0GB               Memory Used: 100.0GB         
+   Walltime requested: 24:00:00            Walltime Used: 18:11:28        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

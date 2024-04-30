@@ -1,0 +1,20 @@
+Using /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt as site file
+(-: Aligning files matching /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/fastq/*_R*.fastq*
+ to genome draft with site file /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/draft_Chiloglottis_h2.txt
+---  Using already created files in /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits
+
+bwa mem -SP5M -t 72 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/*_R1*.fastq /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/*_R2*.fastq > /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/**.fastq.sam
+***! Alignment of /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/*_R1*.fastq /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/*_R2*.fastq failed.
+
+======================================================================================
+                  Resource Usage on 2024-04-29 16:10:45:
+   Job Id:             114772065.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.48
+   NCPUs Requested:    72                     NCPUs Used: 72              
+                                           CPU Time Used: 00:00:05        
+   Memory Requested:   288.0GB               Memory Used: 6.88GB          
+   Walltime requested: 36:00:00            Walltime Used: 00:00:12        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

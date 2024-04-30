@@ -1,0 +1,14 @@
+Error - Installation - config system not detected. Please (re) install HiC-Pro !
+
+======================================================================================
+                  Resource Usage on 2024-04-29 13:01:20:
+   Job Id:             114735568.gadi-pbs
+   Project:            xf3
+   Exit Status:        255
+   Service Units:      0.09
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   128.0GB               Memory Used: 223.23MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:05        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

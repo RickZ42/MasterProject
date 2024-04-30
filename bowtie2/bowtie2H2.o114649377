@@ -1,0 +1,34 @@
+Settings:
+  Output files: "/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/bowtie2_index.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta
+  bowtie2_index/asssembly.v2.2
+Total time for call to driver() for forward index: 00:00:00
+
+======================================================================================
+                  Resource Usage on 2024-04-27 20:40:30:
+   Job Id:             114649377.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.06
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   64.0GB                Memory Used: 98.63MB         
+   Walltime requested: 24:00:00            Walltime Used: 00:00:07        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

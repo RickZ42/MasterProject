@@ -1,0 +1,3 @@
+Error: could not open bowtie2_index/asssembly.v2.2
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /g/data/xf3/miniconda/envs/bowtie2/bin/bowtie2-build-s --wrapper basic-0 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta,bowtie2_index/asssembly.v2.2 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/bowtie2_index 

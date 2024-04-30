@@ -1,0 +1,237 @@
+++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /g/data/xf3/miniconda/bin/conda
+++++ dirname /g/data/xf3/miniconda/bin
++++ PATH=/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate juicer
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate juicer
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate juicer
++++ /g/data/xf3/miniconda/bin/conda shell.posix activate juicer
+++ ask_conda='PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ eval 'PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++++ PS1='(juicer) '
++++ export PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=juicer
++++ CONDA_DEFAULT_ENV=juicer
++++ export 'CONDA_PROMPT_MODIFIER=(juicer) '
++++ CONDA_PROMPT_MODIFIER='(juicer) '
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs
+++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer pre /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs/yahs.out.bin /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs/yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta.fai
+++ sort -k2,2d -k6,6d -T ./ --parallel=32 -S128G
+++ awk NF
+[I::main_pre] make juicer pre input from BIN file /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs/yahs.out.bin
+[I::make_juicer_pre_file_from_bin] 452055139 read pairs processed: 0 unmapped
+[I::main_pre] chromosome sizes for juicer_tools pre -
+PRE_C_SIZE: scaffold_1 321343799
+PRE_C_SIZE: scaffold_2 244979357
+PRE_C_SIZE: scaffold_3 115587086
+PRE_C_SIZE: scaffold_4 102886957
+PRE_C_SIZE: scaffold_5 99219672
+PRE_C_SIZE: scaffold_6 98374598
+PRE_C_SIZE: scaffold_7 88847100
+PRE_C_SIZE: scaffold_8 86519649
+PRE_C_SIZE: scaffold_9 85482351
+PRE_C_SIZE: scaffold_10 80898907
+PRE_C_SIZE: scaffold_11 77209629
+PRE_C_SIZE: scaffold_12 69526508
+PRE_C_SIZE: scaffold_13 68474532
+PRE_C_SIZE: scaffold_14 64669446
+PRE_C_SIZE: scaffold_15 60880100
+PRE_C_SIZE: scaffold_16 55934292
+PRE_C_SIZE: scaffold_17 51262000
+PRE_C_SIZE: scaffold_18 39526278
+PRE_C_SIZE: scaffold_19 32125881
+PRE_C_SIZE: scaffold_20 31594032
+PRE_C_SIZE: scaffold_21 20247328
+PRE_C_SIZE: scaffold_22 18559194
+PRE_C_SIZE: scaffold_23 16546863
+PRE_C_SIZE: scaffold_24 15373508
+PRE_C_SIZE: scaffold_25 12474381
+PRE_C_SIZE: scaffold_26 9109047
+PRE_C_SIZE: scaffold_27 7261825
+PRE_C_SIZE: scaffold_28 7059113
+PRE_C_SIZE: scaffold_29 6982107
+PRE_C_SIZE: scaffold_30 6517763
+PRE_C_SIZE: scaffold_31 5708601
+PRE_C_SIZE: scaffold_32 5151288
+PRE_C_SIZE: scaffold_33 4369237
+PRE_C_SIZE: scaffold_34 4019627
+PRE_C_SIZE: scaffold_35 3700394
+PRE_C_SIZE: scaffold_36 3318000
+PRE_C_SIZE: scaffold_37 3005477
+PRE_C_SIZE: scaffold_38 2563036
+PRE_C_SIZE: scaffold_39 2423970
+PRE_C_SIZE: scaffold_40 2380155
+PRE_C_SIZE: scaffold_41 2319911
+PRE_C_SIZE: scaffold_42 1786880
+PRE_C_SIZE: scaffold_43 1772469
+PRE_C_SIZE: scaffold_44 1752102
+PRE_C_SIZE: scaffold_45 1729168
+PRE_C_SIZE: scaffold_46 1557413
+PRE_C_SIZE: scaffold_47 1239229
+PRE_C_SIZE: scaffold_48 1228085
+PRE_C_SIZE: scaffold_49 1192372
+PRE_C_SIZE: scaffold_50 1154314
+PRE_C_SIZE: scaffold_51 1109114
+PRE_C_SIZE: scaffold_52 1102339
+PRE_C_SIZE: scaffold_53 1067420
+PRE_C_SIZE: scaffold_54 944577
+PRE_C_SIZE: scaffold_55 922387
+PRE_C_SIZE: scaffold_56 901813
+PRE_C_SIZE: scaffold_57 872099
+PRE_C_SIZE: scaffold_58 868019
+PRE_C_SIZE: scaffold_59 847767
+PRE_C_SIZE: scaffold_60 843169
+PRE_C_SIZE: scaffold_61 814361
+PRE_C_SIZE: scaffold_62 799067
+PRE_C_SIZE: scaffold_63 795869
+PRE_C_SIZE: scaffold_64 772319
+PRE_C_SIZE: scaffold_65 648686
+PRE_C_SIZE: scaffold_66 642000
+PRE_C_SIZE: scaffold_67 596895
+PRE_C_SIZE: scaffold_68 518406
+PRE_C_SIZE: scaffold_69 496000
+PRE_C_SIZE: scaffold_70 486084
+PRE_C_SIZE: scaffold_71 468000
+PRE_C_SIZE: scaffold_72 443175
+PRE_C_SIZE: scaffold_73 442613
+PRE_C_SIZE: scaffold_74 437044
+PRE_C_SIZE: scaffold_75 397459
+PRE_C_SIZE: scaffold_76 330000
+PRE_C_SIZE: scaffold_77 300388
+PRE_C_SIZE: scaffold_78 293204
+PRE_C_SIZE: scaffold_79 276250
+PRE_C_SIZE: scaffold_80 271354
+PRE_C_SIZE: scaffold_81 257000
+PRE_C_SIZE: scaffold_82 255857
+PRE_C_SIZE: scaffold_83 254825
+PRE_C_SIZE: scaffold_84 254667
+PRE_C_SIZE: scaffold_85 250328
+PRE_C_SIZE: scaffold_86 248923
+PRE_C_SIZE: scaffold_87 230000
+PRE_C_SIZE: scaffold_88 222482
+PRE_C_SIZE: scaffold_89 200226
+PRE_C_SIZE: scaffold_90 192843
+PRE_C_SIZE: scaffold_91 189197
+PRE_C_SIZE: scaffold_92 175774
+PRE_C_SIZE: scaffold_93 172960
+PRE_C_SIZE: scaffold_94 171592
+PRE_C_SIZE: scaffold_95 168776
+PRE_C_SIZE: scaffold_96 163471
+PRE_C_SIZE: scaffold_97 138659
+PRE_C_SIZE: scaffold_98 133557
+PRE_C_SIZE: scaffold_99 131880
+PRE_C_SIZE: scaffold_100 131718
+PRE_C_SIZE: scaffold_101 126911
+PRE_C_SIZE: scaffold_102 119271
+PRE_C_SIZE: scaffold_103 116085
+PRE_C_SIZE: scaffold_104 107030
+PRE_C_SIZE: scaffold_105 106615
+PRE_C_SIZE: scaffold_106 101331
+PRE_C_SIZE: scaffold_107 98478
+PRE_C_SIZE: scaffold_108 98398
+PRE_C_SIZE: scaffold_109 96958
+PRE_C_SIZE: scaffold_110 93000
+PRE_C_SIZE: scaffold_111 89372
+PRE_C_SIZE: scaffold_112 87625
+PRE_C_SIZE: scaffold_113 86000
+PRE_C_SIZE: scaffold_114 85778
+PRE_C_SIZE: scaffold_115 85371
+PRE_C_SIZE: scaffold_116 85000
+PRE_C_SIZE: scaffold_117 84801
+PRE_C_SIZE: scaffold_118 84010
+PRE_C_SIZE: scaffold_119 84008
+PRE_C_SIZE: scaffold_120 82000
+PRE_C_SIZE: scaffold_121 82000
+PRE_C_SIZE: scaffold_122 81334
+PRE_C_SIZE: scaffold_123 80233
+PRE_C_SIZE: scaffold_124 78975
+PRE_C_SIZE: scaffold_125 78253
+PRE_C_SIZE: scaffold_126 77402
+PRE_C_SIZE: scaffold_127 70895
+PRE_C_SIZE: scaffold_128 70866
+PRE_C_SIZE: scaffold_129 70637
+PRE_C_SIZE: scaffold_130 68697
+PRE_C_SIZE: scaffold_131 67276
+PRE_C_SIZE: scaffold_132 63114
+PRE_C_SIZE: scaffold_133 61159
+PRE_C_SIZE: scaffold_134 61000
+PRE_C_SIZE: scaffold_135 60152
+PRE_C_SIZE: scaffold_136 59306
+PRE_C_SIZE: scaffold_137 59008
+PRE_C_SIZE: scaffold_138 57180
+PRE_C_SIZE: scaffold_139 56838
+PRE_C_SIZE: scaffold_140 56260
+PRE_C_SIZE: scaffold_141 56000
+PRE_C_SIZE: scaffold_142 55868
+PRE_C_SIZE: scaffold_143 54757
+PRE_C_SIZE: scaffold_144 54370
+PRE_C_SIZE: scaffold_145 53946
+PRE_C_SIZE: scaffold_146 52462
+PRE_C_SIZE: scaffold_147 52387
+PRE_C_SIZE: scaffold_148 51065
+PRE_C_SIZE: scaffold_149 51000
+PRE_C_SIZE: scaffold_150 50882
+PRE_C_SIZE: scaffold_151 49000
+PRE_C_SIZE: scaffold_152 39000
+PRE_C_SIZE: scaffold_153 33000
+PRE_C_SIZE: scaffold_154 29446
+PRE_C_SIZE: scaffold_155 28045
+[I::main_pre] Version: 1.2
+[I::main_pre] CMD: juicer pre /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs/yahs.out.bin /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs/yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta.fai
+[I::main_pre] Real time: 118.736 sec; CPU: 102.315 sec; Peak RSS: 0.002 GB
+++ mv alignments_sorted.txt.part alignments_sorted.txt

@@ -1,0 +1,14 @@
+***! Reference sequence /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references//g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta does not exist
+
+======================================================================================
+                  Resource Usage on 2024-04-30 12:17:25:
+   Job Id:             114852812.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.23
+   NCPUs Requested:    104                    NCPUs Used: 104             
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   416.0GB               Memory Used: 79.92MB         
+   Walltime requested: 15:00:00            Walltime Used: 00:00:04        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

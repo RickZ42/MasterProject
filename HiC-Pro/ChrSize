@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#PBS -N SamtoolChrSize
+#PBS -l ncpus=24
+#PBS -l mem=96GB
+#PBS -l jobfs=1GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+
+
+samtools faidx -@24 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta
+cut -f1,2 ssembly.v2.2.fasta.fai > assembly.v2.2.chrsize
+
+# this script is not complete, I use the contignumber generate by my only script "cut 50K off"

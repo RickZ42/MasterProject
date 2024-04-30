@@ -1,0 +1,18 @@
+(-: Looking for fastq files...fastq files exist
+(-: Aligning files matching /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/fastq/*_R*.fastq*
+ to genome /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta with site file /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/restriction_sites/draft_Chiloglottis_h2.txt
+(-: Created /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/splits and /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/aligned.
+bwa mem -SP5M -t 104 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/splits/40769_R1.fastq.gz /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/splits/40769_R2.fastq.gz > /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/splits/40769.fastq.gz.sam
+
+======================================================================================
+                  Resource Usage on 2024-04-30 13:09:01:
+   Job Id:             114852984.gadi-pbs
+   Project:            xf3
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      168.19
+   NCPUs Requested:    104                    NCPUs Used: 104             
+                                           CPU Time Used: 37:10:33        
+   Memory Requested:   416.0GB               Memory Used: 206.02GB        
+   Walltime requested: 15:00:00            Walltime Used: 00:48:31        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

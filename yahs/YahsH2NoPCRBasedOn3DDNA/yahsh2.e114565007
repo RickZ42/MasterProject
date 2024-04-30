@@ -1,0 +1,3 @@
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs
++ /g/data/xf3/zz3507/envs/yahs/yahs/yahs /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/JuicerMappingHaplotype2.bam -t 24
+[E::main] unknown option: "/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/Juicer/splits/JuicerMappingHaplotype2.bam"

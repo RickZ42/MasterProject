@@ -1,0 +1,22 @@
+
+Run HiC-Pro 3.1.0
+--------------------------------------------
+Tue Apr 30 11:06:32 AEST 2024
+Bowtie2 alignment step1 ...
+Logs: logs/haplotype2/mapping_step1.log
+/g/data/xf3/zz3507/envs/HiC-Pro//HiC-Pro_3.1.0/scripts/bowtie_wrap.sh: line 1: 3017874 Terminated              end_to_end_align ${odir} ${R1} ${UNMAP} ${FILT_UNMAP} ${ldir} >> ${ldir}/mapping_step1.log
+/g/data/xf3/zz3507/envs/HiC-Pro//HiC-Pro_3.1.0/scripts/bowtie_wrap.sh: line 1: 3017875 Terminated              end_to_end_align ${odir} ${R2} ${UNMAP} ${FILT_UNMAP} ${ldir} >> ${ldir}/mapping_step1.log
+make: *** [/g/data/xf3/zz3507/envs/HiC-Pro/HiC-Pro_3.1.0/bin/../scripts//Makefile:88: bowtie_global] Terminated
+
+======================================================================================
+                  Resource Usage on 2024-04-30 11:14:18:
+   Job Id:             114846093.gadi-pbs
+   Project:            xf3
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      19.48
+   NCPUs Requested:    72                     NCPUs Used: 72              
+                                           CPU Time Used: 05:50:44        
+   Memory Requested:   288.0GB               Memory Used: 12.97GB         
+   Walltime requested: 15:00:00            Walltime Used: 00:08:07        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

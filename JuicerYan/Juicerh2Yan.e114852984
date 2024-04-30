@@ -1,0 +1,668 @@
++ module load java/jdk-8.40
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load java/jdk-8.40
++ eval 'LD_RUN_PATH=/apps/java/jdk-8.40/lib;' export 'LD_RUN_PATH;
+LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib;' export 'LD_LIBRARY_PATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+CPATH=/apps/java/jdk-8.40/include;' export 'CPATH;
+LIBRARY_PATH=/apps/java/jdk-8.40/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40;' export '_LMFILES_;
+LOADEDMODULES=java/jdk-8.40;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions;' export 'FPATH;
+LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+JAVA_BASE=/apps/java/jdk-8.40;' export 'JAVA_BASE;
+C_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1;' export 'FPATH_modshare;
+CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include;' export 'CPLUS_INCLUDE_PATH;
+JAVA_VERSION=jdk-8.40;' export 'JAVA_VERSION;
+LD_RUN_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+C_INCLUDE_PATH=/apps/java/jdk-8.40/include;' export 'C_INCLUDE_PATH;
+CPATH_modshare=/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+JAVA_ROOT=/apps/java/jdk-8.40;' export 'JAVA_ROOT;
+PATH=/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_RUN_PATH=/apps/java/jdk-8.40/lib
+++ export LD_RUN_PATH
+++ LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib
+++ export LD_LIBRARY_PATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ CPATH=/apps/java/jdk-8.40/include
+++ export CPATH
+++ LIBRARY_PATH=/apps/java/jdk-8.40/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40
+++ export _LMFILES_
+++ LOADEDMODULES=java/jdk-8.40
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions
+++ export FPATH
+++ LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ JAVA_BASE=/apps/java/jdk-8.40
+++ export JAVA_BASE
+++ C_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1
+++ export FPATH_modshare
+++ CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include
+++ export CPLUS_INCLUDE_PATH
+++ JAVA_VERSION=jdk-8.40
+++ export JAVA_VERSION
+++ LD_RUN_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH=/apps/java/jdk-8.40/include
+++ export C_INCLUDE_PATH
+++ CPATH_modshare=/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ JAVA_ROOT=/apps/java/jdk-8.40
+++ export JAVA_ROOT
+++ PATH=/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load python2/2.7.17
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load python2/2.7.17
++ eval 'LD_RUN_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_RUN_PATH;
+LD_LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_LIBRARY_PATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+CPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPATH;
+PYTHON2_VERSION=2.7.17;' export 'PYTHON2_VERSION;
+MANPATH=/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17;' export '_LMFILES_;
+LOADEDMODULES=java/jdk-8.40:python2/2.7.17;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+PKG_CONFIG_PATH=/apps/python2/2.7.17/lib/pkgconfig:/half-root/usr/lib64/pkgconfig;' export 'PKG_CONFIG_PATH;
+MANPATH_modshare=:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+FPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions;' export 'FPATH;
+LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+C_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+PKG_CONFIG_PATH_modshare=/apps/python2/2.7.17/lib/pkgconfig:1:/half-root/usr/lib64/pkgconfig:1;' export 'PKG_CONFIG_PATH_modshare;
+FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'FPATH_modshare;
+CPLUS_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPLUS_INCLUDE_PATH;
+PYTHON2_ROOT=/apps/python2/2.7.17;' export 'PYTHON2_ROOT;
+LD_RUN_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+C_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'C_INCLUDE_PATH;
+CPATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=python2/2.7.17:1:java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+PATH=/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PYTHON2_BASE=/apps/python2/2.7.17;' export 'PYTHON2_BASE;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_RUN_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_RUN_PATH
+++ LD_LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_LIBRARY_PATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ CPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPATH
+++ PYTHON2_VERSION=2.7.17
+++ export PYTHON2_VERSION
+++ MANPATH=/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17
+++ export _LMFILES_
+++ LOADEDMODULES=java/jdk-8.40:python2/2.7.17
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ PKG_CONFIG_PATH=/apps/python2/2.7.17/lib/pkgconfig:/half-root/usr/lib64/pkgconfig
+++ export PKG_CONFIG_PATH
+++ MANPATH_modshare=:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ FPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions
+++ export FPATH
+++ LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PKG_CONFIG_PATH_modshare=/apps/python2/2.7.17/lib/pkgconfig:1:/half-root/usr/lib64/pkgconfig:1
+++ export PKG_CONFIG_PATH_modshare
+++ FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export FPATH_modshare
+++ CPLUS_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPLUS_INCLUDE_PATH
+++ PYTHON2_ROOT=/apps/python2/2.7.17
+++ export PYTHON2_ROOT
+++ LD_RUN_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export C_INCLUDE_PATH
+++ CPATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=python2/2.7.17:1:java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ PATH=/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PYTHON2_BASE=/apps/python2/2.7.17
+++ export PYTHON2_BASE
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load parallel/20191022
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load parallel/20191022
++ eval 'MANPATH=/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022;' export 'LOADEDMODULES;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022;' export '_LMFILES_;
+MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+PARALLEL_ROOT=/apps/parallel/20191022;' export 'PARALLEL_ROOT;
+PARALLEL_VERSION=20191022;' export 'PARALLEL_VERSION;
+LOADEDMODULES_modshare=python2/2.7.17:1:parallel/20191022:1:java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/parallel/20191022:1:/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+PATH=/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/apps/python2/2.7.17/bin:1:/apps/java/jdk-8.40/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1;' export 'PATH_modshare;
+PARALLEL_BASE=/apps/parallel/20191022;' export 'PARALLEL_BASE;
+test' '0;'
+++ MANPATH=/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022
+++ export LOADEDMODULES
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022
+++ export _LMFILES_
+++ MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PARALLEL_ROOT=/apps/parallel/20191022
+++ export PARALLEL_ROOT
+++ PARALLEL_VERSION=20191022
+++ export PARALLEL_VERSION
+++ LOADEDMODULES_modshare=python2/2.7.17:1:parallel/20191022:1:java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/parallel/20191022:1:/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ PATH=/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/apps/python2/2.7.17/bin:1:/apps/java/jdk-8.40/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1
+++ export PATH_modshare
+++ PARALLEL_BASE=/apps/parallel/20191022
+++ export PARALLEL_BASE
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load bwa/0.7.17
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load bwa/0.7.17
++ eval 'CPATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+LD_LIBRARY_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_LIBRARY_PATH;
+LD_RUN_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_RUN_PATH;
+MANPATH=/apps/bwa/0.7.17/man:/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LIBRARY_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022:/apps/Modules/modulefiles/bwa/0.7.17;' export '_LMFILES_;
+LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022:bwa/0.7.17;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/bwa/0.7.17/man:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+BWA_BASE=/apps/bwa/0.7.17;' export 'BWA_BASE;
+C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:bwa/0.7.17\&bwa\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+CPLUS_INCLUDE_PATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPLUS_INCLUDE_PATH;
+BWA_VERSION=0.7.17;' export 'BWA_VERSION;
+CPATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+C_INCLUDE_PATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'C_INCLUDE_PATH;
+_LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1:/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1:/apps/Modules/modulefiles/parallel/20191022:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=bwa/0.7.17:1:python2/2.7.17:1:java/jdk-8.40:1:parallel/20191022:1;' export 'LOADEDMODULES_modshare;
+BWA_ROOT=/apps/bwa/0.7.17;' export 'BWA_ROOT;
+PATH=/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/apps/java/jdk-8.40/bin:1:/apps/bwa/0.7.17/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1;' export 'PATH_modshare;
+test' '0;'
+++ CPATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ LD_LIBRARY_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_LIBRARY_PATH
+++ LD_RUN_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_RUN_PATH
+++ MANPATH=/apps/bwa/0.7.17/man:/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LIBRARY_PATH=/apps/bwa/0.7.17/lib:/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022:/apps/Modules/modulefiles/bwa/0.7.17
+++ export _LMFILES_
+++ LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022:bwa/0.7.17
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/bwa/0.7.17/man:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ BWA_BASE=/apps/bwa/0.7.17
+++ export BWA_BASE
+++ C_INCLUDE_PATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:bwa/0.7.17&bwa&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ CPLUS_INCLUDE_PATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPLUS_INCLUDE_PATH
+++ BWA_VERSION=0.7.17
+++ export BWA_VERSION
+++ CPATH_modshare=/apps/bwa/0.7.17/include:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ LD_RUN_PATH_modshare=/apps/bwa/0.7.17/lib:1:/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ C_INCLUDE_PATH=/apps/bwa/0.7.17/include:/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export C_INCLUDE_PATH
+++ _LMFILES__modshare=/apps/Modules/modulefiles/bwa/0.7.17:1:/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1:/apps/Modules/modulefiles/parallel/20191022:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=bwa/0.7.17:1:python2/2.7.17:1:java/jdk-8.40:1:parallel/20191022:1
+++ export LOADEDMODULES_modshare
+++ BWA_ROOT=/apps/bwa/0.7.17
+++ export BWA_ROOT
+++ PATH=/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/apps/java/jdk-8.40/bin:1:/apps/bwa/0.7.17/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH=/g/data/xf3/miniconda/condabin:/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate juicer
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate juicer
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate juicer
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate juicer
++ ask_conda='PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval 'PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ PS1='(juicer) '
+++ export PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/apps/bwa/0.7.17/bin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=juicer
+++ CONDA_DEFAULT_ENV=juicer
+++ export 'CONDA_PROMPT_MODIFIER=(juicer) '
+++ CONDA_PROMPT_MODIFIER='(juicer) '
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan
++ export wdir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan
++ wdir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan
++ scripts/juicer.sh -S early -D /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan -g /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta -z /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta -y /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/restriction_sites/draft_Chiloglottis_h2.txt -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/contignumberBigger50KH2 -t 104
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 6992896 sequences (1040000245 bp)...
+[M::process] read 6991266 sequences (1040000095 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13406, 358978, 12183, 13727)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (827, 2220, 4799)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12743)
+[M::mem_pestat] mean and std.dev: (3087.99, 2685.10)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16715)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 181, 256)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 508)
+[M::mem_pestat] mean and std.dev: (193.85, 87.18)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 634)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (999, 2468, 4985)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12957)
+[M::mem_pestat] mean and std.dev: (3247.06, 2685.48)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16943)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (838, 2189, 4687)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12385)
+[M::mem_pestat] mean and std.dev: (3033.85, 2643.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16234)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6992896 reads in 15713.646 CPU sec, 216.388 real sec
+[M::process] read 6991148 sequences (1040000031 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13516, 357197, 12191, 13936)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (864, 2209, 4687)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12333)
+[M::mem_pestat] mean and std.dev: (3053.72, 2641.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16156)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 182, 258)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 514)
+[M::mem_pestat] mean and std.dev: (195.07, 88.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 642)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (982, 2375, 4927)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12817)
+[M::mem_pestat] mean and std.dev: (3190.64, 2675.42)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16762)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (856, 2255, 4817)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12739)
+[M::mem_pestat] mean and std.dev: (3094.71, 2670.40)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16700)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6991266 reads in 13568.147 CPU sec, 137.129 real sec
+[M::process] read 6990718 sequences (1040000192 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13729, 357377, 12435, 13798)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (851, 2258, 4872)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12914)
+[M::mem_pestat] mean and std.dev: (3120.94, 2694.21)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16935)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 182, 259)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 517)
+[M::mem_pestat] mean and std.dev: (195.38, 88.45)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 646)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (1002, 2481, 5032)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13092)
+[M::mem_pestat] mean and std.dev: (3236.62, 2666.67)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17122)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (834, 2176, 4648)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12276)
+[M::mem_pestat] mean and std.dev: (3009.23, 2623.56)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16090)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6991148 reads in 13841.872 CPU sec, 142.648 real sec
+[M::process] read 6991412 sequences (1040000114 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13838, 357225, 12306, 13661)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (840, 2208, 4685)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12375)
+[M::mem_pestat] mean and std.dev: (3047.89, 2657.67)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16220)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 182, 258)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 514)
+[M::mem_pestat] mean and std.dev: (194.98, 88.09)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 642)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (972, 2426, 5024)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13128)
+[M::mem_pestat] mean and std.dev: (3224.35, 2688.23)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17180)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (842, 2191, 4805)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12731)
+[M::mem_pestat] mean and std.dev: (3078.52, 2691.96)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16694)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6990718 reads in 12923.927 CPU sec, 127.907 real sec
+[M::process] read 6991920 sequences (1040000256 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13600, 357952, 12401, 13769)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (841, 2227, 4812)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12754)
+[M::mem_pestat] mean and std.dev: (3089.53, 2688.84)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16725)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 181, 257)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 513)
+[M::mem_pestat] mean and std.dev: (194.41, 88.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 641)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (980, 2485, 4990)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13010)
+[M::mem_pestat] mean and std.dev: (3224.71, 2679.70)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17020)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (837, 2185, 4676)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12354)
+[M::mem_pestat] mean and std.dev: (3031.43, 2648.14)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16193)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6991412 reads in 13055.404 CPU sec, 131.449 real sec
+[M::process] read 6990440 sequences (1040000250 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13646, 358326, 12342, 13699)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (859, 2249, 4794)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12664)
+[M::mem_pestat] mean and std.dev: (3084.90, 2669.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16599)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 181, 257)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 511)
+[M::mem_pestat] mean and std.dev: (194.27, 87.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 638)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (975, 2399, 4950)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12900)
+[M::mem_pestat] mean and std.dev: (3200.60, 2666.89)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16875)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (824, 2231, 4689)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12419)
+[M::mem_pestat] mean and std.dev: (3045.95, 2657.49)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16284)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6991920 reads in 12795.958 CPU sec, 125.960 real sec
+[M::process] read 6989376 sequences (1040000125 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13671, 357037, 12436, 14025)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (841, 2255, 4817)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12769)
+[M::mem_pestat] mean and std.dev: (3104.42, 2696.66)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16745)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 182, 258)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 514)
+[M::mem_pestat] mean and std.dev: (195.03, 88.36)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 642)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (1035, 2436, 5017)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12981)
+[M::mem_pestat] mean and std.dev: (3250.30, 2691.33)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16963)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (818, 2161, 4693)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12443)
+[M::mem_pestat] mean and std.dev: (3049.24, 2674.60)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16318)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6990440 reads in 12769.848 CPU sec, 125.323 real sec
+[M::process] read 6988740 sequences (1040000076 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13620, 356393, 12426, 13875)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (881, 2304, 4813)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12677)
+[M::mem_pestat] mean and std.dev: (3111.86, 2656.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16609)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (130, 182, 259)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 517)
+[M::mem_pestat] mean and std.dev: (195.22, 88.70)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 646)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (976, 2376, 4903)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12757)
+[M::mem_pestat] mean and std.dev: (3189.07, 2659.32)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16684)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (833, 2227, 4679)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12371)
+[M::mem_pestat] mean and std.dev: (3046.50, 2669.44)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16217)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6989376 reads in 12812.571 CPU sec, 127.412 real sec
+[M::process] read 6988708 sequences (1040000154 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (13784, 356656, 12440, 13726)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (894, 2285, 4839)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12729)
+[M::mem_pestat] mean and std.dev: (3119.81, 2668.90)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16674)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (129, 182, 258)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 516)
+[M::mem_pestat] mean and std.dev: (195.03, 88.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 645)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (975, 2427, 4992)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13026)
+[M::mem_pestat] mean and std.dev: (3235.99, 2694.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17043)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (849, 2301, 4821)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 12765)
+[M::mem_pestat] mean and std.dev: (3127.26, 2704.64)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 16737)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 6988740 reads in 12689.650 CPU sec, 124.700 real sec
+[M::process] read 6988954 sequences (1040000186 bp)...

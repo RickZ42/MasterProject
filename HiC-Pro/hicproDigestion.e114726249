@@ -1,0 +1,2 @@
+/g/data/xf3/zz3507/envs/HiC-Pro/bin/utils/digest_genome.py:152: SyntaxWarning: invalid escape sequence '\^'
+  sequences.append(re.sub('\^', '', cseq))
