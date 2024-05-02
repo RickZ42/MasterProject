@@ -96,3 +96,16 @@ md5sum -c checksum_file.md5
 set -xue
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/samtools
+
+# give bash file permision 
+chmod +x
+
+# Check big file
+du -ah * | sort -rh | head -n 20
+
+# Check the usage of the quota 
+nci_account -v
+
+
+# Check the space usage
+nci-files-report -f scratch -g xf3

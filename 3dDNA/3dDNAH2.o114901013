@@ -1,0 +1,15 @@
+/g/data/xf3/zz3507/script/3dDNA/3d-dna/run-asm-pipeline.sh 
+version: 180922
+
+======================================================================================
+                  Resource Usage on 2024-05-02 20:56:05:
+   Job Id:             114901013.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.08
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   190.0GB               Memory Used: 76.79MB         
+   Walltime requested: 48:00:00            Walltime Used: 00:00:03        
+   JobFS requested:    190.0GB                JobFS used: 0B              
+======================================================================================
