@@ -1,0 +1,2 @@
+/local/spool/pbs/mom_priv/jobs/115144902.gadi-pbs.SC: line 14: syntax error near unexpected token `\ '
+/local/spool/pbs/mom_priv/jobs/115144902.gadi-pbs.SC: line 14: `/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs/yahs.out_scaffolds_final.fa.chrom.sizes) \ '

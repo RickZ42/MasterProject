@@ -1,0 +1,77 @@
+++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /g/data/xf3/miniconda/bin/conda
+++++ dirname /g/data/xf3/miniconda/bin
++++ PATH=/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate juicer
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate juicer
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate juicer
++++ /g/data/xf3/miniconda/bin/conda shell.posix activate juicer
+++ ask_conda='PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ eval 'PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++++ PS1='(juicer) '
++++ export PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=juicer
++++ CONDA_DEFAULT_ENV=juicer
++++ export 'CONDA_PROMPT_MODIFIER=(juicer) '
++++ CONDA_PROMPT_MODIFIER='(juicer) '
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrection
+++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer pre /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrection/yahs.out.bin /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrection/yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta.fai
+++ sort -k2,2d -k6,6d -T ./ --parallel=32 -S128G
+++ awk NF
+[E::make_sdict_from_index] cannot open file /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta.fai for reading
+++ mv alignments_sorted.txt.part alignments_sorted.txt

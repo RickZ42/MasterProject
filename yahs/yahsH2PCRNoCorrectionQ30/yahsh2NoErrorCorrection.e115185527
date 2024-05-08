@@ -1,0 +1,2 @@
++ mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrectionQ30
+mkdir: cannot create directory '/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrectionQ30': File exists

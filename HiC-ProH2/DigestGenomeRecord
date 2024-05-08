@@ -1,0 +1,17 @@
+ Phase genomics. Enzymes:
+        DpnII ^GATC
+        HinfI G^ANTC
+        Msel T^TAA
+        DdeI C^TNAG
+
+Re-ligation combinations (e.g. for HiC-Pro, 4x4 = 16 total):
+GATCGATC,GATCANTC,GATCTAA,GATCTNAG,GANTGATC,GANTANTC,GANTTAA,GANTTNAG,TTAGATC,TTAANTC,TTATAA,TTATNAG,CTNAGATC,CTNAANTC,CTNATAA,CTNATNAG
+
+ 
+ 
+ ## Digest the HiFiHiCONT>50k genome 
+/g/data/xf3/miniconda/envs/HiC-Pro_v3.1.0/bin/utils/digest_genome.py -r ^GATC G^ANTC T^TAA C^TNAG -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/HiCProDigestGenome/DigestEnzymeH1HiCPro.bed /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+
+
+$BT2_HOME/bowtie2 -x $BT2_HOME/example/index/lambda_virus -1 $BT2_HOME/example/reads/reads_1.fq -2 $BT2_HOME/example/reads/reads_2.fq -S eg2.sam
+exit

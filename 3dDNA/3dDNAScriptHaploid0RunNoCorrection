@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N 3dDNAH2haploid
+#PBS -q normal
+#PBS -l mem=100GB
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=24
+#PBS -l jobfs=400GB
+#PBS -l wd
+#PBS -l storage=scratch/xf3+gdata/xf3
+#PBS -P xf3
+set -xue
+module load java/jdk-8.40
+module load python2/2.7.17
+module load parallel/20191022
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate 3d-dna
+export JAVA_TOOL_OPTIONS="-Xmx150g"
+export PATH=$PATH:/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0Run
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0Run
+bash /g/data/xf3/zz3507/script/3dDNA/3d-dna/run-asm-pipeline.sh -r 0 --build-gapped-map /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/aligned/merged_nodups.txt

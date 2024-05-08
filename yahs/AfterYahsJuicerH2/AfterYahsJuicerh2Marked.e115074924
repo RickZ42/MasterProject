@@ -1,0 +1,73 @@
+++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /g/data/xf3/miniconda/bin/conda
+++++ dirname /g/data/xf3/miniconda/bin
++++ PATH=/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate juicer
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate juicer
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate juicer
++++ /g/data/xf3/miniconda/bin/conda shell.posix activate juicer
+++ ask_conda='PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ eval 'PS1='\''(juicer) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/juicer'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''juicer'\''
+export CONDA_PROMPT_MODIFIER='\''(juicer) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++++ PS1='(juicer) '
++++ export PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ PATH=/g/data/xf3/miniconda/envs/juicer/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/juicer
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=juicer
++++ CONDA_DEFAULT_ENV=juicer
++++ export 'CONDA_PROMPT_MODIFIER=(juicer) '
++++ CONDA_PROMPT_MODIFIER='(juicer) '
++++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs
+/local/spool/pbs/mom_priv/jobs/115074924.gadi-pbs.SC: line 18: cd: /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/yahs: No such file or directory

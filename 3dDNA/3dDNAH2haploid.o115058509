@@ -1,0 +1,27 @@
+/g/data/xf3/zz3507/script/3dDNA/3d-dna/run-asm-pipeline.sh -r 0 --build-gapped-map /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/aligned/merged_nodups.txt
+version: 180922
+ -r|--rounds flag was triggered, will run 0 round(s) of misjoin correction.
+ --build-gapped-map was triggered, will build an additional hic file corresponding to final assembly with gaps added between draft sequences.
+###############
+Starting iterating scaffolding with editing:
+...starting round 0 of scaffolding:
+:) -p flag was triggered. Running LIGer with GNU Parallel support parameter set to true.
+:) -s flag was triggered, starting calculations with 15000 threshold starting contig/scaffold size
+:) -q flag was triggered, starting calculations with 1 threshold mapping quality
+...Using cprops file: assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.0.cprops
+...Using merged_nodups file: assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.mnd.0.txt
+...Scaffolding all scaffolds and contigs greater or equal to 15000 bp.
+...Starting iteration # 1
+
+======================================================================================
+                  Resource Usage on 2024-05-06 12:55:30:
+   Job Id:             115058509.gadi-pbs
+   Project:            xf3
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      2.85
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:04:07        
+   Memory Requested:   190.0GB               Memory Used: 34.98GB         
+   Walltime requested: 48:00:00            Walltime Used: 00:01:48        
+   JobFS requested:    190.0GB                JobFS used: 0B              
+======================================================================================

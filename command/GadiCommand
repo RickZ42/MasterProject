@@ -109,3 +109,6 @@ nci_account -v
 
 # Check the space usage
 nci-files-report -f scratch -g xf3
+
+#To visual binary file
+zless

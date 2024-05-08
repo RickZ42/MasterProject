@@ -1,0 +1,19 @@
+WARN [2024-05-06T16:23:39,195]  [Globals.java:138] [main]  Development mode is enabled
+Using 1 CPU thread(s)
+Not including fragment map
+Start preprocess
+Writing header
+Writing body
+
+======================================================================================
+                  Resource Usage on 2024-05-06 16:24:10:
+   Job Id:             115075175.gadi-pbs
+   Project:            xf3
+   Exit Status:        56
+   Service Units:      0.12
+   NCPUs Requested:    8                      NCPUs Used: 8               
+                                           CPU Time Used: 00:00:28        
+   Memory Requested:   32.0GB                Memory Used: 7.24GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:00:28        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

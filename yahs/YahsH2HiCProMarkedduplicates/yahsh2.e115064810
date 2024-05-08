@@ -1,0 +1,19 @@
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs
++ /g/data/xf3/zz3507/envs/yahs/yahs/yahs /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs/marked_duplicates_Q720KOntHifiHiCBigger50Kcontig.hic.hap2.bam
+[E::main] missing input: two positional options required
+Usage: yahs [options] <contigs.fa> <hic.bed>|<hic.bam>|<hic.bin>
+Options:
+    -a FILE                AGP file (for rescaffolding) [none]
+    -r INT[,INT,...]       list of resolutions in ascending order [automate]
+    -e STR                 restriction enzyme cutting sites [none]
+    -l INT                 minimum length of a contig to scaffold [0]
+    -q INT                 minimum mapping quality [10]
+    --no-contig-ec         do not do contig error correction
+    --no-scaffold-ec       do not do scaffold error correction
+    --no-mem-check         do not do memory check at runtime
+    --file-type STR        input file type BED|BAM|BIN|PA5, file name extension is ignored if set
+    --read-length          read length (required for PA5 format input) [150]
+    -o STR                 prefix of output files [yahs.out]
+    -v INT                 verbose level [0]
+    -?                     print long help with extra option list
+    --version              show version number

@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N yahsh2
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=8
+#PBS -l mem=96GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+set -xue
+
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs
+
+/g/data/xf3/zz3507/envs/yahs/yahs/yahs /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs/marked_duplicates_Q720KOntHifiHiCBigger50Kcontig.hic.hap2.bam

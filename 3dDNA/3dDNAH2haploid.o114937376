@@ -1,0 +1,17 @@
+/g/data/xf3/zz3507/script/3dDNA/3d-dna/run-asm-pipeline.sh -r 0 --build-gapped-map /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/aligned/merged_nodups.txt
+version: 180922
+ -r|--rounds flag was triggered, will run 0 round(s) of misjoin correction.
+ --build-gapped-map was triggered, will build an additional hic file corresponding to final assembly with gaps added between draft sequences.
+
+======================================================================================
+                  Resource Usage on 2024-05-03 15:11:18:
+   Job Id:             114937376.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.47
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:17        
+   Memory Requested:   190.0GB               Memory Used: 2.03GB          
+   Walltime requested: 48:00:00            Walltime Used: 00:00:18        
+   JobFS requested:    190.0GB                JobFS used: 0B              
+======================================================================================

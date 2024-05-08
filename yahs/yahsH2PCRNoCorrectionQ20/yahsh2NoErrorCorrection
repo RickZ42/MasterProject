@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N yahsh2NoErrorCorrection
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=4
+#PBS -l mem=96GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+set -xue
+
+mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrectionQ20
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrectionQ20
+
+/g/data/xf3/zz3507/envs/yahs/yahs/yahs -q20 --no-contig-ec /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs/marked_duplicates_Q720KOntHifiHiCBigger50Kcontig.hic.hap2.bam

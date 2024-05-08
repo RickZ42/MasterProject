@@ -2,10 +2,10 @@
 
 #PBS -N blasthap2
 #PBS -P xf3
-#PBS -q normalsr
-#PBS -l walltime=6:00:00
-#PBS -l ncpus=50
-#PBS -l mem=400GB
+#PBS -q normal
+#PBS -l walltime=18:00:00
+#PBS -l ncpus=40
+#PBS -l mem=160GB
 #PBS -l jobfs=400GB
 #PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
 #PBS -l wd
@@ -15,4 +15,4 @@ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate snakemake
 
 cd /g/data/xf3/zz3507/envs/snake
-snakemake --use-conda -c50 --keep-going
+snakemake --use-conda -c40 --keep-going
