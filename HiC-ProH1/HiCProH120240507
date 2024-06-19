@@ -14,5 +14,5 @@ conda activate /g/data/xf3/zz3507/envs/HiC-Pro/
 
 /g/data/xf3/zz3507/envs/HiC-Pro/HiC-Pro_3.1.0/bin/HiC-Pro \
  -i /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/fastq/ \
- -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/HiCPro \
- -c /g/data/xf3/zz3507/script/HiC-Pro/config-hicpro.txt
+ -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/HiCPro \
+ -c /g/data/xf3/zz3507/script/HiC-ProH1/config-hicpro.txt

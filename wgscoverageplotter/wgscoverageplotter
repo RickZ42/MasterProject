@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=12
+#PBS -l mem=48GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/if89
+#pbs -l wd
+ 
+set -xue
+
+
+/g/data/if89/apps/picard/3.1.1/picard.jar createsequencedictionary reference=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta \
+output=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/wgscoverageplotter/Q720KOntHifiHiCBigger50Kcontig.hic.hap2.dict
+
+wgscoverageplotter.py --min-contig-length  --dimension 6000x500 -r createsequencedictionary reference=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/minimap/completeHiFi/H2HiFialn_sorted.bam > Q720KOntHifiHiCBigger50KcontigResult.svg

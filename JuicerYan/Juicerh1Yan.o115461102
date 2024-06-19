@@ -1,0 +1,24 @@
+Using /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/restriction_sites/draftH1_Chiloglottis.txt as site file
+(-: Looking for fastq files...fastq files exist
+(-: Aligning files matching /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/fastq/*_R*.fastq*
+ to genome $/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta with site file /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/restriction_sites/draftH1_Chiloglottis.txt
+(-: Created /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/splits and /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/aligned.
+bwa mem -SP5M -t 72 /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/splits/40769_R1.fastq.gz /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/splits/40769_R2.fastq.gz > /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/splits/40769.fastq.gz.sam
+(-:  Align of /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/splits/40769.fastq.gz.sam done successfully
+(-: Finished sorting all sorted files into a single merge.
+(-: Pipeline successfully completed (-:
+Run cleanup.sh to remove the splits directory
+Check /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/aligned for results
+
+======================================================================================
+                  Resource Usage on 2024-05-13 01:02:11:
+   Job Id:             115461102.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      1737.56
+   NCPUs Requested:    72                     NCPUs Used: 72              
+                                           CPU Time Used: 444:43:12       
+   Memory Requested:   288.0GB               Memory Used: 288.0GB         
+   Walltime requested: 48:00:00            Walltime Used: 12:03:59        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

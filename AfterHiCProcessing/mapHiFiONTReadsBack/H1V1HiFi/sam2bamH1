@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#PBS -l ncpus=32
+#PBS -l mem=180GB
+#PBS -l jobfs=100GB
+#PBS -q normal
+#PBS -P fa63
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+
+
+# Set the input SAM files
+SAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1HiFi/H1V1HiFialn.sam"
+
+# Set the output BAM file names
+BAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1HiFi/H1V1HiFialn.bam"
+
+# Convert SAM to BAM using samtools
+samtools view -b -@32 $SAM_FILE1 -o $BAM_FILE1
+
+# Sort the BAM files
+samtools sort -@32 $BAM_FILE1 -o ${BAM_FILE1%.bam}_sorted.bam
+
+# Index the sorted BAM files
+samtools index -@32 ${BAM_FILE1%.bam}_sorted.bam
+

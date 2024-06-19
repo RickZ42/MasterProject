@@ -1,0 +1,719 @@
++ module load java/jdk-8.40
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load java/jdk-8.40
++ eval 'LD_RUN_PATH=/apps/java/jdk-8.40/lib;' export 'LD_RUN_PATH;
+LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib;' export 'LD_LIBRARY_PATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+CPATH=/apps/java/jdk-8.40/include;' export 'CPATH;
+LIBRARY_PATH=/apps/java/jdk-8.40/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40;' export '_LMFILES_;
+LOADEDMODULES=java/jdk-8.40;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions;' export 'FPATH;
+LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+JAVA_BASE=/apps/java/jdk-8.40;' export 'JAVA_BASE;
+C_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1;' export 'FPATH_modshare;
+CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include;' export 'CPLUS_INCLUDE_PATH;
+JAVA_VERSION=jdk-8.40;' export 'JAVA_VERSION;
+LD_RUN_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+C_INCLUDE_PATH=/apps/java/jdk-8.40/include;' export 'C_INCLUDE_PATH;
+CPATH_modshare=/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+JAVA_ROOT=/apps/java/jdk-8.40;' export 'JAVA_ROOT;
+PATH=/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_RUN_PATH=/apps/java/jdk-8.40/lib
+++ export LD_RUN_PATH
+++ LD_LIBRARY_PATH=/apps/java/jdk-8.40/lib
+++ export LD_LIBRARY_PATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ CPATH=/apps/java/jdk-8.40/include
+++ export CPATH
+++ LIBRARY_PATH=/apps/java/jdk-8.40/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40
+++ export _LMFILES_
+++ LOADEDMODULES=java/jdk-8.40
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ FPATH=/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions
+++ export FPATH
+++ LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ JAVA_BASE=/apps/java/jdk-8.40
+++ export JAVA_BASE
+++ C_INCLUDE_PATH_modshare=/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/java/jdk-8.40/include:1
+++ export FPATH_modshare
+++ CPLUS_INCLUDE_PATH=/apps/java/jdk-8.40/include
+++ export CPLUS_INCLUDE_PATH
+++ JAVA_VERSION=jdk-8.40
+++ export JAVA_VERSION
+++ LD_RUN_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH=/apps/java/jdk-8.40/include
+++ export C_INCLUDE_PATH
+++ CPATH_modshare=/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ JAVA_ROOT=/apps/java/jdk-8.40
+++ export JAVA_ROOT
+++ PATH=/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load python2/2.7.17
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load python2/2.7.17
++ eval 'LD_RUN_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_RUN_PATH;
+LD_LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LD_LIBRARY_PATH;
+CPLUS_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPLUS_INCLUDE_PATH_modshare;
+CPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPATH;
+PYTHON2_VERSION=2.7.17;' export 'PYTHON2_VERSION;
+MANPATH=/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib;' export 'LIBRARY_PATH;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17;' export '_LMFILES_;
+LOADEDMODULES=java/jdk-8.40:python2/2.7.17;' export 'LOADEDMODULES;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+PKG_CONFIG_PATH=/apps/python2/2.7.17/lib/pkgconfig:/half-root/usr/lib64/pkgconfig;' export 'PKG_CONFIG_PATH;
+MANPATH_modshare=:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+FPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions;' export 'FPATH;
+LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LIBRARY_PATH_modshare;
+C_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'C_INCLUDE_PATH_modshare;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+PKG_CONFIG_PATH_modshare=/apps/python2/2.7.17/lib/pkgconfig:1:/half-root/usr/lib64/pkgconfig:1;' export 'PKG_CONFIG_PATH_modshare;
+FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'FPATH_modshare;
+CPLUS_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'CPLUS_INCLUDE_PATH;
+PYTHON2_ROOT=/apps/python2/2.7.17;' export 'PYTHON2_ROOT;
+LD_RUN_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_RUN_PATH_modshare;
+LD_LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+C_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include;' export 'C_INCLUDE_PATH;
+CPATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1;' export 'CPATH_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=python2/2.7.17:1:java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+PATH=/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PYTHON2_BASE=/apps/python2/2.7.17;' export 'PYTHON2_BASE;
+PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_RUN_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_RUN_PATH
+++ LD_LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LD_LIBRARY_PATH
+++ CPLUS_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPLUS_INCLUDE_PATH_modshare
+++ CPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPATH
+++ PYTHON2_VERSION=2.7.17
+++ export PYTHON2_VERSION
+++ MANPATH=/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LIBRARY_PATH=/apps/python2/2.7.17/lib:/apps/java/jdk-8.40/lib
+++ export LIBRARY_PATH
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17
+++ export _LMFILES_
+++ LOADEDMODULES=java/jdk-8.40:python2/2.7.17
+++ export LOADEDMODULES
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ PKG_CONFIG_PATH=/apps/python2/2.7.17/lib/pkgconfig:/half-root/usr/lib64/pkgconfig
+++ export PKG_CONFIG_PATH
+++ MANPATH_modshare=:1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ FPATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include:/opt/Modules/v4.3.0/init/ksh-functions
+++ export FPATH
+++ LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export C_INCLUDE_PATH_modshare
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PKG_CONFIG_PATH_modshare=/apps/python2/2.7.17/lib/pkgconfig:1:/half-root/usr/lib64/pkgconfig:1
+++ export PKG_CONFIG_PATH_modshare
+++ FPATH_modshare=/opt/Modules/v4.3.0/init/ksh-functions:1:/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export FPATH_modshare
+++ CPLUS_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export CPLUS_INCLUDE_PATH
+++ PYTHON2_ROOT=/apps/python2/2.7.17
+++ export PYTHON2_ROOT
+++ LD_RUN_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_RUN_PATH_modshare
+++ LD_LIBRARY_PATH_modshare=/apps/python2/2.7.17/lib:1:/apps/java/jdk-8.40/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ C_INCLUDE_PATH=/apps/python2/2.7.17/include/python2.7:/apps/java/jdk-8.40/include
+++ export C_INCLUDE_PATH
+++ CPATH_modshare=/apps/python2/2.7.17/include/python2.7:1:/apps/java/jdk-8.40/include:1
+++ export CPATH_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=python2/2.7.17:1:java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ PATH=/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PYTHON2_BASE=/apps/python2/2.7.17
+++ export PYTHON2_BASE
+++ PATH_modshare=/bin:1:/usr/sbin:1:/usr/bin:1:/apps/python2/2.7.17/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/java/jdk-8.40/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load parallel/20191022
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load parallel/20191022
++ eval 'MANPATH=/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022;' export 'LOADEDMODULES;
+_LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022;' export '_LMFILES_;
+MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+MODULES_LMCONFLICT=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+MODULES_LMCONFLICT_modshare=java/jdk-8.40\&java\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:parallel/20191022\&parallel\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:python2/2.7.17\&python2\&o/ld_library_path\&o/yes-ld_library_path\&o/use-ld_library_path\&o/enable-ld_library_path\&o/with-ld_library_path\&o/no-ld_library_path\&o/not-ld_library_path\&o/disable-ld_library_path\&o/without-ld_library_path\&o/ld_run_path\&o/yes-ld_run_path\&o/use-ld_run_path\&o/enable-ld_run_path\&o/with-ld_run_path\&o/no-ld_run_path\&o/not-ld_run_path\&o/disable-ld_run_path\&o/without-ld_run_path\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/library_path\&o/yes-library_path\&o/use-library_path\&o/enable-library_path\&o/with-library_path\&o/no-library_path\&o/not-library_path\&o/disable-library_path\&o/without-library_path\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+PARALLEL_ROOT=/apps/parallel/20191022;' export 'PARALLEL_ROOT;
+PARALLEL_VERSION=20191022;' export 'PARALLEL_VERSION;
+LOADEDMODULES_modshare=python2/2.7.17:1:parallel/20191022:1:java/jdk-8.40:1;' export 'LOADEDMODULES_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/parallel/20191022:1:/apps/Modules/modulefiles/java/jdk-8.40:1;' export '_LMFILES__modshare;
+PATH=/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/apps/python2/2.7.17/bin:1:/apps/java/jdk-8.40/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1;' export 'PATH_modshare;
+PARALLEL_BASE=/apps/parallel/20191022;' export 'PARALLEL_BASE;
+test' '0;'
+++ MANPATH=/apps/parallel/20191022/share/man:/apps/python2/2.7.17/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LOADEDMODULES=java/jdk-8.40:python2/2.7.17:parallel/20191022
+++ export LOADEDMODULES
+++ _LMFILES_=/apps/Modules/modulefiles/java/jdk-8.40:/apps/Modules/modulefiles/python2/2.7.17:/apps/Modules/modulefiles/parallel/20191022
+++ export _LMFILES_
+++ MANPATH_modshare=/apps/parallel/20191022/share/man:1::1:/apps/python2/2.7.17/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ MODULES_LMCONFLICT='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ MODULES_LMCONFLICT_modshare='java/jdk-8.40&java&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:parallel/20191022&parallel&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:python2/2.7.17&python2&o/ld_library_path&o/yes-ld_library_path&o/use-ld_library_path&o/enable-ld_library_path&o/with-ld_library_path&o/no-ld_library_path&o/not-ld_library_path&o/disable-ld_library_path&o/without-ld_library_path&o/ld_run_path&o/yes-ld_run_path&o/use-ld_run_path&o/enable-ld_run_path&o/with-ld_run_path&o/no-ld_run_path&o/not-ld_run_path&o/disable-ld_run_path&o/without-ld_run_path&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/library_path&o/yes-library_path&o/use-library_path&o/enable-library_path&o/with-library_path&o/no-library_path&o/not-library_path&o/disable-library_path&o/without-library_path&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PARALLEL_ROOT=/apps/parallel/20191022
+++ export PARALLEL_ROOT
+++ PARALLEL_VERSION=20191022
+++ export PARALLEL_VERSION
+++ LOADEDMODULES_modshare=python2/2.7.17:1:parallel/20191022:1:java/jdk-8.40:1
+++ export LOADEDMODULES_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/python2/2.7.17:1:/apps/Modules/modulefiles/parallel/20191022:1:/apps/Modules/modulefiles/java/jdk-8.40:1
+++ export _LMFILES__modshare
+++ PATH=/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/apps/python2/2.7.17/bin:1:/apps/java/jdk-8.40/bin:1:/local/pbs/bin:1:/apps/parallel/20191022/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1
+++ export PATH_modshare
+++ PARALLEL_BASE=/apps/parallel/20191022
+++ export PARALLEL_BASE
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /g/data/xf3/miniconda/bin/conda
++++ dirname /g/data/xf3/miniconda/bin
+++ PATH=/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate 3d-dna
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate 3d-dna
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate 3d-dna
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate 3d-dna
++ ask_conda='PS1='\''(3d-dna) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/3d-dna'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''3d-dna'\''
+export CONDA_PROMPT_MODIFIER='\''(3d-dna) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval 'PS1='\''(3d-dna) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/3d-dna'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''3d-dna'\''
+export CONDA_PROMPT_MODIFIER='\''(3d-dna) '\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ PS1='(3d-dna) '
+++ export PATH=/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/3d-dna
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/3d-dna
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=3d-dna
+++ CONDA_DEFAULT_ENV=3d-dna
+++ export 'CONDA_PROMPT_MODIFIER=(3d-dna) '
+++ CONDA_PROMPT_MODIFIER='(3d-dna) '
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export JAVA_TOOL_OPTIONS=-Xmx150g
++ JAVA_TOOL_OPTIONS=-Xmx150g
++ mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5
++ export PATH=/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5
++ PATH=/g/data/xf3/miniconda/envs/3d-dna/bin:/g/data/xf3/miniconda/condabin:/apps/parallel/20191022/bin:/apps/python2/2.7.17/bin:/apps/java/jdk-8.40/bin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5
++ bash /g/data/xf3/zz3507/script/3dDNA/3d-dna/run-asm-pipeline.sh -r 1 -i 500000 --editor-repeat-coverage 5 --build-gapped-map /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/aligned/merged_nodups.txt
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Unable to dump
+java.io.IOException: Normalization missing for: assembly_assembly_BP_25000
+	at juicebox.data.DatasetReaderV2.readNormalizedBlock(DatasetReaderV2.java:719)
+	at juicebox.data.MatrixZoomData.dump(MatrixZoomData.java:675)
+	at juicebox.tools.clt.old.Dump.dumpMatrix(Dump.java:282)
+	at juicebox.tools.clt.old.Dump.run(Dump.java:505)
+	at juicebox.tools.HiCTools.main(HiCTools.java:86)
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+:| Warning: no explicit bundle size was listed. Will use the same one as listed for false positive size threshold: this is the most typical scenario.
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+tail: invalid number of bytes: '+'
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+Picked up JAVA_TOOL_OPTIONS: -Xmx150g

@@ -1,0 +1,41 @@
+#!/bin/bash
+#PBS -N yahsh2NoErrorCorrectionNoPCRQ20
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=4
+#PBS -l mem=48GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+output_dir="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/yahs500KCorrectionQ20"
+reference_fasta="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/assemblyQ720KOntHifiHiC500K.hic.hap2.fasta"
+marked_bam="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/marked_duplicates_Q720KOntHifiHiC500Kcontig.hic.hap2.bam"
+yahs_bin="/g/data/xf3/zz3507/envs/yahs/yahs/yahs"
+
+
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+
+set -xue
+# Create output directory
+mkdir -p "$output_dir"
+cd "$output_dir" 
+
+#Run yahs
+"$yahs_bin" -l 500000 -e GATC,GANTC,CTNAG,TTAA --no-contig-ec "$reference_fasta" "$marked_bam"
+
+samtools faidx ./yahs.out_scaffolds_final.fa
+cut -f 1-2 ./yahs.out_scaffolds_final.fa.fai > ./yahs.out_scaffolds_final.fa.chrom.sizes
+
+# Run juicer pre
+/g/data/xf3/zz3507/envs/yahs/yahs/juicer pre -a -o out_JBAT ./yahs.out.bin \
+./yahs.out_scaffolds_final.agp \
+"${reference_fasta}.fai" \
+> out_JBAT.log 2>&1
+
+# Run JuicerTools pre
+(java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre \
+-j 4 out_JBAT.txt out_JBAT.hic.part <(cat out_JBAT.log  | grep PRE_C_SIZE | awk '{print $2" "$3}')) && (mv out_JBAT.hic.part out_JBAT.hic)

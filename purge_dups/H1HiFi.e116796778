@@ -1,0 +1,41 @@
++ REF=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1First30Scaffolds.fa
++ PB_FOFN=/g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq
++ PURGE_DUPS_BIN=./purge_dups/bin
++ CONFIG=config.json
++ OUT_DIR=/g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap1
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap1
++ /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/pd_config.py -n config.json /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1First30Scaffolds.fa /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq
++ python3 /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/run_purge_dups.py -p bash config.json ./purge_dups/bin species_identifier
+
+------------------------------------------------------------------------
+Job 116796778 has exceeded memory allocation on node gadi-cpu-spr-0050.gadi.nci.org.au
+Process "bash", pid 1282131, rss 2727936, vmem 23879680
+Process "116796778.gadi-", pid 1282454, rss 2441216, vmem 10178560
+Process "python3", pid 1282482, rss 4534272, vmem 263163904
+Process "python3", pid 1282483, rss 165978636288, vmem 183547400192
+Process "bash", pid 1282731, rss 2850816, vmem 228347904
+Process "minimap2", pid 1282736, rss 3507953664, vmem 4209250304
+Process "bash", pid 1282745, rss 2990080, vmem 228347904
+Process "minimap2", pid 1282750, rss 3803131904, vmem 5108453376
+Process "bash", pid 1282754, rss 2990080, vmem 228352000
+Process "minimap2", pid 1282759, rss 3814821888, vmem 5180993536
+Process "bash", pid 1282763, rss 3014656, vmem 228347904
+Process "minimap2", pid 1282768, rss 3804639232, vmem 5136551936
+Process "bash", pid 1282778, rss 3031040, vmem 228347904
+Process "minimap2", pid 1282783, rss 3823132672, vmem 5248294912
+Process "bash", pid 1282787, rss 3043328, vmem 228352000
+Process "minimap2", pid 1282792, rss 2713980928, vmem 3526426624
+Process "bash", pid 1282808, rss 2908160, vmem 228347904
+Process "minimap2", pid 1282813, rss 2734473216, vmem 3526422528
+Process "bash", pid 1282835, rss 2969600, vmem 228347904
+Process "minimap2", pid 1282852, rss 2303574016, vmem 3084947456
+Process "bash", pid 1282856, rss 2936832, vmem 228352000
+Process "minimap2", pid 1282861, rss 1933864960, vmem 2738036736
+Process "bash", pid 1282865, rss 2875392, vmem 228347904
+Process "minimap2", pid 1282870, rss 1692962816, vmem 2200088576
+Process "bash", pid 1282892, rss 2813952, vmem 228347904
+Process "minimap2", pid 1282921, rss 561651712, vmem 946466816
+Process "python3", pid 1282925, rss 12288, vmem 12288
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------

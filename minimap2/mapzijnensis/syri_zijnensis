@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=20
+#PBS -l mem=80GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+#PBS -l wd
+#PBS -m abe
+
+/g/data/xf3/zz3507/envs/minimap2-2.28_x64-linux/minimap2 -t 20 -ax asm5 --eqx \
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs500KNoCorrectionQ20RemovedPCR/yahs500KNoCorrectionQ20RemovedPCR.fa \
+/g/data/xf3/zz3507/database/OtherOrchidGenome/PlatantheraZijinensis/data/GCA_039513925.1/GCA_039513925.1_PZIJ_v1.0_genomic.fna \
+> /scratch/xf3/zz3507/result/mapResult/SyriOut.sam
+
+
+

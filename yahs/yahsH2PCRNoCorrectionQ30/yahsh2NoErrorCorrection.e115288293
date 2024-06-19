@@ -1,0 +1,8 @@
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsNoCorrectionQ30
++ java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre ' --threads' 4
+No genome ID given
++ out_JBAT.txt out_JBAT.hic.part /dev/fd/63
+++ cat out_JBAT.log
+++ grep PRE_C_SIZE
+++ awk '{print $2" "$3}'
+/local/spool/pbs/mom_priv/jobs/115288293.gadi-pbs.SC: line 27: out_JBAT.txt: command not found

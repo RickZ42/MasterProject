@@ -1,0 +1,73 @@
+
+Run HiC-Pro 3.1.0
+--------------------------------------------
+Tue May 21 12:32:01 AEST 2024
+Bowtie2 alignment step1 ...
+Logs: logs/haplotype2/mapping_step1.log
+
+--------------------------------------------
+Wed May 22 01:55:01 AEST 2024
+Bowtie2 alignment step2 ...
+Logs: logs/haplotype2/mapping_step2.log
+
+--------------------------------------------
+Wed May 22 07:41:51 AEST 2024
+Combine R1/R2 alignment files ...
+Logs: logs/haplotype2/mapping_combine.log
+
+--------------------------------------------
+Wed May 22 08:04:13 AEST 2024
+Mapping statistics for R1 and R2 tags ...
+Logs: logs/haplotype2/mapping_stats.log
+
+--------------------------------------------
+Wed May 22 08:17:29 AEST 2024
+Pairing of R1 and R2 tags ...
+Logs: logs/haplotype2/mergeSAM.log
+
+--------------------------------------------
+Wed May 22 08:50:56 AEST 2024
+Assign alignments to restriction fragments ...
+Logs: logs/haplotype2/mapped_2hic_fragments.log
+
+--------------------------------------------
+Wed May 22 09:10:06 AEST 2024
+Merge chunks from the same sample ...
+Logs: logs/haplotype2/merge_valid_interactions.log
+
+--------------------------------------------
+Wed May 22 09:10:26 AEST 2024
+Merge stat files per sample ...
+Logs: logs/haplotype2/merge_stats.log
+
+--------------------------------------------
+Wed May 22 09:10:29 AEST 2024
+Run quality checks for all samples ...
+Logs: logs/haplotype2/make_Rplots.log
+
+--------------------------------------------
+Wed May 22 09:10:52 AEST 2024
+Generate binned matrix files ...
+Logs: logs/haplotype2/build_raw_maps.log
+
+--------------------------------------------
+Wed May 22 09:11:19 AEST 2024
+Run ICE Normalization ...
+Logs: logs/haplotype2/ice_20000.log
+Logs: logs/haplotype2/ice_40000.log
+Logs: logs/haplotype2/ice_150000.log
+Logs: logs/haplotype2/ice_500000.log
+Logs: logs/haplotype2/ice_1000000.log
+
+======================================================================================
+                  Resource Usage on 2024-05-22 09:13:34:
+   Job Id:             116162713.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      1490.54
+   NCPUs Requested:    36                     NCPUs Used: 36              
+                                           CPU Time Used: 608:48:09       
+   Memory Requested:   144.0GB               Memory Used: 123.8GB         
+   Walltime requested: 48:00:00            Walltime Used: 20:42:07        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=1
+#PBS -l mem=480GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/jellyfish
+
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/jellyfish/ONT
+
+L=$(smudgeplot.py cutoff kmer_k21.his L)
+U=$(smudgeplot.py cutoff kmer_k21.his U)
+echo $L $U # these need to be sane values like 30 800 or so
+jellyfish dump -c -L $L -U $U kmer_counts.jf | smudgeplot.py hetkmers -o kmer_pairs
+smudgeplot.py plot kmer_pairs_coverages_2.tsv -o my_genome

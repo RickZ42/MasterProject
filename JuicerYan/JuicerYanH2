@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N Juicerh2YanTest
+#PBS -N Juicerh2
 #PBS -P xf3
 #PBS -q normalsr
 #PBS -l walltime=15:00:00

@@ -1,0 +1,52 @@
+[M::mp_ntseq_read@5.358*0.97] read 2061731397 bases in 71 contigs
+[M::mp_idx_build@5.358*0.97] 16107348 blocks
+[M::mp_idx_build@9.678*8.84] collected syncmers
+[M::mp_idx_build@15.398*5.93] 738030361 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 163463
+[M::mp_idx_print_stat] 2324895 distinct k-mers; mean occ of infrequent k-mers: 274.87; 3225 frequent k-mers accounting for 99868253 occurrences
+[M::worker_pipeline::26.555*12.14] mapped 4067 sequences
+[M::worker_pipeline::35.333*15.16] mapped 3846 sequences
+[M::worker_pipeline::46.660*16.92] mapped 4694 sequences
+[M::worker_pipeline::57.643*17.99] mapped 4066 sequences
+[M::worker_pipeline::67.734*18.92] mapped 4687 sequences
+[M::worker_pipeline::78.263*19.43] mapped 4289 sequences
+[M::worker_pipeline::87.881*19.78] mapped 4047 sequences
+[M::worker_pipeline::98.885*20.20] mapped 4849 sequences
+[M::worker_pipeline::108.772*20.42] mapped 4507 sequences
+[M::worker_pipeline::120.186*20.76] mapped 5442 sequences
+[M::worker_pipeline::130.172*20.90] mapped 4568 sequences
+[M::worker_pipeline::141.077*21.01] mapped 4784 sequences
+[M::worker_pipeline::151.679*21.30] mapped 5459 sequences
+[M::worker_pipeline::162.252*21.42] mapped 4889 sequences
+[M::worker_pipeline::174.363*21.46] mapped 5789 sequences
+[M::worker_pipeline::185.526*21.55] mapped 5149 sequences
+[M::worker_pipeline::196.983*21.64] mapped 5773 sequences
+[M::worker_pipeline::207.241*21.69] mapped 5041 sequences
+[M::worker_pipeline::219.019*21.75] mapped 6037 sequences
+[M::worker_pipeline::230.346*21.79] mapped 5214 sequences
+[M::worker_pipeline::238.109*21.83] mapped 1657 sequences
+[M::worker_pipeline::246.272*21.84] mapped 2220 sequences
+[M::worker_pipeline::254.055*21.89] mapped 2291 sequences
+[M::worker_pipeline::262.981*21.93] mapped 1769 sequences
+[M::worker_pipeline::273.303*21.91] mapped 2628 sequences
+[M::worker_pipeline::280.315*21.92] mapped 2211 sequences
+[M::worker_pipeline::291.254*21.96] mapped 2602 sequences
+[M::worker_pipeline::300.965*21.97] mapped 2786 sequences
+[M::worker_pipeline::308.690*21.98] mapped 2125 sequences
+[M::worker_pipeline::318.066*22.00] mapped 2723 sequences
+[M::worker_pipeline::328.494*21.95] mapped 2729 sequences
+[M::worker_pipeline::341.482*21.89] mapped 3022 sequences
+[M::worker_pipeline::350.253*21.87] mapped 2878 sequences
+[M::worker_pipeline::358.574*21.88] mapped 2617 sequences
+[M::worker_pipeline::370.051*21.91] mapped 2951 sequences
+[M::worker_pipeline::379.461*21.97] mapped 3500 sequences
+[M::worker_pipeline::387.614*21.98] mapped 3236 sequences
+[M::worker_pipeline::398.331*22.02] mapped 3516 sequences
+[M::worker_pipeline::405.848*22.02] mapped 2865 sequences
+[M::worker_pipeline::413.691*22.05] mapped 2953 sequences
+[M::worker_pipeline::422.594*22.07] mapped 3760 sequences
+[M::worker_pipeline::432.031*22.08] mapped 3225 sequences
+[M::worker_pipeline::443.275*22.08] mapped 3603 sequences
+[M::main] Version: 0.13-r248
+[M::main] CMD: /g/data/xf3/miniconda/envs/compleasm/bin/miniprot --trans -u -I --outs=0.95 -t 24 --gff /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0604H1V1.1.H2V6.500K/H2/H2V6.500K.fa /g/data/xf3/zz3507/database/lineage/embryophyta_odb10/refseq_db.faa.gz
+[M::main] Real time: 443.617 sec; CPU: 9787.783 sec; Peak RSS: 18.015 GB

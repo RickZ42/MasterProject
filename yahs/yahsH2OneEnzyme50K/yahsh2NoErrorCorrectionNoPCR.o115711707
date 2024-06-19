@@ -1,0 +1,35 @@
+WARN [2024-05-15T15:32:09,012]  [Globals.java:138] [main]  Development mode is enabled
+Using 12 CPU thread(s)
+Not including fragment map
+Start preprocess
+Writing header
+Writing body
+..
+Writing footer
+
+Finished preprocess
+
+Calculating norms for zoom BP_2500000
+Calculating norms for zoom BP_1000000
+Calculating norms for zoom BP_500000
+Calculating norms for zoom BP_250000
+Calculating norms for zoom BP_100000
+Calculating norms for zoom BP_50000
+Calculating norms for zoom BP_25000
+Calculating norms for zoom BP_10000
+Calculating norms for zoom BP_5000
+Calculating norms for zoom BP_1000
+Finished writing norms
+
+======================================================================================
+                  Resource Usage on 2024-05-15 17:15:04:
+   Job Id:             115711707.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      43.68
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 02:32:04        
+   Memory Requested:   48.0GB                Memory Used: 42.52GB         
+   Walltime requested: 24:00:00            Walltime Used: 01:49:12        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

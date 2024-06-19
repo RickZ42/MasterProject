@@ -1,0 +1,20 @@
+usage: Plotting structural rearrangements between genomes [-h] [--sr SR]
+                                                          [--bp BP] --genomes
+                                                          GENOMES
+                                                          [--markers MARKERS]
+                                                          [--tracks TRACKS]
+                                                          [--chrord CHRORD]
+                                                          [--chrname CHRNAME]
+                                                          [-o O] [--itx]
+                                                          [--chr CHR]
+                                                          [--reg REG] [--rtr]
+                                                          [--nosyn] [--noinv]
+                                                          [--notr] [--nodup]
+                                                          [-s S] [--cfg CFG]
+                                                          [-R] [-f F] [-H H]
+                                                          [-W W] [-S S] [-d D]
+                                                          [-b {agg,cairo,pdf,pgf,ps,svg,template}]
+                                                          [-v] [--lf LOGFIN]
+                                                          [--log {DEBUG,INFO,WARN}]
+                                                          [--version]
+Plotting structural rearrangements between genomes: error: the following arguments are required: --genomes

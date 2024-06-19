@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PBS -N Sam2BamSort
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=100GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+
+
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimap/
+# Set the output BAM file names
+BAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimap/H2ONTialn_sorted.bam"
+
+
+samtools depth -@16 $BAM_FILE1 > coverageH2.txt

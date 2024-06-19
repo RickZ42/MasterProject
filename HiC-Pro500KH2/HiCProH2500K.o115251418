@@ -1,0 +1,14 @@
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/HiCPro folder alreads exists. Do you want to overwrite it ? (y/n) [n] : 
+
+======================================================================================
+                  Resource Usage on 2024-05-08 21:57:01:
+   Job Id:             115251418.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.24
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:04        
+   Memory Requested:   192.0GB               Memory Used: 228.3MB         
+   Walltime requested: 48:00:00            Walltime Used: 00:00:09        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

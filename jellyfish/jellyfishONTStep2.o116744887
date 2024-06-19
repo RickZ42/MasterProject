@@ -1,0 +1,14 @@
+32 1600
+
+======================================================================================
+                  Resource Usage on 2024-05-29 04:28:46:
+   Job Id:             116744887.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      1165.92
+   NCPUs Requested:    1                      NCPUs Used: 1               
+                                           CPU Time Used: 05:57:40        
+   Memory Requested:   480.0GB               Memory Used: 277.76GB        
+   Walltime requested: 24:00:00            Walltime Used: 06:04:21        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

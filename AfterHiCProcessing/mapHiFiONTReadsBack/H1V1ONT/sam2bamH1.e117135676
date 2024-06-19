@@ -1,0 +1,85 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/samtools
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/samtools
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(samtools) '
+++ export PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=samtools
+++ CONDA_DEFAULT_ENV=samtools
+++ export 'CONDA_PROMPT_MODIFIER=(samtools) '
+++ CONDA_PROMPT_MODIFIER='(samtools) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ SAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln.sam
++ BAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln.bam
++ samtools view -b -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln.sam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln.bam
++ samtools sort -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln.bam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln_sorted.bam
+[bam_sort_core] merging from 4 files and 32 in-memory blocks...
++ samtools index -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V1ONT/H1V1ONTONTQ720K1.4Maln_sorted.bam

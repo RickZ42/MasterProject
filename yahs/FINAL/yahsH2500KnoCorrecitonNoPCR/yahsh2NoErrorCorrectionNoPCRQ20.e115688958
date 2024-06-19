@@ -1,0 +1,333 @@
++ mkdir -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs500KNoCorrectionRemovedPCR
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs500KNoCorrectionRemovedPCR
++ /g/data/xf3/zz3507/envs/yahs/yahs/yahs --no-contig-ec /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/assemblyQ720KOntHifiHiC500K.hic.hap2.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/Removed_duplicates_Q720KOntHifiHiCBigger50Kcontig.hic.hap2.bam
+[I::main] dump hic links (BAM) to binary file yahs.out.bin
+[W::dump_links_from_bam_file] sequence "h2tg000148l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000032c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000187l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000110c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000171l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000165l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000139l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000144l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000126c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000205l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000211l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000086c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000104l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000186l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000151l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000147c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000159c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000160l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000190l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000192l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000094l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000185l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000220l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000088l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000195l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000124l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000183l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000170l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000214l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000224l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000091l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000108c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000193c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000175l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000189c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000146l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000232l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000180l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000249l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000178c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000162l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000216l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000204l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000179l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000227l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000122c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000134l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000089l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000219l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000080l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000208l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000164l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000119l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000157l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000132l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000182l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000234l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000188l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000066l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000158l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000239l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000218l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000111l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000248l" not found 
+[I::dump_links_from_bam_file] 1 million records processed, 499625 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000156l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000197l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000241l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000210l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000142c" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000213l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000173l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000095l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000207l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000176l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000117l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000246l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000225l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000118l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000113l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000233l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000255l" not found 
+[I::dump_links_from_bam_file] 2 million records processed, 999203 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000221l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000258l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000127l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000129l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000141l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000169l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000202l" not found 
+[I::dump_links_from_bam_file] 3 million records processed, 1498788 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000149l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000194l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000222l" not found 
+[I::dump_links_from_bam_file] 4 million records processed, 1998371 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000212l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000168l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000196l" not found 
+[I::dump_links_from_bam_file] 5 million records processed, 2497929 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000137l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000174l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000237l" not found 
+[I::dump_links_from_bam_file] 6 million records processed, 2997468 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000203l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000236l" not found 
+[I::dump_links_from_bam_file] 7 million records processed, 3497036 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000198l" not found 
+[I::dump_links_from_bam_file] 8 million records processed, 3996578 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000154l" not found 
+[I::dump_links_from_bam_file] 9 million records processed, 4496124 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000238l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000177l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000201l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000215l" not found 
+[I::dump_links_from_bam_file] 10 million records processed, 4995697 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000181l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000235l" not found 
+[I::dump_links_from_bam_file] 11 million records processed, 5495258 read pairs 
+[I::dump_links_from_bam_file] 12 million records processed, 5994791 read pairs 
+[I::dump_links_from_bam_file] 13 million records processed, 6494334 read pairs 
+[I::dump_links_from_bam_file] 14 million records processed, 6993885 read pairs 
+[I::dump_links_from_bam_file] 15 million records processed, 7493451 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000209l" not found 
+[I::dump_links_from_bam_file] 16 million records processed, 7993020 read pairs 
+[I::dump_links_from_bam_file] 17 million records processed, 8492586 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000101l" not found 
+[W::dump_links_from_bam_file] sequence "h2tg000199l" not found 
+[I::dump_links_from_bam_file] 18 million records processed, 8992129 read pairs 
+[I::dump_links_from_bam_file] 19 million records processed, 9491712 read pairs 
+[I::dump_links_from_bam_file] 20 million records processed, 9991266 read pairs 
+[I::dump_links_from_bam_file] 21 million records processed, 10490788 read pairs 
+[I::dump_links_from_bam_file] 22 million records processed, 10990339 read pairs 
+[I::dump_links_from_bam_file] 23 million records processed, 11489888 read pairs 
+[I::dump_links_from_bam_file] 24 million records processed, 11989452 read pairs 
+[I::dump_links_from_bam_file] 25 million records processed, 12489001 read pairs 
+[I::dump_links_from_bam_file] 26 million records processed, 12988567 read pairs 
+[I::dump_links_from_bam_file] 27 million records processed, 13488114 read pairs 
+[I::dump_links_from_bam_file] 28 million records processed, 13987692 read pairs 
+[I::dump_links_from_bam_file] 29 million records processed, 14487216 read pairs 
+[I::dump_links_from_bam_file] 30 million records processed, 14986794 read pairs 
+[I::dump_links_from_bam_file] 31 million records processed, 15486388 read pairs 
+[I::dump_links_from_bam_file] 32 million records processed, 15985954 read pairs 
+[I::dump_links_from_bam_file] 33 million records processed, 16485504 read pairs 
+[I::dump_links_from_bam_file] 34 million records processed, 16985085 read pairs 
+[I::dump_links_from_bam_file] 35 million records processed, 17484627 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000244l" not found 
+[I::dump_links_from_bam_file] 36 million records processed, 17984218 read pairs 
+[I::dump_links_from_bam_file] 37 million records processed, 18483743 read pairs 
+[I::dump_links_from_bam_file] 38 million records processed, 18983280 read pairs 
+[I::dump_links_from_bam_file] 39 million records processed, 19482833 read pairs 
+[I::dump_links_from_bam_file] 40 million records processed, 19982378 read pairs 
+[I::dump_links_from_bam_file] 41 million records processed, 20481959 read pairs 
+[I::dump_links_from_bam_file] 42 million records processed, 20981524 read pairs 
+[I::dump_links_from_bam_file] 43 million records processed, 21481079 read pairs 
+[I::dump_links_from_bam_file] 44 million records processed, 21980635 read pairs 
+[I::dump_links_from_bam_file] 45 million records processed, 22480257 read pairs 
+[I::dump_links_from_bam_file] 46 million records processed, 22979803 read pairs 
+[I::dump_links_from_bam_file] 47 million records processed, 23479367 read pairs 
+[I::dump_links_from_bam_file] 48 million records processed, 23978938 read pairs 
+[I::dump_links_from_bam_file] 49 million records processed, 24478513 read pairs 
+[I::dump_links_from_bam_file] 50 million records processed, 24978080 read pairs 
+[I::dump_links_from_bam_file] 51 million records processed, 25477651 read pairs 
+[I::dump_links_from_bam_file] 52 million records processed, 25977235 read pairs 
+[I::dump_links_from_bam_file] 53 million records processed, 26476777 read pairs 
+[I::dump_links_from_bam_file] 54 million records processed, 26976305 read pairs 
+[I::dump_links_from_bam_file] 55 million records processed, 27475872 read pairs 
+[I::dump_links_from_bam_file] 56 million records processed, 27975426 read pairs 
+[I::dump_links_from_bam_file] 57 million records processed, 28474987 read pairs 
+[W::dump_links_from_bam_file] sequence "h2tg000206l" not found 
+[I::dump_links_from_bam_file] 58 million records processed, 28974548 read pairs 
+[I::dump_links_from_bam_file] 59 million records processed, 29474134 read pairs 
+[I::dump_links_from_bam_file] 60 million records processed, 29973709 read pairs 
+[I::dump_links_from_bam_file] 61 million records processed, 30473278 read pairs 
+[I::dump_links_from_bam_file] 62 million records processed, 30972823 read pairs 
+[I::dump_links_from_bam_file] 63 million records processed, 31472378 read pairs 
+[I::dump_links_from_bam_file] 64 million records processed, 31971982 read pairs 
+[I::dump_links_from_bam_file] 65 million records processed, 32471556 read pairs 
+[I::dump_links_from_bam_file] 66 million records processed, 32971105 read pairs 
+[I::dump_links_from_bam_file] 67 million records processed, 33470640 read pairs 
+[I::dump_links_from_bam_file] position compression n = 134217728, m = 86688847, max_m = 134217727
+[I::dump_links_from_bam_file] position memory buffer expanded max_m = 268435454
+[I::dump_links_from_bam_file] 68 million records processed, 33970169 read pairs 
+[I::dump_links_from_bam_file] 69 million records processed, 34469717 read pairs 
+[I::dump_links_from_bam_file] 70 million records processed, 34969276 read pairs 
+[I::dump_links_from_bam_file] 71 million records processed, 35468860 read pairs 
+[I::dump_links_from_bam_file] 72 million records processed, 35968428 read pairs 
+[I::dump_links_from_bam_file] 73 million records processed, 36467973 read pairs 
+[I::dump_links_from_bam_file] 74 million records processed, 36967526 read pairs 
+[I::dump_links_from_bam_file] 75 million records processed, 37467093 read pairs 
+[I::dump_links_from_bam_file] 76 million records processed, 37966678 read pairs 
+[I::dump_links_from_bam_file] 77 million records processed, 38466207 read pairs 
+[I::dump_links_from_bam_file] 78 million records processed, 38965772 read pairs 
+[I::dump_links_from_bam_file] 79 million records processed, 39465343 read pairs 
+[I::dump_links_from_bam_file] 80 million records processed, 39964888 read pairs 
+[I::dump_links_from_bam_file] 81 million records processed, 40464449 read pairs 
+[I::dump_links_from_bam_file] 82 million records processed, 40964044 read pairs 
+[I::dump_links_from_bam_file] 83 million records processed, 41463615 read pairs 
+[I::dump_links_from_bam_file] 84 million records processed, 41963179 read pairs 
+[I::dump_links_from_bam_file] 85 million records processed, 42462735 read pairs 
+[I::dump_links_from_bam_file] 86 million records processed, 42962293 read pairs 
+[I::dump_links_from_bam_file] 87 million records processed, 43461854 read pairs 
+[I::dump_links_from_bam_file] 88 million records processed, 43961411 read pairs 
+[I::dump_links_from_bam_file] position compression n = 129506815, m = 107968989, max_m = 268435454
+[I::dump_links_from_bam_file] dumped 44258924 read pairs from 88595570 records: 18926695 intra links + 25332229 inter links 
+[I::calc_avg_cov] sequence coverage stats:
+[I::calc_avg_cov] sequence bases: 2058377819
+[I::calc_avg_cov] read bases: 10431020018
+[I::calc_avg_cov] q drop: 0.100
+[I::calc_avg_cov] average read coverage: 3.473
+[I::run_yahs] RAM total: 188.549GB
+[I::run_yahs] RAM limit: 48.000GB
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 42846114 (n = 18)
+[I::print_asm_stats]  N90: 9632261 (n = 53)
+[I::print_asm_stats]  N100: 515875 (n = 115)
+[I::run_yahs] scaffolding round 1 resolution = 10000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::inter_link_norms] average link count: 15.584 19665.000 0.001
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 1 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 47087455 (n = 16)
+[I::print_asm_stats]  N90: 12225807 (n = 46)
+[I::run_yahs] scaffolding round 2 resolution = 20000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::inter_link_norms] average link count: 5.890 32760.000 0.000
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 2 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 47087455 (n = 16)
+[I::print_asm_stats]  N90: 13114228 (n = 45)
+[I::run_yahs] scaffolding round 3 resolution = 50000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::inter_link_norms] average link count: 71.628 110211.000 0.001
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 3 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 58956098 (n = 14)
+[I::print_asm_stats]  N90: 13114228 (n = 42)
+[I::run_yahs] scaffolding round 4 resolution = 100000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::inter_link_norms] average link count: 615.257 398710.000 0.002
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 4 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 58956098 (n = 14)
+[I::print_asm_stats]  N90: 17248695 (n = 39)
+[I::run_yahs] scaffolding round 5 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.007
+[I::inter_link_norms] average link count: 16435.782 931106.000 0.018
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 5 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 77256211 (n = 12)
+[I::print_asm_stats]  N90: 18312522 (n = 30)
+[I::run_yahs] scaffolding round 6 resolution = 500000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.325
+[I::inter_link_norms] using new radius 25 (100) as noise ratio exceeds threshold 0.100
+[I::inter_link_norms] average link count: 10356.047 260181.000 0.040
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 6 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 83536689 (n = 10)
+[I::print_asm_stats]  N90: 18559194 (n = 26)
+[I::run_yahs] scaffolding round 7 resolution = 1000000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 1.689
+[I::inter_link_norms] using new radius 11 (84) as noise ratio exceeds threshold 0.100
+[I::inter_link_norms] average link count: 1629.612 37849.000 0.043
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 7 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 89041328 (n = 10)
+[I::print_asm_stats]  N90: 21274556 (n = 23)
+[I::run_yahs] scaffolding round 8 resolution = 2000000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 6.915
+[I::inter_link_norms] using new radius 6 (42) as noise ratio exceeds threshold 0.100
+[I::inter_link_norms] average link count: 457.268 8145.000 0.056
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 8 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 93090329 (n = 10)
+[I::print_asm_stats]  N90: 21274556 (n = 22)
+[I::run_yahs] scaffolding round 9 resolution = 5000000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 46.691
+[I::inter_link_norms] using new radius 3 (16) as noise ratio exceeds threshold 0.100
+[I::inter_link_norms] average link count: 104.121 975.000 0.107
+[I::run_scaffolding] starting scaffolding graph contruction...
+[I::run_yahs] scaffolding round 9 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 93090329 (n = 10)
+[I::print_asm_stats]  N90: 21274556 (n = 22)
+[I::run_yahs] scaffolding round 10 resolution = 10000000
+[I::run_yahs] assembly N50 (93090329) too small. End of scaffolding.
+[I::main] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 73
+[I::write_fasta_file_from_agp] Number bases: 2058382019
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 93090329 (n = 10)
+[I::print_asm_stats]  N90: 21274556 (n = 22)
+[I::print_asm_stats]  N100: 515875 (n = 73)
+[I::main] Version: 1.2
+[I::main] CMD: /g/data/xf3/zz3507/envs/yahs/yahs/yahs --no-contig-ec /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/assemblyQ720KOntHifiHiC500K.hic.hap2.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/Removed_duplicates_Q720KOntHifiHiCBigger50Kcontig.hic.hap2.bam
+[I::main] Real time: 314.513 sec; CPU: 314.387 sec; Peak RSS: 3.340 GB
++ samtools faidx ./yahs.out_scaffolds_final.fa
++ cut -f 1-2 ./yahs.out_scaffolds_final.fa.fai
++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer pre -a -o out_JBAT ./yahs.out.bin ./yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/assemblyQ720KOntHifiHiC500K.hic.hap2.fasta.fai
++ java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre -j 4 out_JBAT.txt out_JBAT.hic.part /dev/fd/63
+++ cat out_JBAT.log
+++ grep PRE_C_SIZE
+++ awk '{print $2" "$3}'
++ mv out_JBAT.hic.part out_JBAT.hic

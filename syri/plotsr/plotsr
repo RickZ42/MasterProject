@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=24
+#PBS -l mem=96GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2+gdata/if89
+#PBS -l wd
+
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/plotsr
+
+python3 /g/data/xf3/zz3507/app/plotsr/plotsr/bin/plotsr syri.out /g/data/xf3/zz3507/script/syri/yahs500KNoCorrectionQ20RemovedPCRFirst30contigH2.fa \
+/g/data/xf3/zz3507/script/syri/yahsMarkedPCRNocorrection50KH1.fa -H 8 -W 5

@@ -1,0 +1,20 @@
+
+
+#!/bin/bash
+#PBS -N hicproDigestion
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=4
+#PBS -l mem=16GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/zz3507/envs/HiC-Pro
+
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/
+
+/g/data/xf3/zz3507/envs/HiC-Pro/HiC-Pro_3.1.0/bin/utils/digest_genome.py -r ^GATC G^ANTC T^TAA C^TNAG \
+-o ./DigestEnzymeH2HiCPro500K.bed \
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/assemblyQ720KOntHifiHiC500K.hic.hap2.fasta

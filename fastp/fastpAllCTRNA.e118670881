@@ -1,0 +1,1148 @@
+Read1 before filtering:
+total reads: 12453472
+total bases: 1880474272
+Q20 bases: 1791443523(95.2655%)
+Q30 bases: 1748836333(92.9997%)
+
+Read2 before filtering:
+total reads: 12453472
+total bases: 1880474272
+Q20 bases: 1751322248(93.1319%)
+Q30 bases: 1691848294(89.9692%)
+
+Read1 after filtering:
+total reads: 11368125
+total bases: 1686394498
+Q20 bases: 1646627687(97.6419%)
+Q30 bases: 1614063699(95.7109%)
+
+Read2 after filtering:
+total reads: 11368125
+total bases: 1683814125
+Q20 bases: 1625899746(96.5605%)
+Q30 bases: 1581174703(93.9043%)
+
+Filtering result:
+reads passed filter: 22736250
+reads failed due to low quality: 109720
+reads failed due to too many N: 4136
+reads failed due to too short: 2056838
+reads with adapter trimmed: 3013084
+bases trimmed due to adapters: 68273801
+
+Duplication rate: 16.775%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 104C_S7_1.fastq.gz -I 104C_S7_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_2.fastq.gz 
+fastp v0.23.4, time used: 39 seconds
+Read1 before filtering:
+total reads: 18758690
+total bases: 2832562190
+Q20 bases: 2723174555(96.1382%)
+Q30 bases: 2664747306(94.0755%)
+
+Read2 before filtering:
+total reads: 18758690
+total bases: 2832562190
+Q20 bases: 2669043781(94.2272%)
+Q30 bases: 2589369053(91.4144%)
+
+Read1 after filtering:
+total reads: 17267214
+total bases: 2525592697
+Q20 bases: 2473090859(97.9212%)
+Q30 bases: 2428626473(96.1607%)
+
+Read2 after filtering:
+total reads: 17267214
+total bases: 2522584141
+Q20 bases: 2451563134(97.1846%)
+Q30 bases: 2393887058(94.8982%)
+
+Filtering result:
+reads passed filter: 34534428
+reads failed due to low quality: 140972
+reads failed due to too many N: 6344
+reads failed due to too short: 2835636
+reads with adapter trimmed: 8257874
+bases trimmed due to adapters: 197541079
+
+Duplication rate: 27.0025%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 104L_S19_1.fastq.gz -I 104L_S19_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_2.fastq.gz 
+fastp v0.23.4, time used: 55 seconds
+Read1 before filtering:
+total reads: 21884502
+total bases: 3304559802
+Q20 bases: 3165701308(95.798%)
+Q30 bases: 3093973106(93.6274%)
+
+Read2 before filtering:
+total reads: 21884502
+total bases: 3304559802
+Q20 bases: 3094268915(93.6363%)
+Q30 bases: 2995442942(90.6457%)
+
+Read1 after filtering:
+total reads: 20147473
+total bases: 3001698994
+Q20 bases: 2933990392(97.7443%)
+Q30 bases: 2877581519(95.8651%)
+
+Read2 after filtering:
+total reads: 20147473
+total bases: 2997379498
+Q20 bases: 2901317414(96.7951%)
+Q30 bases: 2824964016(94.2478%)
+
+Filtering result:
+reads passed filter: 40294946
+reads failed due to low quality: 173644
+reads failed due to too many N: 7584
+reads failed due to too short: 3292830
+reads with adapter trimmed: 4007932
+bases trimmed due to adapters: 94661195
+
+Duplication rate: 24.4414%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 105C_S8_1.fastq.gz -I 105C_S8_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_2.fastq.gz 
+fastp v0.23.4, time used: 67 seconds
+Read1 before filtering:
+total reads: 38323282
+total bases: 5786815582
+Q20 bases: 5581760491(96.4565%)
+Q30 bases: 5459535908(94.3444%)
+
+Read2 before filtering:
+total reads: 38323282
+total bases: 5786815582
+Q20 bases: 5427208702(93.7858%)
+Q30 bases: 5257038012(90.8451%)
+
+Read1 after filtering:
+total reads: 35603595
+total bases: 5263590987
+Q20 bases: 5144236540(97.7325%)
+Q30 bases: 5046777641(95.8809%)
+
+Read2 after filtering:
+total reads: 35603595
+total bases: 5256181636
+Q20 bases: 5092893664(96.8934%)
+Q30 bases: 4963508689(94.4318%)
+
+Filtering result:
+reads passed filter: 71207190
+reads failed due to low quality: 332138
+reads failed due to too many N: 13060
+reads failed due to too short: 5094176
+reads with adapter trimmed: 11983778
+bases trimmed due to adapters: 243881033
+
+Duplication rate: 42.9797%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 105L_S20_1.fastq.gz -I 105L_S20_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20_2.fastq.gz 
+fastp v0.23.4, time used: 107 seconds
+Read1 before filtering:
+total reads: 18865628
+total bases: 2848709828
+Q20 bases: 2743669897(96.3127%)
+Q30 bases: 2684162211(94.2238%)
+
+Read2 before filtering:
+total reads: 18865628
+total bases: 2848709828
+Q20 bases: 2688623691(94.3804%)
+Q30 bases: 2607228543(91.5231%)
+
+Read1 after filtering:
+total reads: 17614779
+total bases: 2605198686
+Q20 bases: 2549435299(97.8595%)
+Q30 bases: 2502119969(96.0433%)
+
+Read2 after filtering:
+total reads: 17614779
+total bases: 2601885258
+Q20 bases: 2525249099(97.0546%)
+Q30 bases: 2462204978(94.6316%)
+
+Filtering result:
+reads passed filter: 35229558
+reads failed due to low quality: 130368
+reads failed due to too many N: 6516
+reads failed due to too short: 2364814
+reads with adapter trimmed: 5691508
+bases trimmed due to adapters: 120315046
+
+Duplication rate: 23.3418%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 106C_S4_1.fastq.gz -I 106C_S4_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_2.fastq.gz 
+fastp v0.23.4, time used: 59 seconds
+Read1 before filtering:
+total reads: 18955887
+total bases: 2862338937
+Q20 bases: 2752361836(96.1578%)
+Q30 bases: 2689646208(93.9667%)
+
+Read2 before filtering:
+total reads: 18955887
+total bases: 2862338937
+Q20 bases: 2698887490(94.2896%)
+Q30 bases: 2613339765(91.3008%)
+
+Read1 after filtering:
+total reads: 17788663
+total bases: 2664961693
+Q20 bases: 2601657480(97.6246%)
+Q30 bases: 2550054847(95.6882%)
+
+Read2 after filtering:
+total reads: 17788663
+total bases: 2661028545
+Q20 bases: 2572553141(96.6751%)
+Q30 bases: 2502512724(94.0431%)
+
+Filtering result:
+reads passed filter: 35577326
+reads failed due to low quality: 133060
+reads failed due to too many N: 6670
+reads failed due to too short: 2194718
+reads with adapter trimmed: 2236008
+bases trimmed due to adapters: 44191871
+
+Duplication rate: 26.3122%
+
+Insert size peak (evaluated by paired-end reads): 218
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 106L_S16_1.fastq.gz -I 106L_S16_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_2.fastq.gz 
+fastp v0.23.4, time used: 59 seconds
+Read1 before filtering:
+total reads: 17225501
+total bases: 2601050651
+Q20 bases: 2498163057(96.0444%)
+Q30 bases: 2443465190(93.9415%)
+
+Read2 before filtering:
+total reads: 17225501
+total bases: 2601050651
+Q20 bases: 2445692214(94.0271%)
+Q30 bases: 2370591711(91.1398%)
+
+Read1 after filtering:
+total reads: 16000553
+total bases: 2382770968
+Q20 bases: 2331339395(97.8415%)
+Q30 bases: 2287812748(96.0148%)
+
+Read2 after filtering:
+total reads: 16000553
+total bases: 2379520443
+Q20 bases: 2307408506(96.9695%)
+Q30 bases: 2248848667(94.5085%)
+
+Filtering result:
+reads passed filter: 32001106
+reads failed due to low quality: 121184
+reads failed due to too many N: 5890
+reads failed due to too short: 2322822
+reads with adapter trimmed: 3695318
+bases trimmed due to adapters: 71724966
+
+Duplication rate: 27.0057%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 107C_S5_1.fastq.gz -I 107C_S5_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_2.fastq.gz 
+fastp v0.23.4, time used: 53 seconds
+Read1 before filtering:
+total reads: 18030925
+total bases: 2722669675
+Q20 bases: 2629959383(96.5949%)
+Q30 bases: 2572629651(94.4892%)
+
+Read2 before filtering:
+total reads: 18030925
+total bases: 2722669675
+Q20 bases: 2553153046(93.7739%)
+Q30 bases: 2472350831(90.8061%)
+
+Read1 after filtering:
+total reads: 16753384
+total bases: 2478480862
+Q20 bases: 2421744413(97.7108%)
+Q30 bases: 2375562684(95.8475%)
+
+Read2 after filtering:
+total reads: 16753384
+total bases: 2474773330
+Q20 bases: 2395483054(96.7961%)
+Q30 bases: 2333905543(94.3079%)
+
+Filtering result:
+reads passed filter: 33506768
+reads failed due to low quality: 161716
+reads failed due to too many N: 6258
+reads failed due to too short: 2387108
+reads with adapter trimmed: 5181626
+bases trimmed due to adapters: 115728886
+
+Duplication rate: 43.8546%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107L_S17.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 107L_S17_1.fastq.gz -I 107L_S17_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107L_S17.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107L_S17_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107L_S17_2.fastq.gz 
+fastp v0.23.4, time used: 49 seconds
+Read1 before filtering:
+total reads: 17149767
+total bases: 2589614817
+Q20 bases: 2481464960(95.8237%)
+Q30 bases: 2426803973(93.7129%)
+
+Read2 before filtering:
+total reads: 17149767
+total bases: 2589614817
+Q20 bases: 2431627584(93.8992%)
+Q30 bases: 2356374486(90.9932%)
+
+Read1 after filtering:
+total reads: 15847459
+total bases: 2347617053
+Q20 bases: 2297502049(97.8653%)
+Q30 bases: 2254940932(96.0523%)
+
+Read2 after filtering:
+total reads: 15847459
+total bases: 2344499960
+Q20 bases: 2274084821(96.9966%)
+Q30 bases: 2216858042(94.5557%)
+
+Filtering result:
+reads passed filter: 31694918
+reads failed due to low quality: 115168
+reads failed due to too many N: 5826
+reads failed due to too short: 2483622
+reads with adapter trimmed: 4856608
+bases trimmed due to adapters: 97778490
+
+Duplication rate: 18.5806%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129C_S10.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 129C_S10_1.fastq.gz -I 129C_S10_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129C_S10.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129C_S10_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129C_S10_2.fastq.gz 
+fastp v0.23.4, time used: 52 seconds
+Read1 before filtering:
+total reads: 20066605
+total bases: 3030057355
+Q20 bases: 2902966194(95.8057%)
+Q30 bases: 2837939980(93.6596%)
+
+Read2 before filtering:
+total reads: 20066605
+total bases: 3030057355
+Q20 bases: 2843603030(93.8465%)
+Q30 bases: 2754461209(90.9046%)
+
+Read1 after filtering:
+total reads: 18469776
+total bases: 2722892785
+Q20 bases: 2663567570(97.8212%)
+Q30 bases: 2613734063(95.9911%)
+
+Read2 after filtering:
+total reads: 18469776
+total bases: 2719151971
+Q20 bases: 2636503050(96.9605%)
+Q30 bases: 2569865645(94.5098%)
+
+Filtering result:
+reads passed filter: 36939552
+reads failed due to low quality: 145804
+reads failed due to too many N: 6616
+reads failed due to too short: 3041238
+reads with adapter trimmed: 6845062
+bases trimmed due to adapters: 150279982
+
+Duplication rate: 18.0095%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 129L_S22_1.fastq.gz -I 129L_S22_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_2.fastq.gz 
+fastp v0.23.4, time used: 61 seconds
+Read1 before filtering:
+total reads: 7895018
+total bases: 1981649518
+Q20 bases: 1911191606(96.4445%)
+Q30 bases: 1819788032(91.832%)
+
+Read2 before filtering:
+total reads: 7895018
+total bases: 1981649518
+Q20 bases: 1889896336(95.3699%)
+Q30 bases: 1774118151(89.5273%)
+
+Read1 after filtering:
+total reads: 7516814
+total bases: 1515935565
+Q20 bases: 1488999017(98.2231%)
+Q30 bases: 1432829087(94.5178%)
+
+Read2 after filtering:
+total reads: 7516814
+total bases: 1511233400
+Q20 bases: 1475370019(97.6269%)
+Q30 bases: 1404388046(92.9299%)
+
+Filtering result:
+reads passed filter: 15033628
+reads failed due to low quality: 22702
+reads failed due to too many N: 2328
+reads failed due to too short: 731378
+reads with adapter trimmed: 10659800
+bases trimmed due to adapters: 553802967
+
+Duplication rate: 3.51271%
+
+Insert size peak (evaluated by paired-end reads): 251
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 129_S120_1.fastq.gz -I 129_S120_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_2.fastq.gz 
+fastp v0.23.4, time used: 33 seconds
+Read1 before filtering:
+total reads: 6843058
+total bases: 1717607558
+Q20 bases: 1655412596(96.379%)
+Q30 bases: 1575007824(91.6978%)
+
+Read2 before filtering:
+total reads: 6843058
+total bases: 1717607558
+Q20 bases: 1639397058(95.4465%)
+Q30 bases: 1540228335(89.6729%)
+
+Read1 after filtering:
+total reads: 6512155
+total bases: 1327816998
+Q20 bases: 1304227672(98.2235%)
+Q30 bases: 1255185508(94.53%)
+
+Read2 after filtering:
+total reads: 6512155
+total bases: 1323940967
+Q20 bases: 1292781226(97.6464%)
+Q30 bases: 1230881864(92.9711%)
+
+Filtering result:
+reads passed filter: 13024310
+reads failed due to low quality: 19086
+reads failed due to too many N: 2084
+reads failed due to too short: 640636
+reads with adapter trimmed: 8916274
+bases trimmed due to adapters: 456703671
+
+Duplication rate: 3.54374%
+
+Insert size peak (evaluated by paired-end reads): 251
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 130_S121_1.fastq.gz -I 130_S121_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_2.fastq.gz 
+fastp v0.23.4, time used: 29 seconds
+Read1 before filtering:
+total reads: 7667230
+total bases: 1924474730
+Q20 bases: 1842673302(95.7494%)
+Q30 bases: 1745274426(90.6884%)
+
+Read2 before filtering:
+total reads: 7667230
+total bases: 1924474730
+Q20 bases: 1828660704(95.0213%)
+Q30 bases: 1713278281(89.0258%)
+
+Read1 after filtering:
+total reads: 7234888
+total bases: 1445270943
+Q20 bases: 1419200507(98.1962%)
+Q30 bases: 1365751785(94.498%)
+
+Read2 after filtering:
+total reads: 7234888
+total bases: 1440619696
+Q20 bases: 1406148475(97.6072%)
+Q30 bases: 1338617417(92.9196%)
+
+Filtering result:
+reads passed filter: 14469776
+reads failed due to low quality: 33020
+reads failed due to too many N: 2174
+reads failed due to too short: 829490
+reads with adapter trimmed: 10551190
+bases trimmed due to adapters: 546560114
+
+Duplication rate: 3.39825%
+
+Insert size peak (evaluated by paired-end reads): 251
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 131_S122_1.fastq.gz -I 131_S122_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_2.fastq.gz 
+fastp v0.23.4, time used: 31 seconds
+Read1 before filtering:
+total reads: 20732572
+total bases: 3130618372
+Q20 bases: 3011125883(96.1831%)
+Q30 bases: 2945616089(94.0906%)
+
+Read2 before filtering:
+total reads: 20732572
+total bases: 3130618372
+Q20 bases: 2952906241(94.3234%)
+Q30 bases: 2862912181(91.4488%)
+
+Read1 after filtering:
+total reads: 19234436
+total bases: 2822181112
+Q20 bases: 2762095292(97.8709%)
+Q30 bases: 2711533670(96.0794%)
+
+Read2 after filtering:
+total reads: 19234436
+total bases: 2818602388
+Q20 bases: 2736439728(97.085%)
+Q30 bases: 2669476317(94.7092%)
+
+Filtering result:
+reads passed filter: 38468872
+reads failed due to low quality: 154940
+reads failed due to too many N: 7168
+reads failed due to too short: 2834164
+reads with adapter trimmed: 7996920
+bases trimmed due to adapters: 189455773
+
+Duplication rate: 21.3339%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 141C_S1_1.fastq.gz -I 141C_S1_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1_2.fastq.gz 
+fastp v0.23.4, time used: 63 seconds
+Read1 before filtering:
+total reads: 17510268
+total bases: 2644050468
+Q20 bases: 2536298508(95.9247%)
+Q30 bases: 2480063695(93.7979%)
+
+Read2 before filtering:
+total reads: 17510268
+total bases: 2644050468
+Q20 bases: 2476356591(93.6577%)
+Q30 bases: 2400210132(90.7778%)
+
+Read1 after filtering:
+total reads: 16169160
+total bases: 2407916650
+Q20 bases: 2354717852(97.7907%)
+Q30 bases: 2310269474(95.9447%)
+
+Read2 after filtering:
+total reads: 16169160
+total bases: 2404872335
+Q20 bases: 2332728503(97.0001%)
+Q30 bases: 2274440942(94.5764%)
+
+Filtering result:
+reads passed filter: 32338320
+reads failed due to low quality: 150790
+reads failed due to too many N: 5990
+reads failed due to too short: 2525436
+reads with adapter trimmed: 3879382
+bases trimmed due to adapters: 71583016
+
+Duplication rate: 30.6306%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 141L_S13_1.fastq.gz -I 141L_S13_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_2.fastq.gz 
+fastp v0.23.4, time used: 52 seconds
+Read1 before filtering:
+total reads: 14351599
+total bases: 2167091449
+Q20 bases: 2078521185(95.9129%)
+Q30 bases: 2032229864(93.7768%)
+
+Read2 before filtering:
+total reads: 14351599
+total bases: 2167091449
+Q20 bases: 2046457968(94.4334%)
+Q30 bases: 1982022390(91.46%)
+
+Read1 after filtering:
+total reads: 12087336
+total bases: 1664092170
+Q20 bases: 1633038844(98.1339%)
+Q30 bases: 1607416223(96.5942%)
+
+Read2 after filtering:
+total reads: 12087336
+total bases: 1662404411
+Q20 bases: 1622529426(97.6014%)
+Q30 bases: 1590604683(95.681%)
+
+Filtering result:
+reads passed filter: 24174672
+reads failed due to low quality: 84346
+reads failed due to too many N: 4708
+reads failed due to too short: 4439472
+reads with adapter trimmed: 14962038
+bases trimmed due to adapters: 498511272
+
+Duplication rate: 52.458%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 142C_S2_1.fastq.gz -I 142C_S2_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_2.fastq.gz 
+fastp v0.23.4, time used: 35 seconds
+Read1 before filtering:
+total reads: 13639642
+total bases: 2059585942
+Q20 bases: 1973473159(95.8189%)
+Q30 bases: 1929833950(93.7001%)
+
+Read2 before filtering:
+total reads: 13639642
+total bases: 2059585942
+Q20 bases: 1934193139(93.9117%)
+Q30 bases: 1874572491(91.017%)
+
+Read1 after filtering:
+total reads: 12593078
+total bases: 1871844652
+Q20 bases: 1831828239(97.8622%)
+Q30 bases: 1797787389(96.0436%)
+
+Read2 after filtering:
+total reads: 12593078
+total bases: 1869429024
+Q20 bases: 1813982141(97.034%)
+Q30 bases: 1768566069(94.6046%)
+
+Filtering result:
+reads passed filter: 25186156
+reads failed due to low quality: 106692
+reads failed due to too many N: 4532
+reads failed due to too short: 1981904
+reads with adapter trimmed: 3130232
+bases trimmed due to adapters: 64722759
+
+Duplication rate: 24.4473%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 142L_S14_1.fastq.gz -I 142L_S14_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_2.fastq.gz 
+fastp v0.23.4, time used: 42 seconds
+Read1 before filtering:
+total reads: 14391491
+total bases: 2173115141
+Q20 bases: 2071447530(95.3216%)
+Q30 bases: 2019473697(92.9299%)
+
+Read2 before filtering:
+total reads: 14391491
+total bases: 2173115141
+Q20 bases: 2033867011(93.5922%)
+Q30 bases: 1965095925(90.4276%)
+
+Read1 after filtering:
+total reads: 13279093
+total bases: 1953141166
+Q20 bases: 1902297639(97.3968%)
+Q30 bases: 1861998733(95.3335%)
+
+Read2 after filtering:
+total reads: 13279093
+total bases: 1950592143
+Q20 bases: 1886034894(96.6904%)
+Q30 bases: 1833884302(94.0168%)
+
+Filtering result:
+reads passed filter: 26558186
+reads failed due to low quality: 106014
+reads failed due to too many N: 4532
+reads failed due to too short: 2114250
+reads with adapter trimmed: 5359692
+bases trimmed due to adapters: 112931830
+
+Duplication rate: 19.5327%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143C_S3.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 143C_S3_1.fastq.gz -I 143C_S3_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143C_S3.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143C_S3_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143C_S3_2.fastq.gz 
+fastp v0.23.4, time used: 46 seconds
+Read1 before filtering:
+total reads: 21022186
+total bases: 3174350086
+Q20 bases: 3053880025(96.2049%)
+Q30 bases: 2988224408(94.1366%)
+
+Read2 before filtering:
+total reads: 21022186
+total bases: 3174350086
+Q20 bases: 2988973228(94.1602%)
+Q30 bases: 2899839781(91.3522%)
+
+Read1 after filtering:
+total reads: 19554043
+total bases: 2899740547
+Q20 bases: 2838418619(97.8853%)
+Q30 bases: 2786419114(96.092%)
+
+Read2 after filtering:
+total reads: 19554043
+total bases: 2896041326
+Q20 bases: 2810158321(97.0345%)
+Q30 bases: 2741647469(94.6688%)
+
+Filtering result:
+reads passed filter: 39108086
+reads failed due to low quality: 164892
+reads failed due to too many N: 7298
+reads failed due to too short: 2764096
+reads with adapter trimmed: 5678346
+bases trimmed due to adapters: 113995177
+
+Duplication rate: 36.1841%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 143L_S15_1.fastq.gz -I 143L_S15_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15_2.fastq.gz 
+fastp v0.23.4, time used: 63 seconds
+Read1 before filtering:
+total reads: 16096215
+total bases: 2430528465
+Q20 bases: 2332723880(95.976%)
+Q30 bases: 2282008261(93.8894%)
+
+Read2 before filtering:
+total reads: 16096215
+total bases: 2430528465
+Q20 bases: 2284941372(94.0101%)
+Q30 bases: 2216173791(91.1807%)
+
+Read1 after filtering:
+total reads: 14850232
+total bases: 2195717397
+Q20 bases: 2149419307(97.8914%)
+Q30 bases: 2110108190(96.1011%)
+
+Read2 after filtering:
+total reads: 14850232
+total bases: 2192922802
+Q20 bases: 2128780271(97.075%)
+Q30 bases: 2076905145(94.7095%)
+
+Filtering result:
+reads passed filter: 29700464
+reads failed due to low quality: 116348
+reads failed due to too many N: 5772
+reads failed due to too short: 2369846
+reads with adapter trimmed: 4829738
+bases trimmed due to adapters: 107886567
+
+Duplication rate: 26.1683%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147C_S9.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 147C_S9_1.fastq.gz -I 147C_S9_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147C_S9.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147C_S9_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147C_S9_2.fastq.gz 
+fastp v0.23.4, time used: 48 seconds
+Read1 before filtering:
+total reads: 18176994
+total bases: 2744726094
+Q20 bases: 2629188989(95.7906%)
+Q30 bases: 2574593287(93.8015%)
+
+Read2 before filtering:
+total reads: 18176994
+total bases: 2744726094
+Q20 bases: 2589779489(94.3548%)
+Q30 bases: 2510135945(91.4531%)
+
+Read1 after filtering:
+total reads: 16104057
+total bases: 2263654088
+Q20 bases: 2220768377(98.1055%)
+Q30 bases: 2184865538(96.5194%)
+
+Read2 after filtering:
+total reads: 16104057
+total bases: 2261273724
+Q20 bases: 2204120107(97.4725%)
+Q30 bases: 2158413000(95.4512%)
+
+Filtering result:
+reads passed filter: 32208114
+reads failed due to low quality: 119238
+reads failed due to too many N: 6046
+reads failed due to too short: 4020590
+reads with adapter trimmed: 15678004
+bases trimmed due to adapters: 442875730
+
+Duplication rate: 50.7389%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147L_S21.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 147L_S21_1.fastq.gz -I 147L_S21_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147L_S21.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147L_S21_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/147L_S21_2.fastq.gz 
+fastp v0.23.4, time used: 48 seconds
+Read1 before filtering:
+total reads: 39880195
+total bases: 6021909445
+Q20 bases: 5763298535(95.7055%)
+Q30 bases: 5630992489(93.5084%)
+
+Read2 before filtering:
+total reads: 39880195
+total bases: 6021909445
+Q20 bases: 5628958986(93.4747%)
+Q30 bases: 5445860814(90.4341%)
+
+Read1 after filtering:
+total reads: 36772948
+total bases: 5504002462
+Q20 bases: 5378172895(97.7139%)
+Q30 bases: 5273135554(95.8055%)
+
+Read2 after filtering:
+total reads: 36772948
+total bases: 5496034722
+Q20 bases: 5316713173(96.7373%)
+Q30 bases: 5172577869(94.1147%)
+
+Filtering result:
+reads passed filter: 73545896
+reads failed due to low quality: 308176
+reads failed due to too many N: 13452
+reads failed due to too short: 5892866
+reads with adapter trimmed: 5301718
+bases trimmed due to adapters: 103519692
+
+Duplication rate: 28.0056%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 148C_S6_1.fastq.gz -I 148C_S6_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6_2.fastq.gz 
+fastp v0.23.4, time used: 122 seconds
+Read1 before filtering:
+total reads: 16276856
+total bases: 2457805256
+Q20 bases: 2364130461(96.1887%)
+Q30 bases: 2309405570(93.9621%)
+
+Read2 before filtering:
+total reads: 16276856
+total bases: 2457805256
+Q20 bases: 2294997854(93.3759%)
+Q30 bases: 2218371959(90.2582%)
+
+Read1 after filtering:
+total reads: 15117532
+total bases: 2255088273
+Q20 bases: 2198919145(97.5092%)
+Q30 bases: 2154337694(95.5323%)
+
+Read2 after filtering:
+total reads: 15117532
+total bases: 2251412198
+Q20 bases: 2173593068(96.5435%)
+Q30 bases: 2113283063(93.8648%)
+
+Filtering result:
+reads passed filter: 30235064
+reads failed due to low quality: 149134
+reads failed due to too many N: 5452
+reads failed due to too short: 2164062
+reads with adapter trimmed: 2848946
+bases trimmed due to adapters: 57197655
+
+Duplication rate: 44.5263%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 148L_S18_1.fastq.gz -I 148L_S18_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18_2.fastq.gz 
+fastp v0.23.4, time used: 47 seconds
+Read1 before filtering:
+total reads: 9250145
+total bases: 1396771895
+Q20 bases: 1334027709(95.5079%)
+Q30 bases: 1302036303(93.2175%)
+
+Read2 before filtering:
+total reads: 9250145
+total bases: 1396771895
+Q20 bases: 1300709097(93.1225%)
+Q30 bases: 1256146223(89.9321%)
+
+Read1 after filtering:
+total reads: 8491814
+total bases: 1253009438
+Q20 bases: 1222923447(97.5989%)
+Q30 bases: 1198368446(95.6392%)
+
+Read2 after filtering:
+total reads: 8491814
+total bases: 1251187248
+Q20 bases: 1208421493(96.582%)
+Q30 bases: 1175019966(93.9124%)
+
+Filtering result:
+reads passed filter: 16983628
+reads failed due to low quality: 75766
+reads failed due to too many N: 2980
+reads failed due to too short: 1437916
+reads with adapter trimmed: 3184672
+bases trimmed due to adapters: 63739244
+
+Duplication rate: 13.9141%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 151C_S11_1.fastq.gz -I 151C_S11_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_2.fastq.gz 
+fastp v0.23.4, time used: 30 seconds
+Read1 before filtering:
+total reads: 19971103
+total bases: 3015636553
+Q20 bases: 2880300602(95.5122%)
+Q30 bases: 2816081184(93.3826%)
+
+Read2 before filtering:
+total reads: 19971103
+total bases: 3015636553
+Q20 bases: 2819316136(93.4899%)
+Q30 bases: 2730210737(90.5351%)
+
+Read1 after filtering:
+total reads: 18030735
+total bases: 2641409210
+Q20 bases: 2586114223(97.9066%)
+Q30 bases: 2539206925(96.1308%)
+
+Read2 after filtering:
+total reads: 18030735
+total bases: 2637796202
+Q20 bases: 2560316112(97.0627%)
+Q30 bases: 2497777408(94.6918%)
+
+Filtering result:
+reads passed filter: 36061470
+reads failed due to low quality: 151140
+reads failed due to too many N: 6796
+reads failed due to too short: 3722800
+reads with adapter trimmed: 7990100
+bases trimmed due to adapters: 206167742
+
+Duplication rate: 18.5553%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 151L_S23_1.fastq.gz -I 151L_S23_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_2.fastq.gz 
+fastp v0.23.4, time used: 59 seconds
+Read1 before filtering:
+total reads: 14095184
+total bases: 2128372784
+Q20 bases: 2049312021(96.2854%)
+Q30 bases: 2004571307(94.1833%)
+
+Read2 before filtering:
+total reads: 14095184
+total bases: 2128372784
+Q20 bases: 2004997922(94.2033%)
+Q30 bases: 1943198514(91.2997%)
+
+Read1 after filtering:
+total reads: 13158122
+total bases: 1958629032
+Q20 bases: 1916592146(97.8538%)
+Q30 bases: 1880662068(96.0193%)
+
+Read2 after filtering:
+total reads: 13158122
+total bases: 1955919735
+Q20 bases: 1895304628(96.9009%)
+Q30 bases: 1846560989(94.4088%)
+
+Filtering result:
+reads passed filter: 26316244
+reads failed due to low quality: 98964
+reads failed due to too many N: 4838
+reads failed due to too short: 1770322
+reads with adapter trimmed: 3016762
+bases trimmed due to adapters: 61225241
+
+Duplication rate: 16.0899%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 175C_S12_1.fastq.gz -I 175C_S12_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_2.fastq.gz 
+fastp v0.23.4, time used: 44 seconds
+Read1 before filtering:
+total reads: 16543592
+total bases: 2498082392
+Q20 bases: 2390224129(95.6824%)
+Q30 bases: 2336462578(93.5302%)
+
+Read2 before filtering:
+total reads: 16543592
+total bases: 2498082392
+Q20 bases: 2346297139(93.9239%)
+Q30 bases: 2273025670(90.9908%)
+
+Read1 after filtering:
+total reads: 15256474
+total bases: 2261902677
+Q20 bases: 2212505394(97.8161%)
+Q30 bases: 2170879921(95.9758%)
+
+Read2 after filtering:
+total reads: 15256474
+total bases: 2258926462
+Q20 bases: 2191895860(97.0326%)
+Q30 bases: 2136211714(94.5676%)
+
+Filtering result:
+reads passed filter: 30512948
+reads failed due to low quality: 116466
+reads failed due to too many N: 5568
+reads failed due to too short: 2452202
+reads with adapter trimmed: 4426254
+bases trimmed due to adapters: 92764026
+
+Duplication rate: 16.2825%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 175L_S24_1.fastq.gz -I 175L_S24_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_2.fastq.gz 
+fastp v0.23.4, time used: 51 seconds
+Read1 before filtering:
+total reads: 9387617
+total bases: 1417530167
+Q20 bases: 1347357012(95.0496%)
+Q30 bases: 1276532802(90.0533%)
+
+Read2 before filtering:
+total reads: 9387617
+total bases: 1417530167
+Q20 bases: 1302620568(91.8937%)
+Q30 bases: 1231460904(86.8737%)
+
+Read1 after filtering:
+total reads: 8477080
+total bases: 1231737350
+Q20 bases: 1193378603(96.8858%)
+Q30 bases: 1139514771(92.5128%)
+
+Read2 after filtering:
+total reads: 8477080
+total bases: 1227970227
+Q20 bases: 1178107787(95.9394%)
+Q30 bases: 1126535001(91.7396%)
+
+Filtering result:
+reads passed filter: 16954160
+reads failed due to low quality: 93896
+reads failed due to too many N: 2900
+reads failed due to too short: 1724278
+reads with adapter trimmed: 4708350
+bases trimmed due to adapters: 105788004
+
+Duplication rate: 14.4736%
+
+Insert size peak (evaluated by paired-end reads): 151
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i 4_S17_1.fastq.gz -I 4_S17_2.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_1.fastq.gz -O /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_2.fastq.gz 
+fastp v0.23.4, time used: 30 seconds

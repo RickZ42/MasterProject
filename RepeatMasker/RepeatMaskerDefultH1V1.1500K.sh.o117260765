@@ -1,0 +1,22 @@
+RepeatMasker version 4.1.5
+Search Engine: NCBI/RMBLAST [ 2.13.0+ ]
+
+Using Master RepeatMasker Database: /g/data/fa63/share/software/RepeatMasker_setup/RepeatMasker/Libraries/RepeatMaskerLib.h5
+  Title    : 
+  Version  : 
+  Date     : 
+  Families : 
+
+
+======================================================================================
+                  Resource Usage on 2024-06-05 18:16:55:
+   Job Id:             117260765.gadi-pbs
+   Project:            fa63
+   Exit Status:        1
+   Service Units:      7.03
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   100.0GB               Memory Used: 282.49MB        
+   Walltime requested: 48:00:00            Walltime Used: 00:08:26        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

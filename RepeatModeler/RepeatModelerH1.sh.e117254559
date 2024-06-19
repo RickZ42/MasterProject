@@ -1,0 +1,7 @@
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0604H1V1.1.H2V6.500K/H1
++ cp H1V1.1.500K.fa /jobfs/117254559.gadi-pbs
++ export PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ cd /jobfs/117254559.gadi-pbs
++ BuildDatabase -name H1V1.1.500K -engine H1V1.1.500K.fa
+/local/spool/pbs/mom_priv/jobs/117254559.gadi-pbs.SC: /g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler/BuildDatabase: /g/data/fa63/share/miniconda3/envs/RepeatMasker/bin/perl: bad interpreter: No such file or directory

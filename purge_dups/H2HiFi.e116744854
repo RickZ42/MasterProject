@@ -1,0 +1,18 @@
++ REF=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa
++ PB_FOFN=/g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq
++ PURGE_DUPS_BIN=./purge_dups/bin
++ CONFIG=config.json
++ OUT_DIR=/g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups
++ /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/pd_config.py -n config.json /g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq
++ python3 /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/run_purge_dups.py -p bash config.json ./purge_dups/bin species_identifier
+
+------------------------------------------------------------------------
+Job 116744854 has exceeded memory allocation on node gadi-cpu-clx-2444.gadi.nci.org.au
+Process "bash", pid 769010, rss 2875392, vmem 23879680
+Process "116744854.gadi-", pid 769218, rss 2740224, vmem 10178560
+Process "python3", pid 769243, rss 4501504, vmem 263163904
+Process "python3", pid 769244, rss 56104681472, vmem 68500590592
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------

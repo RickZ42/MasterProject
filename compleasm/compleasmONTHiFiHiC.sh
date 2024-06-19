@@ -5,7 +5,7 @@
 #PBS -q normal
 #PBS -l walltime=24:00:00
 #PBS -l ncpus=24
-#PBS -l mem=48GB
+#PBS -l mem=24GB
 #PBS -l jobfs=400GB
 #PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
 #PBS -l wd
@@ -13,8 +13,9 @@
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/compleasm
 
-input_file=("/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/fasta/assemblyQ720KOntHifiHiC.hic.hap2.p_ctg.fasta")
-output_dir="/g/data/xf3/zz3507/Output/assemblyV1/compleasm/hap2"
+mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/compleasmLast800M
+input_file=(/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctgLast800MB.FINAL.fasta)
+output_dir="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/compleasmLast800M"
 lineage_dir="/g/data/xf3/zz3507/database/lineage"
 threads=24
 

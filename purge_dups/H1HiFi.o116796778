@@ -1,0 +1,17 @@
+calculate coverage and self-alignment
+command ./purge_dups/bin/split_fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap1/yahsMarkedPCRNocorrection50KH1First30Scaffolds.fa > yahsMarkedPCRNocorrection50KH1First30Scaffolds/split_aln/yahsMarkedPCRNocorrection50KH1First30Scaffolds.split.fa failed, return code: 127
+unkown error, please check error log
+purge duplicates
+
+======================================================================================
+                  Resource Usage on 2024-05-29 20:02:05:
+   Job Id:             116796778.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      19.29
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 00:17:45        
+   Memory Requested:   200.0GB               Memory Used: 200.0GB         
+   Walltime requested: 24:00:00            Walltime Used: 00:14:28        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,2 @@
++ /g/data/if89/apps/picard/3.1.1/picard.jar createsequencedictionary reference=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta output=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/wgscoverageplotter/Q720KOntHifiHiCBigger50Kcontig.hic.hap2.dict
+/local/spool/pbs/mom_priv/jobs/115308380.gadi-pbs.SC: line 14: /g/data/if89/apps/picard/3.1.1/picard.jar: No such file or directory

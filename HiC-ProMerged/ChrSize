@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#PBS -N SamtoolChrSize
+#PBS -l ncpus=1
+#PBS -l mem=4GB
+#PBS -l jobfs=1GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/MergedHap1Hap2/
+
+
+samtools faidx ./mergedH1H2Q720KOntHifiHiCBigger50K.ctg.fasta
+cut -f 1-2 ./mergedH1H2Q720KOntHifiHiCBigger50K.ctg.fasta.fai > ./mergedH1H2Q720KOntHifiHiCBigger50K.ctg.fasta.chrom.sizes

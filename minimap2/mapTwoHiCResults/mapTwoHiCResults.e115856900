@@ -1,0 +1,13 @@
+[M::mm_idx_gen::30.554*1.44] collected minimizers
+[M::mm_idx_gen::34.147*2.88] sorted minimizers
+[M::main::34.148*2.88] loaded/built the index for 30 target sequence(s)
+[M::mm_mapopt_update::34.784*2.85] mid_occ = 500
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 30
+[M::mm_idx_stat::35.115*2.83] distinct minimizers: 46108429 (81.98% are singletons); average occurrences: 4.264; average spacing: 9.853; total length: 1937179468
+[M::worker_pipeline::1273.334*4.19] mapped 5 sequences
+[M::worker_pipeline::2313.168*4.48] mapped 7 sequences
+[M::worker_pipeline::2826.761*5.23] mapped 11 sequences
+[M::worker_pipeline::2972.261*5.18] mapped 7 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: /g/data/xf3/zz3507/envs/minimap2-2.28_x64-linux/minimap2 -t 40 -ax asm5 --eqx /g/data/xf3/zz3507/script/syri/yahs500KNoCorrectionQ20RemovedPCRFirst30contigH2.fa /g/data/xf3/zz3507/script/syri/yahsMarkedPCRNocorrection50KH1.fa
+[M::main] Real time: 2972.467 sec; CPU: 15395.883 sec; Peak RSS: 122.242 GB

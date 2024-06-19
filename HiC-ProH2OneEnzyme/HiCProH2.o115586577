@@ -1,0 +1,14 @@
+/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/HiC-ProOneEnzynme folder alreads exists. Do you want to overwrite it ? (y/n) [n] : 
+
+======================================================================================
+                  Resource Usage on 2024-05-14 15:23:44:
+   Job Id:             115586577.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.12
+   NCPUs Requested:    36                     NCPUs Used: 36              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   144.0GB               Memory Used: 225.76MB        
+   Walltime requested: 48:00:00            Walltime Used: 00:00:06        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

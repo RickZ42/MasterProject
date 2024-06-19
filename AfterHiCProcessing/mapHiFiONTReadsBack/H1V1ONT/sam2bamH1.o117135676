@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2024-06-04 10:09:59:
+   Job Id:             117135676.gadi-pbs
+   Project:            fa63
+   Exit Status:        0
+   Service Units:      124.40
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 04:03:05        
+   Memory Requested:   180.0GB               Memory Used: 118.68GB        
+   Walltime requested: 48:00:00            Walltime Used: 01:22:56        
+   JobFS requested:    100.0GB                JobFS used: 0B              
+======================================================================================

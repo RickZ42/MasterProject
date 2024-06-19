@@ -1,0 +1,186 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/minimap2
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/minimap2
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/minimap2
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/minimap2
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(minimap2) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/minimap2/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/minimap2'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''minimap2'\''
+export CONDA_PROMPT_MODIFIER='\''(minimap2) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(minimap2) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/minimap2/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/minimap2'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''minimap2'\''
+export CONDA_PROMPT_MODIFIER='\''(minimap2) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(minimap2) '
+++ export PATH=/g/data/xf3/miniconda/envs/minimap2/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/minimap2/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/minimap2
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/minimap2
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=minimap2
+++ CONDA_DEFAULT_ENV=minimap2
+++ export 'CONDA_PROMPT_MODIFIER=(minimap2) '
+++ CONDA_PROMPT_MODIFIER='(minimap2) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ Hap1=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
++ Hap2=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta
++ /g/data/xf3/zz3507/envs/greenhill/GreenHill/src/greenhill -t 48 -cph /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta
+greenhill version: 1.1.0
+/g/data/xf3/zz3507/envs/greenhill/GreenHill/src/greenhill -t 48 -cph /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta 
+
+Executing minimap2 ...
+cat  /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta | minimap2 -c  -t 48 -  -D --secondary=no /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta | sort -s -k 1,1 -T . >out_selfAlignment.tsv
+
+
+[M::mm_idx_gen::42.201*2.16] collected minimizers
+[M::mm_idx_gen::43.953*3.56] sorted minimizers
+[M::main::43.953*3.56] loaded/built the index for 544 target sequence(s)
+[M::mm_mapopt_update::44.621*3.52] mid_occ = 7061
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 544
+[M::mm_idx_stat::44.993*3.50] distinct minimizers: 47884003 (19.63% are singletons); average occurrences: 14.881; average spacing: 5.275
+
+------------------------------------------------------------------------
+Job 115821837 has exceeded memory allocation on node gadi-cpu-spr-0283.gadi.nci.org.au
+Process "bash", pid 3345926, rss 3530752, vmem 23883776
+Process "115821837.gadi-", pid 3346363, rss 3072000, vmem 10178560
+Process "greenhill", pid 3346370, rss 6897160192, vmem 6916775936
+Process "sh", pid 3346383, rss 2363392, vmem 10043392
+Process "minimap2", pid 3346385, rss 198841257984, vmem 1158127124480
+Process "sort", pid 3346386, rss 1884160, vmem 22712320
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+minimap2 finished.
+mincing bubble scaffolds ...
+initConsensusNode
+finish initConsensuNode
+delete repeat consensusnode
+TOTAL_NUM_DELETE: 0
+writing scaffold and bubble files...
+finish mince
+K=32, making hash table...
+CONTIG_AVERAGE_COVERAGE = 80
+saving overlaps... (LEN_CUTOFF=100)
+destructing mapper objects...
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+
+joining unambiguous pair of nodes in a de Bruijn graph..
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+pairing bubble nodes...
+NUM_JOINED = 0
+TOTAL_NUM_NODES_IN_JOINED_PAIRS =0
+
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+pairing bubble nodes...
+removing secondary bubbles from scaffold graph...
+TOTAL_NUM_DELETED_NODES =0
+scaffolding...
+
+joining unambiguous pair of nodes in a de Bruijn graph..
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+pairing bubble nodes...
+NUM_JOINED = 0
+TOTAL_NUM_NODES_IN_JOINED_PAIRS =0
+
+linking scaffolds...
+constructing paired de Bruijn graph
+pairing bubble nodes...
+pairing bubble nodes...
+mergeHeteroNode
+constructing consensus graph
+constructing paired de Bruijn graph using all libraries simultaneously
+removing thin edges (NUM_LINK < 1) ...
+TOTAL_NUM_DELETE=0
+pairing bubble nodes...
+removing edges from short nodes (LENGTH < 0) ...
+TOTAL_NUM_DELETE=0
+removing thin consensus edges (NUM_LINK < 1) & consensu edges from short consensus node (LENGTH < 0) ...
+TOTAL_NUM_DELETE=0
+dividing erroneous consensusnode...
+NUM_DIVIDED_CONSENSUSNODE = 0
+constructing consensus graph
+constructing paired de Bruijn graph using all libraries simultaneously
+removing thin edges (NUM_LINK < 1) ...
+TOTAL_NUM_DELETE=0
+pairing bubble nodes...
+removing edges from short nodes (LENGTH < 0) ...
+TOTAL_NUM_DELETE=0
+removing thin consensus edges (NUM_LINK < 1) & consensu edges from short consensus node (LENGTH < 0) ...
+TOTAL_NUM_DELETE=0
+makeHiCLink
+finish makeHiCLink
+numHiCNode:544
+phasing
+totalNumHetero: 0	totalNumMerge0
+solve_DBG completed!
+
+#### PROCESS INFORMATION ####
+VmPeak:         107.634 GByte
+VmHWM:            9.722 GByte
++ -HIC /g/data/xf3/zz3507/RawData/ctrapeziformis_hic/trimmed_reads/40769_R1_001_val_1.fq.gz /g/data/xf3/zz3507/RawData/ctrapeziformis_hic/trimmed_reads/40769_R2_001_val_2.fq.gz -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/GreenHill48

@@ -1,0 +1,16 @@
++ mkdir -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsRemovedPCRNocorrection
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahsRemovedPCRNocorrection
++ samtools faidx ./yahs.out_scaffolds_final.fa
++ cut -f 1-2 ./yahs.out_scaffolds_final.fa.fai
++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer pre -a -o out_JBAT ./yahs.out.bin ./yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta.fai
++ java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre out_JBAT.txt out_JBAT.hic.part yahs.out_scaffolds_final.fa.chrom.sizes /dev/fd/63
+++ cat out_JBAT.log
+++ grep PRE_C_SIZE
+++ awk '{print $2" "$3}'
+java.lang.RuntimeException: No reads in Hi-C contact matrices. This could be because the MAPQ filter is set too high (-q) or because all reads map to the same fragment.
+	at juicebox.tools.utils.original.MatrixZoomDataPP.mergeAndWriteBlocks(MatrixZoomDataPP.java:276)
+	at juicebox.tools.utils.original.Preprocessor.writeMatrix(Preprocessor.java:970)
+	at juicebox.tools.utils.original.Preprocessor.writeBody(Preprocessor.java:659)
+	at juicebox.tools.utils.original.Preprocessor.preprocess(Preprocessor.java:425)
+	at juicebox.tools.clt.old.PreProcessing.run(PreProcessing.java:139)
+	at juicebox.tools.HiCTools.main(HiCTools.java:94)

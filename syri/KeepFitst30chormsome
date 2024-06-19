@@ -1,0 +1,57 @@
+import argparse
+import os
+from Bio import SeqIO
+from datetime import datetime
+
+def keep_first_n_contigs(input_fasta, output_fasta, n=30):
+    """
+    Keep the first n contigs from the input fasta file and write them to the output fasta file.
+    """
+    kept_contigs = []
+    with open(output_fasta, "w") as output_handle:
+        for i, record in enumerate(SeqIO.parse(input_fasta, "fasta")):
+            if i < n:
+                SeqIO.write(record, output_handle, "fasta")
+                kept_contigs.append((record.id, len(record.seq)))
+            else:
+                break
+    return kept_contigs
+
+def generate_summary(kept_contigs, log_file):
+    total_kept = len(kept_contigs)
+    summary = f"Contig Filtering Summary\n"
+    summary += f"-------------------------\n"
+    summary += f"Kept contigs: {total_kept}\n\n"
+    summary += f"Kept Contigs:\n"
+    for contig_id, length in kept_contigs:
+        summary += f"{contig_id}: {length}bp\n"
+
+    with open(log_file, "w") as log_handle:
+        log_handle.write(summary)
+
+    print(summary)
+
+def main():
+    parser = argparse.ArgumentParser(description="Keep the first n contigs from a fasta file.")
+    parser.add_argument("input_fasta", help="Path to the input fasta file.")
+    parser.add_argument("output_fasta", help="Path to the output fasta file.")
+    parser.add_argument("--n", type=int, default=30, help="Number of contigs to keep (default: 30).")
+    args = parser.parse_args()
+
+    input_fasta = args.input_fasta
+    output_fasta = args.output_fasta
+    n = args.n
+
+    # Create the output directory if it doesn't exist
+    output_dir = os.path.dirname(output_fasta)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    kept_contigs = keep_first_n_contigs(input_fasta, output_fasta, n)
+
+    # Generate summary and save to log file
+    log_file = f"contig_filtering_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    generate_summary(kept_contigs, log_file)
+
+if __name__ == "__main__":
+    main()

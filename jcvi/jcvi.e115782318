@@ -1,0 +1,133 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate jcvi
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate jcvi
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate jcvi
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate jcvi
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(jcvi) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/jcvi/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/jcvi'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''jcvi'\''
+export CONDA_PROMPT_MODIFIER='\''(jcvi) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/activate-r-base.sh"
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libxml2_activate.sh"'
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(jcvi) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/jcvi/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/jcvi'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''jcvi'\''
+export CONDA_PROMPT_MODIFIER='\''(jcvi) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/activate-r-base.sh"
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libxml2_activate.sh"'
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(jcvi) '
+++ export PATH=/g/data/xf3/miniconda/envs/jcvi/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/jcvi/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/jcvi
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/jcvi
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=jcvi
+++ CONDA_DEFAULT_ENV=jcvi
+++ export 'CONDA_PROMPT_MODIFIER=(jcvi) '
+++ CONDA_PROMPT_MODIFIER='(jcvi) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/activate-r-base.sh
++++ R CMD javareconf
++++ [[ ! -z '' ]]
++++ export RSTUDIO_WHICH_R=/g/data/xf3/miniconda/envs/jcvi/bin/R
++++ RSTUDIO_WHICH_R=/g/data/xf3/miniconda/envs/jcvi/bin/R
+++ . /g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/jcvi/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/jcvi/share/glib-2.0/schemas
+++ . /g/data/xf3/miniconda/envs/jcvi/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/g/data/xf3/miniconda/envs/jcvi
++++ for pre in ${rem}
++++ test '' = /g/data/xf3/miniconda/envs/jcvi
++++ conda_catalog_files=/g/data/xf3/miniconda/envs/jcvi
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///g/data/xf3/miniconda/envs/jcvi/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///g/data/xf3/miniconda/envs/jcvi/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///g/data/xf3/miniconda/envs/jcvi/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m jcvi.compara.catalog ortholog /g/data/xf3/zz3507/database/OtherOrchidGenome/PlatantheraZijinensis/data/GCA_039513925.1/GCA_039513925.1_PZIJ_v1.0_genomic.fna /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/yahs500KQ20NoCorrection/yahs.out_scaffolds_final.fa --no_strip_names
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/compara/catalog.py", line 982, in <module>
+    main()
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/compara/catalog.py", line 88, in main
+    p.dispatch(globals())
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/apps/base.py", line 130, in dispatch
+    globals[action](sys.argv[2:])
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/compara/catalog.py", line 704, in ortholog
+    last_main([bfasta, afasta, cpus_flag], dbtype)
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/apps/align.py", line 535, in last
+    run_lastdb(
+  File "/g/data/xf3/miniconda/envs/jcvi/lib/python3.10/site-packages/jcvi/utils/cbook.py", line 63, in wrapper
+    assert op.exists(x), "The specified infile `{0}` does not exist".format(
+AssertionError: The specified infile `/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/yahs500KQ20NoCorrection/yahs.out_scaffolds_final.fa.cds` does not exist

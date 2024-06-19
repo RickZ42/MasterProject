@@ -1,0 +1,213 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/samtools
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/samtools
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(samtools) '
+++ export PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=samtools
+++ CONDA_DEFAULT_ENV=samtools
+++ export 'CONDA_PROMPT_MODIFIER=(samtools) '
+++ CONDA_PROMPT_MODIFIER='(samtools) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection
++ samtools dict /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1.fa -o yahsMarkedPCRNocorrection50KH1.fa.dict
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/javrkit
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/javrkit
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(samtools) '
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/javrkit
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/javrkit
++ ask_conda='PS1='\''(javrkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/javrkit'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''javrkit'\''
+export CONDA_PROMPT_MODIFIER='\''(javrkit) '\''
+export CONDA_PREFIX_2='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh"'
++ eval 'PS1='\''(javrkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/javrkit'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''javrkit'\''
+export CONDA_PROMPT_MODIFIER='\''(javrkit) '\''
+export CONDA_PREFIX_2='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh"'
+++ PS1='(javrkit) '
+++ export PATH=/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/javrkit
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/javrkit
+++ export CONDA_SHLVL=3
+++ CONDA_SHLVL=3
+++ export CONDA_DEFAULT_ENV=javrkit
+++ CONDA_DEFAULT_ENV=javrkit
+++ export 'CONDA_PROMPT_MODIFIER=(javrkit) '
+++ CONDA_PROMPT_MODIFIER='(javrkit) '
+++ export CONDA_PREFIX_2=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX_2=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/javrkit/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/javrkit/share/glib-2.0/schemas
+++ . /g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh
++++ '[' '' ']'
++++ export JAVA_HOME=/g/data/xf3/miniconda/envs/javrkit/lib/jvm
++++ JAVA_HOME=/g/data/xf3/miniconda/envs/javrkit/lib/jvm
++++ '[' '' ']'
++++ export JAVA_LD_LIBRARY_PATH=/g/data/xf3/miniconda/envs/javrkit/lib/jvm/lib/server
++++ JAVA_LD_LIBRARY_PATH=/g/data/xf3/miniconda/envs/javrkit/lib/jvm/lib/server
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ wgscoverageplotter --dimension 1500x500 --max-depth -1 --clip -R /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1.fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimap/H1ONTialn_sorted.bam --min-contig-length 20000000 --percentile median
+[INFO][WGSCoveragePlotter]Will plot the following contigs:scaffold_1, scaffold_2, scaffold_3, scaffold_4, scaffold_5, scaffold_6, scaffold_7, scaffold_8, scaffold_9, scaffold_10, scaffold_11, scaffold_12, scaffold_13, scaffold_14, scaffold_15, scaffold_16, scaffold_17, scaffold_18, scaffold_19, scaffold_20, scaffold_21, scaffold_22, scaffold_23
+[INFO][WGSCoveragePlotter]Computing median depth...
+[INFO][WGSCoveragePlotter]Count: 2 Elapsed: 44 seconds(0.00%) Remains: 2388 years(100.00%) Last: scaffold_2:1
+[INFO][WGSCoveragePlotter]Count: 3 Elapsed: 1 minute(6.61%) Remains: 19 minutes(93.39%) Last: scaffold_3:1
+[INFO][WGSCoveragePlotter]Count: 4 Elapsed: 2 minutes(12.85%) Remains: 13 minutes(87.15%) Last: scaffold_4:1
+[INFO][WGSCoveragePlotter]Count: 5 Elapsed: 2 minutes(18.79%) Remains: 11 minutes(81.21%) Last: scaffold_5:1
+[INFO][WGSCoveragePlotter]Count: 6 Elapsed: 3 minutes(24.65%) Remains: 10 minutes(75.35%) Last: scaffold_6:1
+[INFO][WGSCoveragePlotter]Count: 7 Elapsed: 3 minutes(30.35%) Remains: 8 minutes(69.65%) Last: scaffold_7:1
+[INFO][WGSCoveragePlotter]Count: 8 Elapsed: 4 minutes(35.75%) Remains: 7 minutes(64.25%) Last: scaffold_8:1
+[INFO][WGSCoveragePlotter]Count: 9 Elapsed: 4 minutes(40.79%) Remains: 7 minutes(59.21%) Last: scaffold_9:1
+[INFO][WGSCoveragePlotter]Count: 10 Elapsed: 5 minutes(45.24%) Remains: 6 minutes(54.76%) Last: scaffold_10:1
+[INFO][WGSCoveragePlotter]Count: 11 Elapsed: 5 minutes(49.57%) Remains: 5 minutes(50.43%) Last: scaffold_11:1
+[INFO][WGSCoveragePlotter]Count: 12 Elapsed: 6 minutes(53.76%) Remains: 5 minutes(46.24%) Last: scaffold_12:1
+[INFO][WGSCoveragePlotter]Count: 13 Elapsed: 6 minutes(57.69%) Remains: 4 minutes(42.31%) Last: scaffold_13:1
+[INFO][WGSCoveragePlotter]Count: 14 Elapsed: 7 minutes(61.37%) Remains: 4 minutes(38.63%) Last: scaffold_14:1
+[INFO][WGSCoveragePlotter]Count: 15 Elapsed: 7 minutes(64.96%) Remains: 4 minutes(35.04%) Last: scaffold_15:1
+[INFO][WGSCoveragePlotter]Count: 16 Elapsed: 7 minutes(68.45%) Remains: 3 minutes(31.55%) Last: scaffold_16:1
+[INFO][WGSCoveragePlotter]Count: 17 Elapsed: 8 minutes(71.73%) Remains: 3 minutes(28.27%) Last: scaffold_17:1
+[INFO][WGSCoveragePlotter]Count: 18 Elapsed: 8 minutes(74.99%) Remains: 2 minutes(25.01%) Last: scaffold_18:1
+[INFO][WGSCoveragePlotter]Count: 19 Elapsed: 8 minutes(77.96%) Remains: 2 minutes(22.04%) Last: scaffold_19:1
+[INFO][WGSCoveragePlotter]Count: 20 Elapsed: 9 minutes(80.72%) Remains: 2 minutes(19.28%) Last: scaffold_20:1
+[INFO][WGSCoveragePlotter]Count: 21 Elapsed: 9 minutes(83.49%) Remains: 1 minute(16.51%) Last: scaffold_21:1
+[INFO][WGSCoveragePlotter]Count: 22 Elapsed: 9 minutes(86.21%) Remains: 1 minute(13.79%) Last: scaffold_22:1
+[INFO][WGSCoveragePlotter]Count: 23 Elapsed: 9 minutes(88.70%) Remains: 1 minute(11.30%) Last: scaffold_23:1
+[INFO][WGSCoveragePlotter]. Completed. N=23. That took:10 minutes
+[INFO][WGSCoveragePlotter]Now using max depth for y axis=46
+[INFO][WGSCoveragePlotter]Count: 2 Elapsed: 48 seconds(0.00%) Remains: 2594 years(100.00%) Last: scaffold_2:1
+[INFO][WGSCoveragePlotter]Count: 3 Elapsed: 1 minute(6.61%) Remains: 21 minutes(93.39%) Last: scaffold_3:1
+[INFO][WGSCoveragePlotter]Count: 4 Elapsed: 2 minutes(12.85%) Remains: 15 minutes(87.15%) Last: scaffold_4:1
+[INFO][WGSCoveragePlotter]Count: 5 Elapsed: 2 minutes(18.79%) Remains: 12 minutes(81.21%) Last: scaffold_5:1
+[INFO][WGSCoveragePlotter]Count: 6 Elapsed: 3 minutes(24.65%) Remains: 10 minutes(75.35%) Last: scaffold_6:1
+[INFO][WGSCoveragePlotter]Count: 7 Elapsed: 4 minutes(30.35%) Remains: 9 minutes(69.65%) Last: scaffold_7:1
+[INFO][WGSCoveragePlotter]Count: 8 Elapsed: 4 minutes(35.75%) Remains: 8 minutes(64.25%) Last: scaffold_8:1
+[INFO][WGSCoveragePlotter]Count: 9 Elapsed: 5 minutes(40.79%) Remains: 7 minutes(59.21%) Last: scaffold_9:1
+[INFO][WGSCoveragePlotter]Count: 10 Elapsed: 5 minutes(45.24%) Remains: 7 minutes(54.76%) Last: scaffold_10:1
+[INFO][WGSCoveragePlotter]Count: 11 Elapsed: 6 minutes(49.57%) Remains: 6 minutes(50.43%) Last: scaffold_11:1
+[INFO][WGSCoveragePlotter]Count: 12 Elapsed: 6 minutes(53.76%) Remains: 5 minutes(46.24%) Last: scaffold_12:1
+[INFO][WGSCoveragePlotter]Count: 13 Elapsed: 7 minutes(57.69%) Remains: 5 minutes(42.31%) Last: scaffold_13:1
+[INFO][WGSCoveragePlotter]Count: 14 Elapsed: 7 minutes(61.37%) Remains: 4 minutes(38.63%) Last: scaffold_14:1
+[INFO][WGSCoveragePlotter]Count: 15 Elapsed: 8 minutes(64.96%) Remains: 4 minutes(35.04%) Last: scaffold_15:1
+[INFO][WGSCoveragePlotter]Count: 16 Elapsed: 8 minutes(68.45%) Remains: 3 minutes(31.55%) Last: scaffold_16:1
+[INFO][WGSCoveragePlotter]Count: 17 Elapsed: 8 minutes(71.73%) Remains: 3 minutes(28.27%) Last: scaffold_17:1
+[INFO][WGSCoveragePlotter]Count: 18 Elapsed: 9 minutes(74.99%) Remains: 3 minutes(25.01%) Last: scaffold_18:1
+[INFO][WGSCoveragePlotter]Count: 19 Elapsed: 9 minutes(77.96%) Remains: 2 minutes(22.04%) Last: scaffold_19:1
+[INFO][WGSCoveragePlotter]Count: 20 Elapsed: 9 minutes(80.72%) Remains: 2 minutes(19.28%) Last: scaffold_20:1
+[INFO][WGSCoveragePlotter]Count: 21 Elapsed: 10 minutes(83.49%) Remains: 2 minutes(16.51%) Last: scaffold_21:1
+[INFO][WGSCoveragePlotter]Count: 22 Elapsed: 10 minutes(86.21%) Remains: 1 minute(13.79%) Last: scaffold_22:1
+[INFO][WGSCoveragePlotter]Count: 23 Elapsed: 10 minutes(88.70%) Remains: 1 minute(11.30%) Last: scaffold_23:1
+[INFO][WGSCoveragePlotter]. Completed. N=23. That took:11 minutes

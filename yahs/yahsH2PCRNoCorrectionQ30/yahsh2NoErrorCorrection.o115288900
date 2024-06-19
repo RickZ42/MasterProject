@@ -1,0 +1,34 @@
+WARN [2024-05-09T12:34:53,996]  [Globals.java:138] [main]  Development mode is enabled
+Usage:   juicer_tools pre [options] <infile> <outfile> <genomeID>
+           : -d only calculate intra chromosome (diagonal) [false]
+           : -f <restriction site file> calculate fragment map
+           : -m <int> only write cells with count above threshold m [0]
+           : -q <int> filter by MAPQ score greater than or equal to q [not set]
+           : -c <chromosome ID> only calculate map on specific chromosome [not set]
+           : -r <comma-separated list of resolutions> Only calculate specific resolutions [not set]
+           : -t <tmpDir> Set a temporary directory for writing
+           : -s <statistics file> Add the text statistics file to the Hi-C file header
+           : -g <graphs file> Add the text graphs file to the Hi-C file header
+           : -n Don't normalize the matrices
+           : -z <double> scale factor for hic file
+           : -a <1, 2, 3, 4, 5> filter based on inner, outer, left-left, right-right, tandem pairs respectively
+           : --randomize_position randomize positions between fragment sites
+           : --random_seed <long> for seeding random number generator
+           : --frag_site_maps <fragment site files> for randomization
+           : -k normalizations to include
+           : -j number of CPU threads to use
+           : --threads <int> number of threads 
+           : --mndindex <filepath> to mnd chr block indices
+
+======================================================================================
+                  Resource Usage on 2024-05-09 12:34:58:
+   Job Id:             115288900.gadi-pbs
+   Project:            xf3
+   Exit Status:        127
+   Service Units:      0.01
+   NCPUs Requested:    4                      NCPUs Used: 4               
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   48.0GB                Memory Used: 159.11MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:02        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

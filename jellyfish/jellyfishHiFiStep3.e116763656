@@ -1,0 +1,115 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/jellyfish
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/jellyfish
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/jellyfish
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/jellyfish
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(jellyfish) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/jellyfish/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/jellyfish'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''jellyfish'\''
+export CONDA_PROMPT_MODIFIER='\''(jellyfish) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/activate-r-base.sh"
+. "/g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/libglib_activate.sh"'
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(jellyfish) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/jellyfish/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/jellyfish'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''jellyfish'\''
+export CONDA_PROMPT_MODIFIER='\''(jellyfish) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/activate-r-base.sh"
+. "/g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/libglib_activate.sh"'
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(jellyfish) '
+++ export PATH=/g/data/xf3/miniconda/envs/jellyfish/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/jellyfish/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/jellyfish
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/jellyfish
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=jellyfish
+++ CONDA_DEFAULT_ENV=jellyfish
+++ export 'CONDA_PROMPT_MODIFIER=(jellyfish) '
+++ CONDA_PROMPT_MODIFIER='(jellyfish) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/activate-r-base.sh
++++ R CMD javareconf
++++ [[ ! -z '' ]]
++++ export RSTUDIO_WHICH_R=/g/data/xf3/miniconda/envs/jellyfish/bin/R
++++ RSTUDIO_WHICH_R=/g/data/xf3/miniconda/envs/jellyfish/bin/R
+++ . /g/data/xf3/miniconda/envs/jellyfish/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/jellyfish/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/jellyfish/share/glib-2.0/schemas
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/jellyfish/hifi
++ smudgeplot.py plot kmer_pairs_coverages.tsv -o my_genome
+Running smudgeplot v0.2.5
+Task: plot
+Calling: smudgeplot_plot.R -i "kmer_pairs_coverages.tsv" -o "my_genome" -k 21
+
+######################
+## INPUT PROCESSING ##
+######################
+
+#############
+## SUMMARY ##
+#############
+detecting two smudges at the same positions, not enough data for this number of bins lowering number of bins to 	35
+detecting two smudges at the same positions, not enough data for this number of bins lowering number of bins to 	30
+detecting two smudges at the same positions, not enough data for this number of bins lowering number of bins to 	25
+
+##########
+## PLOT ##
+##########
+
+Done!

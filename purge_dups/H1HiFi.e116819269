@@ -1,0 +1,8 @@
++ REF=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1First30Scaffolds.fa
++ PB_FOFN=/g/data/xf3/zz3507/script/purge_dups/pacbio_files_list.txt
++ PURGE_DUPS_BIN=./purge_dups/bin
++ CONFIG=config.Ct.json
++ OUT_DIR=/g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap1
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap1
++ /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/pd_config.py -n config.Ct.json /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1First30Scaffolds.fa /g/data/xf3/zz3507/script/purge_dups/pacbio_files_list.txt
++ python3 /g/data/xf3/zz3507/envs/purge_dups/purge_dups/scripts/run_purge_dups.py -p bash config.Ct.json ./purge_dups/bin Ct

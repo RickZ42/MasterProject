@@ -1,0 +1,7 @@
++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer post -o out_JBATH1 /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0531V2/yahsMarkedPCRRNocorrectionH1FINAL0531V2.review.assembly /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/out_JBAT.liftover.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+[I::main_post] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 220
+[I::write_fasta_file_from_agp] Number bases: 1683121789
+[I::main_post] Version: 1.2
+[I::main_post] CMD: juicer post -o out_JBATH1 /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0531V2/yahsMarkedPCRRNocorrectionH1FINAL0531V2.review.assembly /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/out_JBAT.liftover.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+[I::main_post] Real time: 115.360 sec; CPU: 28.118 sec; Peak RSS: 3.200 GB

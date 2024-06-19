@@ -1,0 +1,5 @@
+mkdir: cannot create directory '/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0603V6': File exists
++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer post -o out_JBATH1 /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0603V6/yahsH2NoCorrectionNoQ50KnewV6.review.review.assembly /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/out_JBAT.liftover.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+[I::main_post] writing FASTA file for scaffolds
+[E::make_asm_dict_from_agp] invalid sequence component h1tg000098l:1-51819497 on scaffold_1
+[E::make_asm_dict_from_agp] sequence end position (51819497) greater than sequence length (5901703)

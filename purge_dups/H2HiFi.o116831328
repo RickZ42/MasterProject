@@ -1,0 +1,20 @@
+calculate coverage and self-alignment
+command minimap2 -I 4G -x map-pb -t 12 /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap2/yahsH2NoCorrectionNoQ50K30Scafflods.fa /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq >yahsH2NoCorrectionNoQ50K30Scafflods/coverage/ctrapeziformis.paf failed, return code: 137
+unkown error, please check error log
+command /g/data/xf3/zz3507/envs/purge_dups/purge_dups/bin/split_fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/PurgeDups/hap2/yahsH2NoCorrectionNoQ50K30Scafflods.fa > yahsH2NoCorrectionNoQ50K30Scafflods/split_aln/yahsH2NoCorrectionNoQ50K30Scafflods.split.fa run successfully
+command minimap2 -xasm5 -DP yahsH2NoCorrectionNoQ50K30Scafflods/split_aln/yahsH2NoCorrectionNoQ50K30Scafflods.split.fa yahsH2NoCorrectionNoQ50K30Scafflods/split_aln/yahsH2NoCorrectionNoQ50K30Scafflods.split.fa > yahsH2NoCorrectionNoQ50K30Scafflods/split_aln/yahsH2NoCorrectionNoQ50K30Scafflods.split.paf failed, return code: 137
+unkown error, please check error log
+purge duplicates
+
+======================================================================================
+                  Resource Usage on 2024-05-30 16:42:10:
+   Job Id:             116831328.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      78.63
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 05:51:40        
+   Memory Requested:   96.0GB                Memory Used: 96.0GB          
+   Walltime requested: 24:00:00            Walltime Used: 01:38:17        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,179 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/samtools
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/samtools
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(samtools) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''samtools'\''
+export CONDA_PROMPT_MODIFIER='\''(samtools) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(samtools) '
+++ export PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/samtools/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=samtools
+++ CONDA_DEFAULT_ENV=samtools
+++ export 'CONDA_PROMPT_MODIFIER=(samtools) '
+++ CONDA_PROMPT_MODIFIER='(samtools) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/
++ samtools dict /g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/javrkit
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/javrkit
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(samtools) '
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/javrkit
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/javrkit
++ ask_conda='PS1='\''(javrkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/javrkit'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''javrkit'\''
+export CONDA_PROMPT_MODIFIER='\''(javrkit) '\''
+export CONDA_PREFIX_2='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh"'
++ eval 'PS1='\''(javrkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/javrkit'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''javrkit'\''
+export CONDA_PROMPT_MODIFIER='\''(javrkit) '\''
+export CONDA_PREFIX_2='\''/g/data/xf3/miniconda/envs/samtools'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\''
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh"
+. "/g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh"'
+++ PS1='(javrkit) '
+++ export PATH=/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/javrkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/javrkit
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/javrkit
+++ export CONDA_SHLVL=3
+++ CONDA_SHLVL=3
+++ export CONDA_DEFAULT_ENV=javrkit
+++ CONDA_DEFAULT_ENV=javrkit
+++ export 'CONDA_PROMPT_MODIFIER=(javrkit) '
+++ CONDA_PROMPT_MODIFIER='(javrkit) '
+++ export CONDA_PREFIX_2=/g/data/xf3/miniconda/envs/samtools
+++ CONDA_PREFIX_2=/g/data/xf3/miniconda/envs/samtools
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ . /g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/javrkit/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/g/data/xf3/miniconda/envs/javrkit/share/glib-2.0/schemas
+++ . /g/data/xf3/miniconda/envs/javrkit/etc/conda/activate.d/openjdk_activate.sh
++++ '[' '' ']'
++++ export JAVA_HOME=/g/data/xf3/miniconda/envs/javrkit/lib/jvm
++++ JAVA_HOME=/g/data/xf3/miniconda/envs/javrkit/lib/jvm
++++ '[' '' ']'
++++ export JAVA_LD_LIBRARY_PATH=/g/data/xf3/miniconda/envs/javrkit/lib/jvm/lib/server
++++ JAVA_LD_LIBRARY_PATH=/g/data/xf3/miniconda/envs/javrkit/lib/jvm/lib/server
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ wgscoverageplotter --dimension 1500x500 --max-depth -1 --clip -R /g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimap/H2ONTialn_sorted.bam --min-contig-length 20000000 --percentile median
+[SEVERE][WGSCoveragePlotter]Could not find dictionary next to reference file file:///g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa
+htsjdk.samtools.SAMException: Could not find dictionary next to reference file file:///g/data/xf3/zz3507/Output/AfterHiCProcessing/H2reference/yahsNoCorrectionFinal/yahsH2NoCorrectionNoQ50K.fa
+	at htsjdk.variant.utils.SAMSequenceDictionaryExtractor$TYPE$1.extractDictionary(SAMSequenceDictionaryExtractor.java:58)
+	at htsjdk.variant.utils.SAMSequenceDictionaryExtractor.extractDictionary(SAMSequenceDictionaryExtractor.java:170)
+	at com.github.lindenb.jvarkit.util.bio.SequenceDictionaryUtils.extractRequired(SequenceDictionaryUtils.java:200)
+	at com.github.lindenb.jvarkit.tools.bam2graphics.WGSCoveragePlotter.doWork(WGSCoveragePlotter.java:317)
+	at com.github.lindenb.jvarkit.util.jcommander.Launcher.instanceMain(Launcher.java:819)
+	at com.github.lindenb.jvarkit.util.jcommander.Launcher.instanceMainWithExit(Launcher.java:982)
+	at com.github.lindenb.jvarkit.tools.bam2graphics.WGSCoveragePlotter.main(WGSCoveragePlotter.java:651)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.github.lindenb.jvarkit.tools.jvarkit.JvarkitCentral$Command.execute(JvarkitCentral.java:290)
+	at com.github.lindenb.jvarkit.tools.jvarkit.JvarkitCentral.run(JvarkitCentral.java:777)
+	at com.github.lindenb.jvarkit.tools.jvarkit.JvarkitCentral.main(JvarkitCentral.java:788)
+[INFO][Launcher]wgscoverageplotter Exited with failure (-1)

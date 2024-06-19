@@ -1,0 +1,13 @@
+[M::mm_idx_gen::26.855*1.47] collected minimizers
+[M::mm_idx_gen::30.379*2.94] sorted minimizers
+[M::main::30.381*2.94] loaded/built the index for 222 target sequence(s)
+[M::mm_mapopt_update::31.125*2.90] mid_occ = 500
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 222
+[M::mm_idx_stat::31.516*2.87] distinct minimizers: 43868339 (83.56% are singletons); average occurrences: 3.894; average spacing: 9.852; total length: 1683121589
+[M::worker_pipeline::2817.029*2.57] mapped 4 sequences
+[M::worker_pipeline::4427.982*3.22] mapped 6 sequences
+[M::worker_pipeline::5525.115*3.66] mapped 7 sequences
+[M::worker_pipeline::6195.502*4.27] mapped 60 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: /g/data/xf3/zz3507/envs/minimap2-2.28_x64-linux/minimap2 -t 40 -ax asm5 --eqx /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/yahsMarkedPCRRNocorrection/yahsMarkedPCRNocorrection50KH1.fa /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/yahs500KNoCorrectionQ20RemovedPCR/yahs500KNoCorrectionQ20RemovedPCR.fa
+[M::main] Real time: 6195.834 sec; CPU: 26433.663 sec; Peak RSS: 154.130 GB

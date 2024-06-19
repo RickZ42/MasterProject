@@ -1,0 +1,25 @@
+Building database H2V6.500K:
+  Reading H2V6.500K.fa...
+Number of sequences (bp) added to database: 71 ( 2061731397 bp )
+RepeatModeler Version 2.0.4
+===========================
+Using output directory = /jobfs/117264970.gadi-pbs/RM_27349.WedJun51846572024
+Search Engine = rmblast 2.13.0+
+Threads = 20
+Dependencies: TRF 4.10, RECON , RepeatScout 1.0.6, RepeatMasker 4.1.5
+LTR Structural Analysis: Disabled [use -LTRStruct to enable]
+Random Number Seed: 1717577209
+Database = H1V1.1.500K 
+
+======================================================================================
+                  Resource Usage on 2024-06-05 18:47:01:
+   Job Id:             117264970.gadi-pbs
+   Project:            fa63
+   Exit Status:        255
+   Service Units:      0.56
+   NCPUs Requested:    20                     NCPUs Used: 20              
+                                           CPU Time Used: 00:00:26        
+   Memory Requested:   100.0GB               Memory Used: 6.88GB          
+   Walltime requested: 48:00:00            Walltime Used: 00:00:40        
+   JobFS requested:    400.0GB                JobFS used: 3.67GB          
+======================================================================================

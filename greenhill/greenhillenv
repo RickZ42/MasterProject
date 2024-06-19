@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=48
+#PBS -l mem=192GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3
+#PBS -l wd
+
+# Set up the environment
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/greenhill
+
+Hap1="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta"
+Hap2="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/JuicerYan/references/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctg.fasta"
+
+# HiFiasm
+greenhill \
+-t 24 \
+-cph $Hap1 $Hap2 \
+-HIC /g/data/xf3/zz3507/RawData/ctrapeziformis_hic/trimmed_reads/40769_R1_001_val_1.fq.gz /g/data/xf3/zz3507/RawData/ctrapeziformis_hic/trimmed_reads/40769_R2_001_val_2.fq.gz \
+-o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/GreenHill48 \
+2>3D1.log
+
+# -p /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz /g/data/xf3/zz3507/Output/chopper_output/Q720K/MergedONTQ720K/mergedONTQ720K.fq.gz \

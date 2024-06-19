@@ -1,0 +1,130 @@
+2024-05-17 11:24:22,982 - Reading Coords - INFO - syri:134 - Reading input from SAM file
+2024-05-17 11:24:48,901 - Reading Coords - INFO - syri:134 - Filtering low-quality alignments (alignment quality < 90, alignment length < 100)
+2024-05-17 11:24:49,053 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_23 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_23). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,065 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_24 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_24). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,078 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_25 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_25). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,089 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_26 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_26). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,100 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_27 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_27). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,121 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_30 do not have any directed alignments with its homologous chromosome in the query genome (scaffold_30). Filtering out all corresponding alignments.
+2024-05-17 11:24:49,173 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_11 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_11). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,181 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_12 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_12). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,197 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_14 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_14). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,220 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_17 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_17). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,228 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_18 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_18). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,236 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_19 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_19). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,260 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_21 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_21). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,268 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_22 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_22). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,314 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_28 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_28). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,322 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_29 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_29). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,330 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_3 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_3). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,345 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_4 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_4). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,353 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_5 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_5). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,369 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_7 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_7). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:24:49,377 - Reading Coords - WARNING - syri:134 - Reference chromosome scaffold_8 has high fraction of inverted alignments with its homologous chromosome in the query genome (scaffold_8). Ensure that same chromosome-strands are being compared in the two genomes, as different strand can result in unexpected errors.
+2024-05-17 11:25:06,970 - syri - INFO - syri:215 - starting
+2024-05-17 11:25:06,985 - syri - INFO - syri:215 - Analysing chromosomes: ['scaffold_1', 'scaffold_10', 'scaffold_11', 'scaffold_12', 'scaffold_13', 'scaffold_14', 'scaffold_15', 'scaffold_16', 'scaffold_17', 'scaffold_18', 'scaffold_19', 'scaffold_2', 'scaffold_20', 'scaffold_21', 'scaffold_22', 'scaffold_28', 'scaffold_29', 'scaffold_3', 'scaffold_4', 'scaffold_5', 'scaffold_6', 'scaffold_7', 'scaffold_8', 'scaffold_9']
+2024-05-17 11:25:07,257 - syri.scaffold_1 - INFO - mapstar:48 - scaffold_1 (22, 11)
+2024-05-17 11:25:07,257 - syri.scaffold_1 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_1
+2024-05-17 11:25:07,283 - syri.scaffold_1 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_1
+2024-05-17 11:25:08,753 - syri.scaffold_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_1
+2024-05-17 11:25:09,052 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 2.9802322387695312e-05. iterations remaining 45
+2024-05-17 11:25:09,150 - syri.scaffold_10 - INFO - mapstar:48 - scaffold_10 (19, 11)
+2024-05-17 11:25:09,150 - syri.scaffold_10 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_10
+2024-05-17 11:25:09,168 - syri.scaffold_10 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_10
+2024-05-17 11:25:09,190 - syri.scaffold_10 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_10
+2024-05-17 11:25:09,308 - syri.scaffold_11 - INFO - mapstar:48 - scaffold_11 (9, 11)
+2024-05-17 11:25:09,308 - syri.scaffold_11 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_11
+2024-05-17 11:25:09,322 - syri.scaffold_11 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_11
+2024-05-17 11:25:09,346 - syri.scaffold_11 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_11
+2024-05-17 11:25:09,811 - syri.scaffold_11 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_11. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:09,815 - syri.scaffold_12 - INFO - mapstar:48 - scaffold_12 (14, 11)
+2024-05-17 11:25:09,815 - syri.scaffold_12 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_12
+2024-05-17 11:25:09,830 - syri.scaffold_12 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_12
+2024-05-17 11:25:09,849 - syri.scaffold_12 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_12
+2024-05-17 11:25:09,959 - syri.scaffold_13 - INFO - mapstar:48 - scaffold_13 (7, 11)
+2024-05-17 11:25:09,959 - syri.scaffold_13 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_13
+2024-05-17 11:25:09,972 - syri.scaffold_13 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_13
+2024-05-17 11:25:09,989 - syri.scaffold_13 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_13
+2024-05-17 11:25:10,060 - syri.scaffold_14 - INFO - mapstar:48 - scaffold_14 (2, 11)
+2024-05-17 11:25:10,060 - syri.scaffold_14 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_14
+2024-05-17 11:25:10,073 - syri.scaffold_14 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_14
+2024-05-17 11:25:10,092 - syri.scaffold_14 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_14
+2024-05-17 11:25:10,144 - syri.scaffold_14 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_14. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:10,156 - syri.scaffold_15 - INFO - mapstar:48 - scaffold_15 (9, 11)
+2024-05-17 11:25:10,157 - syri.scaffold_15 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_15
+2024-05-17 11:25:10,173 - syri.scaffold_15 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_15
+2024-05-17 11:25:10,191 - syri.scaffold_15 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_15
+2024-05-17 11:25:10,250 - syri.scaffold_16 - INFO - mapstar:48 - scaffold_16 (12, 11)
+2024-05-17 11:25:10,250 - syri.scaffold_16 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_16
+2024-05-17 11:25:10,264 - syri.scaffold_16 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_16
+2024-05-17 11:25:10,281 - syri.scaffold_16 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_16
+2024-05-17 11:25:10,352 - syri.scaffold_17 - INFO - mapstar:48 - scaffold_17 (7, 11)
+2024-05-17 11:25:10,352 - syri.scaffold_17 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_17
+2024-05-17 11:25:10,365 - syri.scaffold_17 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_17
+2024-05-17 11:25:10,409 - syri.scaffold_17 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_17
+2024-05-17 11:25:10,618 - syri.scaffold_18 - INFO - mapstar:48 - scaffold_18 (4, 11)
+2024-05-17 11:25:10,619 - syri.scaffold_18 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_18
+2024-05-17 11:25:10,632 - syri.scaffold_18 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_18
+2024-05-17 11:25:10,650 - syri.scaffold_18 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_18
+2024-05-17 11:25:10,698 - syri.scaffold_18 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_18. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:10,702 - syri.scaffold_19 - INFO - mapstar:48 - scaffold_19 (2, 11)
+2024-05-17 11:25:10,702 - syri.scaffold_19 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_19
+2024-05-17 11:25:10,714 - syri.scaffold_19 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_19
+2024-05-17 11:25:10,732 - syri.scaffold_19 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_19
+2024-05-17 11:25:10,814 - syri.scaffold_2 - INFO - mapstar:48 - scaffold_2 (22, 11)
+2024-05-17 11:25:10,814 - syri.scaffold_2 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_2
+2024-05-17 11:25:10,833 - syri.scaffold_2 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_2
+2024-05-17 11:25:10,853 - syri.scaffold_2 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_2
+2024-05-17 11:25:11,029 - syri.scaffold_20 - INFO - mapstar:48 - scaffold_20 (13, 11)
+2024-05-17 11:25:11,029 - syri.scaffold_20 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_20
+2024-05-17 11:25:11,049 - syri.scaffold_20 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_20
+2024-05-17 11:25:11,068 - syri.scaffold_20 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_20
+2024-05-17 11:25:11,120 - syri.scaffold_21 - INFO - mapstar:48 - scaffold_21 (2, 11)
+2024-05-17 11:25:11,120 - syri.scaffold_21 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_21
+2024-05-17 11:25:11,133 - syri.scaffold_21 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_21
+2024-05-17 11:25:11,151 - syri.scaffold_21 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_21
+2024-05-17 11:25:11,264 - syri.scaffold_22 - INFO - mapstar:48 - scaffold_22 (6, 11)
+2024-05-17 11:25:11,264 - syri.scaffold_22 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_22
+2024-05-17 11:25:11,283 - syri.scaffold_22 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_22
+2024-05-17 11:25:11,360 - syri.scaffold_22 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_22
+2024-05-17 11:25:11,455 - syri.scaffold_22 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_22. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:11,460 - syri.scaffold_28 - INFO - mapstar:48 - scaffold_28 (5, 11)
+2024-05-17 11:25:11,460 - syri.scaffold_28 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_28
+2024-05-17 11:25:11,473 - syri.scaffold_28 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_28
+2024-05-17 11:25:11,491 - syri.scaffold_28 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_28
+2024-05-17 11:25:11,582 - syri.scaffold_29 - INFO - mapstar:48 - scaffold_29 (1, 11)
+2024-05-17 11:25:11,582 - syri.scaffold_29 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_29
+2024-05-17 11:25:11,598 - syri.scaffold_29 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_29
+2024-05-17 11:25:11,616 - syri.scaffold_29 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_29
+2024-05-17 11:25:11,652 - syri.scaffold_3 - INFO - mapstar:48 - scaffold_3 (9, 11)
+2024-05-17 11:25:11,652 - syri.scaffold_3 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_3
+2024-05-17 11:25:11,666 - syri.scaffold_3 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_3
+2024-05-17 11:25:11,686 - syri.scaffold_3 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_3
+2024-05-17 11:25:11,757 - syri.scaffold_3 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_3. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:11,769 - syri.scaffold_4 - INFO - mapstar:48 - scaffold_4 (2, 11)
+2024-05-17 11:25:11,769 - syri.scaffold_4 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_4
+2024-05-17 11:25:11,784 - syri.scaffold_4 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_4
+2024-05-17 11:25:11,802 - syri.scaffold_4 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_4
+2024-05-17 11:25:11,881 - syri.scaffold_5 - INFO - mapstar:48 - scaffold_5 (5, 11)
+2024-05-17 11:25:11,882 - syri.scaffold_5 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_5
+2024-05-17 11:25:11,895 - syri.scaffold_5 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_5
+2024-05-17 11:25:11,915 - syri.scaffold_5 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_5
+2024-05-17 11:25:11,991 - syri.scaffold_5 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_5. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:11,994 - syri.scaffold_6 - INFO - mapstar:48 - scaffold_6 (4, 11)
+2024-05-17 11:25:11,995 - syri.scaffold_6 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_6
+2024-05-17 11:25:12,007 - syri.scaffold_6 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_6
+2024-05-17 11:25:12,024 - syri.scaffold_6 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_6
+2024-05-17 11:25:12,116 - syri.scaffold_7 - INFO - mapstar:48 - scaffold_7 (20, 11)
+2024-05-17 11:25:12,116 - syri.scaffold_7 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_7
+2024-05-17 11:25:12,136 - syri.scaffold_7 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_7
+2024-05-17 11:25:12,158 - syri.scaffold_7 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_7
+2024-05-17 11:25:12,271 - syri.scaffold_7 - ERROR - mapstar:48 - No syntenic region found for chromosome: scaffold_7. This is potentially caused by the two assemblies having different strands for this chromosomes. Reverse complement the chromosome to ensure that the same strands are analysed. Exiting.
+2024-05-17 11:25:12,275 - syri.scaffold_8 - INFO - mapstar:48 - scaffold_8 (2, 11)
+2024-05-17 11:25:12,275 - syri.scaffold_8 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_8
+2024-05-17 11:25:12,287 - syri.scaffold_8 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_8
+2024-05-17 11:25:12,306 - syri.scaffold_8 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_8
+2024-05-17 11:25:12,405 - syri.scaffold_9 - INFO - mapstar:48 - scaffold_9 (3, 11)
+2024-05-17 11:25:12,406 - syri.scaffold_9 - INFO - mapstar:48 - Identifying Synteny for chromosome scaffold_9
+2024-05-17 11:25:12,425 - syri.scaffold_9 - INFO - mapstar:48 - Identifying Inversions for chromosome scaffold_9
+2024-05-17 11:25:12,430 - syri.scaffold_9 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome scaffold_9

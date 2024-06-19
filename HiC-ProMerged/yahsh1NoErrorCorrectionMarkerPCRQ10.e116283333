@@ -1,0 +1,138 @@
++ mkdir -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/MergedHap1Hap2/yahsh1
++ cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/MergedHap1Hap2/yahsh1
++ samtools faidx /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
++ /g/data/xf3/zz3507/envs/yahs/yahs/yahs --no-contig-ec /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/MergedHap1Hap2/HicPro/bowtie_results/bwt2/haplotype12/haplotype1/haplotype1.bam
+[I::main] dump hic links (BAM) to binary file yahs.out.bin
+[I::dump_links_from_bam_file] 1 million records processed, 126589 read pairs 
+[I::dump_links_from_bam_file] 2 million records processed, 259977 read pairs 
+[I::dump_links_from_bam_file] 3 million records processed, 384519 read pairs 
+[I::dump_links_from_bam_file] 4 million records processed, 527303 read pairs 
+[I::dump_links_from_bam_file] 5 million records processed, 658822 read pairs 
+[I::dump_links_from_bam_file] 6 million records processed, 813747 read pairs 
+[I::dump_links_from_bam_file] 7 million records processed, 927003 read pairs 
+[I::dump_links_from_bam_file] 8 million records processed, 1054339 read pairs 
+[I::dump_links_from_bam_file] position compression n = 4316832, m = 3474648, max_m = 134217727
+[I::dump_links_from_bam_file] dumped 1079208 read pairs from 8262064 records: 1079208 intra links + 0 inter links 
+[I::calc_avg_cov] sequence coverage stats:
+[I::calc_avg_cov] sequence bases: 1683112389
+[I::calc_avg_cov] read bases: 269866988
+[I::calc_avg_cov] q drop: 0.100
+[I::calc_avg_cov] average read coverage: 0.000
+[I::run_yahs] RAM total: 188.549GB
+[I::run_yahs] RAM limit: 48.000GB
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::print_asm_stats]  N100: 50323 (n = 314)
+[I::run_yahs] scaffolding round 1 resolution = 10000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 1 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 2 resolution = 20000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 2 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 3 resolution = 50000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 3 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 4 resolution = 100000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 4 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 5 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 5 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 6 resolution = 500000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 6 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 7 resolution = 1000000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 7 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 8 resolution = 2000000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 8 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 9 resolution = 5000000
+[W::run_yahs] assembly N50 (32799907) too small. Scaffolding anyway...
+[W::run_yahs] consider running with increased memory limit if there was memory issue.
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (8) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 9 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 10 resolution = 10000000
+[W::run_yahs] assembly N50 (32799907) too small. Scaffolding anyway...
+[W::run_yahs] consider running with increased memory limit if there was memory issue.
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (3) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 10 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::run_yahs] scaffolding round 11 resolution = 20000000
+[W::run_yahs] assembly N50 (32799907) too small. Scaffolding anyway...
+[W::run_yahs] consider running with increased memory limit if there was memory issue.
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (1) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 11 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::main] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 314
+[I::write_fasta_file_from_agp] Number bases: 1683112389
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 32799907 (n = 18)
+[I::print_asm_stats]  N90: 5901703 (n = 62)
+[I::print_asm_stats]  N100: 50323 (n = 314)
+[I::main] Version: 1.2
+[I::main] CMD: /g/data/xf3/zz3507/envs/yahs/yahs/yahs --no-contig-ec /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/MergedHap1Hap2/HicPro/bowtie_results/bwt2/haplotype12/haplotype1/haplotype1.bam
+[I::main] Real time: 60.867 sec; CPU: 53.635 sec; Peak RSS: 4.330 GB
++ samtools faidx ./yahs.out_scaffolds_final.fa
++ cut -f 1-2 ./yahs.out_scaffolds_final.fa.fai
++ /g/data/xf3/zz3507/envs/yahs/yahs/juicer pre -a -o out_JBAT ./yahs.out.bin ./yahs.out_scaffolds_final.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta.fai
++ java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre -j 4 out_JBAT.txt out_JBAT.hic.part /dev/fd/63
+++ cat out_JBAT.log
+++ grep PRE_C_SIZE
+++ awk '{print $2" "$3}'
++ mv out_JBAT.hic.part out_JBAT.hic

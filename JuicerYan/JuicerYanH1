@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -N Juicerh1Yan
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=72
+#PBS -l mem=288GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+set -xue
+
+module load java/jdk-8.40
+module load python2/2.7.17
+module load parallel/20191022
+module load bwa/0.7.17
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate juicer
+
+# mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan
+# change working directiory
+cd /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan
+
+export wdir=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan
+
+scripts/juicer.sh -S early -s Chiloglottis -D ${wdir} -g $/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta \
+-z /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta -y /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/restriction_sites/draftH1_Chiloglottis.txt -p /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta.fa.chrom.sizes -t 72

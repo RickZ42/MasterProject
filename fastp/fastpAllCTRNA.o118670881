@@ -1,0 +1,41 @@
+BEGIN TRIMMING: 104C_S7
+BEGIN TRIMMING: 104L_S19
+BEGIN TRIMMING: 105C_S8
+BEGIN TRIMMING: 105L_S20
+BEGIN TRIMMING: 106C_S4
+BEGIN TRIMMING: 106L_S16
+BEGIN TRIMMING: 107C_S5
+BEGIN TRIMMING: 107L_S17
+BEGIN TRIMMING: 129C_S10
+BEGIN TRIMMING: 129L_S22
+BEGIN TRIMMING: 129_S120
+BEGIN TRIMMING: 130_S121
+BEGIN TRIMMING: 131_S122
+BEGIN TRIMMING: 141C_S1
+BEGIN TRIMMING: 141L_S13
+BEGIN TRIMMING: 142C_S2
+BEGIN TRIMMING: 142L_S14
+BEGIN TRIMMING: 143C_S3
+BEGIN TRIMMING: 143L_S15
+BEGIN TRIMMING: 147C_S9
+BEGIN TRIMMING: 147L_S21
+BEGIN TRIMMING: 148C_S6
+BEGIN TRIMMING: 148L_S18
+BEGIN TRIMMING: 151C_S11
+BEGIN TRIMMING: 151L_S23
+BEGIN TRIMMING: 175C_S12
+BEGIN TRIMMING: 175L_S24
+BEGIN TRIMMING: 4_S17
+
+======================================================================================
+                  Resource Usage on 2024-06-19 15:58:55:
+   Job Id:             118670881.gadi-pbs
+   Project:            fa63
+   Exit Status:        0
+   Service Units:      13.16
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 03:08:23        
+   Memory Requested:   64.0GB                Memory Used: 64.0GB          
+   Walltime requested: 48:00:00            Walltime Used: 00:24:40        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

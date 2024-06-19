@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=100GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/samtools
+reference="/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0603V5/h2/out_JBATH2.FINAL.fa"
+samtools dict $reference -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0603V5/h2/out_JBATH2.FINAL.fa.dict
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/javrkit
+Bamfile="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H2V5HiFi/H2V5HiFialn_sorted.bam"
+
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H2V5HiFi/wgscoverage
+wgscoverageplotter --dimension 1500x500 --max-depth -1 --clip -R $reference $Bamfile --min-contig-length 20000000 --percentile median > coverageH2V5HiFi.svg

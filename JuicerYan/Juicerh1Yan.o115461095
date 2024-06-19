@@ -1,0 +1,16 @@
+Using /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/restriction_sites/draftH1_Chiloglottis.txt as site file
+***! Failed to find any files matching /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/JuicerYan/fastq/*_R*.fastq*
+***! Type "juicer.sh -h " for help
+
+======================================================================================
+                  Resource Usage on 2024-05-12 12:56:19:
+   Job Id:             115461095.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.16
+   NCPUs Requested:    72                     NCPUs Used: 72              
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   288.0GB               Memory Used: 80.05MB         
+   Walltime requested: 15:00:00            Walltime Used: 00:00:04        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

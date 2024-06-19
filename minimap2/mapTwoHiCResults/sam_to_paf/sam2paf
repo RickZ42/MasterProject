@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=4
+#PBS -l mem=16GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+#PBS -l wd
+
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/minimap2
+paftools.js sam2paf /g/data/xf3/zz3507/script/minimap2/mapTwoHiCResults/SyriOut.sam > Syriout.paf

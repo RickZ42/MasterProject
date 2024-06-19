@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N HiCProH2500K
+#PBS -P xf3
+#PBS -q normalsr
+#PBS -l walltime=48:00:00
+#PBS -l ncpus=48
+#PBS -l mem=192GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/zz3507/envs/HiC-Pro/
+
+
+/g/data/xf3/zz3507/envs/HiC-Pro/HiC-Pro_3.1.0/bin/HiC-Pro \
+ -i /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/fastq/ \
+ -o /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC500K/HiC-Pro \
+ -c /g/data/xf3/zz3507/script/HiC-Pro500KH2/config-hicpro.txt

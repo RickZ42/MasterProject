@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=4
+#PBS -l mem=16GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H2V6HiFi/bamtocov"
+mkdir $output_dir
+cd $output_dir
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/bamtocov
+
+bamtocov -o bamtocovReportH2V6HiFi.txt /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H2V6HiFi/H2V6HiFialn_sorted.bam

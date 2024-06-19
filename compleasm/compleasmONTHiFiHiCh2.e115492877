@@ -1,0 +1,53 @@
+mkdir: cannot create directory '/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/compleasmLast800M': File exists
+[M::mp_ntseq_read@2.049*1.00] read 815947025 bases in 516 contigs
+[M::mp_idx_build@2.049*1.00] 6375094 blocks
+[M::mp_idx_build@3.159*8.67] collected syncmers
+[M::mp_idx_build@9.263*3.62] 286941929 kmer-block pairs
+[M::mp_mapopt_set_max_intron] set max intron size to 102834
+[M::mp_idx_print_stat] 2274319 distinct k-mers; mean occ of infrequent k-mers: 122.03; 178 frequent k-mers accounting for 9424266 occurrences
+[M::worker_pipeline::17.217*11.68] mapped 4067 sequences
+[M::worker_pipeline::23.576*14.90] mapped 3846 sequences
+[M::worker_pipeline::31.213*16.72] mapped 4694 sequences
+[M::worker_pipeline::38.576*17.94] mapped 4066 sequences
+[M::worker_pipeline::45.389*18.76] mapped 4687 sequences
+[M::worker_pipeline::52.701*19.32] mapped 4289 sequences
+[M::worker_pipeline::61.139*19.86] mapped 4047 sequences
+[M::worker_pipeline::69.025*20.17] mapped 4849 sequences
+[M::worker_pipeline::75.589*20.37] mapped 4507 sequences
+[M::worker_pipeline::84.006*20.49] mapped 5442 sequences
+[M::worker_pipeline::91.071*20.63] mapped 4568 sequences
+[M::worker_pipeline::97.885*20.84] mapped 4784 sequences
+[M::worker_pipeline::105.771*21.02] mapped 5459 sequences
+[M::worker_pipeline::112.874*21.17] mapped 4889 sequences
+[M::worker_pipeline::121.525*21.28] mapped 5789 sequences
+[M::worker_pipeline::128.677*21.35] mapped 5149 sequences
+[M::worker_pipeline::136.912*21.35] mapped 5773 sequences
+[M::worker_pipeline::145.287*21.42] mapped 5041 sequences
+[M::worker_pipeline::154.020*21.48] mapped 6037 sequences
+[M::worker_pipeline::164.089*21.37] mapped 5214 sequences
+[M::worker_pipeline::169.985*21.16] mapped 1657 sequences
+[M::worker_pipeline::176.254*21.19] mapped 2220 sequences
+[M::worker_pipeline::182.312*21.24] mapped 2291 sequences
+[M::worker_pipeline::188.429*21.29] mapped 1769 sequences
+[M::worker_pipeline::195.496*21.31] mapped 2628 sequences
+[M::worker_pipeline::201.743*21.32] mapped 2211 sequences
+[M::worker_pipeline::209.049*21.38] mapped 2602 sequences
+[M::worker_pipeline::215.801*21.40] mapped 2786 sequences
+[M::worker_pipeline::220.763*21.45] mapped 2125 sequences
+[M::worker_pipeline::227.518*21.45] mapped 2723 sequences
+[M::worker_pipeline::234.938*21.51] mapped 2729 sequences
+[M::worker_pipeline::243.377*21.46] mapped 3022 sequences
+[M::worker_pipeline::250.290*21.48] mapped 2878 sequences
+[M::worker_pipeline::255.609*21.51] mapped 2617 sequences
+[M::worker_pipeline::263.453*21.53] mapped 2951 sequences
+[M::worker_pipeline::270.142*21.60] mapped 3500 sequences
+[M::worker_pipeline::276.383*21.63] mapped 3236 sequences
+[M::worker_pipeline::285.867*21.68] mapped 3516 sequences
+[M::worker_pipeline::291.442*21.64] mapped 2865 sequences
+[M::worker_pipeline::296.990*21.67] mapped 2953 sequences
+[M::worker_pipeline::303.420*21.69] mapped 3760 sequences
+[M::worker_pipeline::310.006*21.71] mapped 3225 sequences
+[M::worker_pipeline::317.474*21.70] mapped 3603 sequences
+[M::main] Version: 0.13-r248
+[M::main] CMD: /g/data/xf3/miniconda/envs/compleasm/bin/miniprot --trans -u -I --outs=0.95 -t 24 --gff /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctgLast800MB.FINAL.fasta /g/data/xf3/zz3507/database/lineage/embryophyta_odb10/refseq_db.faa.gz
+[M::main] Real time: 317.653 sec; CPU: 6890.479 sec; Peak RSS: 13.048 GB

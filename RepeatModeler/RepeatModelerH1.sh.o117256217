@@ -1,0 +1,74 @@
+No query sequence file indicated
+
+/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler/BuildDatabase - 2.0.4
+NAME
+    BuildDatabase - Format FASTA files for use with RepeatModeler
+
+SYNOPSIS
+      BuildDatabase [-options] -name "mydb" <seqfile(s) in fasta format>
+     or 
+      BuildDatabase [-options] -name "mydb" 
+                                  -dir <dir containing fasta files *.fa, *.fasta,
+                                         *.fast, *.FA, *.FASTA, *.FAST, *.dna,
+                                         and  *.DNA > 
+     or
+      BuildDatabase [-options] -name "mydb" 
+                                  -batch <file containing a list of fasta files>
+
+DESCRIPTION
+      This is basically a wrapper around AB-Blast's and NCBI Blast's
+      DB formating programs.  It assists in aggregating files for processing 
+      into a single database.  Source files can be specified by:
+
+          - Placing the names of the FASTA files on the command
+            line.
+          - Providing the name of a directory containing FASTA files 
+            with the file suffixes *.fa or *.fasta.
+          - Providing the name of a manifest file which contains the 
+            names of FASTA files ( fully qualified ) one per line.
+
+      NOTE: Sequence identifiers are not preserved in this database. Each
+            sequence is assigned a new GI ( starting from 1 ).  The 
+            translation back to the original sequence is preserved in the
+            *.translation file.
+
+    The options are:
+
+    -h(elp)
+        Detailed help
+
+    -name <database name>
+        The name of the database to create.
+
+    -dir <directory>
+        The name of a directory containing fasta files to be processed. The
+        files are recognized by their suffix. Only *.fa and *.fasta files
+        are processed.
+
+    -batch <file>
+        The name of a file which contains the names of fasta files to
+        process. The files names are listed one per line and should be fully
+        qualified.
+
+SEE ALSO
+        RepeatModeler, RMBlast
+
+COPYRIGHT
+    Copyright 2004-2019 Institute for Systems Biology
+
+AUTHOR
+    Robert Hubley <rhubley@systemsbiology.org>
+
+
+======================================================================================
+                  Resource Usage on 2024-06-05 17:23:09:
+   Job Id:             117256217.gadi-pbs
+   Project:            fa63
+   Exit Status:        1
+   Service Units:      0.14
+   NCPUs Requested:    20                     NCPUs Used: 20              
+                                           CPU Time Used: 00:00:04        
+   Memory Requested:   100.0GB               Memory Used: 3.39GB          
+   Walltime requested: 48:00:00            Walltime Used: 00:00:10        
+   JobFS requested:    400.0GB                JobFS used: 1.58GB          
+======================================================================================
