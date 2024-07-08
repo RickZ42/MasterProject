@@ -1,0 +1,31 @@
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Read1 before filtering:
+total reads: 13809803
+total bases: 2085280253
+Q20 bases: 1976266173(94.7722%)
+Q30 bases: 1870488277(89.6996%)
+
+Read1 after filtering:
+total reads: 13111389
+total bases: 1892097843
+Q20 bases: 1826345752(96.5249%)
+Q30 bases: 1740880136(92.0079%)
+
+Filtering result:
+reads passed filter: 13111389
+reads failed due to low quality: 10925
+reads failed due to too many N: 1495
+reads failed due to too short: 685994
+reads with adapter trimmed: 3655951
+bases trimmed due to adapters: 89733836
+
+Duplication rate (may be overestimated since this is SE data): 41.6428%
+
+JSON report: fastp.json
+HTML report: /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/.html
+
+fastp -w 16 -5 -3 -r -W 10 -M 20 -l 100 -i /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/chiloglottis/112c_S1.fastq.gz -h /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/.html -o /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/112c_S1.fastq.gz 
+fastp v0.23.4, time used: 49 seconds
