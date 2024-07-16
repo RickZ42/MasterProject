@@ -62,7 +62,7 @@ def main():
     parser.add_argument("input_fasta", help="Path to the input fasta file.")
     parser.add_argument("output_fasta", help="Path to the output fasta file.")
     parser.add_argument("--min_length", type=int, default=50000, help="Minimum length of contigs to keep (default: 50000).")
-    parser.add_argument("--add_prefix", action="store_true", help="Add a prefix to each contig name.")
+    parser.add_argument("--a500dd_prefix", action="store_true", help="Add a prefix to each contig name.")
     parser.add_argument("--prefix", type=str, default="H1", help="Prefix to add to each contig name (default: H1).")
     args = parser.parse_args()
 

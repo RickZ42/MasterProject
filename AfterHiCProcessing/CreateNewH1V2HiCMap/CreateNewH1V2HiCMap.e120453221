@@ -1,0 +1,9 @@
++ output_dir=/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V2Final
++ reference_fasta=/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V2Final
++ /g/data/xf3/zz3507/envs/yahs/juicer pre -q20 -a -o out_JBAT /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahs.out.bin /g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V2FinalAndMergedJul9/out_JBATH1.FINAL.agp /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta.fai
++ java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre -j 4 out_JBAT.txt out_JBAT.hic.part /dev/fd/63
+++ cat out_JBAT.log
+++ grep PRE_C_SIZE
+++ awk '{print $2" "$3}'
++ mv out_JBAT.hic.part out_JBAT.hic

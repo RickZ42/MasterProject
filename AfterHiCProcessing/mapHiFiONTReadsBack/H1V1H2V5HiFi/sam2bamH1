@@ -16,17 +16,17 @@ conda activate /g/data/xf3/miniconda/envs/samtools
 
 
 # Set the input SAM files
-SAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.sam"
+SAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.sam"
 
 # Set the output BAM file names
-BAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.bam"
+BAM_FILE1="/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.bam"
 
 # Convert SAM to BAM using samtools
-samtools view -b -@32 $SAM_FILE1 -o $BAM_FILE1
+#samtools view -b -@32 $SAM_FILE1 -o $BAM_FILE1
 
 # Sort the BAM files
-samtools sort -@32 $BAM_FILE1 -o ${BAM_FILE1%.bam}_sorted.bam
+#samtools sort -@32 $BAM_FILE1 -o ${BAM_FILE1%.bam}_sorted.bam
 
 # Index the sorted BAM files
-samtools index -@32 ${BAM_FILE1%.bam}_sorted.bam
+samtools index  ${BAM_FILE1%.bam}_sorted.bam
 

@@ -14,9 +14,9 @@ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/compleasm
 
 
-input_file="/scratch/xf3/zz3507/result/HiFisam/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.hap1.p_ctg.fasta"
-output_dir="/g/data/xf3/zz3507/Output/assemblyV1/compleasm/hap1"
+input_file="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.fa"
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/compleasm/"
 lineage_dir="/g/data/xf3/zz3507/script/compleasm/lineage"
 threads=24
-
+mkdir $output_dir
 compleasm run -a "$input_file" -o "$output_dir" -l embryophyta_odb10 -t "$threads" -L "$lineage_dir"

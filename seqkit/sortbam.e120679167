@@ -1,0 +1,84 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate /g/data/xf3/miniconda/envs/seqkit
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /g/data/xf3/miniconda/envs/seqkit
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate /g/data/xf3/miniconda/envs/seqkit
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate /g/data/xf3/miniconda/envs/seqkit
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(seqkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/seqkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/seqkit'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''seqkit'\''
+export CONDA_PROMPT_MODIFIER='\''(seqkit) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(seqkit) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/seqkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/seqkit'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''seqkit'\''
+export CONDA_PROMPT_MODIFIER='\''(seqkit) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(seqkit) '
+++ export PATH=/g/data/xf3/miniconda/envs/seqkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/seqkit/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/seqkit
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/seqkit
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=seqkit
+++ CONDA_DEFAULT_ENV=seqkit
+++ export 'CONDA_PROMPT_MODIFIER=(seqkit) '
+++ CONDA_PROMPT_MODIFIER='(seqkit) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ seqkit sort -l -r /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.fa -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.sorted.fa
+[INFO][0m read sequences ...
+[INFO][0m 22 sequences loaded
+[INFO][0m sorting ...
+[INFO][0m output ...

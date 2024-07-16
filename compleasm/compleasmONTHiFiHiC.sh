@@ -13,10 +13,10 @@
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/compleasm
 
-mkdir /g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/compleasmLast800M
-input_file=(/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap2_ctgLast800MB.FINAL.fasta)
-output_dir="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap2/3dDNAhaploid0RunRepeatCoverage5Splitter-coarse-stringency30/compleasmLast800M"
+input_file="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.fa"
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/compleasm/"
 lineage_dir="/g/data/xf3/zz3507/database/lineage"
 threads=24
+mkdir $output_dir
 
 compleasm run -a "$input_file" -o "$output_dir" -l embryophyta_odb10 -t "$threads" -L "$lineage_dir"    

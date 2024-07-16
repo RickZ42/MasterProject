@@ -77,9 +77,15 @@ export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
 + '[' -n '' ']'
 + '[' -n '' ']'
 + hash -r
-+ SAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.sam
-+ BAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.bam
-+ samtools view -b -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.sam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.bam
-+ samtools sort -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn.bam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn_sorted.bam
-[bam_sort_core] merging from 4 files and 32 in-memory blocks...
-+ samtools index -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1H2HiFi/H1V1.1H2V6.500K.HiFialn_sorted.bam
++ SAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.sam
++ BAM_FILE1=/g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.bam
++ samtools view -b -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.sam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.bam
++ samtools sort -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9.bam -o /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9_sorted.bam
+[bam_sort_core] merging from 256 files...
++ samtools index -@32 /g/data/xf3/zz3507/Output/AfterHiCProcessing/minimapHIFIONTreadsBackToScaffolds/H1V2H2V6HiFi/H1V2.H2V6.500K.HiFialnJul9_sorted.bam
+index: invalid option -- '@'
+Usage: samtools index [-bc] [-m INT] <in.bam> [out.index]
+Options:
+  -b       Generate BAI-format index for BAM files [default]
+  -c       Generate CSI-format index for BAM files
+  -m INT   Set minimum interval size for CSI indices to 2^INT [14]

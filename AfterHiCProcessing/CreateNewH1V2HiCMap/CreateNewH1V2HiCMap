@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=4
+#PBS -l mem=32GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+
+
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V1Final"
+
+set -xue
+# Create output directory
+# mkdir -p "$output_dir"
+
+
+
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V2Final"
+reference_fasta="/g/data/xf3/zz3507/Output/assemblyQ720KOntHifiHiC/assemblyQ720KOntHifiHiCBiggerThan50KContig/hap1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta"
+#mkdir ${output_dir}
+cd "$output_dir" 
+
+
+# Run juicer pre
+/g/data/xf3/zz3507/envs/yahs/juicer pre -q20 -a -o out_JBAT /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1reference/yahsMarkedPCRRNocorrection/yahs.out.bin \
+/g/data/xf3/zz3507/Output/AfterHiCProcessing/AfterJuicerEditing/0708H1V2FinalAndMergedJul9/out_JBATH1.FINAL.agp \
+"${reference_fasta}.fai" \
+> out_JBAT.log 2>&1
+
+# Run JuicerTools pre
+(java -jar -Xmx48G /g/data/xf3/zz3507/envs/JuicerTools1.22.01.jar pre \
+-j 4 out_JBAT.txt out_JBAT.hic.part <(cat out_JBAT.log  | grep PRE_C_SIZE | awk '{print $2" "$3}')) && (mv out_JBAT.hic.part out_JBAT.hic)
