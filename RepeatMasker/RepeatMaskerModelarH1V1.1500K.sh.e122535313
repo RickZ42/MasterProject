@@ -1,0 +1,9 @@
++ export PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/RepeatMasker/H1V2.sorted
++ RepeatMasker -pa 24 -e rmblast -gff -xsmall -lib /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/RepeatModeler/H1V2.sorted/H1V2/H1V2Jul8Reference.FINAL.500K.22scaffold.sorted-families.fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.sorted.fa
+Traceback (most recent call last):
+  File "/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker/famdb.py", line 55, in <module>
+    import h5py
+ModuleNotFoundError: No module named 'h5py'
+cp: cannot stat '/home/106/zz3507/.RepeatMaskerCache//general.working/*': No such file or directory

@@ -3,20 +3,19 @@
 #PBS -q normalsr
 #PBS -l walltime=24:00:00
 #PBS -l ncpus=16
-#PBS -l mem=64GB
+#PBS -l mem=500GB
 #PBS -l jobfs=400GB
 #PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
 
 
 set -xue
-source /g/data/xf3/miniconda/etc/profile.d/conda.sh
-conda activate /g/data/xf3/miniconda/envs/jellyfish
+module load jellyfish
 
-cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/jellyfish/hifi
+cd /g/data/xf3/zz3507/Output/jellydfish/hifi
 
 gunzip -c /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq.gz > /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq
 
-jellyfish count -C -m 21 -s 1000000000 -t 16 /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq -o kmer_counts.jf
-jellyfish histo kmer_counts.jf > kmer_k21.his
+jellyfish count -C -m 121 -s 1000000000 -t 16 /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq -o kmer_counts.jf
+jellyfish histo kmer_counts.jf > kmer_k121.his
 
 rm /g/data/xf3/zz3507/RawData/ctrapeziformis_hifi_PacBio_Revio/hifi_reads/ctrapeziformis.fastq

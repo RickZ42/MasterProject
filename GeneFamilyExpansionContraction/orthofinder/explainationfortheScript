@@ -1,0 +1,58 @@
+The script you provided is focused on retrieving protein sequences from single-copy orthogroups (SCOs) and processing them to infer species trees using ASTRAL and IQ-TREE tools. Here’s a detailed interpretation and explanation of the script:
+
+### Step-by-Step Explanation
+
+#### 1. Preparing for Multiple Sequence Alignment (MSA)
+- **Create a directory for IQ-TREE orthogroup MSA:** 
+  ```bash
+  mkdir IQTREE_ortho_MSA
+  ```
+- **Copy aligned sequences into the new directory:** 
+  ```bash
+  parallel --eta "cp ../MultipleSequenceAlignments/{}.fa IQTREE_ortho_MSA/" :::: Orthogroups_for_concatenated_alignment.txt
+  ```
+  This command uses `parallel` to copy multiple sequence alignment files listed in `Orthogroups_for_concatenated_alignment.txt` into the `IQTREE_ortho_MSA` directory.
+
+#### 2. Filtering Unique Sequences
+- **Iterate over each FASTA file to filter unique sequences:** 
+  ```bash
+  for f in *.fa
+  do
+  variable=$(basename "$f" | sed 's/.fa//g')
+  echo $variable
+  sed 's/_/\t/g' $variable".fa" | awk '{print $1}' | perl -pe '$. > 1 and /^>/ ? print "\n" : chomp' > $variable".linear0.fa" ##Linearize fasta first
+  awk 'BEGIN{RS=">"}NR>1{sub("\n","\t"); gsub("\n",""); print RS$0}' $variable".linear0.fa" | awk '{freq[$1]++} END{for (i in freq) print freq[i]"\t"i}' | awk 'NF>1' | awk '$1<=1' | awk '{print $2}' > uniq.txt ##Convert fasta to tab, then count frequency of fasta header. Write to file only non-duplicates (i.e. freq occur one time only)
+  grep --no-group-separator -A1 -F -f uniq.txt $variable".linear0.fa" > $variable".noduplicate.fa" ##Use grep to retain only non-duplicates
+  rm -rf $variable".fa"
+  rm -rf $variable".linear0.fa"
+  rm -rf uniq.txt
+  done
+  ```
+  This loop processes each FASTA file to:
+  - Linearize the FASTA format for easier manipulation.
+  - Convert the linearized FASTA to a tab-delimited format and count the frequency of each sequence header.
+  - Retain only unique sequences (those that occur exactly once) and save them in a new FASTA file (`noduplicate.fa`).
+
+#### 3. Infer Species Trees Using ASTRAL and IQ-TREE
+- **Collapse branches with low support in the gene trees:**
+  ```bash
+  nw_ed loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile 'i & b <= 0' o > loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile
+  ```
+  This command uses `nw_ed` to edit the tree file, collapsing branches with 0% SH-like likelihood ratio test (LRT) support.
+
+- **Run ASTRAL to infer species trees from collapsed gene trees:**
+  ```bash
+  /home/darren/tools/ASTER-1.16/bin/astral -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.tree -t 70 -r 16 -s 16 2> loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.log
+  /home/darren/tools/ASTER-1.16/bin/astral -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.tree -t 70 -r 16 -s 16 2> loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.log
+  ```
+  These commands run ASTRAL with different gene tree inputs to produce species trees.
+
+- **Run IQ-TREE for gCF and sCF calculations:**
+  ```bash
+  $HOME/tools/iqtree-2.3.5/bin/iqtree2 -t loci_cmax15_msubnucl_MFPmerge_ortho_MSA_ASTRAL.tree --gcf loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile --prefix gcf_cmax15_msubnucl_MFPmerge_ortho_MSA_ASTRAL
+  $HOME/tools/iqtree-2.3.5/bin/iqtree2 -t cmax15_msubnucl_MFPmerge_ortho_MSA.treefile -p "IQTREE_ortho_MSA/" --scfl 1000 --prefix scf_gcf_cmax15_msubnucl_MFPmerge_ortho_MSA -T 75
+  ```
+  These commands run IQ-TREE to calculate gene concordance factors (gCF) and site concordance factors (sCF).
+
+### Summary
+The script performs a series of bioinformatics steps to retrieve and process single-copy orthogroup sequences, ensuring only unique sequences are retained. It then uses ASTRAL and IQ-TREE to infer species trees and evaluate tree support, focusing on collapsing poorly supported branches to enhance accuracy. The ultimate goal is to generate robust phylogenetic trees using these computational tools.

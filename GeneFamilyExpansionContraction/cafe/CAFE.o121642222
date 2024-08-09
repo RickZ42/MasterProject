@@ -1,0 +1,230 @@
+
+Command line: /g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/CAFE/Orthogroups.GeneCount_No000.005.007.025.001.010.008.027.021.txt -t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/Species_Tree/SpeciesTree_rooted.txt 
+
+Filtering families not present at the root from: 26884 to 10584
+
+No root family size distribution specified, using uniform distribution
+
+Optimizer strategy: Nelder-Mead with similarity cutoff
+Iterations: 300
+Expansion: 2
+Reflection: 1
+
+Starting Search for Initial Parameter Values
+Lambda: 0.45437878328614
+Score (-lnL):             inf
+Lambda: 0.40663187922733
+Score (-lnL):             inf
+Lambda: 0.18290028594854
+Score (-lnL):             inf
+Lambda: 0.10585708612233
+Score (-lnL):             inf
+Lambda: 0.31336093050363
+Score (-lnL):             inf
+Lambda: 0.055876499119182
+Score (-lnL):             inf
+Lambda: 0.24506231128575
+Score (-lnL):             inf
+Lambda: 0.2435198978394
+Score (-lnL):             inf
+Lambda: 0.81947415936035
+Score (-lnL):             inf
+Lambda: 0.0350137728884
+Score (-lnL):             inf
+Lambda: 0.21309337325266
+Score (-lnL):             inf
+Lambda: 0.71772148860631
+Score (-lnL):             inf
+Lambda: 0.13028812785258
+Score (-lnL):             inf
+Lambda: 0.99815237520816
+Score (-lnL):             inf
+Lambda: 0.14036274853231
+Score (-lnL):             inf
+Lambda: 0.77708197371205
+Score (-lnL):             inf
+Lambda: 0.26323332998141
+Score (-lnL):             inf
+Lambda: 0.97465676261143
+Score (-lnL):             inf
+Lambda: 1.7030896009896
+Score (-lnL):             inf
+Lambda: 0.2263291166076
+Score (-lnL):             inf
+Lambda: 0.80310200874149
+Score (-lnL):             inf
+Lambda: 0.2460129656424
+Score (-lnL):             inf
+Lambda: 0.32998955606234
+Score (-lnL):             inf
+Lambda: 0.19806467584582
+Score (-lnL):             inf
+Lambda: 0.10385372631548
+Score (-lnL):             inf
+Lambda: 1.0925924352016
+Score (-lnL):             inf
+Lambda: 0.3462844231699
+Score (-lnL):             inf
+Lambda: 1.0033414798821
+Score (-lnL):             inf
+Lambda: 0.082911772778733
+Score (-lnL):             inf
+Lambda: 0.5521279673127
+Score (-lnL):             inf
+Lambda: 0.13509596237486
+Score (-lnL):             inf
+Lambda: 0.8748913718412
+Score (-lnL):             inf
+Lambda: 0.21908481445772
+Score (-lnL):             inf
+Lambda: 0.2393570410896
+Score (-lnL):             inf
+Lambda: 0.23414221830169
+Score (-lnL):             inf
+Lambda: 0.6786959119378
+Score (-lnL):             inf
+Lambda: 0.84973732609896
+Score (-lnL):             inf
+Lambda: 0.63742012566563
+Score (-lnL):             inf
+Lambda: 0.046002906475662
+Score (-lnL):             inf
+Lambda: 0.099760777842784
+Score (-lnL):             inf
+Lambda: 0.39383730051937
+Score (-lnL):             inf
+Lambda: 0.26430381192924
+Score (-lnL):             inf
+Lambda: 0.22970676563699
+Score (-lnL):             inf
+Lambda: 0.10825311548918
+Score (-lnL):             inf
+Lambda: 0.1767060481894
+Score (-lnL):             inf
+Lambda: 0.62857292557795
+Score (-lnL):             inf
+Lambda: 1.2391656252944
+Score (-lnL):             inf
+Lambda: 0.42893809169829
+Score (-lnL):             inf
+Lambda: 0.97764031323926
+Score (-lnL):             inf
+Lambda: 0.055451774202471
+Score (-lnL):             inf
+Lambda: 0.27353118173635
+Score (-lnL):             inf
+Lambda: 0.79745339971217
+Score (-lnL):             inf
+Lambda: 1.4149949776569
+Score (-lnL):             inf
+Lambda: 0.067201596237882
+Score (-lnL):             inf
+Lambda: 0.66823899473773
+Score (-lnL):             inf
+Lambda: 0.0081701440365876
+Score (-lnL):             inf
+Lambda: 0.17668382933653
+Score (-lnL):             inf
+Lambda: 0.85215032527723
+Score (-lnL):             inf
+Lambda: 0.20043384724475
+Score (-lnL):             inf
+Lambda: 0.33124771516457
+Score (-lnL):             inf
+Lambda: 1.4082979456924
+Score (-lnL):             inf
+Lambda: 0.74910818379211
+Score (-lnL):             inf
+Lambda: 0.52093744388394
+Score (-lnL):             inf
+Lambda: 0.48757920876001
+Score (-lnL):             inf
+Lambda: 0.24077992468358
+Score (-lnL):             inf
+Lambda: 1.0766008254141
+Score (-lnL):             inf
+Lambda: 0.78893861210548
+Score (-lnL):             inf
+Lambda: 0.71440769392989
+Score (-lnL):             inf
+Lambda: 0.17296289034746
+Score (-lnL):             inf
+Lambda: 0.16621852665515
+Score (-lnL):             inf
+Lambda: 0.024052496298708
+Score (-lnL):             inf
+Lambda: 0.62834128431232
+Score (-lnL):             inf
+Lambda: 1.4774692930557
+Score (-lnL):             inf
+Lambda: 1.0638563398528
+Score (-lnL):             inf
+Lambda: 0.29288781083276
+Score (-lnL):             inf
+Lambda: 0.38407685866659
+Score (-lnL):             inf
+Lambda: 0.13802384306123
+Score (-lnL):             inf
+Lambda: 0.34688060725542
+Score (-lnL):             inf
+Lambda: 0.78469314105459
+Score (-lnL):             inf
+Lambda: 1.2313061785507
+Score (-lnL):             inf
+Lambda: 0.34696111607742
+Score (-lnL):             inf
+Lambda: 0.66513603401788
+Score (-lnL):             inf
+Lambda: 0.40082461515963
+Score (-lnL):             inf
+Lambda: 0.050293278942203
+Score (-lnL):             inf
+Lambda: 0.50830033075761
+Score (-lnL):             inf
+Lambda: 0.53916601727226
+Score (-lnL):             inf
+Lambda: 0.55618312526191
+Score (-lnL):             inf
+Lambda:  1.318432506959
+Score (-lnL):             inf
+Lambda: 0.41224617244865
+Score (-lnL):             inf
+Lambda: 0.38080400744209
+Score (-lnL):             inf
+Lambda: 0.052354100286831
+Score (-lnL):             inf
+Lambda: 0.34069247133117
+Score (-lnL):             inf
+Lambda: 0.40453255228743
+Score (-lnL):             inf
+Lambda: 0.54548381985431
+Score (-lnL):             inf
+Lambda: 0.4333395895614
+Score (-lnL):             inf
+Lambda: 0.55141566009085
+Score (-lnL):             inf
+Lambda: 0.83959330154846
+Score (-lnL):             inf
+Lambda: 1.1402078235013
+Score (-lnL):             inf
+Lambda: 0.59194724539083
+Score (-lnL):             inf
+Lambda: 0.65130923001855
+Score (-lnL):             inf
+Lambda: 0.52676096773768
+Score (-lnL):             inf
+Failed to initialize any reasonable values
+
+
+======================================================================================
+                  Resource Usage on 2024-07-25 15:58:04:
+   Job Id:             121642222.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      84.24
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 38:20:52        
+   Memory Requested:   190.0GB               Memory Used: 493.47MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:52:39        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

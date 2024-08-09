@@ -1,0 +1,64 @@
+#!/bin/bash
+#PBS -P xf3
+#PBS -q normal
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=16
+#PBS -l mem=64GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2
+#PBS -m abe
+#PBS -M Zirui.Zhang@anu.edu.au 
+
+##Retrieve protein sequences from single-copy orthogroups (SCOs)
+##First get counts of genes in orthogroups that occur exactly one, zero, and >2 times.
+##Then run awk on column 4 to retrieve s-1, s-2, s-3, and s-4 species (i.e. s-1, allows 1 or less of total species are strictly single-copy,
+##s-2 allow 2 or less ... and so on
+##The above comments are not applicable as there are >1k orthogroups for species tree
+module load parallel
+cd /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul22/IQTREE_ortho_MSA
+mkdir IQTREE_ortho_MSA
+parallel --eta "cp MultipleSequenceAlignments/{}.fa IQTREE_ortho_MSA/" :::: /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/Species_Tree/Orthogroups_for_concatenated_alignment.txt
+ 
+ 
+###Iterate each folder and run the code below to keep only unique sequences. Duplicates are potential paralogs/gene duplicates are removed entirely.
+for f in *.fa
+do
+variable=$(basename "$f" | sed 's/.fa//g')
+echo $variable
+sed 's/_/\t/g' $variable".fa" | awk '{print $1}' | perl -pe '$. > 1 and /^>/ ? print "\n" : chomp' > $variable".linear0.fa" ##Linearize fasta first
+awk 'BEGIN{RS=">"}NR>1{sub("\n","\t"); gsub("\n",""); print RS$0}' $variable".linear0.fa" | awk '{freq[$1]++} END{for (i in freq) print freq[i]"\t"i}' | awk 'NF>1' | awk '$1<=1' | awk '{print $2}' > uniq.txt ##Convert fasta to tab, then count frequency of fasta header. Write to file only non-duplicates (i.e. freq occur one time only)
+grep --no-group-separator -A1 -F -f uniq.txt $variable".linear0.fa" > $variable".noduplicate.fa" ##Use grep to retain only non-duplicates
+rm -rf $variable".fa"
+rm -rf $variable".linear0.fa"
+rm -rf uniq.txt
+done
+ 
+
+##Infer various ASTRAL tree with varying degree of node support
+##Studies show that collapsing low BS support branch seems to help/boost accuract; Overcollapsing higher BS seems detrimental though.
+##Follow Simmons & Gatesy recomendation to collapse only those with 0% SH-like LRT support
+/g/data/xf3/zz3507/app/newick_utils/src/nw_ed loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile 'i & b <= 0' o > loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile
+##
+/g/data/xf3/zz3507/app/Astral/astral.5.7.8.jar -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.tree -t 70 -r 16 -s 16 2> loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.log ##Collapsed genetrees before default ASTRAL
+/g/data/xf3/zz3507/app/Astral/astral.5.7.8.jar -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.tree -t 70 -r 16 -s 16 -u 2
+ 
+/g/data/xf3/zz3507/app/Astral/astral.5.7.8.jar -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.tree -t 70 -r 16 -s 16 2> loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.log ##Normal genetrees before default ASTRAL
+/g/data/xf3/zz3507/app/Astral/astral.5.7.8.jar -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.tree -t 70 -r 16 -s 16 -u 2
+
+
+
+
+/g/data/xf3/zz3507/app/iqtree-2.3.5-Linux-intel/bin/iqtree2 -t loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRAL.tree --gcf loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile --prefix gcf_cmax15_msubnucl_MFPmerge_ortho_MSA_ASTRAL ##calculate gcf scores
+ 
+ 
+ 
+/home/darren/tools/ASTER-1.16/bin/astral-hybrid -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRALhyb.tree -t 70 -r 16 -s 16 2> loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRALhyb.log ##Normal genetrees before hybrid ASTRAL
+/home/darren/tools/ASTER-1.16/bin/astral-hybrid -i loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile -o loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRALhyb.tree -t 70 -r 16 -s 16 -u 2
+/g/data/xf3/zz3507/app/iqtree-2.3.5-Linux-intel/bin/iqtree2 -t loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_ASTRALhyb.tree --gcf loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile --prefix gcf_cmax15_msubnucl_MFPmerge_ortho_MSA_ASTRALhyb ##calculate gcf scores
+##RUN ASTRAL with various tree info. verbosity
+##Explore options -t 2, -t 3, -t 16, -t 32
+#
+###Might want to explore using both ASTRAL and IQTREE as species tree reference for gCF and sCF calculation
+/g/data/xf3/zz3507/app/iqtree-2.3.5-Linux-intel/bin/iqtree2 -t cmax15_msubnucl_MFPmerge_ortho_MSA.treefile --gcf loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA.treefile --prefix gcf_cmax15_msubnucl_MFPmerge_ortho_MSA ##calculate gcf scores
+/g/data/xf3/zz3507/app/iqtree-2.3.5-Linux-intel/bin/iqtree2 -t cmax15_msubnucl_MFPmerge_ortho_MSA.treefile -p "IQTREE_ortho_MSA/" --scfl 1000 --prefix scf_gcf_cmax15_msubnucl_MFPmerge_ortho_MSA -T 75 ##calculate scf
+/g/data/xf3/zz3507/app/iqtree-2.3.5-Linux-intel/bin/iqtree2 -t ASTRAL/loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed_ASTRAL.tree --gcf ASTRAL/loci_cmax15_msubnucl_MFPmerge_alrt_ortho_MSA_0SHLRTcollapsed.treefile --prefix AstralGCF_cmax15_msubnucl_MFPmerge_ortho_MSA ##Get genetree for ASTRAL species topology

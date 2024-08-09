@@ -13,8 +13,8 @@
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/compleasm
 
-input_file="/scratch/xf3/zz3507/result/HiFisam/AssembleResultV1fasta/Ctrap_HiFI_HiC_ONT30KB.hic.p_ctg.fasta"
-output_dir="/g/data/xf3/zz3507/Output/assemblyV1/compleasm/hap2"
+input_file="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/H2V6.First22.FINAL.fa"
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/compleasm"
 lineage_dir="/g/data/xf3/zz3507/database/lineage"
 threads=24
 

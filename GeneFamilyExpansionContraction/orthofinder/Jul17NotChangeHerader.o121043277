@@ -1,0 +1,2734 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-18 14:30:15 : Starting OrthoFinder 2.5.5
+40 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/dependencies/SimpleTest.phy -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+OrthoFinder expects FASTA files to have one of the following extensions: fas, pep, fa, fasta, faa
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-07-18 14:30:26 : Creating diamond database 1 of 17
+2024-07-18 14:30:26 : Creating diamond database 2 of 17
+2024-07-18 14:30:27 : Creating diamond database 3 of 17
+2024-07-18 14:30:27 : Creating diamond database 4 of 17
+2024-07-18 14:30:27 : Creating diamond database 5 of 17
+2024-07-18 14:30:27 : Creating diamond database 6 of 17
+2024-07-18 14:30:27 : Creating diamond database 7 of 17
+2024-07-18 14:30:28 : Creating diamond database 8 of 17
+2024-07-18 14:30:28 : Creating diamond database 9 of 17
+2024-07-18 14:30:28 : Creating diamond database 10 of 17
+2024-07-18 14:30:28 : Creating diamond database 11 of 17
+2024-07-18 14:30:28 : Creating diamond database 12 of 17
+2024-07-18 14:30:29 : Creating diamond database 13 of 17
+2024-07-18 14:30:29 : Creating diamond database 14 of 17
+2024-07-18 14:30:29 : Creating diamond database 15 of 17
+2024-07-18 14:30:29 : Creating diamond database 16 of 17
+2024-07-18 14:30:29 : Creating diamond database 17 of 17
+
+Running diamond all-versus-all
+------------------------------
+Using 40 thread(s)
+2024-07-18 14:30:29 : This may take some time....
+2024-07-18 14:30:29 : Done 0 of 289
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-zuhGPO\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-UQB6In\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-axUriG\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lwkWIt\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-H59Y71\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vZLDa1\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-PChVbk\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-RK2gKu\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-EzyGN1\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vBrSrT\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-qZbUKc\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-U9rvto\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ZOo54u\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-JQuSY6\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-jnhdD0\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-4ruzzn\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vec1EJ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-IKzA49\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-PObUBU\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-zIhnyw\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Ys1z69\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-xKCjzD\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-6HaFXG\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-itzLWh\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yTRc7m\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Qh7m3O\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-YUaQtq\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-dtO36L\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-hOoUu3\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-9N33AQ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-5NCRnZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-mSKp6t\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7Vyg2y\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-QS2kHz\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-wNAc6K\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-VjKwCi\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ZVHLEZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-1hUcMt\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yZ2KJa\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-KPDMJU\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-biWJ6p\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-6Nf7xd\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-XzEVrg\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-w5NVs4\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-biaNUf\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-H3YzTt\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-s4AMss\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-c7HpUZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rTdMat\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-44l94v\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-XleEaf\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-s1cnJr\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-wfnkNl\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-9niT7k\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-dVbGyr\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-8BndA9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0cZmWY\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-CiVw9m\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Ot8ovZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-a3Vr51\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Xro1JV\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-i6MGhN\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-krWMWt\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rBTXIL\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-WKHdV9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-OxbfeS\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-b9A6Rk\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Uh0MkC\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-atkXRo\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-YUNvCD\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-tOVEa7\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rxqJ0N\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DUXSat\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-xZfY8r\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-XCUOh4\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yIIW0a\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vJyowi\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-TjvLRY\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lN9ZWH\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-4Lr47m\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-6oAxjF\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-KbH5Za\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-cLGWL4\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-VZp5SP\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-aAATFO\n'
+2024-07-18 14:33:51 : Done 100 of 289
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-scOKm5\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-C3TLHs\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-9ZfTKH\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-97qDJj\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rdhviJ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-3VA17X\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-zMB91Y\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DVHRhU\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-SOHETB\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-koRD2V\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yShmIH\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-6qTWQ9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-WybHH9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rfX5gx\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-dnsdf2\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-phzazp\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-VKgnoB\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DWuhY2\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-OofvT0\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-MYObCG\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-qHGMbN\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-tF0FMS\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-UXa3uG\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DlFP2n\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DGtEi8\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-2GuYO9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-G4xUXz\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-geA3Sw\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-OihowI\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-dCTjQu\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-mZXcgE\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-m3vDQ5\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-REaXlA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-pGHLux\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-erqTXy\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-2rcsPM\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-TOljZJ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ruqpvS\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-uvThvC\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-fMxV4z\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Fxn5PX\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vdipcX\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7CuFFa\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-n7h2Mi\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-jib182\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-qnYN3t\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-9pHc6i\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-TCfsUc\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-aCi2eK\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-9PiUu9\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vFPHdQ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-sSeL3P\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-J8RT61\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yE1KKn\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-EogyYt\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-uWD3q8\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-3GwYsR\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-V4OLgw\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-HbqhuU\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-RR8xey\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-KSuu2F\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-mYGkER\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-C9kZfd\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-30JGET\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-GZs04m\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-teJPDA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-8xQT1F\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-i3Z6rA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-SWNfxe\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ZrR2NF\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-5MZMmU\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-cOFp4c\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7NuT9D\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-VMOcqm\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ZssRHO\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-YHr7lA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-JkKNfh\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DNuRNX\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-c2RGgf\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yfnR4V\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-tXGLK0\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-CHado5\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-BP57ff\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-1bj8YK\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-2fwEFp\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-O3HCRi\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-q0QhPQ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-JPp1Ay\n'
+2024-07-18 14:33:51 : Done 200 of 289
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-2IpFWc\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-YnRz43\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-aTxbsW\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-SKkHkl\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lk0bLg\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-KA77wW\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-hiJrYw\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7tiEMo\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-v7xSma\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-C9DEkr\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-RAueRh\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-HD66QK\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-MM05J8\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0gB7uv\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-KYVftF\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-hgbjLx\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-J1Mu9T\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-bufGhA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-DuJFbW\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies14 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_14.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0L40Jx\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-kEerDg\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-nCTUTd\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-8x3wLz\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0sQOjH\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-NJUWzF\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-BNlQip\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-emsr9Z\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species5.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast5_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-yEOZCD\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species4.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast4_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lXtOkz\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies13 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_13.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0CMea8\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Bpo6V1\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-LpVeQs\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-pMTWR1\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-2SCrXZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-dSuVqi\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lPDbRC\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species14.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast14_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-4PZKCh\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species11.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast11_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-lCvVnA\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species10.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast10_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-jbZF2u\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species9.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast9_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-iYkcqh\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-zfuihZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-5kzuri\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-IoFiio\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-3410ua\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-xu5W4i\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies5 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_5.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-vlENWq\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies4 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_4.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ouBYrF\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species13.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast13_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-HQRkn8\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species8.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast8_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-rPQz1j\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species16.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast16_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-mEAg6L\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species7.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast7_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-AaLtjP\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies6 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_6.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-esGYfx\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species3.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast3_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-BN7PCQ\n'
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies11 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_11.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-UUciyY\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies10 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_10.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-WXEQxW\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies8 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_8.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-4eFd0D\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies16 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_16.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7HstDy\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies7 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_7.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-FdaL83\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies2 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_2.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-BzvVbV\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species15.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast15_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-obVKZQ\n'
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies9 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_9.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-pk1DeV\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies0 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_0.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-OnAM7K\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies1 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_1.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-H4o8EZ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species2.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast2_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-ciNW7i\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-7JUInW\n'
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast0_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-Yc1GXM\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species1.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast1_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-0SUqha\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies12 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species6.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast6_12.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-bmoDbJ\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies3 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_3.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-CYmT0S\n'
+
+ERROR: external program called by OrthoFinder returned an error code: 1
+
+Command: diamond blastp --ignore-warnings -d /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamondDBSpecies15 -q /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species12.fa -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Blast12_15.txt --more-sensitive -p 1 --quiet -e 0.001 --compress 1
+
+stdout
+------
+b''
+stderr
+------
+b'No such file or directory\nError: Error opening temporary file /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/diamond-tmp-GDui68\n'
+2024-07-18 14:39:20 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+/g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa not found
+
+======================================================================================
+                  Resource Usage on 2024-07-18 14:39:24:
+   Job Id:             121043277.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      14.91
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 03:07:42        
+   Memory Requested:   190.0GB               Memory Used: 18.67GB         
+   Walltime requested: 24:00:00            Walltime Used: 00:09:19        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

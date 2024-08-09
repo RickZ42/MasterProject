@@ -1,0 +1,15 @@
+RepeatMasker version 4.1.5
+Search Engine: NCBI/RMBLAST [ 2.13.0+ ]
+
+======================================================================================
+                  Resource Usage on 2024-08-08 11:06:30:
+   Job Id:             122535486.gadi-pbs
+   Project:            fa63
+   Exit Status:        2
+   Service Units:      0.15
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   96.0GB                Memory Used: 276.0MB         
+   Walltime requested: 30:00:00            Walltime Used: 00:00:11        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

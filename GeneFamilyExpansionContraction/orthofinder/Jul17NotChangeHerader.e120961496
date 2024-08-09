@@ -1,0 +1,6 @@
+
+EnvironmentNameNotFound: Could not find conda environment: orthoFinder
+You can list all discoverable environments with `conda info --envs`.
+
+
+/local/spool/pbs/mom_priv/jobs/120961496.gadi-pbs.SC: line 15: orthofinder: command not found

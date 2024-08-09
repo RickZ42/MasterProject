@@ -1,0 +1,15 @@
+Unrecognized parameter: '/g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/Species_Tree/SpeciesTree_rooted.txt'
+
+
+======================================================================================
+                  Resource Usage on 2024-07-25 16:42:41:
+   Job Id:             121650730.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.11
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:02        
+   Memory Requested:   190.0GB               Memory Used: 216.14MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:04        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,8 @@
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/
++ cp H2V6.First22.FINAL.sorted.fa /jobfs/121853670.gadi-pbs
++ export PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
++ cd /jobfs/121853670.gadi-pbs
++ BuildDatabase -name H2V6.First22.FINAL.sorted -engine ncbi H2V6.First22.FINAL.sorted.fa
++ RepeatModeler -database H2V6.First22.FINAL.sorted -engine ncbi -threads 20
++ cp -r /jobfs/121853670.gadi-pbs /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/RepeatModeler/H2V6.sorted

@@ -1,0 +1,182 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-18 12:16:16 : Starting OrthoFinder 2.5.5
+40 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18/WorkingDirectory/dependencies/SimpleTest.phy -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+Chiloglottis_trapeziformis.aa
+OrthoFinder expects FASTA files to have one of the following extensions: fa, pep, fas, faa, fasta
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-07-18 12:16:27 : Creating diamond database 1 of 16
+2024-07-18 12:16:27 : Creating diamond database 2 of 16
+2024-07-18 12:16:28 : Creating diamond database 3 of 16
+2024-07-18 12:16:28 : Creating diamond database 4 of 16
+2024-07-18 12:16:28 : Creating diamond database 5 of 16
+2024-07-18 12:16:28 : Creating diamond database 6 of 16
+2024-07-18 12:16:28 : Creating diamond database 7 of 16
+2024-07-18 12:16:29 : Creating diamond database 8 of 16
+2024-07-18 12:16:29 : Creating diamond database 9 of 16
+2024-07-18 12:16:29 : Creating diamond database 10 of 16
+2024-07-18 12:16:29 : Creating diamond database 11 of 16
+2024-07-18 12:16:29 : Creating diamond database 12 of 16
+2024-07-18 12:16:29 : Creating diamond database 13 of 16
+2024-07-18 12:16:30 : Creating diamond database 14 of 16
+2024-07-18 12:16:30 : Creating diamond database 15 of 16
+2024-07-18 12:16:30 : Creating diamond database 16 of 16
+
+Running diamond all-versus-all
+------------------------------
+Using 40 thread(s)
+2024-07-18 12:16:30 : This may take some time....
+2024-07-18 12:16:30 : Done 0 of 256
+2024-07-18 12:26:52 : Done 100 of 256
+2024-07-18 12:32:48 : Done 200 of 256
+2024-07-18 12:34:34 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2024-07-18 12:34:35 : Initial processing of each species
+2024-07-18 12:35:02 : Initial processing of species 2 complete
+2024-07-18 12:35:04 : Initial processing of species 3 complete
+2024-07-18 12:35:11 : Initial processing of species 1 complete
+2024-07-18 12:35:14 : Initial processing of species 6 complete
+2024-07-18 12:35:15 : Initial processing of species 11 complete
+2024-07-18 12:35:20 : Initial processing of species 0 complete
+2024-07-18 12:35:27 : Initial processing of species 7 complete
+2024-07-18 12:35:27 : Initial processing of species 4 complete
+2024-07-18 12:35:45 : Initial processing of species 5 complete
+2024-07-18 12:35:46 : Initial processing of species 8 complete
+2024-07-18 12:35:53 : Initial processing of species 14 complete
+2024-07-18 12:35:55 : Initial processing of species 9 complete
+2024-07-18 12:36:10 : Initial processing of species 12 complete
+2024-07-18 12:36:19 : Initial processing of species 15 complete
+2024-07-18 12:36:20 : Initial processing of species 10 complete
+2024-07-18 12:36:23 : Initial processing of species 13 complete
+2024-07-18 12:36:35 : Connected putative homologues
+2024-07-18 12:36:39 : Written final scores for species 3 to graph file
+2024-07-18 12:36:39 : Written final scores for species 2 to graph file
+2024-07-18 12:36:40 : Written final scores for species 1 to graph file
+2024-07-18 12:36:40 : Written final scores for species 6 to graph file
+2024-07-18 12:36:41 : Written final scores for species 11 to graph file
+2024-07-18 12:36:41 : Written final scores for species 0 to graph file
+2024-07-18 12:36:42 : Written final scores for species 7 to graph file
+2024-07-18 12:36:42 : Written final scores for species 4 to graph file
+2024-07-18 12:36:44 : Written final scores for species 5 to graph file
+2024-07-18 12:36:45 : Written final scores for species 8 to graph file
+2024-07-18 12:36:45 : Written final scores for species 14 to graph file
+2024-07-18 12:36:46 : Written final scores for species 9 to graph file
+2024-07-18 12:36:47 : Written final scores for species 12 to graph file
+2024-07-18 12:36:47 : Written final scores for species 10 to graph file
+2024-07-18 12:36:48 : Written final scores for species 15 to graph file
+2024-07-18 12:36:49 : Written final scores for species 13 to graph file
+2024-07-18 12:38:09 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 464823 genes (93.2% of total) to 30407 orthogroups. Fifty percent of all genes were in orthogroups with 27 or more genes (G50 was 27) and were contained in the largest 5291 orthogroups (O50 was 5291). There were 1 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2024-07-18 12:40:19 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Calculating gene distances
+--------------------------
+2024-07-18 12:42:45 : Done
+2024-07-18 12:42:48 : Done 0 of 19940
+2024-07-18 12:42:50 : Done 1000 of 19940
+2024-07-18 12:42:50 : Done 2000 of 19940
+2024-07-18 12:42:51 : Done 3000 of 19940
+2024-07-18 12:42:51 : Done 4000 of 19940
+2024-07-18 12:42:52 : Done 5000 of 19940
+2024-07-18 12:42:52 : Done 6000 of 19940
+2024-07-18 12:42:53 : Done 7000 of 19940
+2024-07-18 12:42:53 : Done 8000 of 19940
+2024-07-18 12:42:54 : Done 9000 of 19940
+2024-07-18 12:42:54 : Done 10000 of 19940
+2024-07-18 12:42:55 : Done 11000 of 19940
+2024-07-18 12:42:55 : Done 12000 of 19940
+2024-07-18 12:42:56 : Done 13000 of 19940
+2024-07-18 12:42:56 : Done 14000 of 19940
+2024-07-18 12:42:57 : Done 15000 of 19940
+2024-07-18 12:42:57 : Done 16000 of 19940
+2024-07-18 12:42:58 : Done 17000 of 19940
+2024-07-18 12:42:58 : Done 18000 of 19940
+2024-07-18 12:42:59 : Done 19000 of 19940
+Using fallback species tree inference method
+
+Inferring gene and species trees
+--------------------------------
+
+Best outgroup(s) for species tree
+---------------------------------
+2024-07-18 12:43:22 : Starting STRIDE
+2024-07-18 12:43:25 : Done STRIDE
+Observed 595 well-supported, non-terminal duplications. 595 support the best root and 0 contradict it.
+Best outgroup for species tree:
+  Phoenix_roebelenii
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Phoenix_roebelenii
+2024-07-18 12:43:25 : Starting Recon and orthologues
+2024-07-18 12:43:25 : Starting OF Orthologues
+2024-07-18 12:43:26 : Done 0 of 19939
+2024-07-18 12:43:29 : Done 1000 of 19939
+2024-07-18 12:43:31 : Done 2000 of 19939
+2024-07-18 12:43:32 : Done 3000 of 19939
+2024-07-18 12:43:33 : Done 4000 of 19939
+2024-07-18 12:43:35 : Done 5000 of 19939
+2024-07-18 12:43:36 : Done 6000 of 19939
+2024-07-18 12:43:37 : Done 7000 of 19939
+2024-07-18 12:43:38 : Done 8000 of 19939
+2024-07-18 12:43:39 : Done 9000 of 19939
+2024-07-18 12:43:40 : Done 10000 of 19939
+2024-07-18 12:43:41 : Done 11000 of 19939
+2024-07-18 12:43:42 : Done 12000 of 19939
+2024-07-18 12:43:43 : Done 13000 of 19939
+2024-07-18 12:43:44 : Done 14000 of 19939
+2024-07-18 12:43:45 : Done 15000 of 19939
+2024-07-18 12:43:45 : Done 16000 of 19939
+2024-07-18 12:43:46 : Done 17000 of 19939
+2024-07-18 12:43:47 : Done 18000 of 19939
+2024-07-18 12:43:48 : Done 19000 of 19939
+2024-07-18 12:43:50 : Done OF Orthologues
+
+Writing results files
+=====================
+2024-07-18 12:44:20 : Done orthologues
+
+Results:
+    /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+
+======================================================================================
+                  Resource Usage on 2024-07-18 12:44:30:
+   Job Id:             121034187.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      45.65
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 11:50:28        
+   Memory Requested:   190.0GB               Memory Used: 18.63GB         
+   Walltime requested: 24:00:00            Walltime Used: 00:28:32        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

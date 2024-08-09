@@ -11,11 +11,11 @@
 
 set -xue
 module load singularity
-wd=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KFirst22ScaffoldSubsetRNA
+wd=/g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H2
 export BRAKER_SIF=/g/data/xf3/zz3507/app/braker3.sif
-singularity exec -B ${PWD}:${PWD} ${BRAKER_SIF} braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2V6.500K.first22.fa.masked \
+singularity exec -B ${PWD}:${PWD} ${BRAKER_SIF} braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/H2V6.First22.FINAL.sorted.fa.masked \
 --workingdir=${wd} \
 --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa \
---rnaseq_sets_ids=129_S120,130_S121,131_S122,104C_S7,104L_S19,105C_S8,105L_S20,106C_S4,106L_S16,107C_S5,112c_S1,129L_S22,141C_S1,141L_S13,142C_S2,142L_S14,143L_S15,148C_S6,148L_S18,151C_S11,151L_S23,175C_S12,175L_S24,4_S17 \
+--rnaseq_sets_ids=129_S120,130_S121,131_S122,104C_S7,104L_S19,105C_S8,106C_S4,106L_S16,107C_S5,112c_S1,129L_S22,141L_S13,142C_S2,142L_S14,151C_S11,151L_S23,175C_S12,175L_S24,4_S17 \
 --rnaseq_sets_dirs=/g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis \
 --threads 48 --busco_lineage embryophyta_odb10 &> H2First22ScaffoldOrchid.log

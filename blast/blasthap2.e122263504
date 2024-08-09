@@ -1,0 +1,579 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate snakemake
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate snakemake
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate snakemake
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate snakemake
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(snakemake) '
+++ export PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=snakemake
+++ CONDA_DEFAULT_ENV=snakemake
+++ export 'CONDA_PROMPT_MODIFIER=(snakemake) '
+++ CONDA_PROMPT_MODIFIER='(snakemake) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/envs/snake
++ snakemake --use-conda -c22 --keep-going
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 22
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+blast       22              1              1
+total       23              1              1
+
+Select jobs to execute...
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_22.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_22.blast
+    jobid: 19
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_22.blast
+    wildcards: file=>H2_scaffold_22_part_22
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_4.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_4.blast
+    jobid: 7
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_4.blast
+    wildcards: file=>H2_scaffold_22_part_4
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_8.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_8.blast
+    jobid: 5
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_8.blast
+    wildcards: file=>H2_scaffold_22_part_8
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_1.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_1.blast
+    jobid: 20
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_1.blast
+    wildcards: file=>H2_scaffold_22_part_1
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_9.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_9.blast
+    jobid: 8
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_9.blast
+    wildcards: file=>H2_scaffold_22_part_9
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_21.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_21.blast
+    jobid: 16
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_21.blast
+    wildcards: file=>H2_scaffold_22_part_21
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_20.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_20.blast
+    jobid: 13
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_20.blast
+    wildcards: file=>H2_scaffold_22_part_20
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_14.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_14.blast
+    jobid: 21
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_14.blast
+    wildcards: file=>H2_scaffold_22_part_14
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_10.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_10.blast
+    jobid: 9
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_10.blast
+    wildcards: file=>H2_scaffold_22_part_10
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_2.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_2.blast
+    jobid: 12
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_2.blast
+    wildcards: file=>H2_scaffold_22_part_2
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_6.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_6.blast
+    jobid: 1
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_6.blast
+    wildcards: file=>H2_scaffold_22_part_6
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_18.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_18.blast
+    jobid: 22
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_18.blast
+    wildcards: file=>H2_scaffold_22_part_18
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_5.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_5.blast
+    jobid: 10
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_5.blast
+    wildcards: file=>H2_scaffold_22_part_5
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_11.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_11.blast
+    jobid: 6
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_11.blast
+    wildcards: file=>H2_scaffold_22_part_11
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_13.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_13.blast
+    jobid: 2
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_13.blast
+    wildcards: file=>H2_scaffold_22_part_13
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_15.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_15.blast
+    jobid: 17
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_15.blast
+    wildcards: file=>H2_scaffold_22_part_15
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_3.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_3.blast
+    jobid: 15
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_3.blast
+    wildcards: file=>H2_scaffold_22_part_3
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:18 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_19.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_19.blast
+    jobid: 18
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_19.blast
+    wildcards: file=>H2_scaffold_22_part_19
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:19 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_17.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_17.blast
+    jobid: 11
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_17.blast
+    wildcards: file=>H2_scaffold_22_part_17
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:19 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_7.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_7.blast
+    jobid: 3
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_7.blast
+    wildcards: file=>H2_scaffold_22_part_7
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:19 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_16.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_16.blast
+    jobid: 14
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_16.blast
+    wildcards: file=>H2_scaffold_22_part_16
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+
+[Sun Aug  4 22:11:19 2024]
+rule blast:
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_12.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_12.blast
+    jobid: 4
+    reason: Missing output files: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_12.blast
+    wildcards: file=>H2_scaffold_22_part_12
+    resources: tmpdir=/jobfs/122263504.gadi-pbs
+
+Activating conda environment: .snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+Command line argument error: Argument "out". File is not accessible:  `/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/'
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 18
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_19.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_19.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_19.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_19.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 11
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_17.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_17.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_17.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_17.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 2
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_13.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_13.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_13.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_13.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 3
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_7.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_7.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_7.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_7.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 17
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_15.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_15.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_15.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_15.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 5
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_8.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_8.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_8.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_8.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Aug  4 22:11:27 2024]
+[Sun Aug  4 22:11:27 2024]
+Error in rule blast:
+    jobid: 22
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_18.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_18.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_18.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_18.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 19
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_22.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_22.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_22.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_22.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 16
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_21.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_21.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_21.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_21.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 14
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_16.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_16.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_16.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_16.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 15
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_3.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_3.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_3.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_3.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 1
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_6.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_6.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_6.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_6.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 12
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_2.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_2.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_2.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_2.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 6
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_11.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_11.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_11.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_11.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 8
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_9.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_9.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_9.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_9.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 10
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_5.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_5.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_5.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_5.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 4
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_12.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_12.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_12.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_12.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 20
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_1.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_1.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_1.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_1.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 13
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_20.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_20.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_20.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_20.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 7
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_4.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_4.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_4.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_4.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 21
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_14.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_14.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_14.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_14.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule blast:
+    jobid: 9
+    input: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_10.fasta
+    output: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_10.blast
+    conda-env: /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_
+    shell:
+        set +u; export BLASTDB=$BLASTDB:/g/data/xf3/database/nt2024Apr10; set -u; blastn -db /g/data/xf3/database/nt2024Apr10/nt -perc_identity 75 -query /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks/>H2_scaffold_22_part_10.fasta -out /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2_scaffold_22_chunks_Blast/>H2_scaffold_22_part_10.blast -outfmt '6 qseqid sseqid stitle pident length mismatch gapopen qstart qend sstart send sscinames staxids evalue' -max_target_seqs 7 -evalue 1e-5
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-08-04T221029.785410.snakemake.log

@@ -1,0 +1,4 @@
+mkdir: cannot create directory 'IQTREE_ortho_MSA': File exists
+parallel: Error: Cannot open input file `Orthogroups_for_concatenated_alignment.txt': No such file or directory.
+sed: can't read *.fa: No such file or directory
+/local/spool/pbs/mom_priv/jobs/121476531.gadi-pbs.SC: line 60: warning: here-document at line 36 delimited by end-of-file (wanted `EOF')

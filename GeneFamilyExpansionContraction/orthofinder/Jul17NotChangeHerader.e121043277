@@ -1,0 +1,25 @@
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1787, in main
+    DoOrthogroups(options, speciesInfoObj, seqsInfo)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1365, in DoOrthogroups
+    Lengths = GetSequenceLengths(seqsInfo)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 375, in GetSequenceLengths
+    fastaFilename = files.FileHandler.GetSpeciesFastaFN(iFasta)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/files.py", line 296, in GetSpeciesFastaFN
+    raise Exception(fn + " not found")
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/orthofinder", line 7, in <module>
+    main(args)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1787, in main
+    DoOrthogroups(options, speciesInfoObj, seqsInfo)    
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1365, in DoOrthogroups
+    Lengths = GetSequenceLengths(seqsInfo)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 375, in GetSequenceLengths
+    fastaFilename = files.FileHandler.GetSpeciesFastaFN(iFasta)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/files.py", line 296, in GetSpeciesFastaFN
+    raise Exception(fn + " not found")
+Exception: /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18_1/WorkingDirectory/Species0.fa not found

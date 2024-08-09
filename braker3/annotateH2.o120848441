@@ -1,0 +1,28 @@
+# Mon Jul 15 21:04:54 2024: Log information is stored in file /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome/braker.log
+#*********
+# WARNING: 
+# The hints file(s) for GeneMark-EX contain less than 1000 introns. (In total, 7 unique introns are contained.)
+# Genemark-EX might fail due to the low number of hints.
+#*********
+#*********
+# WARNING: 
+# The hints file(s) for GeneMark-EX contain less than 150 introns with multiplicity >= 4! (In total, 7 unique introns are contained. 5 have a multiplicity >= 4.)
+# Possibly, you are trying to run braker.pl on data that does not provide sufficient multiplicity information. This will e.g. happen if you try to use introns generated from assembled RNA-Seq transcripts; or if you try to run braker.pl in epmode with mappings from proteins without sufficient hits per locus. Or if you use the example data set.
+# A low number of intron hints with sufficient multiplicity may result in a crash of GeneMark-EX (it should not crash with the example data set).
+#*********
+#*********
+# WARNING: Number of reliable training genes is low (207). Recommended are at least 600 genes
+#*********
+
+======================================================================================
+                  Resource Usage on 2024-07-17 21:05:22:
+   Job Id:             120848441.gadi-pbs
+   Project:            xf3
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      4608.91
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 30:30:55        
+   Memory Requested:   180.0GB               Memory Used: 19.79GB         
+   Walltime requested: 48:00:00            Walltime Used: 48:00:34        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

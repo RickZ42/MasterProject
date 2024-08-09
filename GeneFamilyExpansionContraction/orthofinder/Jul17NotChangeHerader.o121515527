@@ -1,0 +1,229 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-23 14:36:41 : Starting OrthoFinder 2.5.5
+40 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+OrthoFinder expects FASTA files to have one of the following extensions: fasta, faa, fa, fas, pep
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-07-23 14:37:00 : Creating diamond database 1 of 22
+2024-07-23 14:37:00 : Creating diamond database 2 of 22
+2024-07-23 14:37:01 : Creating diamond database 3 of 22
+2024-07-23 14:37:01 : Creating diamond database 4 of 22
+2024-07-23 14:37:01 : Creating diamond database 5 of 22
+2024-07-23 14:37:01 : Creating diamond database 6 of 22
+2024-07-23 14:37:01 : Creating diamond database 7 of 22
+2024-07-23 14:37:02 : Creating diamond database 8 of 22
+2024-07-23 14:37:02 : Creating diamond database 9 of 22
+2024-07-23 14:37:02 : Creating diamond database 10 of 22
+2024-07-23 14:37:02 : Creating diamond database 11 of 22
+2024-07-23 14:37:02 : Creating diamond database 12 of 22
+2024-07-23 14:37:03 : Creating diamond database 13 of 22
+2024-07-23 14:37:03 : Creating diamond database 14 of 22
+2024-07-23 14:37:03 : Creating diamond database 15 of 22
+2024-07-23 14:37:03 : Creating diamond database 16 of 22
+2024-07-23 14:37:03 : Creating diamond database 17 of 22
+2024-07-23 14:37:04 : Creating diamond database 18 of 22
+2024-07-23 14:37:04 : Creating diamond database 19 of 22
+2024-07-23 14:37:04 : Creating diamond database 20 of 22
+2024-07-23 14:37:04 : Creating diamond database 21 of 22
+2024-07-23 14:37:04 : Creating diamond database 22 of 22
+
+Running diamond all-versus-all
+------------------------------
+Using 40 thread(s)
+2024-07-23 14:37:05 : This may take some time....
+2024-07-23 14:37:05 : Done 0 of 484
+2024-07-23 14:47:17 : Done 100 of 484
+2024-07-23 14:54:31 : Done 200 of 484
+2024-07-23 15:00:24 : Done 300 of 484
+2024-07-23 15:05:38 : Done 400 of 484
+2024-07-23 15:10:00 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2024-07-23 15:10:01 : Initial processing of each species
+2024-07-23 15:10:39 : Initial processing of species 2 complete
+2024-07-23 15:10:41 : Initial processing of species 3 complete
+2024-07-23 15:10:45 : Initial processing of species 6 complete
+2024-07-23 15:10:51 : Initial processing of species 1 complete
+2024-07-23 15:10:55 : Initial processing of species 7 complete
+2024-07-23 15:11:05 : Initial processing of species 0 complete
+2024-07-23 15:11:15 : Initial processing of species 4 complete
+2024-07-23 15:11:27 : Initial processing of species 9 complete
+2024-07-23 15:11:40 : Initial processing of species 10 complete
+2024-07-23 15:11:41 : Initial processing of species 5 complete
+2024-07-23 15:11:54 : Initial processing of species 8 complete
+2024-07-23 15:11:55 : Initial processing of species 11 complete
+2024-07-23 15:12:04 : Initial processing of species 15 complete
+2024-07-23 15:12:07 : Initial processing of species 12 complete
+2024-07-23 15:12:17 : Initial processing of species 14 complete
+2024-07-23 15:12:25 : Initial processing of species 16 complete
+2024-07-23 15:12:32 : Initial processing of species 19 complete
+2024-07-23 15:12:36 : Initial processing of species 13 complete
+2024-07-23 15:12:56 : Initial processing of species 20 complete
+2024-07-23 15:13:00 : Initial processing of species 17 complete
+2024-07-23 15:13:19 : Initial processing of species 21 complete
+2024-07-23 15:13:23 : Initial processing of species 18 complete
+2024-07-23 15:13:43 : Connected putative homologues
+2024-07-23 15:13:48 : Written final scores for species 3 to graph file
+2024-07-23 15:13:49 : Written final scores for species 2 to graph file
+2024-07-23 15:13:49 : Written final scores for species 6 to graph file
+2024-07-23 15:13:50 : Written final scores for species 1 to graph file
+2024-07-23 15:13:50 : Written final scores for species 7 to graph file
+2024-07-23 15:13:51 : Written final scores for species 0 to graph file
+2024-07-23 15:13:52 : Written final scores for species 4 to graph file
+2024-07-23 15:13:56 : Written final scores for species 9 to graph file
+2024-07-23 15:13:56 : Written final scores for species 5 to graph file
+2024-07-23 15:13:56 : Written final scores for species 10 to graph file
+2024-07-23 15:13:58 : Written final scores for species 8 to graph file
+2024-07-23 15:13:58 : Written final scores for species 11 to graph file
+2024-07-23 15:13:59 : Written final scores for species 12 to graph file
+2024-07-23 15:14:00 : Written final scores for species 14 to graph file
+2024-07-23 15:14:01 : Written final scores for species 15 to graph file
+2024-07-23 15:14:02 : Written final scores for species 13 to graph file
+2024-07-23 15:14:02 : Written final scores for species 16 to graph file
+2024-07-23 15:14:03 : Written final scores for species 19 to graph file
+2024-07-23 15:14:05 : Written final scores for species 17 to graph file
+2024-07-23 15:14:07 : Written final scores for species 20 to graph file
+2024-07-23 15:14:08 : Written final scores for species 21 to graph file
+2024-07-23 15:14:09 : Written final scores for species 18 to graph file
+
+WARNING: program called by OrthoFinder produced output to stderr
+
+Command: mcl /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/WorkingDirectory/OrthoFinder_graph.txt -I 1.3 -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/WorkingDirectory/clusters_OrthoFinder_I1.3.txt -te 8 -V all
+
+stdout
+------
+b''
+stderr
+------
+b'[mcl] cut <8> instances of overlap\n'
+2024-07-23 15:17:31 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 638603 genes (93.5% of total) to 26893 orthogroups. Fifty percent of all genes were in orthogroups with 46 or more genes (G50 was 46) and were contained in the largest 3849 orthogroups (O50 was 3849). There were 4191 orthogroups with all species present and 2 of these consisted entirely of single-copy genes.
+
+2024-07-23 15:22:56 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2024-07-23 15:22:56 : Starting MSA/Trees
+Species tree: Using 130 orthogroups with minimum of 72.7% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2024-07-23 15:28:46 : Done 0 of 130
+2024-07-23 15:28:48 : Done 10 of 130
+2024-07-23 15:28:48 : Done 20 of 130
+2024-07-23 15:28:49 : Done 30 of 130
+2024-07-23 15:28:49 : Done 40 of 130
+2024-07-23 15:28:50 : Done 50 of 130
+2024-07-23 15:28:50 : Done 60 of 130
+2024-07-23 15:28:51 : Done 70 of 130
+2024-07-23 15:28:52 : Done 80 of 130
+2024-07-23 15:28:52 : Done 90 of 130
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2024-07-23 15:28:59 : Done 0 of 26764
+2024-07-23 16:18:24 : Done 1000 of 26764
+2024-07-23 16:28:53 : Done 2000 of 26764
+2024-07-23 16:35:06 : Done 3000 of 26764
+2024-07-23 16:39:28 : Done 4000 of 26764
+2024-07-23 16:42:48 : Done 5000 of 26764
+2024-07-23 16:45:33 : Done 6000 of 26764
+2024-07-23 16:47:57 : Done 7000 of 26764
+2024-07-23 16:49:51 : Done 8000 of 26764
+2024-07-23 16:51:22 : Done 9000 of 26764
+2024-07-23 16:52:38 : Done 10000 of 26764
+2024-07-23 16:53:32 : Done 11000 of 26764
+2024-07-23 16:54:06 : Done 12000 of 26764
+2024-07-23 16:54:27 : Done 13000 of 26764
+2024-07-23 16:54:42 : Done 14000 of 26764
+2024-07-23 16:54:55 : Done 15000 of 26764
+2024-07-23 16:55:06 : Done 16000 of 26764
+2024-07-23 16:55:17 : Done 17000 of 26764
+2024-07-23 16:55:27 : Done 18000 of 26764
+2024-07-23 16:55:36 : Done 19000 of 26764
+2024-07-23 16:55:46 : Done 20000 of 26764
+2024-07-23 16:55:55 : Done 21000 of 26764
+2024-07-23 16:56:03 : Done 22000 of 26764
+2024-07-23 16:56:12 : Done 23000 of 26764
+2024-07-23 16:56:21 : Done 24000 of 26764
+2024-07-23 16:56:29 : Done 25000 of 26764
+2024-07-23 16:56:38 : Done 26000 of 26764
+2024-07-23 17:30:31 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2024-07-23 17:30:34 : Starting STRIDE
+2024-07-23 17:30:46 : Done STRIDE
+Observed 1146 well-supported, non-terminal duplications. 1141 support the best root and 5 contradict it.
+Best outgroup for species tree:
+  Amborella_trichopoda
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Amborella_trichopoda
+2024-07-23 17:30:46 : Starting Recon and orthologues
+2024-07-23 17:30:46 : Starting OF Orthologues
+2024-07-23 17:30:48 : Done 0 of 17652
+2024-07-23 17:30:52 : Done 1000 of 17652
+2024-07-23 17:30:56 : Done 2000 of 17652
+2024-07-23 17:30:59 : Done 3000 of 17652
+2024-07-23 17:31:01 : Done 4000 of 17652
+2024-07-23 17:31:04 : Done 5000 of 17652
+2024-07-23 17:31:07 : Done 6000 of 17652
+2024-07-23 17:31:09 : Done 7000 of 17652
+2024-07-23 17:31:11 : Done 8000 of 17652
+2024-07-23 17:31:13 : Done 9000 of 17652
+2024-07-23 17:31:15 : Done 10000 of 17652
+2024-07-23 17:31:17 : Done 11000 of 17652
+2024-07-23 17:31:19 : Done 12000 of 17652
+2024-07-23 17:31:21 : Done 13000 of 17652
+2024-07-23 17:31:22 : Done 14000 of 17652
+2024-07-23 17:31:24 : Done 15000 of 17652
+2024-07-23 17:31:25 : Done 16000 of 17652
+2024-07-23 17:31:27 : Done 17000 of 17652
+2024-07-23 17:31:29 : Done OF Orthologues
+
+Writing results files
+=====================
+2024-07-23 17:31:31 : Done orthologues
+
+Results:
+    /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+
+======================================================================================
+                  Resource Usage on 2024-07-23 17:31:51:
+   Job Id:             121515527.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      281.09
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 80:00:49        
+   Memory Requested:   190.0GB               Memory Used: 74.09GB         
+   Walltime requested: 24:00:00            Walltime Used: 02:55:41        
+   JobFS requested:    400.0GB                JobFS used: 657.49MB        
+======================================================================================

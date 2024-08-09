@@ -1,0 +1,144 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-19 16:02:04 : Starting OrthoFinder 2.5.5
+40 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+OrthoFinder expects FASTA files to have one of the following extensions: faa, fas, pep, fa, fasta
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-07-19 16:02:21 : Creating diamond database 1 of 17
+2024-07-19 16:02:21 : Creating diamond database 2 of 17
+2024-07-19 16:02:21 : Creating diamond database 3 of 17
+2024-07-19 16:02:22 : Creating diamond database 4 of 17
+2024-07-19 16:02:22 : Creating diamond database 5 of 17
+2024-07-19 16:02:22 : Creating diamond database 6 of 17
+2024-07-19 16:02:22 : Creating diamond database 7 of 17
+2024-07-19 16:02:23 : Creating diamond database 8 of 17
+2024-07-19 16:02:23 : Creating diamond database 9 of 17
+2024-07-19 16:02:23 : Creating diamond database 10 of 17
+2024-07-19 16:02:23 : Creating diamond database 11 of 17
+2024-07-19 16:02:24 : Creating diamond database 12 of 17
+2024-07-19 16:02:24 : Creating diamond database 13 of 17
+2024-07-19 16:02:24 : Creating diamond database 14 of 17
+2024-07-19 16:02:24 : Creating diamond database 15 of 17
+2024-07-19 16:02:24 : Creating diamond database 16 of 17
+2024-07-19 16:02:24 : Creating diamond database 17 of 17
+
+Running diamond all-versus-all
+------------------------------
+Using 40 thread(s)
+2024-07-19 16:02:25 : This may take some time....
+2024-07-19 16:02:25 : Done 0 of 289
+2024-07-19 16:12:44 : Done 100 of 289
+2024-07-19 16:19:03 : Done 200 of 289
+2024-07-19 16:22:25 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2024-07-19 16:22:26 : Initial processing of each species
+2024-07-19 16:22:54 : Initial processing of species 2 complete
+2024-07-19 16:22:56 : Initial processing of species 3 complete
+2024-07-19 16:22:59 : Initial processing of species 6 complete
+2024-07-19 16:23:01 : Initial processing of species 1 complete
+2024-07-19 16:23:06 : Initial processing of species 7 complete
+2024-07-19 16:23:07 : Initial processing of species 12 complete
+2024-07-19 16:23:12 : Initial processing of species 0 complete
+2024-07-19 16:23:21 : Initial processing of species 4 complete
+2024-07-19 16:23:39 : Initial processing of species 5 complete
+2024-07-19 16:23:43 : Initial processing of species 9 complete
+2024-07-19 16:23:48 : Initial processing of species 15 complete
+2024-07-19 16:23:49 : Initial processing of species 8 complete
+2024-07-19 16:23:54 : Initial processing of species 10 complete
+2024-07-19 16:24:06 : Initial processing of species 13 complete
+2024-07-19 16:24:08 : Initial processing of species 11 complete
+2024-07-19 16:24:17 : Initial processing of species 14 complete
+2024-07-19 16:24:33 : Initial processing of species 16 complete
+2024-07-19 16:24:46 : Connected putative homologues
+2024-07-19 16:24:50 : Written final scores for species 3 to graph file
+2024-07-19 16:24:51 : Written final scores for species 2 to graph file
+2024-07-19 16:24:51 : Written final scores for species 6 to graph file
+2024-07-19 16:24:51 : Written final scores for species 1 to graph file
+2024-07-19 16:24:52 : Written final scores for species 7 to graph file
+2024-07-19 16:24:52 : Written final scores for species 12 to graph file
+2024-07-19 16:24:52 : Written final scores for species 0 to graph file
+2024-07-19 16:24:53 : Written final scores for species 4 to graph file
+2024-07-19 16:24:56 : Written final scores for species 5 to graph file
+2024-07-19 16:24:57 : Written final scores for species 9 to graph file
+2024-07-19 16:24:57 : Written final scores for species 8 to graph file
+2024-07-19 16:24:57 : Written final scores for species 15 to graph file
+2024-07-19 16:24:58 : Written final scores for species 10 to graph file
+2024-07-19 16:24:59 : Written final scores for species 13 to graph file
+2024-07-19 16:24:59 : Written final scores for species 11 to graph file
+2024-07-19 16:25:01 : Written final scores for species 14 to graph file
+2024-07-19 16:25:02 : Written final scores for species 16 to graph file
+2024-07-19 16:27:01 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 486734 genes (93.4% of total) to 25116 orthogroups. Fifty percent of all genes were in orthogroups with 34 or more genes (G50 was 34) and were contained in the largest 4085 orthogroups (O50 was 4085). There were 7 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2024-07-19 16:30:23 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2024-07-19 16:30:23 : Starting MSA/Trees
+Species tree: Using 283 orthogroups with minimum of 70.6% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2024-07-19 16:33:39 : Done 0 of 283
+2024-07-19 16:33:44 : Done 100 of 283
+2024-07-19 16:33:47 : Done 200 of 283
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2024-07-19 16:33:54 : Done 0 of 24834
+2024-07-19 17:08:40 : Done 1000 of 24834
+2024-07-19 17:14:55 : Done 2000 of 24834
+2024-07-19 17:18:50 : Done 3000 of 24834
+2024-07-19 17:21:56 : Done 4000 of 24834
+2024-07-19 17:24:28 : Done 5000 of 24834
+2024-07-19 17:26:37 : Done 6000 of 24834
+2024-07-19 17:28:14 : Done 7000 of 24834
+2024-07-19 17:29:41 : Done 8000 of 24834
+2024-07-19 17:30:57 : Done 9000 of 24834
+2024-07-19 17:31:58 : Done 10000 of 24834
+2024-07-19 17:32:43 : Done 11000 of 24834
+2024-07-19 17:33:12 : Done 12000 of 24834
+2024-07-19 17:33:34 : Done 13000 of 24834
+2024-07-19 17:33:52 : Done 14000 of 24834
+2024-07-19 17:34:08 : Done 15000 of 24834
+2024-07-19 17:34:21 : Done 16000 of 24834
+2024-07-19 17:34:34 : Done 17000 of 24834
+2024-07-19 17:34:46 : Done 18000 of 24834
+2024-07-19 17:34:58 : Done 19000 of 24834
+2024-07-19 17:35:08 : Done 20000 of 24834
+2024-07-19 17:35:19 : Done 21000 of 24834
+2024-07-19 17:35:29 : Done 22000 of 24834
+2024-07-19 17:35:39 : Done 23000 of 24834
+2024-07-19 17:35:48 : Done 24000 of 24834
+[Errno 122] Disk quota exceeded: '/g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul19/MultipleSequenceAlignments/OG0017837.fa'
+
+======================================================================================
+                  Resource Usage on 2024-07-19 18:07:37:
+   Job Id:             121196856.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      201.79
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 54:46:13        
+   Memory Requested:   190.0GB               Memory Used: 56.52GB         
+   Walltime requested: 24:00:00            Walltime Used: 02:06:07        
+   JobFS requested:    400.0GB                JobFS used: 529.51MB        
+======================================================================================

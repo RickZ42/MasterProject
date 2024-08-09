@@ -1,0 +1,246 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate biopython
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate biopython
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate biopython
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate biopython
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(biopython) '
+++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=biopython
+++ CONDA_DEFAULT_ENV=biopython
+++ export 'CONDA_PROMPT_MODIFIER=(biopython) '
+++ CONDA_PROMPT_MODIFIER='(biopython) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot
++ python -m jcvi.compara.catalog ortholog brakerH1V1 brakerH2V6 --no_strip_names
+[07/25/24 13:30:44] DEBUG    lastdb brakerH2V6 brakerH2V6.cds       base.py:1191
+[07/25/24 13:31:08] DEBUG    lastal -u 0 -i3G -f BlastTab -P 96     base.py:1191
+                             brakerH2V6 brakerH1V1.cds                          
+                             >./brakerH1V1.brakerH2V6.last                      
+                    ERROR    lastal failed with message:            align.py:572
+                             lastal: I was installed here with                  
+                             multi-threading disabled                           
+                                                                                
+                    DEBUG    Failed to run `lastal` with            align.py:574
+                             multi-threading. Trying again.                     
+                    DEBUG    lastal -u 0 -i3G -f BlastTab -P 1      base.py:1191
+                             brakerH2V6 brakerH1V1.cds                          
+                             >./brakerH1V1.brakerH2V6.last                      
+[07/25/24 13:32:45] DEBUG    Assuming --qbed=brakerH1V1.bed       synteny.py:390
+                             --sbed=brakerH2V6.bed                              
+                    DEBUG    Load file `brakerH1V1.bed`               base.py:36
+                    DEBUG    Load file `brakerH2V6.bed`               base.py:36
+                    DEBUG    Load BLAST file                   blastfilter.py:45
+                             `brakerH1V1.brakerH2V6.last`                       
+                             (total 272514 lines)                               
+                    DEBUG    Load file `brakerH1V1.brakerH2V6.last`   base.py:36
+[07/25/24 13:32:46] WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t6 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t7 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t8 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t9 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t10 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t11 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t12 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g10235.t13 not in brakerH1V1.bed  blastfilter.py:64
+                    WARNING  g6240.t2 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g6240.t1 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g2337.t1 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g16178.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g2337.t2 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g16178.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g8096.t1 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g8096.t1 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g8137.t2 not in brakerH1V1.bed    blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t5 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t5 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t1 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t2 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t3 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  g10235.t4 not in brakerH1V1.bed   blastfilter.py:64
+                    WARNING  too many warnings.. suppressed    blastfilter.py:66
+                    DEBUG    running the cscore filter        blastfilter.py:107
+                             (cscore>=0.70) ..                                  
+                    DEBUG    after filter (0->0) ..           blastfilter.py:109
+                    DEBUG    running the local dups filter    blastfilter.py:114
+                             (tandem_Nmax=10) ..                                
+                    DEBUG    after filter (0->0) ..           blastfilter.py:154
+                    DEBUG    Assuming --qbed=brakerH1V1.bed       synteny.py:390
+                             --sbed=brakerH2V6.bed                              
+                    DEBUG    Load file `brakerH1V1.bed`               base.py:36
+                    DEBUG    Load file `brakerH2V6.bed`               base.py:36
+                    DEBUG    Load file                                base.py:36
+                             `brakerH1V1.brakerH2V6.last.filtered`              
+                    DEBUG    A total of 0 BLAST imported from     synteny.py:277
+                             `brakerH1V1.brakerH2V6.last.filtered               
+                             `.                                                 
+                    DEBUG    Chaining distance = 20              synteny.py:1794
+                    DEBUG    Load file                                base.py:36
+                             `brakerH1V1.brakerH2V6.anchors`                    
+                    DEBUG    A total of 0 anchor was found.      synteny.py:1371
+                             Aborted.                                           
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/catalog.py", line 742, in ortholog
+    scan(dargs)
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/synteny.py", line 1811, in scan
+    summary([anchor_file])
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/synteny.py", line 1372, in summary
+    raise ValueError("A total of 0 anchor was found. Aborted.")
+ValueError: A total of 0 anchor was found. Aborted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/catalog.py", line 982, in <module>
+    main()
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/catalog.py", line 88, in main
+    p.dispatch(globals())
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/apps/base.py", line 131, in dispatch
+    globals[action](sys.argv[2:])
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/catalog.py", line 749, in ortholog
+    raise ValueError(e) from e
+ValueError: A total of 0 anchor was found. Aborted.

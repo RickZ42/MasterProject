@@ -1,0 +1,26 @@
+
+Families with largest size differentials:
+OG0000008: 195
+OG0000027: 140
+OG0000021: 133
+OG0000012: 131
+OG0000274: 125
+OG0000013: 121
+OG0000014: 111
+OG0000431: 111
+OG0000026: 109
+OG0000011: 104
+OG0000612: 100
+OG0000311: 97
+OG0000094: 95
+OG0000009: 92
+OG0000003: 91
+OG0000028: 89
+OG0000150: 88
+OG0000030: 83
+OG0000095: 83
+OG0000102: 82
+
+You may want to try removing the top few families with the largest difference
+between the max and min counts and then re-run the analysis.
+

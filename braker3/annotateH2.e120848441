@@ -1,0 +1,307 @@
++ module load singularity
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load singularity
++ eval '_LMFILES__modshare=/opt/Modules/modulefiles/singularity:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=singularity:1;' export 'LOADEDMODULES_modshare;
+PATH=/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/opt/singularity/bin;' export 'PATH;
+_LMFILES_=/opt/Modules/modulefiles/singularity;' export '_LMFILES_;
+LOADEDMODULES=singularity;' export 'LOADEDMODULES;
+PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/opt/singularity/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/bin:1:/g/data/xf3/miniconda/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1;' export 'PATH_modshare;
+test' '0;'
+++ _LMFILES__modshare=/opt/Modules/modulefiles/singularity:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=singularity:1
+++ export LOADEDMODULES_modshare
+++ PATH=/g/data/xf3/miniconda/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/opt/singularity/bin
+++ export PATH
+++ _LMFILES_=/opt/Modules/modulefiles/singularity
+++ export _LMFILES_
+++ LOADEDMODULES=singularity
+++ export LOADEDMODULES
+++ PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/opt/singularity/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/bin:1:/g/data/xf3/miniconda/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ wd=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome
++ export BRAKER_SIF=/g/data/xf3/zz3507/app/braker3.sif
++ BRAKER_SIF=/g/data/xf3/zz3507/app/braker3.sif
++ singularity exec -B /g/data/xf3/zz3507/script/braker3:/g/data/xf3/zz3507/script/braker3 /g/data/xf3/zz3507/app/braker3.sif braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2V6.500K.fa.masked --workingdir=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa
+#**********************************************************************************
+#                               BRAKER CONFIGURATION                               
+#**********************************************************************************
+# BRAKER CALL: /opt/BRAKER/scripts/braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2V6.500K.fa.masked --workingdir=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa
+# Mon Jul 15 21:04:53 2024: braker.pl version 3.0.8
+# Mon Jul 15 21:04:53 2024: Only Protein input detected, BRAKER will be executed in EP mode (BRAKER2).
+# Mon Jul 15 21:04:53 2024: Configuring of BRAKER for using external tools...
+# Mon Jul 15 21:04:53 2024: Trying to set $AUGUSTUS_CONFIG_PATH...
+# Mon Jul 15 21:04:53 2024: Found environment variable $AUGUSTUS_CONFIG_PATH.
+# Mon Jul 15 21:04:53 2024: Checking /opt/Augustus/config/ as potential path for $AUGUSTUS_CONFIG_PATH.
+# Mon Jul 15 21:04:53 2024: Success! Setting $AUGUSTUS_CONFIG_PATH to /opt/Augustus/config/!
+# Mon Jul 15 21:04:53 2024: WARNING: in file /opt/BRAKER/scripts/braker.pl at line 1933
+AUGUSTUS_CONFIG_PATH/species (in this case /opt/Augustus/config//species) is not writeable. BRAKER will try to copy the AUGUSTUS config directory to a writeable location.
+#*********
+# WARNING: Detected whitespace in fasta header of file /g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa. This may later on cause problems! The pipeline will create a new file without spaces or "|" characters and a genome_header.map file to look up the old and new headers. This message will be suppressed from now on!
+#*********
+ProtHint Version 2.6.0
+Copyright 2019, Georgia Institute of Technology, USA
+
+Please cite
+  - ProtHint: https://doi.org/10.1093/nargab/lqaa026
+  - DIAMOND:  https://doi.org/10.1038/nmeth.3176
+  - Spaln:    https://doi.org/10.1093/bioinformatics/btn460
+
+Called from: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome
+Cmd: /opt/ETP/bin/gmes/ProtHint/bin/prothint.py --threads=1 --geneMarkGtf /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome/GeneMark-ES/genemark.gtf /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome/genome.fa /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome/proteins.fa
+
+[Tue Jul 16 21:00:07 2024] Pre-processing protein input
+[Tue Jul 16 21:00:08 2024] Skipping GeneMark-ES, using the supplied gene seeds file instead
+[Tue Jul 16 21:00:08 2024] Translating gene seeds to proteins
+[Tue Jul 16 21:00:41 2024] Translation of seeds finished
+[Tue Jul 16 21:00:41 2024] Running DIAMOND
+diamond v0.9.24.125 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 1
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Database file: /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KJustProteome/prottsqe2p16
+Opening the database file...  [0.01309s]
+Loading sequences...  [0.535284s]
+Masking sequences...  [23.6818s]
+Writing sequences...  [0.224118s]
+Hashing sequences...  [0.030219s]
+Loading sequences...  [3e-05s]
+Writing trailer...  [0.005383s]
+Closing the input file...  [0.00014s]
+Closing the database file...  [0.000148s]
+Database hash = 7a3c0cbbb0756ce8ce7483179a195ac3
+Processed 289793 sequences, 103471231 letters.
+Total time = 24.4903s
+diamond v0.9.24.125 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 1
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: 
+Opening the database...  [0.000648s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.000265s]
+Opening the output file...  [0.000354s]
+Loading query sequences...  [0.027468s]
+Masking queries...  [0.940504s]
+Building query seed set...  [0.026023s]
+Algorithm: Double-indexed
+Building query histograms...  [0.072491s]
+Allocating buffers...  [3e-05s]
+Loading reference sequences...  [0.157781s]
+Building reference histograms...  [1.54306s]
+Allocating buffers...  [3.3e-05s]
+Initializing temporary storage...  [0.008739s]
+Processing query chunk 0, reference chunk 0, shape 0, index chunk 0.
+Building reference index...  [2.63054s]
+Building query index...  [0.107881s]
+Building seed filter...  [0.285981s]
+Searching alignments...  [0.14701s]
+Processing query chunk 0, reference chunk 0, shape 0, index chunk 1.
+Building reference index...  [2.86574s]
+Building query index...  [0.119737s]
+Building seed filter...  [0.24589s]
+Searching alignments...  [0.136675s]
+Processing query chunk 0, reference chunk 0, shape 0, index chunk 2.
+Building reference index...  [3.08522s]
+Building query index...  [0.122736s]
+Building seed filter...  [0.228818s]
+Searching alignments...  [0.134189s]
+Processing query chunk 0, reference chunk 0, shape 0, index chunk 3.
+Building reference index...  [2.55722s]
+Building query index...  [0.090697s]
+Building seed filter...  [0.229496s]
+Searching alignments...  [0.126584s]
+Processing query chunk 0, reference chunk 0, shape 1, index chunk 0.
+Building reference index...  [2.50496s]
+Building query index...  [0.103255s]
+Building seed filter...  [0.242451s]
+Searching alignments...  [0.160219s]
+Processing query chunk 0, reference chunk 0, shape 1, index chunk 1.
+Building reference index...  [2.82626s]
+Building query index...  [0.118141s]
+Building seed filter...  [0.244137s]
+Searching alignments...  [0.131065s]
+Processing query chunk 0, reference chunk 0, shape 1, index chunk 2.
+Building reference index...  [3.01979s]
+Building query index...  [0.119899s]
+Building seed filter...  [0.273713s]
+Searching alignments...  [0.132086s]
+Processing query chunk 0, reference chunk 0, shape 1, index chunk 3.
+Building reference index...  [2.5305s]
+Building query index...  [0.107064s]
+Building seed filter...  [0.209398s]
+Searching alignments...  [0.11772s]
+Deallocating buffers...  [0.020784s]
+Computing alignments...  [0.349912s]
+Deallocating reference...  [0.011872s]
+Loading reference sequences...  [7.3e-05s]
+Deallocating buffers...  [0.000923s]
+Deallocating queries...  [0.000386s]
+Loading query sequences...  [4.6e-05s]
+Closing the input file...  [0.000196s]
+Closing the output file...  [0.022255s]
+Closing the database file...  [0.000157s]
+Deallocating taxonomy...  [5e-06s]
+Total time = 29.1418s
+Reported 123 pairwise alignments, 123 HSPs.
+6 queries aligned.
+[Tue Jul 16 21:01:34 2024] DIAMOND finished
+[Tue Jul 16 21:01:34 2024] Preparing pairs for alignments
+[Tue Jul 16 21:02:04 2024] Preparation of pairs finished
+[Tue Jul 16 21:02:04 2024] Starting spliced alignment with spaln
+[Tue Jul 16 21:02:04 2024] Loading alignment pairs into memory
+[Tue Jul 16 21:02:05 2024] Pairs loaded. Number of pairs to align: 123
+[Tue Jul 16 21:02:05 2024] Starting the alignments
+[Tue Jul 16 21:02:05 2024] Enqueueing pair 0/123 (0.0%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 1/123 (0.8%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 2/123 (1.6%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 3/123 (2.4%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 4/123 (3.2%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 5/123 (4.0%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 6/123 (4.8%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 7/123 (5.6%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 8/123 (6.5%)
+[Tue Jul 16 21:02:09 2024] Enqueueing pair 9/123 (7.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 10/123 (8.1%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 11/123 (8.9%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 12/123 (9.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 13/123 (10.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 14/123 (11.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 15/123 (12.1%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 16/123 (13.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 17/123 (13.8%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 18/123 (14.6%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 19/123 (15.4%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 20/123 (16.2%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 21/123 (17.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 22/123 (17.8%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 23/123 (18.6%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 24/123 (19.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 25/123 (20.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 26/123 (21.1%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 27/123 (21.9%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 28/123 (22.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 29/123 (23.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 30/123 (24.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 31/123 (25.2%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 32/123 (26.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 33/123 (26.8%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 34/123 (27.6%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 35/123 (28.4%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 36/123 (29.2%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 37/123 (30.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 38/123 (30.8%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 39/123 (31.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 40/123 (32.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 41/123 (33.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 42/123 (34.1%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 43/123 (34.9%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 44/123 (35.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 45/123 (36.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 46/123 (37.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 47/123 (38.2%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 48/123 (39.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 49/123 (39.8%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 50/123 (40.6%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 51/123 (41.4%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 52/123 (42.2%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 53/123 (43.0%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 54/123 (43.9%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 55/123 (44.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 56/123 (45.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 57/123 (46.3%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 58/123 (47.1%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 59/123 (47.9%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 60/123 (48.7%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 61/123 (49.5%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 62/123 (50.4%)
+[Tue Jul 16 21:02:10 2024] Enqueueing pair 63/123 (51.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 64/123 (52.0%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 65/123 (52.8%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 66/123 (53.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 67/123 (54.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 68/123 (55.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 69/123 (56.0%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 70/123 (56.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 71/123 (57.7%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 72/123 (58.5%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 73/123 (59.3%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 74/123 (60.1%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 75/123 (60.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 76/123 (61.7%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 77/123 (62.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 78/123 (63.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 79/123 (64.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 80/123 (65.0%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 81/123 (65.8%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 82/123 (66.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 83/123 (67.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 84/123 (68.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 85/123 (69.1%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 86/123 (69.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 87/123 (70.7%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 88/123 (71.5%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 89/123 (72.3%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 90/123 (73.1%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 91/123 (73.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 92/123 (74.7%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 93/123 (75.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 94/123 (76.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 95/123 (77.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 96/123 (78.0%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 97/123 (78.8%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 98/123 (79.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 99/123 (80.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 100/123 (81.3%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 101/123 (82.1%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 102/123 (82.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 103/123 (83.7%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 104/123 (84.5%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 105/123 (85.3%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 106/123 (86.1%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 107/123 (86.9%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 108/123 (87.8%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 109/123 (88.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 110/123 (89.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 111/123 (90.2%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 112/123 (91.0%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 113/123 (91.8%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 114/123 (92.6%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 115/123 (93.4%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 116/123 (94.3%)
+[Tue Jul 16 21:02:11 2024] Enqueueing pair 117/123 (95.1%)
+[Tue Jul 16 21:02:12 2024] Enqueueing pair 118/123 (95.9%)
+[Tue Jul 16 21:02:12 2024] Enqueueing pair 119/123 (96.7%)
+[Tue Jul 16 21:02:12 2024] Enqueueing pair 120/123 (97.5%)
+[Tue Jul 16 21:02:12 2024] Enqueueing pair 121/123 (98.3%)
+[Tue Jul 16 21:02:12 2024] Enqueueing pair 122/123 (99.1%)
+[Tue Jul 16 21:02:22 2024] 123/123 (100%) pairs aligned
+[Tue Jul 16 21:02:22 2024] Alignment of pairs finished
+[Tue Jul 16 21:02:22 2024] Translating coordinates from local pair level to contig level
+[Tue Jul 16 21:02:22 2024] Finished spliced alignment
+[Tue Jul 16 21:02:22 2024] Flagging top chains
+[Tue Jul 16 21:02:22 2024] Processing the output
+[Tue Jul 16 21:02:23 2024] Output processed
+[Tue Jul 16 21:02:23 2024] ProtHint finished.
+=>> PBS: job killed: walltime 172823 exceeded limit 172800

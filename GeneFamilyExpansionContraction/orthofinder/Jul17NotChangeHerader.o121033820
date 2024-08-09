@@ -1,0 +1,53 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-18 12:08:56 : Starting OrthoFinder 2.5.5
+40 thread(s) for highly parallel tasks (BLAST searches etc.)
+8 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18/WorkingDirectory/dependencies/SimpleTest.phy -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul18/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+OrthoFinder expects FASTA files to have one of the following extensions: fas, fasta, faa, fa, pep
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-07-18 12:09:09 : Creating diamond database 1 of 16
+2024-07-18 12:09:09 : Creating diamond database 2 of 16
+2024-07-18 12:09:09 : Creating diamond database 3 of 16
+2024-07-18 12:09:10 : Creating diamond database 4 of 16
+2024-07-18 12:09:10 : Creating diamond database 5 of 16
+2024-07-18 12:09:10 : Creating diamond database 6 of 16
+2024-07-18 12:09:10 : Creating diamond database 7 of 16
+2024-07-18 12:09:10 : Creating diamond database 8 of 16
+2024-07-18 12:09:11 : Creating diamond database 9 of 16
+2024-07-18 12:09:11 : Creating diamond database 10 of 16
+2024-07-18 12:09:11 : Creating diamond database 11 of 16
+2024-07-18 12:09:11 : Creating diamond database 12 of 16
+2024-07-18 12:09:11 : Creating diamond database 13 of 16
+2024-07-18 12:09:12 : Creating diamond database 14 of 16
+2024-07-18 12:09:12 : Creating diamond database 15 of 16
+2024-07-18 12:09:12 : Creating diamond database 16 of 16
+
+Running diamond all-versus-all
+------------------------------
+Using 40 thread(s)
+2024-07-18 12:09:12 : This may take some time....
+2024-07-18 12:09:12 : Done 0 of 256
+
+======================================================================================
+                  Resource Usage on 2024-07-18 12:09:34:
+   Job Id:             121033820.gadi-pbs
+   Project:            xf3
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      1.84
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:12:05        
+   Memory Requested:   190.0GB               Memory Used: 9.31GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:01:09        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,194 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate snakemake
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate snakemake
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate snakemake
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate snakemake
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(snakemake) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/snakemake'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''snakemake'\''
+export CONDA_PROMPT_MODIFIER='\''(snakemake) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(snakemake) '
+++ export PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=snakemake
+++ CONDA_DEFAULT_ENV=snakemake
+++ export 'CONDA_PROMPT_MODIFIER=(snakemake) '
+++ CONDA_PROMPT_MODIFIER='(snakemake) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /g/data/xf3/zz3507/envs/snake
++ snakemake --use-conda -c40 --keep-going
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment blast.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /g/data/xf3/zz3507/envs/snake/blast.yaml:
+Command:
+mamba env create --quiet --file "/g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_.yaml" --prefix "/g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_"
+Output:
+Retrieving notices: ...working... ERROR conda.notices.fetch:get_channel_notice_response(63): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /bioconda/notices.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x153704a19430>: Failed to establish a new connection: [Errno 101] Network is unreachable'))> for channel: bioconda url: https://conda.anaconda.org/bioconda/notices.json
+ERROR conda.notices.fetch:get_channel_notice_response(63): Request error <HTTPSConnectionPool(host='repo.anaconda.com', port=443): Max retries exceeded with url: /pkgs/r/notices.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x153704a195b0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))> for channel: defaults url: https://repo.anaconda.com/pkgs/r/notices.json
+ERROR conda.notices.fetch:get_channel_notice_response(63): Request error <HTTPSConnectionPool(host='conda.anaconda.org', port=443): Max retries exceeded with url: /conda-forge/notices.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x153704a19700>: Failed to establish a new connection: [Errno 101] Network is unreachable'))> for channel: conda-forge url: https://conda.anaconda.org/conda-forge/notices.json
+ERROR conda.notices.fetch:get_channel_notice_response(63): Request error <HTTPSConnectionPool(host='repo.anaconda.com', port=443): Max retries exceeded with url: /pkgs/main/notices.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x153704a19880>: Failed to establish a new connection: [Errno 101] Network is unreachable'))> for channel: defaults url: https://repo.anaconda.com/pkgs/main/notices.json
+done
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+warning  libmamba Could not parse mod/etag header
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/conda/exceptions.py", line 1132, in __call__
+        return func(*args, **kwargs)
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/conda_env/cli/main.py", line 78, in do_call
+        exit_code = getattr(module, func_name)(args, parser)
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/conda/notices/core.py", line 116, in wrapper
+        return_value = func(*args, **kwargs)
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/conda_env/cli/main_create.py", line 152, in execute
+        result[installer_type] = installer.install(prefix, pkg_specs, args, env)
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/mamba/mamba_env.py", line 55, in mamba_install
+        index = load_channels(pool, channel_urls, repos, prepend=False)
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/mamba/utils.py", line 129, in load_channels
+        index = get_index(
+      File "/g/data/xf3/miniconda/lib/python3.9/site-packages/mamba/utils.py", line 110, in get_index
+        is_downloaded = dlist.download(api.MAMBA_DOWNLOAD_FAILFAST)
+    RuntimeError: Download error (28) Timeout was reached [https://conda.anaconda.org/bioconda/noarch/repodata.json]
+    Failed to connect to conda.anaconda.org port 443 after 5019 ms: Couldn't connect to server
+
+`$ /g/data/xf3/miniconda/condabin/mamba create --quiet --file /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_.yaml --prefix /g/data/xf3/zz3507/envs/snake/.snakemake/conda/a1f9fed144168db57f32b6fd83bd9739_`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=snakemake
+                CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+             CONDA_PREFIX=/g/data/xf3/miniconda/envs/snakemake
+           CONDA_PREFIX_1=/g/data/xf3/miniconda
+    CONDA_PROMPT_MODIFIER=(snakemake)
+         CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+               CONDA_ROOT=/g/data/xf3/miniconda
+              CONDA_SHLVL=2
+           CURL_CA_BUNDLE=<not set>
+                    FPATH=/opt/Modules/v4.3.0/init/ksh-functions
+               LD_PRELOAD=<not set>
+                  MANPATH=/opt/pbs/default/share/man:::/local/pbs/share/man
+               MODULEPATH=/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modu
+                          lefiles:/apps/Modules/modulefiles
+                     PATH=/g/data/xf3/miniconda/envs/snakemake/bin:/g/data/xf3/miniconda/condabi
+                          n:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/
+                          bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+               PBS_O_PATH=/home/106/zz3507/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d0
+                          78b1f0607b2388f29d729/server/bin/remote-cli:/home/106/zz3507/.local/bi
+                          n:/home/106/zz3507/bin:/g/data/xf3/miniconda/envs/snakemake/bin:/g/dat
+                          a/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/o
+                          pt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/pbs
+                          /default/bin:/opt/pbs/default/bin:/opt/pbs/default/bin
+          PKG_CONFIG_PATH=/half-root/usr/lib64/pkgconfig
+             PYTHON3_PATH=/g/data/xf3/miniconda/bin/python3
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+
+     active environment : snakemake
+    active env location : /g/data/xf3/miniconda/envs/snakemake
+            shell level : 2
+       user config file : /home/106/zz3507/.condarc
+ populated config files : /home/106/zz3507/.condarc
+          conda version : 23.3.1
+    conda-build version : not installed
+         python version : 3.9.15.final.0
+       virtual packages : __archspec=1=x86_64
+                          __glibc=2.28=0
+                          __linux=4.18.0=0
+                          __unix=0=0
+       base environment : /g/data/xf3/miniconda  (writable)
+      conda av data dir : /g/data/xf3/miniconda/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://conda.anaconda.org/bioconda/linux-64
+                          https://conda.anaconda.org/bioconda/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /g/data/xf3/miniconda/pkgs
+                          /home/106/zz3507/.conda/pkgs
+       envs directories : /g/data/xf3/miniconda/envs
+                          /home/106/zz3507/.conda/envs
+               platform : linux-64
+             user-agent : conda/23.3.1 requests/2.28.1 CPython/3.9.15 Linux/4.18.0-553.8.1.el8.nci.x86_64 rocky/8.10 glibc/2.28
+                UID:GID : 21898:7082
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+

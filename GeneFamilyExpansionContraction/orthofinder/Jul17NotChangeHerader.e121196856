@@ -1,0 +1,29 @@
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1790, in main
+    GetOrthologues(speciesInfoObj, options, prog_caller)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1550, in GetOrthologues
+    orthologues.OrthologuesWorkflow(speciesInfoObj.speciesToUse,
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/orthologues.py", line 974, in OrthologuesWorkflow
+    seqs_alignments_dirs = treeGen.DoTrees(ogSet.OGs(qInclAll=True),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/trees_msa.py", line 413, in DoTrees
+    self.RenameAlignmentTaxa(alignmentFilesToUse, accessionAlignmentFNs, idDict)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/trees_msa.py", line 308, in RenameAlignmentTaxa
+    with open(alignFN, 'r') as infile, open(outAlignFN, 'w') as outfile:
+                                       ^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/orthofinder", line 7, in <module>
+    main(args)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1790, in main
+    GetOrthologues(speciesInfoObj, options, prog_caller)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/__main__.py", line 1550, in GetOrthologues
+    orthologues.OrthologuesWorkflow(speciesInfoObj.speciesToUse, 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/orthologues.py", line 974, in OrthologuesWorkflow
+    seqs_alignments_dirs = treeGen.DoTrees(ogSet.OGs(qInclAll=True), 
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/trees_msa.py", line 413, in DoTrees
+    self.RenameAlignmentTaxa(alignmentFilesToUse, accessionAlignmentFNs, idDict)
+  File "/g/data/xf3/miniconda/envs/orthofinder/bin/scripts_of/trees_msa.py", line 308, in RenameAlignmentTaxa
+    with open(alignFN, 'r') as infile, open(outAlignFN, 'w') as outfile:
+                                       ^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul19/MultipleSequenceAlignments/OG0017837.fa'

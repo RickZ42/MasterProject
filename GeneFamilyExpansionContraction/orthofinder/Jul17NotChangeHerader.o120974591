@@ -1,0 +1,32 @@
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2024-07-17 15:03:27 : Starting OrthoFinder 2.5.5
+96 thread(s) for highly parallel tasks (BLAST searches etc.)
+12 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul17/WorkingDirectory/dependencies/SimpleTest.phy -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul17/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+WARNING: Files have been ignored as they don't appear to be FASTA files:
+.DS_Store
+OrthoFinder expects FASTA files to have one of the following extensions: faa, fas, pep, fasta, fa
+ERROR: Musa_acuminata.faa appears to contain nucleotide sequences instead of amino acid sequences. Use '-d' option
+ERROR: Populus_trichocarpa.faa appears to contain nucleotide sequences instead of amino acid sequences. Use '-d' option
+ERROR: Spirodela_polyrhiza.faa appears to contain nucleotide sequences instead of amino acid sequences. Use '-d' option
+ERROR: An error occurred, ***please review the error messages*** they may contain useful information about the problem.
+
+======================================================================================
+                  Resource Usage on 2024-07-17 15:03:52:
+   Job Id:             120974591.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.83
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:18        
+   Memory Requested:   190.0GB               Memory Used: 1.1GB           
+   Walltime requested: 24:00:00            Walltime Used: 00:00:31        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

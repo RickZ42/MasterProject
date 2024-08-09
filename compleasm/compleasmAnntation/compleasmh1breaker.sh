@@ -13,8 +13,8 @@ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate /g/data/xf3/miniconda/envs/compleasm
 
 
-input_file="/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H1V1.1500K/braker.aa"
-output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H1V1.1500K/compleasm"
+input_file="/g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H1/braker.t1.aa"
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H1/compleasm"
 lineage_dir="/g/data/xf3/zz3507/database/lineage"
 threads=24
 mkdir $output_dir

@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2024-08-06 16:57:45:
+   Job Id:             122401746.gadi-pbs
+   Project:            xf3
+   Exit Status:        137 (Linux Signal 9 SIGKILL Kill, unblockable)
+   Service Units:      18.28
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 00:18:10        
+   Memory Requested:   128.0GB               Memory Used: 128.0GB         
+   Walltime requested: 24:00:00            Walltime Used: 00:17:08        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

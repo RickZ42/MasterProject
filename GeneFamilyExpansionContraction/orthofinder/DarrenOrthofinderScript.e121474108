@@ -1,0 +1,3 @@
+/local/spool/pbs/mom_priv/jobs/121474108.gadi-pbs.SC: line 19: parallel: command not found
+sed: can't read *.fa: No such file or directory
+/local/spool/pbs/mom_priv/jobs/121474108.gadi-pbs.SC: line 59: warning: here-document at line 35 delimited by end-of-file (wanted `EOF')

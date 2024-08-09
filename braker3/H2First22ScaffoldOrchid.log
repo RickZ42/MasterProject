@@ -1,45 +1,40 @@
 #**********************************************************************************
 #                               BRAKER CONFIGURATION                               
 #**********************************************************************************
-# BRAKER CALL: /opt/BRAKER/scripts/braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/RepeatMasker/H2V6.500K/H2V6.500K.first22.fa.masked --workingdir=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KFirst22ScaffoldSubsetRNA --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa --rnaseq_sets_ids=129_S120,130_S121,131_S122,104C_S7,104L_S19,105C_S8,105L_S20,106C_S4,106L_S16,107C_S5,112c_S1,129L_S22,141C_S1,141L_S13,142C_S2,142L_S14,143L_S15,148C_S6,148L_S18,151C_S11,151L_S23,175C_S12,175L_S24,4_S17 --rnaseq_sets_dirs=/g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis --threads 48 --busco_lineage embryophyta_odb10
-# Tue Jul 16 16:03:08 2024: braker.pl version 3.0.8
-# Tue Jul 16 16:03:08 2024:Both protein and RNA-Seq data in input detected. BRAKER will be executed in ETP mode (BRAKER3).
+# BRAKER CALL: /opt/BRAKER/scripts/braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/H2V6.First22.FINAL.sorted.fa.masked --workingdir=/g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H2 --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa --rnaseq_sets_ids=129_S120,130_S121,131_S122,104C_S7,104L_S19,105C_S8,106C_S4,106L_S16,107C_S5,112c_S1,129L_S22,141L_S13,142C_S2,142L_S14,151C_S11,151L_S23,175C_S12,175L_S24,4_S17 --rnaseq_sets_dirs=/g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis --threads 48 --busco_lineage embryophyta_odb10
+# Fri Aug  9 11:45:42 2024: braker.pl version 3.0.8
+# Fri Aug  9 11:45:42 2024:Both protein and RNA-Seq data in input detected. BRAKER will be executed in ETP mode (BRAKER3).
 #*********
-# Tue Jul 16 16:03:08 2024: Configuring of BRAKER for using external tools...
-# Tue Jul 16 16:03:08 2024: Searching for local files of RNA-Seq sets in /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis ...
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_2.fastq.gz for 129_S120.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_2.fastq.gz for 130_S121.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_2.fastq.gz for 131_S122.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_2.fastq.gz for 104C_S7.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_2.fastq.gz for 104L_S19.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_2.fastq.gz for 105C_S8.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105L_S20_2.fastq.gz for 105L_S20.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_2.fastq.gz for 106C_S4.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_2.fastq.gz for 106L_S16.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_2.fastq.gz for 107C_S5.
-# Tue Jul 16 16:03:08 2024 Found unpaired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/112c_S1.fastq.gz for 112c_S1.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_2.fastq.gz for 129L_S22.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141C_S1_2.fastq.gz for 141C_S1.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_2.fastq.gz for 141L_S13.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_2.fastq.gz for 142C_S2.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_2.fastq.gz for 142L_S14.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/143L_S15_2.fastq.gz for 143L_S15.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148C_S6_2.fastq.gz for 148C_S6.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/148L_S18_2.fastq.gz for 148L_S18.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_2.fastq.gz for 151C_S11.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_2.fastq.gz for 151L_S23.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_2.fastq.gz for 175C_S12.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_2.fastq.gz for 175L_S24.
-# Tue Jul 16 16:03:08 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_2.fastq.gz for 4_S17.
-# Tue Jul 16 16:03:08 2024: Trying to set $AUGUSTUS_CONFIG_PATH...
-# Tue Jul 16 16:03:08 2024: Found environment variable $AUGUSTUS_CONFIG_PATH.
-# Tue Jul 16 16:03:08 2024: Checking /opt/Augustus/config/ as potential path for $AUGUSTUS_CONFIG_PATH.
-# Tue Jul 16 16:03:08 2024: Success! Setting $AUGUSTUS_CONFIG_PATH to /opt/Augustus/config/!
-# Tue Jul 16 16:03:08 2024: WARNING: in file /opt/BRAKER/scripts/braker.pl at line 1933
+# Fri Aug  9 11:45:42 2024: Configuring of BRAKER for using external tools...
+# Fri Aug  9 11:45:42 2024: Searching for local files of RNA-Seq sets in /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis ...
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129_S120_2.fastq.gz for 129_S120.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/130_S121_2.fastq.gz for 130_S121.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/131_S122_2.fastq.gz for 131_S122.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104C_S7_2.fastq.gz for 104C_S7.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/104L_S19_2.fastq.gz for 104L_S19.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/105C_S8_2.fastq.gz for 105C_S8.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106C_S4_2.fastq.gz for 106C_S4.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/106L_S16_2.fastq.gz for 106L_S16.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/107C_S5_2.fastq.gz for 107C_S5.
+# Fri Aug  9 11:45:42 2024 Found unpaired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/112c_S1.fastq.gz for 112c_S1.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/129L_S22_2.fastq.gz for 129L_S22.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/141L_S13_2.fastq.gz for 141L_S13.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142C_S2_2.fastq.gz for 142C_S2.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/142L_S14_2.fastq.gz for 142L_S14.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151C_S11_2.fastq.gz for 151C_S11.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/151L_S23_2.fastq.gz for 151L_S23.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175C_S12_2.fastq.gz for 175C_S12.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/175L_S24_2.fastq.gz for 175L_S24.
+# Fri Aug  9 11:45:42 2024 Found paired RNA-Seq reads /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_1.fastq.gz, /g/data/xf3/zz3507/RawData/ctrapeziformis_RNA/trimmed_chiloglottis/4_S17_2.fastq.gz for 4_S17.
+# Fri Aug  9 11:45:42 2024: Trying to set $AUGUSTUS_CONFIG_PATH...
+# Fri Aug  9 11:45:42 2024: Found environment variable $AUGUSTUS_CONFIG_PATH.
+# Fri Aug  9 11:45:42 2024: Checking /opt/Augustus/config/ as potential path for $AUGUSTUS_CONFIG_PATH.
+# Fri Aug  9 11:45:42 2024: Success! Setting $AUGUSTUS_CONFIG_PATH to /opt/Augustus/config/!
+# Fri Aug  9 11:45:42 2024: WARNING: in file /opt/BRAKER/scripts/braker.pl at line 1933
 AUGUSTUS_CONFIG_PATH/species (in this case /opt/Augustus/config//species) is not writeable. BRAKER will try to copy the AUGUSTUS config directory to a writeable location.
-# Tue Jul 16 16:03:08 2024:Both protein and RNA-Seq data in input detected. BRAKER will be executed in ETP mode (BRAKER3).
+# Fri Aug  9 11:45:42 2024:Both protein and RNA-Seq data in input detected. BRAKER will be executed in ETP mode (BRAKER3).
 #*********
-# Tue Jul 16 16:03:09 2024: Log information is stored in file /g/data/xf3/zz3507/Output/AfterHiCProcessing/annotation/braker3/H2V6.500KFirst22ScaffoldSubsetRNA/braker.log
+# Fri Aug  9 11:45:44 2024: Log information is stored in file /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H2/braker.log
 #*********
 # WARNING: Detected whitespace in fasta header of file /g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa. This may later on cause problems! The pipeline will create a new file without spaces or "|" characters and a genome_header.map file to look up the old and new headers. This message will be suppressed from now on!
 #*********
