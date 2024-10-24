@@ -1,0 +1,69 @@
+usage: 
+    catalog.py ortholog species_a species_b
+
+    Run a sensitive pipeline to find orthologs between two species a and b.
+    The pipeline runs LAST and generate .lifted.anchors.
+
+    `--full` mode would assume 1-to-1 quota synteny blocks as the backbone of
+    such predictions. Extra orthologs will be recruited from reciprocal best
+    match (RBH).
+    
+
+options:
+  -h, --help            Show this help message and exit
+  --dbtype {nucl,prot}  Molecule type of subject database [default: nucl]
+  --full                Run in full 1x1 mode, including blocks and RBH
+                        [default: False]
+  --cscore CSCORE       C-score cutoff [default: 0.7]
+  --dist DIST           Extent of flanking regions to search [default: 20]
+  -n N, --min_size N    Minimum number of anchors in a cluster [default: 4]
+  --quota QUOTA         Quota align parameter [default: disabled]
+  --exclude EXCLUDE     Remove anchors from a previous run [default: disabled]
+  --self_remove SELF_REMOVE
+                        Remove self hits that are above this percent identity
+                        [default: 98]
+  --no_strip_names      Do not strip alternative splicing (e.g. At5g06540.1 ->
+                        At5g06540) [default: False]
+  --liftover_dist LIFTOVER_DIST
+                        Distance to extend from liftover. Defaults to half of
+                        --dist [default: disabled]
+  --cpus CPUS           Number of CPUs to use, 0=unlimited [default: 96]
+  --ignore_zero_anchor  Ignore this pair of ortholog identification instead of
+                        throwing an error when performing many pairs of
+                        cataloging. [default: False]
+  --align_soft {last,blast,diamond_blastp}
+                        Sequence alignment software. Default <last> for both
+                        <nucl> and <prot>. Users could also use <blast> for
+                        both <nucl> and <prot>, or <diamond_blastp> for
+                        <prot>. [default: last]
+
+Dot plot parameters:
+  --skipempty           Skip seqids that do not have matches [default: False]
+  --nochpf              Do not change the contig name [default: False]
+  --nostdpf             Do not standardize contig names [default: False]
+  --genomenames GENOMENAMES
+                        Genome names for labeling axes in the form of
+                        qname_sname, eg. "*Vitis vinifera*_*Oryza sativa*"
+                        [default: disabled]
+  --theme {0,1,2,3,4,5,6,7,8}
+                        Color index within the palette for contig grid
+                        boundaries. Palette contains: #E41A1C|#377EB8|#4DAF4A|
+                        #984EA3|#FF7F00|#FFFF33|#A65628|#F781BF|#999999
+                        [default: 2]
+  --notex               Do not use tex [default: False]
+  --no_dotplot          Do not make dotplot [default: False]
+
+JCVI utility libraries 1.4.21 [Copyright (c) 2010-2024, Haibao Tang]
+
+======================================================================================
+                  Resource Usage on 2024-08-17 14:39:52:
+   Job Id:             123090205.gadi-pbs
+   Project:            xf3
+   Exit Status:        1
+   Service Units:      0.28
+   NCPUs Requested:    32                     NCPUs Used: 32              
+                                           CPU Time Used: 00:00:06        
+   Memory Requested:   128.0GB               Memory Used: 640.06MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:16        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

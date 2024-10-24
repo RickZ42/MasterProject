@@ -1,0 +1,23 @@
+Searching for hmmsearch in the path where compleasm.py is located
+Searching for hmmsearch in the current execution path
+Searching for hmmsearch in $PATH
+
+S:84.39%, 1362
+D:8.55%, 138
+F:1.43%, 23
+M:5.64%, 91
+N:1614
+
+
+======================================================================================
+                  Resource Usage on 2024-08-26 16:16:07:
+   Job Id:             123742123.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.85
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:18:38        
+   Memory Requested:   96.0GB                Memory Used: 1.31GB          
+   Walltime requested: 04:00:00            Walltime Used: 00:01:04        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

@@ -1,0 +1,151 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate biopython
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate biopython
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate biopython
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate biopython
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(biopython) '
+++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=biopython
+++ CONDA_DEFAULT_ENV=biopython
+++ export 'CONDA_PROMPT_MODIFIER=(biopython) '
+++ CONDA_PROMPT_MODIFIER='(biopython) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot/PZIJ_H2.V3
++ python -m jcvi.compara.catalog ortholog H2 PZJI --no_strip_names --cscore 0.9 --min_size 15 --dist 5 --full
+[08/22/24 14:43:35] DEBUG    File `H2.PZJI.last` found. Computation base.py:1382
+                             skipped.                                           
+                    DEBUG    File `H2.PZJI.last.filtered` found.    base.py:1382
+                             Computation skipped.                               
+                    DEBUG    File `H2.PZJI.anchors` found.          base.py:1382
+                             Computation skipped.                               
+                    DEBUG    File `H2.PZJI.1x1.anchors` found.      base.py:1382
+                             Computation skipped.                               
+                    DEBUG    File `H2.PZJI.1x1.lifted.anchors`      base.py:1382
+                             found. Computation skipped.                        
+                    DEBUG    File `H2.PZJI.1x1.blocks,              base.py:1382
+                             PZJI.H2.1x1.blocks` found. Computation             
+                             skipped.                                           
+                    DEBUG    File `H2.PZJI.rbh` found. Computation  base.py:1382
+                             skipped.                                           
+                    DEBUG    File `H2.PZJI.ortholog,                base.py:1382
+                             PZJI.H2.ortholog` found. Computation               
+                             skipped.                                           
++ python -m jcvi.graphics.dotplot H2.PZJI.anchors
+[08/22/24 14:43:37] DEBUG    Assuming --qbed=H2.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+[08/22/24 14:43:38] DEBUG    Showing a random subset of 10000     dotplot.py:233
+                             data points (total 11100) for                      
+                             clarity.                                           
+                    DEBUG    xsize=16559 ysize=24377              dotplot.py:349
+[08/22/2024 02:43:38 PM] DEBUG    Dot plot title: Inter-genomic   dotplot.py:393
+                                  comparison: H2 vs PZJI (11,100                
+                                  gene pairs)                                   
+                         DEBUG    Matplotlib backend is: Agg         base.py:331
+[08/22/2024 02:43:40 PM] DEBUG    Figure saved to `H2.PZJI.pdf`      base.py:345
+                                  (810px x 810px)                               
++ python -m jcvi.compara.synteny screen --minspan=30 --simple H2.PZJI.lifted.anchors H2.PZJI.lifted.anchors.simple
+[08/22/24 14:43:41] DEBUG    Load file `H2.PZJI.lifted.anchors`       base.py:36
+                    DEBUG    Assuming --qbed=H2.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Load file                                base.py:36
+                             `H2.PZJI.lifted.anchors.simple`                    
+                    DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    A total of 149 blocks written to    synteny.py:1197
+                             `H2.PZJI.lifted.anchors.simple`.                   
+                    DEBUG    Before: 187 blocks, After: 149      synteny.py:1349
+                             blocks                                             
++ python -m jcvi.graphics.karyotype seqids layout
+[08/22/24 14:43:43] DEBUG    Load file `layout`                       base.py:36
+                    DEBUG    Load file `H2.bed`                       base.py:36
+[08/22/24 14:43:44] DEBUG    Load file `PZJI.bed`                     base.py:36
+                    INFO     Processing                         karyotype.py:365
+                             `H2_3,H2_11,H2_4,H2_9,H2_1,H2_10,H                 
+                             2_6,H2_5,H2_8,H2_12,H2_16,H2_18,H2                 
+                             _14,H2_15,H2_19,H2_7,H2_13,H2_17,H                 
+                             2_20,H2_2` (track 0)                               
+                    INFO     Processing                         karyotype.py:365
+                             `CM077085.1,CM077086.1,CM077098.1,                 
+                             CM077088.1,CM077083.1,CM077082.1,C                 
+                             M077090.1,CM077092.1,CM077081.1,CM                 
+                             077096.1,CM077093.1,CM077084.1,CM0                 
+                             77080.1,CM077095.1,CM077091.1,CM07                 
+                             7097.1,CM077089.1,CM077087.1,CM077                 
+                             079.1,CM077078.1,CM077094.1`                       
+                             (track 1)                                          
+[08/22/24 14:43:45] DEBUG    Matplotlib backend is: Agg              base.py:331
+[08/22/24 14:43:48] DEBUG    Figure saved to `karyotype.pdf` (2400px base.py:345
+                             x 2100px)                                          

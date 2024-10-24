@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -P xf3
+#PBS -P fa63
 #PBS -q normal
 #PBS -l walltime=24:00:00
 #PBS -l ncpus=48
@@ -12,4 +12,4 @@
 source /g/data/xf3/miniconda/etc/profile.d/conda.sh
 conda activate orthofinder
 
-orthofinder -t 40 -a 8 -f /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset -I 1.3 -M msa 
+orthofinder -t 40 -a 8 -f /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDatasetH1 -I 1.3 -M msa 

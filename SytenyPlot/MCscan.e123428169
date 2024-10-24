@@ -1,0 +1,159 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate biopython
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate biopython
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate biopython
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate biopython
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(biopython) '
+++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=biopython
+++ CONDA_DEFAULT_ENV=biopython
+++ export 'CONDA_PROMPT_MODIFIER=(biopython) '
+++ CONDA_PROMPT_MODIFIER='(biopython) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot/H1vsH2.V3
++ python -m jcvi.compara.catalog ortholog H1 H2 --no_strip_names --min_size 5 --dist 35
+[08/22/24 11:40:38] DEBUG    lastdb H2 H2.cds                       base.py:1191
+[08/22/24 11:40:46] DEBUG    lastal -u 0 -i3G -f BlastTab -P 96 H2  base.py:1191
+                             H1.cds >./H1.H2.last                               
+[08/22/24 11:41:03] DEBUG    Assuming --qbed=H1.bed --sbed=H2.bed synteny.py:390
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    Load BLAST file `H1.H2.last`      blastfilter.py:45
+                             (total 161850 lines)                               
+                    DEBUG    Load file `H1.H2.last`                   base.py:36
+[08/22/24 11:41:04] DEBUG    running the cscore filter        blastfilter.py:107
+                             (cscore>=0.70) ..                                  
+                    DEBUG    after filter (128174->8373) ..   blastfilter.py:109
+                    DEBUG    running the local dups filter    blastfilter.py:114
+                             (tandem_Nmax=10) ..                                
+                    DEBUG    after filter (8373->8093) ..     blastfilter.py:154
+                    DEBUG    Assuming --qbed=H1.bed --sbed=H2.bed synteny.py:390
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    Load file `H1.H2.last.filtered`          base.py:36
+                    DEBUG    A total of 8093 BLAST imported from  synteny.py:277
+                             `H1.H2.last.filtered`.                             
+                    DEBUG    Chaining distance = 35              synteny.py:1794
+                    DEBUG    Load file `H1.H2.anchors`                base.py:36
+A total of 8001 (NR:7995) anchors found in 25 clusters.
+Stats: Min=9 Max=746 N=25 Mean=320.04 SD=189.34 Median=311.0 Sum=8001
+NR stats: Min=9 Max=746 N=25 Mean=319.80 SD=189.20 Median=310.0 Sum=7995
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `H2.bed`                       base.py:36
+[08/22/24 11:41:05] DEBUG    Load file `H1.H2.last`                   base.py:36
+                    DEBUG    A total of 128178 BLAST imported     synteny.py:277
+                             from `H1.H2.last`.                                 
+                    DEBUG    Load file `H1.H2.anchors`                base.py:36
+                    DEBUG    A total of 8001 anchors imported.    synteny.py:303
+                    DEBUG    10979 new pairs found (dist=17).    synteny.py:1872
+                    DEBUG    Removed 0 existing anchors               base.py:79
+                    DEBUG    Corrected scores for 54 anchors          base.py:82
+                    DEBUG    Anchors written to                       base.py:98
+                             `H1.H2.lifted.anchors`                             
+                    DEBUG    Load file `H1.H2.lifted.anchors`         base.py:36
+A total of 18980 (NR:15514) anchors found in 25 clusters.
+Stats: Min=22 Max=1649 N=25 Mean=759.20 SD=431.97 Median=681.0 Sum=18980
+NR stats: Min=20 Max=1424 N=25 Mean=620.56 SD=361.11 Median=592.0 Sum=15514
+                    DEBUG    Assuming --qbed=H1.bed --sbed=H2.bed synteny.py:390
+                    DEBUG    Load file `H1.bed`                       base.py:36
+[08/22/24 11:41:06] DEBUG    Load file `H2.bed`                       base.py:36
+                    DEBUG    xsize=16370 ysize=16559              dotplot.py:349
+[08/22/2024 11:41:07 AM] DEBUG    Dot plot title: Inter-genomic   dotplot.py:393
+                                  comparison: H1 vs H2 (8,001                   
+                                  gene pairs)                                   
+                         DEBUG    Matplotlib backend is: Agg         base.py:331
+[08/22/2024 11:41:20 AM] DEBUG    Figure saved to `H1.H2.pdf` (810px base.py:345
+                                  x 810px)                                      
++ python -m jcvi.graphics.karyotype seqids layout
+[08/22/24 11:41:26] DEBUG    Load file `layout`                       base.py:36
+                    DEBUG    Load file `H1.bed`                       base.py:36
+[08/22/24 11:41:27] DEBUG    Load file `H2.bed`                       base.py:36
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/graphics/karyotype.py", line 475, in <module>
+    main(sys.argv[1:])
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/graphics/karyotype.py", line 455, in main
+    Karyotype(
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/graphics/karyotype.py", line 357, in __init__
+    layout = Layout(layoutfile, generank=generank, seed=seed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/graphics/karyotype.py", line 90, in __init__
+    blocks = self.parse_blocks(fn, i)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/graphics/karyotype.py", line 99, in parse_blocks
+    return SimpleFile(simplefile, order=order).blocks
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xf3/miniconda/envs/biopython/lib/python3.12/site-packages/jcvi/compara/synteny.py", line 164, in __init__
+    fp = open(simplefile)
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'H1.H2.anchors.simple'

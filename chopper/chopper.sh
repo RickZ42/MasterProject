@@ -20,7 +20,7 @@ input_files=("/g/data/xf3/rick/Output/fastqsimplex/DoradoSup278simplex.fq.gz" "/
 output_dir="/g/data/xf3/rick/Output/chopper_output"
 
 # Set the minimum read length (in bases)
-min_length=10000
+min_length=1000
 
 
 # Create the output directory if it doesn't exist

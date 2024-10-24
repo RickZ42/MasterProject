@@ -1,0 +1,8 @@
+mkdir: cannot create directory '/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/HiC': File exists
++ /g/data/xf3/zz3507/envs/yahs/juicer post -o out_JBATH1 /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/17AUGH1V3HiCFFF.review.assembly /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2HiCFinal/out_JBAT.liftover.agp /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+[I::main_post] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 217
+[I::write_fasta_file_from_agp] Number bases: 1683122089
+[I::main_post] Version: 1.2
+[I::main_post] CMD: juicer post -o out_JBATH1 /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/17AUGH1V3HiCFFF.review.assembly /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2HiCFinal/out_JBAT.liftover.agp /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/assemblyQ720KOntHifiHiCBigger50Kcontig.hic.hap1_ctg.fasta
+[I::main_post] Real time: 28.057 sec; CPU: 27.775 sec; Peak RSS: 3.200 GB

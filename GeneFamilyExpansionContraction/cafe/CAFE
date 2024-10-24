@@ -9,5 +9,5 @@
 #PBS -m abe
 #PBS -M Zirui.Zhang@anu.edu.au 
 
-/g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/CAFE/Orthogroups.GeneCount_No000.005.007.025.001.010.008.027.021.filted.txt \
--t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/Species_Tree/SpeciesTree_rooted.txt
+/g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -k 3 -P 0.05 -I 1000 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Orthogroups/Orthogroups.GeneCount_100.txt \
+-t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Species_Tree/SpeciesTree_rooted.txt -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/CAFE

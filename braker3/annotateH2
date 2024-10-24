@@ -9,11 +9,13 @@
 #PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2+gdata/fa63
 #PBS -P xf3
 
+#Just change the wd and genome
+
 set -xue
 module load singularity
-wd=/g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/H2
+wd=/g/data/xf3/zz3507/Output/AfterHiCProcessing/annotationV3.20Chromesome/H2
 export BRAKER_SIF=/g/data/xf3/zz3507/app/braker3.sif
-singularity exec -B ${PWD}:${PWD} ${BRAKER_SIF} braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H2reference/H2V6/H2V6.First22.FINAL.sorted.fa.masked \
+singularity exec -B ${PWD}:${PWD} ${BRAKER_SIF} braker.pl --genome=/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H2/Genome/AUG17H2V7FFF.500K.20scaffold.fa.masked \
 --workingdir=${wd} \
 --prot_seq=/g/data/xf3/zz3507/RawData/OrchidProteins/merged_proteins_orchid.faa \
 --rnaseq_sets_ids=129_S120,130_S121,131_S122,104C_S7,104L_S19,105C_S8,106C_S4,106L_S16,107C_S5,112c_S1,129L_S22,141L_S13,142C_S2,142L_S14,151C_S11,151L_S23,175C_S12,175L_S24,4_S17 \

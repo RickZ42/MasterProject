@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#PBS -P xf3
+#PBS -q express
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=32
+#PBS -l mem=128GB
+#PBS -l jobfs=400GB
+#PBS -l storage=scratch/xf3+gdata/xf3+gdata/xe2+gdata/if89
+#PBS -l wd
+
+set -xue
+
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate biopython
+export PATH=$PATH:/g/data/xf3/zz3507/app/last-1550/bin
+
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot/PZIJ_H2.V3
+
+python -m jcvi.compara.catalog ortholog H2 PZJI --no_strip_names --cscore 0.95 --min_size 50 --dist 5 --full
+
+python -m jcvi.graphics.dotplot H2.PZJI.anchors
+
+python -m jcvi.compara.synteny screen --minspan=30 --simple H2.PZJI.lifted.anchors H2.PZJI.lifted.anchors.simple
+
+python -m jcvi.graphics.karyotype seqids layout

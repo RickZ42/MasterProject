@@ -1,0 +1,17 @@
+
+Command line: /g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -k 3 -P 0.01 -I 1000 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Orthogroups/Orthogroups.GeneCount_100.tsv -t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Species_Tree/SpeciesTree_rooted.txt -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/CAFE 
+Vitis_vinifera was not found in gene family OG0000416
+
+
+======================================================================================
+                  Resource Usage on 2024-09-06 16:01:49:
+   Job Id:             124351955.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.16
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   190.0GB               Memory Used: 303.17MB        
+   Walltime requested: 24:00:00            Walltime Used: 00:00:06        
+   JobFS requested:    400.0GB                JobFS used: 207.0B          
+======================================================================================

@@ -1,0 +1,191 @@
+
+Command line: /g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/CAFE/filtered_output_file_50.txt -t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Jul23/Species_Tree/SpeciesTree_rooted.txt -o result_50 
+
+Filtering families not present at the root from: 17517 to 10532
+
+No root family size distribution specified, using uniform distribution
+
+Optimizer strategy: Nelder-Mead with similarity cutoff
+Iterations: 300
+Expansion: 2
+Reflection: 1
+
+Starting Search for Initial Parameter Values
+Lambda: 0.17850303734312
+Score (-lnL): 672777.51405682
+Lambda: 0.17850303734312
+Score (-lnL): 672777.51405682
+Lambda: 0.18742818921027
+Score (-lnL): 665181.22541356
+Lambda: 0.19635334107743
+Score (-lnL): 658002.75068736
+Lambda: 0.20527849294458
+Score (-lnL): 651204.55995558
+Lambda: 0.22312879667889
+Score (-lnL): 638622.20557432
+Lambda: 0.24097910041321
+Score (-lnL): 627217.04666364
+Lambda: 0.27667970788183
+Score (-lnL): 607290.30182232
+Lambda: 0.31238031535045
+Score (-lnL): 590419.57860307
+Lambda: 0.3837815302877
+Score (-lnL): 563338.59509539
+Lambda: 0.45518274522495
+Score (-lnL): 542548.52469091
+Lambda: 0.59798517509944
+Score (-lnL): 512921.76340608
+Lambda: 0.74078760497393
+Score (-lnL): 493232.74799797
+Lambda: 1.0263924647229
+Score (-lnL): 470142.52347492
+Lambda: 1.3119973244719
+Score (-lnL): 458808.51243618
+Lambda: 1.8832070439699
+Score (-lnL): 452250.95656165
+Lambda: 2.4544167634678
+Score (-lnL): 455204.19205205
+Lambda: 2.4544167634678
+Score (-lnL): 455204.19205205
+Lambda: 1.3119973244719
+Score (-lnL): 458808.51243618
+Lambda: 1.5976021842209
+Score (-lnL):   453714.324823
+Lambda: 2.1688119037189
+Score (-lnL): 453019.80383241
+Lambda: 1.5976021842209
+Score (-lnL):   453714.324823
+Lambda: 1.7404046140954
+Score (-lnL): 452634.64002012
+Lambda: 2.0260094738444
+Score (-lnL): 452416.72400807
+Lambda: 1.7404046140954
+Score (-lnL): 452634.64002012
+Lambda: 1.8118058290326
+Score (-lnL): 452365.90912229
+Lambda: 1.9546082589071
+Score (-lnL): 452272.89101524
+Lambda: 1.8118058290326
+Score (-lnL): 452365.90912229
+Lambda: 1.8475064365012
+Score (-lnL):  452290.3287264
+Lambda: 1.9189076514385
+Score (-lnL): 452245.77083162
+Lambda: 1.9546082589071
+Score (-lnL): 452272.89101524
+Lambda: 1.9367579551728
+Score (-lnL): 452255.40877344
+Lambda: 1.9010573477042
+Score (-lnL): 452244.21363839
+Lambda: 1.8832070439699
+Score (-lnL): 452250.95656165
+Lambda:  1.892132195837
+Score (-lnL): 452246.53171327
+Lambda: 1.9099824995713
+Score (-lnL): 452243.96635711
+Lambda: 1.9189076514385
+Score (-lnL): 452245.77083162
+Lambda: 1.9144450755049
+Score (-lnL): 452244.61396292
+Lambda: 1.9055199236378
+Score (-lnL): 452243.83209299
+Lambda: 1.9010573477042
+Score (-lnL): 452244.21363839
+Lambda:  1.903288635671
+Score (-lnL): 452243.95818768
+Lambda: 1.9077512116045
+Score (-lnL):  452243.8349418
+Lambda:  1.903288635671
+Score (-lnL): 452243.95818768
+Lambda: 1.9044042796544
+Score (-lnL): 452243.87889636
+Lambda: 1.9066355676212
+Score (-lnL): 452243.81748015
+Lambda: 1.9077512116045
+Score (-lnL):  452243.8349418
+Lambda: 1.9071933896129
+Score (-lnL):  452243.8221974
+Lambda: 1.9060777456295
+Score (-lnL): 452243.82080451
+Lambda: 1.9071933896129
+Score (-lnL):  452243.8221974
+Lambda:  1.906914478617
+Score (-lnL): 452243.81885334
+Lambda: 1.9063566566253
+Score (-lnL): 452243.81813024
+Lambda:  1.906914478617
+Score (-lnL): 452243.81885334
+Lambda: 1.9067750231191
+Score (-lnL): 452243.81791389
+Lambda: 1.9064961121232
+Score (-lnL): 452243.81755223
+Lambda: 1.9067750231191
+Score (-lnL): 452243.81791389
+Lambda: 1.9067052953701
+Score (-lnL):  452243.8176338
+Lambda: 1.9065658398722
+Score (-lnL): 452243.81745296
+Lambda: 1.9064961121232
+Score (-lnL): 452243.81755223
+Lambda: 1.9065309759977
+Score (-lnL): 452243.81748679
+Lambda: 1.9066007037467
+Score (-lnL): 452243.81745074
+Lambda: 1.9066355676212
+Score (-lnL): 452243.81748015
+Lambda: 1.9066181356839
+Score (-lnL):  452243.8174615
+Lambda: 1.9065832718094
+Score (-lnL):  452243.8174479
+Lambda: 1.9065658398722
+Score (-lnL): 452243.81745296
+Lambda: 1.9065745558408
+Score (-lnL): 452243.81744944
+Lambda: 1.9065919877781
+Score (-lnL): 452243.81744833
+Lambda: 1.9065745558408
+Score (-lnL): 452243.81744944
+Lambda: 1.9065789138251
+Score (-lnL): 452243.81744842
+Lambda: 1.9065876297937
+Score (-lnL): 452243.81744787
+Lambda: 1.9065919877781
+Score (-lnL): 452243.81744833
+Lambda: 1.9065898087859
+Score (-lnL): 452243.81744804
+Lambda: 1.9065854508016
+Score (-lnL): 452243.81744782
+Lambda: 1.9065832718094
+Score (-lnL):  452243.8174479
+Lambda: 1.9065843613055
+Score (-lnL): 452243.81744784
+
+Completed 35 iterations
+Time: 0H 0M 44S
+Best match is: 1.9065854508016
+Final -lnL: 452243.81744782
+
+74 values were attempted (0% rejected)
+
+Inferring processes for Base model
+Score (-lnL): 452243.81744782
+Maximum possible lambda for this topology: 2.9019826345359
+Computing pvalues...
+done!
+
+Starting reconstruction processes for Base model
+Done!
+
+
+======================================================================================
+                  Resource Usage on 2024-08-20 18:14:23:
+   Job Id:             123288905.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      3.57
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:43:37        
+   Memory Requested:   190.0GB               Memory Used: 1.27GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:02:14        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

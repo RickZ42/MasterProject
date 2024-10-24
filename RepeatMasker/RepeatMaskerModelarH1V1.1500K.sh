@@ -10,6 +10,6 @@
 #PBS -P fa63
 set -xue
 export PATH=/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatMasker:/g/data/xf3/zz3507/app/RepeatMaskerV2/RepeatMasker_setup/RepeatModeler:$PATH
-cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/RepeatMasker/H1V2.sorted
-RepeatMasker -pa 24 -e rmblast -gff -xsmall -lib /g/data/xf3/zz3507/Output/AfterHiCProcessing/AnnotationV2/RepeatModeler/H1V2.sorted/H1V2/H1V2Jul8Reference.FINAL.500K.22scaffold.sorted-families.fa \
-/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V2H2V6ReferenceFinal20240711/H1reference/0708H1V2FastaJul9/H1V2Jul8Reference.FINAL.500K.22scaffold.sorted.fa
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/RepeatMasker
+RepeatMasker -pa 24 -e rmblast -gff -xsmall -lib /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/RepeatModeler/123094750.gadi-pbs/AUG17H1V3FFF.500K.20scaffold-families.fa \
+/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/H1/Genome/AUG17H1V3FFF.500K.20scaffold.fa

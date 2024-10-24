@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#PBS -l ncpus=32
+#PBS -l mem=180GB
+#PBS -l jobfs=100GB
+#PBS -q normal
+#PBS -P fa63
+#PBS -l walltime=48:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3
+#PBS -l wd
+#PBS -m abe
+
+set -xue
+module load samtools
+
+cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/MapHiFiReads/
+# Set the input SAM files
+SAM_FILE1="./AUG17H1H2Merged.sam"
+
+# Set the output BAM file names
+BAM_FILE1="./AUG17H1H2Merged.bam"
+
+# Convert SAM to BAM using samtools
+samtools view -b -@32 $SAM_FILE1 -o $BAM_FILE1
+
+# Sort the BAM files
+samtools sort -@32 $BAM_FILE1 -o ${BAM_FILE1%.bam}_sorted.bam
+
+# Index the sorted BAM files
+samtools index  ${BAM_FILE1%.bam}_sorted.bam
+
+output_dir="/g/data/xf3/zz3507/Output/AfterHiCProcessing/H1V3H2V7ReferenceAUG17FFF/MapHiFiReads/"
+cd $output_dir
+
+set -xue
+source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+conda activate /g/data/xf3/miniconda/envs/bamtocov
+
+bamtocov -o bamtocovReport.txt ${BAM_FILE1%.bam}_sorted.bam

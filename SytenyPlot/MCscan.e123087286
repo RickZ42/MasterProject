@@ -1,0 +1,141 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate biopython
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate biopython
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate biopython
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate biopython
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(biopython) '
+++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=biopython
+++ CONDA_DEFAULT_ENV=biopython
+++ export 'CONDA_PROMPT_MODIFIER=(biopython) '
+++ CONDA_PROMPT_MODIFIER='(biopython) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot/ToPZIJ
++ python -m jcvi.compara.catalog ortholog H1 PZJI --no_strip_names
+[08/17/24 13:18:38] DEBUG    lastdb PZJI PZJI.cds                   base.py:1191
+[08/17/24 13:18:52] DEBUG    lastal -u 0 -i3G -f BlastTab -P 96     base.py:1191
+                             PZJI H1.cds >./H1.PZJI.last                        
+[08/17/24 13:18:57] DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Load BLAST file `H1.PZJI.last`    blastfilter.py:45
+                             (total 175513 lines)                               
+                    DEBUG    Load file `H1.PZJI.last`                 base.py:36
+[08/17/24 13:18:58] DEBUG    running the cscore filter        blastfilter.py:107
+                             (cscore>=0.70) ..                                  
+                    DEBUG    after filter (138046->17551) ..  blastfilter.py:109
+                    DEBUG    running the local dups filter    blastfilter.py:114
+                             (tandem_Nmax=10) ..                                
+                    DEBUG    after filter (17551->15120) ..   blastfilter.py:154
+                    DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Load file `H1.PZJI.last.filtered`        base.py:36
+                    DEBUG    A total of 15120 BLAST imported from synteny.py:277
+                             `H1.PZJI.last.filtered`.                           
+[08/17/24 13:18:59] DEBUG    Chaining distance = 20              synteny.py:1794
+                    DEBUG    Load file `H1.PZJI.anchors`              base.py:36
+A total of 10885 (NR:10748) anchors found in 322 clusters.
+Stats: Min=4 Max=300 N=322 Mean=33.80 SD=42.60 Median=19.0 Sum=10885
+NR stats: Min=4 Max=299 N=322 Mean=33.38 SD=42.17 Median=18.0 Sum=10748
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Load file `H1.PZJI.last`                 base.py:36
+[08/17/24 13:19:00] DEBUG    A total of 138046 BLAST imported     synteny.py:277
+                             from `H1.PZJI.last`.                               
+                    DEBUG    Load file `H1.PZJI.anchors`              base.py:36
+                    DEBUG    A total of 10885 anchors imported.   synteny.py:303
+                    DEBUG    4159 new pairs found (dist=10).     synteny.py:1872
+                    DEBUG    Removed 2 existing anchors               base.py:79
+                    DEBUG    Corrected scores for 394 anchors         base.py:82
+                    DEBUG    Anchors written to                       base.py:98
+                             `H1.PZJI.lifted.anchors`                           
+                    DEBUG    Load file `H1.PZJI.lifted.anchors`       base.py:36
+A total of 15042 (NR:11686) anchors found in 322 clusters.
+Stats: Min=4 Max=431 N=322 Mean=46.71 SD=61.10 Median=24.0 Sum=15042
+NR stats: Min=4 Max=328 N=322 Mean=36.29 SD=45.87 Median=20.0 Sum=11686
+                    DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Showing a random subset of 10000     dotplot.py:233
+                             data points (total 10885) for                      
+                             clarity.                                           
+                    DEBUG    xsize=16497 ysize=24377              dotplot.py:349
+[08/17/2024 01:19:01 PM] DEBUG    Dot plot title: Inter-genomic   dotplot.py:393
+                                  comparison: H1 vs PZJI (10,885                
+                                  gene pairs)                                   
+                         DEBUG    Matplotlib backend is: Agg         base.py:331
+[08/17/2024 01:19:04 PM] DEBUG    Figure saved to `H1.PZJI.pdf`      base.py:345
+                                  (810px x 810px)                               

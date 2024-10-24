@@ -1,0 +1,239 @@
++ source /g/data/xf3/miniconda/etc/profile.d/conda.sh
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ '[' -z x ']'
++ conda activate biopython
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate biopython
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate biopython
+++ /g/data/xf3/miniconda/bin/conda shell.posix activate biopython
++ ask_conda='. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
++ eval '. "/g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh"
+PS1='\''(biopython) '\''
+export PATH='\''/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin'\''
+export CONDA_PREFIX='\''/g/data/xf3/miniconda/envs/biopython'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''biopython'\''
+export CONDA_PROMPT_MODIFIER='\''(biopython) '\''
+export CONDA_PREFIX_1='\''/g/data/xf3/miniconda'\''
+export CONDA_EXE='\''/g/data/xf3/miniconda/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/g/data/xf3/miniconda/bin/python'\'''
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /g/data/xf3/miniconda/etc/conda/deactivate.d/deactivate-r-base.sh
++++ [[ ! -z '' ]]
++++ unset RSTUDIO_WHICH_R
+++ PS1='(biopython) '
+++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ CONDA_PREFIX=/g/data/xf3/miniconda/envs/biopython
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=biopython
+++ CONDA_DEFAULT_ENV=biopython
+++ export 'CONDA_PROMPT_MODIFIER=(biopython) '
+++ CONDA_PROMPT_MODIFIER='(biopython) '
+++ export CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ CONDA_PREFIX_1=/g/data/xf3/miniconda
+++ export CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ CONDA_EXE=/g/data/xf3/miniconda/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
+++ CONDA_PYTHON_EXE=/g/data/xf3/miniconda/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ PATH=/g/data/xf3/miniconda/envs/biopython/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin:/g/data/xf3/zz3507/app/last-1550/bin
++ cd /g/data/xf3/zz3507/Output/AfterHiCProcessing/syteny_plot/ToPZIJ
++ python -m jcvi.compara.catalog ortholog H1 PZJI --no_strip_names
+[08/16/24 11:45:17] DEBUG    lastdb PZJI PZJI.cds                   base.py:1191
+[08/16/24 11:45:31] DEBUG    lastal -u 0 -i3G -f BlastTab -P 96     base.py:1191
+                             PZJI H1.cds >./H1.PZJI.last                        
+[08/16/24 11:45:36] DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+[08/16/24 11:45:37] DEBUG    Load BLAST file `H1.PZJI.last`    blastfilter.py:45
+                             (total 175513 lines)                               
+                    DEBUG    Load file `H1.PZJI.last`                 base.py:36
+                    WARNING  mrna_18884 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_22465 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_19500 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_12220 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_3838 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_16244 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_187 not in PZJI.bed          blastfilter.py:71
+                    WARNING  mrna_16919 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_23899 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_3531 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_16671 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11128 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_16515 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_10143 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_12286 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_14985 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_14034 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_13697 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_3770 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_10614 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_3504 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_22397 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_7647 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_13732 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_21227 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_23384 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_2994 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_13389 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_7949 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_13733 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_8063 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_18674 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_8917 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_4774 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_12286 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_21083 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_17326 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_15397 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_15385 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_12573 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_13152 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_1388 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_11856 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_9698 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_164 not in PZJI.bed          blastfilter.py:71
+                    WARNING  mrna_18067 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_8526 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_121 not in PZJI.bed          blastfilter.py:71
+                    WARNING  mrna_22960 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_5425 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_24187 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_1447 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_16672 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_21105 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_20272 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_18886 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_20592 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_24166 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_13077 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_4788 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_19686 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_19143 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_8535 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_8150 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_15924 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_14980 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11886 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_17627 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_5643 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_19361 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_15666 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_22001 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_497 not in PZJI.bed          blastfilter.py:71
+                    WARNING  mrna_16389 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_19165 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_24346 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_21078 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_22020 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_6846 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_24370 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_12605 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_13105 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11863 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11891 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_18455 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_19836 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_21767 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_8591 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_20254 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_1018 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_15281 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_17383 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11224 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_3587 not in PZJI.bed         blastfilter.py:71
+                    WARNING  mrna_12260 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11724 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_23456 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_11653 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_19841 not in PZJI.bed        blastfilter.py:71
+                    WARNING  mrna_4281 not in PZJI.bed         blastfilter.py:71
+                    WARNING  too many warnings.. suppressed    blastfilter.py:73
+                    DEBUG    running the cscore filter        blastfilter.py:107
+                             (cscore>=0.70) ..                                  
+                    DEBUG    after filter (11827->2198) ..    blastfilter.py:109
+                    DEBUG    running the local dups filter    blastfilter.py:114
+                             (tandem_Nmax=10) ..                                
+                    DEBUG    after filter (2198->2029) ..     blastfilter.py:154
+                    DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+[08/16/24 11:45:38] DEBUG    Load file `H1.PZJI.last.filtered`        base.py:36
+                    DEBUG    A total of 2029 BLAST imported from  synteny.py:277
+                             `H1.PZJI.last.filtered`.                           
+                    DEBUG    Chaining distance = 20              synteny.py:1794
+                    DEBUG    Load file `H1.PZJI.anchors`              base.py:36
+A total of 875 (NR:872) anchors found in 119 clusters.
+Stats: Min=4 Max=28 N=119 Mean=7.35 SD=4.33 Median=6.0 Sum=875
+NR stats: Min=4 Max=28 N=119 Mean=7.33 SD=4.29 Median=6.0 Sum=872
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+                    DEBUG    Load file `H1.PZJI.last`                 base.py:36
+                    DEBUG    A total of 11827 BLAST imported from synteny.py:277
+                             `H1.PZJI.last`.                                    
+                    DEBUG    Load file `H1.PZJI.anchors`              base.py:36
+                    DEBUG    A total of 875 anchors imported.     synteny.py:303
+                    DEBUG    193 new pairs found (dist=10).      synteny.py:1872
+                    DEBUG    Removed 0 existing anchors               base.py:79
+                    DEBUG    Corrected scores for 22 anchors          base.py:82
+                    DEBUG    Anchors written to                       base.py:98
+                             `H1.PZJI.lifted.anchors`                           
+                    DEBUG    Load file `H1.PZJI.lifted.anchors`       base.py:36
+A total of 1068 (NR:902) anchors found in 119 clusters.
+Stats: Min=4 Max=36 N=119 Mean=8.97 SD=5.83 Median=7.0 Sum=1068
+NR stats: Min=4 Max=29 N=119 Mean=7.58 SD=4.43 Median=6.0 Sum=902
+                    DEBUG    Assuming --qbed=H1.bed               synteny.py:390
+                             --sbed=PZJI.bed                                    
+                    DEBUG    Load file `H1.bed`                       base.py:36
+                    DEBUG    Load file `PZJI.bed`                     base.py:36
+[08/16/24 11:45:39] DEBUG    xsize=16497 ysize=24377              dotplot.py:349
+[08/16/2024 11:45:40 AM] DEBUG    Dot plot title: Inter-genomic   dotplot.py:393
+                                  comparison: H1 vs PZJI (875                   
+                                  gene pairs)                                   
+                         DEBUG    Matplotlib backend is: Agg         base.py:331
+[08/16/2024 11:45:53 AM] DEBUG    Figure saved to `H1.PZJI.pdf`      base.py:345
+                                  (810px x 810px)                               

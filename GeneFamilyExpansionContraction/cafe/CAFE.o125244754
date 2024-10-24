@@ -1,0 +1,389 @@
+
+Command line: /g/data/xf3/zz3507/app/cafe/CAFE5/bin/cafe5 -c 48 -k 3 -P 0.05 -I 1000 -i /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Orthogroups/Orthogroups.GeneCount_100.txt -t /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/Species_Tree/SpeciesTree_rooted.txt -o /g/data/xf3/zz3507/database/GeneFamilyExpentionContractionDataset/OrthoFinder/Results_Sep05/CAFE 
+
+Filtering families not present at the root from: 24153 to 8982
+
+No root family size distribution specified, using uniform distribution
+
+Optimizer strategy: Nelder-Mead with similarity cutoff
+Iterations: 1000
+Expansion: 2
+Reflection: 1
+
+Starting Search for Initial Parameter Values
+Attempting lambda: 0.36319105588751, alpha: 0.908543
+Score (-lnL):  368554.7138929
+Attempting lambda: 0.36319105588751, alpha: 0.90854344953005
+Score (-lnL):  368554.7138929
+Attempting lambda: 0.38135060868189, alpha: 0.90854344953005
+Score (-lnL): 366175.48160839
+Attempting lambda: 0.36319105588751, alpha: 0.95397062200655
+Score (-lnL): 369116.84808108
+Attempting lambda: 0.38135060868189, alpha: 0.86311627705354
+Score (-lnL): 365626.57951888
+Attempting lambda: 0.39043038507908, alpha: 0.81768910457704
+Score (-lnL): 363989.00298196
+Attempting lambda: 0.40858993787345, alpha: 0.81768910457704
+Score (-lnL): 362007.44585856
+Attempting lambda: 0.43128937886642, alpha: 0.77226193210054
+Score (-lnL): 359304.71500599
+Attempting lambda: 0.44036915526361, alpha: 0.68140758714753
+Score (-lnL): 357529.11576738
+Attempting lambda: 0.46987842855447, alpha: 0.56783965595628
+Score (-lnL):  354214.4701473
+Attempting lambda: 0.51073742234181, alpha: 0.52241248347978
+Score (-lnL): 351605.96014484
+Attempting lambda: 0.57089094097318, alpha: 0.37477417293114
+Score (-lnL): 348961.02635617
+Attempting lambda: 0.60947999066123, alpha: 0.17035189678688
+Score (-lnL): 350603.76640583
+Attempting lambda: 0.71049250307995, alpha: -0.022713586238252
+Attempting lambda: 0.65033898444858, alpha: 0.12492472431038
+Score (-lnL): 352290.61599565
+Attempting lambda: 0.53003194718584, alpha: 0.42020134540765
+Score (-lnL): 350207.28216998
+Attempting lambda: 0.49144289749779, alpha: 0.62462362155191
+Score (-lnL): 353439.31154174
+Attempting lambda: 0.52095217078865, alpha: 0.51105569036065
+Score (-lnL): 351070.84084013
+Attempting lambda: 0.55046144407951, alpha: 0.39748775916939
+Score (-lnL): 349493.92095203
+Attempting lambda: 0.59018546581721, alpha: 0.27256303485901
+Score (-lnL): 349083.40051139
+Attempting lambda: 0.61061496271088, alpha: 0.24984944862076
+Score (-lnL): 349220.92533469
+Attempting lambda: 0.55046144407951, alpha: 0.39748775916939
+Score (-lnL): 349493.92095203
+Attempting lambda: 0.56549982373735, alpha: 0.36057818153224
+Score (-lnL): 349084.75439492
+Attempting lambda: 0.59557658305304, alpha: 0.28675902625792
+Score (-lnL): 348913.91838091
+Attempting lambda: 0.61061496271088, alpha: 0.24984944862076
+Score (-lnL): 349220.92533469
+Attempting lambda: 0.57628205820901, alpha: 0.38897016433005
+Score (-lnL): 348839.06520965
+Attempting lambda: 0.56933035440492, alpha: 0.44717372906557
+Score (-lnL): 349083.12884674
+Attempting lambda: 0.60096770028887, alpha: 0.30095501765683
+Score (-lnL):  348748.8854374
+Attempting lambda: 0.61600607994671, alpha: 0.26404544001967
+Score (-lnL):  349017.5794982
+Attempting lambda: 0.58167317544484, alpha: 0.40316615572896
+Score (-lnL): 348718.82857567
+Attempting lambda: 0.57472147164075, alpha: 0.46136972046448
+Score (-lnL): 348967.87771659
+Attempting lambda: 0.6063588175247, alpha: 0.31515100905573
+Score (-lnL): 348588.35536113
+Attempting lambda: 0.62139719718254, alpha: 0.27824143141858
+Score (-lnL): 348819.98132383
+Attempting lambda: 0.58706429268067, alpha: 0.41736214712786
+Score (-lnL): 348600.26980463
+Attempting lambda: 0.61174993476053, alpha: 0.32934700045464
+Score (-lnL): 348432.32252917
+Attempting lambda: 0.62678831441837, alpha: 0.29243742281748
+Score (-lnL): 348628.41501719
+Attempting lambda: 0.63104445960455, alpha: 0.22713586238251
+Score (-lnL): 349588.61948393
+Attempting lambda: 0.62004941787358, alpha: 0.27469243356885
+Score (-lnL): 348868.82524678
+Attempting lambda: 0.60905437614261, alpha: 0.32224900475519
+Score (-lnL): 348509.77894533
+Attempting lambda: 0.5994071137206, alpha: 0.37335457379125
+Score (-lnL): 348408.58237883
+Attempting lambda: 0.60210267233852, alpha: 0.38045256949071
+Score (-lnL): 348343.97541419
+Attempting lambda: 0.59862682043647, alpha: 0.40955435185847
+Score (-lnL): 348358.79415241
+Attempting lambda: 0.58975985129859, alpha: 0.42446014282732
+Score (-lnL): 348541.60385905
+Attempting lambda: 0.59525737216407, alpha: 0.40068185723415
+Score (-lnL): 348434.45629743
+Attempting lambda: 0.60075489302956, alpha: 0.37690357164098
+Score (-lnL): 348376.19170136
+Attempting lambda: 0.60692630354952, alpha: 0.35489978497267
+Score (-lnL): 348355.62799088
+Attempting lambda: 0.60827408285848, alpha: 0.3584487828224
+Score (-lnL): 348320.90441568
+Attempting lambda: 0.61203367777294, alpha: 0.34922138841311
+Score (-lnL): 348312.72712241
+Attempting lambda: 0.60721004656193, alpha: 0.37477417293114
+Score (-lnL): 348275.86726365
+Attempting lambda: 0.60735191806814, alpha: 0.38471136691038
+Score (-lnL): 348243.91667601
+Attempting lambda: 0.61728292350256, alpha: 0.35348018583278
+Score (-lnL): 348222.54012878
+Attempting lambda: 0.62487304908459, alpha: 0.33999399400382
+Score (-lnL): 348217.19695167
+Attempting lambda: 0.62019128937979, alpha: 0.37548397250109
+Score (-lnL): 348078.22142815
+Attempting lambda: 0.62427009518321, alpha: 0.38861526454508
+Score (-lnL): 347966.87672714
+Attempting lambda: 0.64179122619966, alpha: 0.34389789163852
+Score (-lnL): 348024.72133955
+Attempting lambda: 0.64118827229829, alpha: 0.39251916217978
+Score (-lnL): 347719.33663868
+Attempting lambda: 0.64934588390514, alpha: 0.41878174626776
+Score (-lnL): 347496.81824981
+Attempting lambda: 0.63182475288869, alpha: 0.46349911917431
+Score (-lnL): 347669.31063853
+Attempting lambda: 0.65690054161061, alpha: 0.49366560089699
+Score (-lnL): 347189.28332959
+Attempting lambda: 0.67321576482431, alpha: 0.54619076907295
+Score (-lnL): 346855.88183393
+Attempting lambda: 0.69073689584075, alpha: 0.50147339616639
+Score (-lnL): 346656.09092184
+Attempting lambda: 0.72019296731679, alpha: 0.52046053466243
+Score (-lnL): 346220.71730642
+Attempting lambda: 0.74406284823596, alpha: 0.64786955746762
+Score (-lnL): 345641.95216185
+Attempting lambda: 0.79142133040137, alpha: 0.76241346306755
+Score (-lnL): 344886.35428614
+Attempting lambda: 0.83839853289385, alpha: 0.73668322865704
+Score (-lnL): 344358.30287326
+Attempting lambda: 0.92098991692863, alpha: 0.83192945844908
+Score (-lnL): 343423.15862274
+Attempting lambda: 0.99221828001321, alpha: 1.0738823868542
+Score (-lnL):  342515.4941296
+Attempting lambda: 1.1282309363614, alpha: 1.3505933129501
+Score (-lnL): 341333.70351348
+Attempting lambda: 1.2577995228887, alpha: 1.4201093083316
+Score (-lnL): 340683.37932982
+Attempting lambda: 1.4909886191323, alpha: 1.7489572309636
+Score (-lnL): 339728.99011182
+Attempting lambda: 1.6982296385651, alpha: 2.2676210854647
+Score (-lnL): 339120.29055543
+Attempting lambda: 2.0868494993834, alpha: 2.9854668989725
+Attempting lambda:  2.060987321336, alpha: 2.6659850034782
+Attempting lambda: 1.8277982250924, alpha: 2.3371370808462
+Attempting lambda: 1.5946091288487, alpha: 2.0082891582142
+Score (-lnL): 339352.30992298
+Attempting lambda: 1.4132302874633, alpha: 1.8091071992074
+Score (-lnL): 339802.75587278
+Attempting lambda: 1.8796084799506, alpha: 2.4668030444714
+Attempting lambda: 1.7630139318288, alpha: 2.3023790831554
+Score (-lnL): 339108.38928387
+Attempting lambda: 1.8666344415452, alpha: 2.5617110104059
+Attempting lambda: 1.7986281133711, alpha: 2.423355547358
+Score (-lnL): 339068.73372379
+Attempting lambda: 1.8634124066347, alpha: 2.4581135450487
+Attempting lambda: 1.8221167146173, alpha: 2.4104904301527
+Attempting lambda: 1.7808210225999, alpha: 2.3628673152567
+Score (-lnL): 339085.46632734
+Attempting lambda: 1.7484288759681, alpha: 2.3454883164113
+Score (-lnL): 339082.64859862
+Attempting lambda: 1.7662359667392, alpha: 2.4059765485126
+Score (-lnL): 339060.53263527
+Attempting lambda: 1.7589434388089, alpha: 2.4275311651406
+Score (-lnL): 339048.90666299
+Attempting lambda: 1.8091426762119, alpha: 2.5053983960872
+Score (-lnL): 339045.94233251
+Attempting lambda: 1.8394995763337, alpha: 2.5853534359252
+Score (-lnL): 339047.31003934
+Attempting lambda: 1.7694580016497, alpha: 2.5095740138698
+Score (-lnL): 339022.16917334
+Attempting lambda:  1.754872945789, alpha: 2.5526832471257
+Score (-lnL): 339001.92094577
+Attempting lambda:  1.805072183192, alpha: 2.6305504780723
+Score (-lnL): 339008.09873363
+Attempting lambda: 1.7508024527692, alpha: 2.6778353291108
+Score (-lnL): 338965.41723895
+Attempting lambda: 1.7216323410479, alpha: 2.7640537956226
+Score (-lnL):  338936.4729869
+Attempting lambda: 1.6714331036449, alpha: 2.686186564676
+Score (-lnL): 338953.21199148
+Attempting lambda: 1.6381924989037, alpha: 2.8975571131729
+Score (-lnL): 338916.54021305
+Attempting lambda:  1.579852275461, alpha: 3.0699940461965
+Score (-lnL): 338930.95066532
+Attempting lambda: 1.6883917363067, alpha: 2.9754243441195
+Score (-lnL): 338896.33762716
+Attempting lambda: 1.6968710526375, alpha: 3.1200432338413
+Score (-lnL):  338883.3392213
+Attempting lambda: 1.6134312104934, alpha: 3.2535465513916
+Score (-lnL): 338888.85168858
+Attempting lambda: 1.6721097642272, alpha: 3.4760326720601
+Score (-lnL): 338870.38283148
+Attempting lambda:  1.689068396889, alpha: 3.7652704515037
+Score (-lnL): 338887.18723289
+Attempting lambda: 1.7555496063714, alpha: 3.3425293545098
+Score (-lnL): 338907.66533047
+Attempting lambda: 1.7200200074019, alpha: 3.3202836537303
+Score (-lnL): 338884.24077312
+Attempting lambda: 1.6489608094629, alpha: 3.2757922521712
+Score (-lnL): 338874.17288889
+Attempting lambda: 1.6241995210526, alpha: 3.6317816903899
+Score (-lnL): 338879.06447844
+Attempting lambda: 1.6968710526375, alpha: 3.1200432338413
+Score (-lnL):  338883.3392213
+Attempting lambda: 1.6787031697413, alpha: 3.2479778479785
+Score (-lnL): 338873.76124619
+Attempting lambda: 1.7018521245056, alpha: 3.4482182678674
+Score (-lnL): 338877.37739254
+Attempting lambda:  1.688629295745, alpha: 3.4051117639433
+Score (-lnL): 338872.69867005
+Attempting lambda: 1.6820358902309, alpha: 3.6331665880249
+Score (-lnL): 338877.04223856
+Attempting lambda: 1.6812027101085, alpha: 3.5368694030133
+Score (-lnL): 338873.17784884
+Attempting lambda: 1.6795363498637, alpha: 3.3442750329901
+Score (-lnL): 338871.29431915
+Attempting lambda:  1.663016818346, alpha: 3.4151959411068
+Score (-lnL): 338869.61708458
+Attempting lambda: 1.6502105796465, alpha: 3.4202380296886
+Score (-lnL): 338870.49446846
+Attempting lambda: 1.6555902327095, alpha: 3.5469535801768
+Score (-lnL): 338871.00003114
+Attempting lambda: 1.6795363498637, alpha: 3.3442750329901
+Score (-lnL): 338871.29431915
+Attempting lambda: 1.6735498205752, alpha: 3.3949446697868
+Score (-lnL): 338870.16143814
+Attempting lambda: 1.6644568746939, alpha: 3.3341079388335
+Score (-lnL): 338870.63124882
+Attempting lambda: 1.6663700970772, alpha: 3.3695891221402
+Score (-lnL):  338870.0024632
+Attempting lambda:  1.655837094848, alpha: 3.3898403934602
+Score (-lnL): 338870.14461101
+Attempting lambda: 1.6735498205752, alpha: 3.3949446697868
+Score (-lnL): 338870.16143814
+Attempting lambda: 1.6691216391434, alpha: 3.3936686007051
+Score (-lnL): 338869.85563554
+Attempting lambda: 1.6657683604121, alpha: 3.4392754196718
+Score (-lnL): 338869.64458894
+Attempting lambda: 1.6596635396147, alpha: 3.4608027600735
+Score (-lnL): 338869.71112357
+Attempting lambda: 1.6691216391434, alpha: 3.3936686007051
+Score (-lnL): 338869.85563554
+Attempting lambda: 1.6667571142612, alpha: 3.4104521405472
+Score (-lnL): 338869.68141671
+Attempting lambda: 1.6620280644969, alpha: 3.4440192202314
+Score (-lnL): 338869.60949857
+Attempting lambda: 1.6596635396147, alpha: 3.4608027600735
+Score (-lnL): 338869.71112357
+Attempting lambda: 1.6592765224307, alpha: 3.4199397416664
+Score (-lnL): 338869.68903031
+Attempting lambda: 1.6608994819261, alpha: 3.4247736611678
+Score (-lnL): 338869.62146585
+Attempting lambda: 1.6641454009168, alpha: 3.4344415001705
+Score (-lnL): 338869.59906483
+Attempting lambda: 1.6657683604121, alpha: 3.4392754196718
+Score (-lnL): 338869.64458894
+Attempting lambda: 1.6631566470677, alpha: 3.463264779295
+Score (-lnL): 338869.70656042
+Attempting lambda: 1.6631216898873, alpha: 3.451247569748
+Score (-lnL): 338869.63649769
+Attempting lambda: 1.6630867327068, alpha: 3.4392303602009
+Score (-lnL): 338869.59781249
+Attempting lambda: 1.6635811096314, alpha: 3.4248187206386
+Score (-lnL): 338869.59418269
+Attempting lambda: 1.6625224414214, alpha: 3.4296075806691
+Score (-lnL): 338869.59140759
+Attempting lambda: 1.6617109616738, alpha: 3.4271906209184
+Score (-lnL): 338869.60175535
+Attempting lambda:  1.663016818346, alpha: 3.4151959411068
+Score (-lnL): 338869.61708458
+Attempting lambda: 1.6630342969362, alpha: 3.4212045458804
+Score (-lnL): 338869.60000581
+Attempting lambda: 1.6630517755264, alpha: 3.4272131506539
+Score (-lnL):  338869.5911435
+Attempting lambda: 1.6628045870641, alpha: 3.434418970435
+Score (-lnL): 338869.59116895
+Attempting lambda: 1.6633339211691, alpha: 3.4320245404198
+Score (-lnL): 338869.59051592
+Attempting lambda: 1.6637396610429, alpha: 3.4332330202951
+Score (-lnL): 338869.59360933
+Attempting lambda: 1.6635811096314, alpha: 3.4248187206386
+Score (-lnL): 338869.59418269
+Attempting lambda: 1.6633869789896, alpha: 3.4272187830877
+Score (-lnL): 338869.59140027
+Attempting lambda: 1.6631928483478, alpha: 3.4296188455368
+Score (-lnL): 338869.58996952
+Attempting lambda: 1.6630692541166, alpha: 3.4332217554274
+Score (-lnL): 338869.59042873
+Attempting lambda: 1.6629281812953, alpha: 3.4308160605445
+Score (-lnL): 338869.58977894
+Attempting lambda: 1.6627253113583, alpha: 3.4302118206068
+Score (-lnL): 338869.59029635
+Attempting lambda: 1.6630517755264, alpha: 3.4272131506539
+Score (-lnL):  338869.5911435
+Attempting lambda:  1.663056145174, alpha: 3.4287153018473
+Score (-lnL): 338869.59020235
+Attempting lambda: 1.6630648844691, alpha: 3.431719604234
+Score (-lnL):  338869.5898452
+Attempting lambda: 1.6628002174166, alpha: 3.4329168192416
+Score (-lnL): 338869.59032976
+Attempting lambda: 1.6628983751494, alpha: 3.4320923258154
+Score (-lnL): 338869.58994362
+Attempting lambda:  1.663094690615, alpha: 3.430443338963
+Score (-lnL): 338869.58976271
+Attempting lambda: 1.6631928483478, alpha: 3.4296188455368
+Score (-lnL): 338869.58996952
+Attempting lambda: 1.6629579874412, alpha: 3.4295397952735
+Score (-lnL): 338869.58996161
+Attempting lambda: 1.6629847116981, alpha: 3.4300847475136
+Score (-lnL):  338869.5898068
+Attempting lambda: 1.6630381602121, alpha: 3.4311746519939
+Score (-lnL): 338869.58974867
+Attempting lambda: 1.6630648844691, alpha: 3.431719604234
+Score (-lnL):  338869.5898452
+Attempting lambda: 1.6632046695318, alpha: 3.4308019304125
+Score (-lnL): 338869.58990014
+Attempting lambda: 1.6631355474727, alpha: 3.4308054629455
+Score (-lnL): 338869.58979556
+Attempting lambda: 1.6630664254135, alpha: 3.4308089954785
+Score (-lnL): 338869.58974035
+Attempting lambda: 1.6629831707537, alpha: 3.4309953562692
+Score (-lnL): 338869.58974091
+Attempting lambda: 1.6630114359551, alpha: 3.4306296997537
+Score (-lnL): 338869.58973608
+Attempting lambda: 1.6629980738266, alpha: 3.4303572236337
+Score (-lnL): 338869.58976103
+Attempting lambda:  1.663094690615, alpha: 3.430443338963
+Score (-lnL): 338869.58976271
+Attempting lambda: 1.6630668106496, alpha: 3.4305813432896
+Score (-lnL): 338869.58974291
+Attempting lambda: 1.6630389306843, alpha: 3.4307193476161
+Score (-lnL): 338869.58973266
+Attempting lambda: 1.6629973033544, alpha: 3.4308125280115
+Score (-lnL): 338869.58973481
+Attempting lambda: 1.6630247980836, alpha: 3.4309021758738
+Score (-lnL): 338869.58973191
+Attempting lambda: 1.6630314791478, alpha: 3.4310384139339
+Score (-lnL): 338869.58973777
+Attempting lambda: 1.6630664254135, alpha: 3.4308089954785
+Score (-lnL): 338869.58974035
+Attempting lambda: 1.6630491448987, alpha: 3.4308098786117
+Score (-lnL): 338869.58973447
+Attempting lambda: 1.6630145838692, alpha: 3.4308116448782
+Score (-lnL): 338869.58973178
+Attempting lambda: 1.6629973033544, alpha: 3.4308125280115
+Score (-lnL): 338869.58973481
+
+Completed 85 iterations
+Time: 0H 4M 58S
+Best matches are: 1.6630145838692,3.4308116448782
+Final -lnL: 338869.58973178
+
+177 values were attempted (1% rejected)
+
+Inferring processes for Gamma model
+Score (-lnL): 338869.58973178
+Maximum possible lambda for this topology: 3.0091387543971
+Computing pvalues...
+done!
+
+Starting reconstruction processes for Gamma model
+Done!
+
+
+======================================================================================
+                  Resource Usage on 2024-09-23 11:08:56:
+   Job Id:             125244754.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      9.49
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 04:02:52        
+   Memory Requested:   190.0GB               Memory Used: 1.54GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:05:56        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================

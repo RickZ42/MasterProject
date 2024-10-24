@@ -1,0 +1,41 @@
+canonical_repeat_unit	count
+AAAAAATCT	70358
+AAAAACCCT	69242
+AAATAT	52951
+AAAAATTACAC	47018
+AAAAAATACTC	42973
+AATAATT	41060
+AGCCTGGCGC	33978
+ACCAGATCTGC	29481
+AAAATTCACTC	25191
+AAATAAAT	24309
+AAGATGATG	20124
+ACCGACTGC	13497
+AAAAGAAGG	9768
+AAAAAT	8217
+AAAATAT	6687
+AAAATTAACTC	5305
+AAAAAAT	3713
+AAATATAT	3710
+AAAATCAAATT	3173
+ACATACAT	2389
+AAATT	1558
+AAATATT	1362
+AAATG	727
+AATTCAG	570
+AAAGT	459
+AAAAT	349
+AAAACCCT	251
+
+======================================================================================
+                  Resource Usage on 2024-08-12 18:08:58:
+   Job Id:             122754556.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.17
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 00:00:20        
+   Memory Requested:   48.0GB                Memory Used: 1.88GB          
+   Walltime requested: 24:00:00            Walltime Used: 00:00:25        
+   JobFS requested:    400.0GB                JobFS used: 0B              
+======================================================================================
